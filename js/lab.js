@@ -166,7 +166,9 @@
 
 	async function bootVM() {
 		if (booted) return;
+		if (session && session.expired) return;
 		booted = true;
+		startTimer();
 
 		const startBtn = document.getElementById("lab-start-btn");
 		const note = document.getElementById("lab-boot-note");
@@ -212,6 +214,7 @@
 		}
 		booted = false;
 		document.getElementById("screen_container").innerHTML = "";
+		if (session && session.expired) { showExpired(); return; }
 		const note = document.getElementById("lab-boot-note");
 		note.textContent = "Terminal reiniciado — sua sessão anterior foi destruída (nada fica salvo entre boots).";
 		const btn = document.createElement("button");
@@ -222,10 +225,102 @@
 		document.getElementById("screen_container").appendChild(btn);
 	}
 
+	// ---------- sessão de 30 minutos ----------
+	// O token identifica a sessão do aluno. O relógio começa quando a VM é iniciada;
+	// ao zerar, a VM é destruída. Tudo roda no navegador de quem acessa (ambiente
+	// isolado por construção), então o token e o relógio são controle de uso, não segurança.
+	const SESSION_MS = 30 * 60 * 1000;
+	const SKEY = "kb-lab-session";
+	let session = null;
+	let tick = null;
+
+	function newToken() {
+		const alphabet = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+		const bytes = new Uint8Array(12);
+		crypto.getRandomValues(bytes);
+		const c = Array.from(bytes, b => alphabet[b % alphabet.length]);
+		return "KB-" + c.slice(0, 4).join("") + "-" + c.slice(4, 8).join("") + "-" + c.slice(8, 12).join("");
+	}
+	function loadSession() {
+		try { const x = JSON.parse(sessionStorage.getItem(SKEY)); if (x && x.token) return x; } catch (e) {}
+		return null;
+	}
+	function saveSession() { try { sessionStorage.setItem(SKEY, JSON.stringify(session)); } catch (e) {} }
+	function createSession() { session = { token: newToken(), startedAt: null, expired: false }; saveSession(); }
+	function remaining() { return session && session.startedAt ? session.startedAt + SESSION_MS - Date.now() : SESSION_MS; }
+	function fmt(ms) {
+		const t = Math.max(0, Math.ceil(ms / 1000));
+		return String(Math.floor(t / 60)).padStart(2, "0") + ":" + String(t % 60).padStart(2, "0");
+	}
+
+	function renderSession() {
+		const bar = document.getElementById("lab-session");
+		if (!bar || !session) return;
+		document.getElementById("lab-token").textContent = session.token;
+		const rem = remaining();
+		if (!session.expired && session.startedAt && rem <= 0) { expireSession(); return; }
+		const started = !!session.startedAt;
+		document.getElementById("lab-timer").textContent =
+			session.expired ? "Encerrada" : (started ? fmt(rem) + " restantes" : "30:00 disponíveis");
+		bar.classList.toggle("warn", !session.expired && started && rem <= 5 * 60 * 1000 && rem > 60 * 1000);
+		bar.classList.toggle("crit", session.expired || (started && rem <= 60 * 1000));
+	}
+
+	function startTimer() {
+		if (!session.startedAt) { session.startedAt = Date.now(); saveSession(); }
+		if (!tick) tick = setInterval(renderSession, 1000);
+		renderSession();
+	}
+
+	function showExpired() {
+		const box = document.getElementById("screen_container");
+		box.innerHTML = "";
+		const d = document.createElement("div");
+		d.className = "lab-expired";
+		const p = document.createElement("p");
+		p.textContent = "A sessão " + session.token + " terminou. A máquina virtual foi destruída e nada foi salvo.";
+		const b = document.createElement("button");
+		b.className = "btn primary";
+		b.id = "lab-newtoken-btn";
+		b.textContent = "Gerar novo token (30 min)";
+		b.onclick = renewSession;
+		d.appendChild(p);
+		d.appendChild(b);
+		box.appendChild(d);
+		document.getElementById("lab-boot-note").textContent = "Sessão encerrada.";
+	}
+
+	function expireSession() {
+		session.expired = true;
+		saveSession();
+		if (tick) { clearInterval(tick); tick = null; }
+		if (emulator) { emulator.destroy(); emulator = null; }
+		booted = false;
+		showExpired();
+		renderSession();
+	}
+
+	function renewSession() {
+		if (tick) { clearInterval(tick); tick = null; }
+		createSession();
+		resetVM();
+		document.getElementById("lab-boot-note").textContent =
+			"Novo token gerado. Os 30 minutos começam a contar quando você clicar em Iniciar laboratório.";
+		renderSession();
+	}
+
 	document.addEventListener("DOMContentLoaded", () => {
 		renderSidebar();
 		selectChallenge("101-1-hardware");
 		document.getElementById("lab-start-btn").onclick = bootVM;
 		document.getElementById("lab-reset-btn").onclick = resetVM;
+
+		session = loadSession();
+		if (!session) createSession();
+		if (session.startedAt) {
+			if (remaining() <= 0) { session.expired = true; saveSession(); showExpired(); }
+			else { tick = setInterval(renderSession, 1000); }
+		}
+		renderSession();
 	});
 })();

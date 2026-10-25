@@ -256,6 +256,24 @@ footer{padding:2.5rem 0 3rem;font-size:.98rem;color:var(--muted)}
 .start-text span{color:var(--cyan);font-weight:600}
 @media (max-width:900px){.g-wk small{display:none}.month-range{margin-left:0;flex-basis:100%}}
 
+/* laboratório */
+.lab-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(1.5rem,4vw,3.5rem);align-items:center}
+.lab-grid h2{margin-bottom:1.1rem}
+.lab-grid p{color:#DDE1FF}
+.lab-grid p+p{margin-top:1rem}
+.lab-points{list-style:none;margin:1.3rem 0 1.3rem}
+.lab-points li{display:grid;grid-template-columns:.8rem 1fr;gap:.9rem;padding:.7rem 0;border-top:1px solid var(--rule);font-size:1.05rem;line-height:1.4}
+.lab-points li::before{content:"";width:.8rem;height:.8rem;margin-top:.4rem;border-radius:2px;background:var(--cyan)}
+.lab-points li:nth-child(2)::before{background:var(--yellow)}
+.lab-points li:nth-child(3)::before{background:var(--magenta)}
+.term2{background:#050816;color:var(--yellow);border-radius:12px;padding:1.2rem 1.3rem 1.5rem;font-family:var(--mono);font-size:.92rem;line-height:1.8;border:1px solid transparent;
+  background-image:linear-gradient(#050816,#050816),linear-gradient(135deg,var(--magenta),var(--violet) 45%,var(--cyan));background-origin:border-box;background-clip:padding-box,border-box;
+  box-shadow:0 30px 80px -20px rgba(34,229,240,.35)}
+.term2 .tl{display:block;overflow-wrap:anywhere}
+.term2 .out{color:#8F98D6}
+.term2 .sess{color:var(--cyan)}
+@media (max-width:900px){.lab-grid{grid-template-columns:1fr}}
+
 </style>
 </head>
 <body>
@@ -268,6 +286,7 @@ footer{padding:2.5rem 0 3rem;font-size:.98rem;color:var(--muted)}
     <nav class="nav" aria-label="Principal">
       <a href="#como-funciona">Como funciona</a>
       <a href="#programa">Programa</a>
+      <a href="#laboratorio">Laboratório</a>
       <a href="#teste">Teste seu nível</a>
       <a href="#instrutor">Instrutor</a>
       <a href="#duvidas">Dúvidas</a>
@@ -408,6 +427,30 @@ footer{padding:2.5rem 0 3rem;font-size:.98rem;color:var(--muted)}
   </div>
 </section>
 
+<section class="block" id="laboratorio">
+  <div class="wrap lab-grid">
+    <div>
+      <h2>Pratique num terminal Linux de verdade</h2>
+      <p>Ao abrir o laboratório, você recebe um token de sessão válido por 30 minutos e uma máquina virtual só sua. Ela roda dentro do seu navegador, então ninguém mais enxerga o que você faz.</p>
+      <ul class="lab-points">
+        <li>Token de sessão de 30 minutos, gerado ao entrar no laboratório.</li>
+        <li>Ambiente isolado: a máquina roda no seu navegador e é apagada quando a sessão acaba.</li>
+        <li>Alpine Linux real, com desafios ligados aos objetivos oficiais do exame.</li>
+      </ul>
+      <p>O laboratório está em construção: hoje já dá para abrir o terminal e resolver o desafio do objetivo 101.1. Os outros objetivos entram aos poucos.</p>
+      <div class="cta-row"><a class="btn" href="lab.html">Abrir o laboratório</a></div>
+    </div>
+    <div class="term2" aria-hidden="true">
+      <span class="tl sess">sessão KB-XXXX-XXXX-XXXX: 30:00</span>
+      <span class="tl"># uname -sm</span>
+      <span class="tl out">Linux i686</span>
+      <span class="tl"># head -1 /etc/os-release</span>
+      <span class="tl out">NAME="Alpine Linux"</span>
+      <span class="tl"># <span class="cursor"></span></span>
+    </div>
+  </div>
+</section>
+
 <section class="block quiz-sec" id="teste">
   <div class="wrap">
     <div class="sec-head">
@@ -477,6 +520,7 @@ footer{padding:2.5rem 0 3rem;font-size:.98rem;color:var(--muted)}
       <p><strong>KernelBase</strong><br>Curso de <span class="nw">LPIC-1</span> e documentação aberta do Kernel Linux.</p>
       <nav aria-label="Rodapé">
         <a href="#programa">Programa</a>
+        <a href="lab.html">Laboratório</a>
         <a href="kernel.html#docs">Documentação do Kernel</a>
         <a href="kernel.html#patches">Patches</a>
         <a href="https://github.com/Daniel-Pereira-Linux/kernel-docs-br" target="_blank" rel="noopener">Código-fonte</a>

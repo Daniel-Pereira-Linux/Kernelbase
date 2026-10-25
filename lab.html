@@ -6,7 +6,7 @@
 <title>Laboratório LPI-101 — KernelBase</title>
 <meta name="description" content="Terminal Linux real, rodando 100% no navegador via WebAssembly. Desafios estilo CTF seguindo os objetivos do exame LPIC-1 101.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23090c12'/%3E%3Ctext x='50' y='66' font-family='monospace' font-size='58' font-weight='700' fill='%23f5c445' text-anchor='middle'%3E%3E_%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="css/style.css?v=20261002b">
+<link rel="stylesheet" href="css/style.css?v=20261025a">
 </head>
 <body>
 
@@ -53,6 +53,11 @@
 		<main class="lab-main">
 			<div class="lab-card" id="lab-challenge-card"></div>
 
+			<div class="lab-session" id="lab-session" role="status" aria-live="polite">
+				<span>Sessão <code id="lab-token">—</code></span>
+				<span class="lab-timer" id="lab-timer">30:00 disponíveis</span>
+			</div>
+
 			<div class="lab-terminal-wrap">
 				<div class="lab-terminal-toolbar">
 					<span>terminal — kernelbase-lab (Alpine Linux, i686)</span>
@@ -93,6 +98,6 @@
 </footer>
 
 <script src="js/app.js?v=20261002b" defer></script>
-<script src="js/lab.js" defer></script>
+<script src="js/lab.js?v=20261025a" defer></script>
 </body>
 </html>
