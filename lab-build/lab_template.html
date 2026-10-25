@@ -275,11 +275,13 @@ footer a{color:var(--ink)}
 
 <script>
 const MISSIONS = %%MISSIONS%%;
+const LAB_BASE = new URLSearchParams(location.search).get("labbase") || "%%LABBASE%%";
+const BOOT_FILES = %%BOOTFILES%%;
 const DISTROS = {
-  debian: { name: "Debian 12", fs: "lab/debian-fs.json", cls: "d-debian" },
-  centos: { name: "CentOS 7", fs: "lab/centos-fs.json", cls: "d-centos" },
+  debian: { name: "Debian 12", fs: LAB_BASE + "debian-fs.json", cls: "d-debian" },
+  centos: { name: "CentOS 7", fs: LAB_BASE + "centos-fs.json", cls: "d-centos" },
 };
-const CMDLINE = "rw root=host9p rootfstype=9p rootflags=trans=virtio,version=9p2000.L,cache=loose,msize=512000 modules=virtio_pci,9pnet,9pnet_virtio,9p,sd_mod,ext4,loop init=/usr/sbin/kb-init console=tty0 quiet loglevel=3 tsc=reliable mitigations=off";
+const CMDLINE = "rw root=host9p rootfstype=9p rootflags=trans=virtio,version=9p2000.L,cache=loose,msize=512000 modules=virtio_pci,9pnet,9pnet_virtio,9p,sd_mod,ext4,loop init=/usr/sbin/kb-init console=tty0 quiet loglevel=3 tsc=reliable mitigations=off blacklist=bochs,cirrus-qemu,simpledrm";
 const SESSION_MS = 30 * 60 * 1000;
 const $ = (id) => document.getElementById(id);
 
@@ -323,6 +325,43 @@ function expire() {
   renderSession();
 }
 
+/* ---------- cache e pré-carregamento ---------- */
+if ("serviceWorker" in navigator) { try { navigator.serviceWorker.register("sw.js").catch(() => {}); } catch (e) {} }
+const fetched = new Map();
+function getFile(url) {
+  if (!fetched.has(url)) {
+    fetched.set(url, fetch(url, { mode: "cors", credentials: "omit" })
+      .then(r => { if (!r.ok) throw new Error(r.status + " " + url); return r.arrayBuffer(); })
+      .then(b => b.byteLength)
+      .catch(e => { fetched.delete(url); throw e; }));
+  }
+  return fetched.get(url);
+}
+async function prefetch(list, onProgress, parallel) {
+  let done = 0, bytes = 0, i = 0, failed = 0;
+  async function worker() {
+    while (i < list.length) {
+      const u = list[i++];
+      try { bytes += await getFile(u); } catch (e) { failed++; }
+      done++;
+      if (onProgress) onProgress(done, list.length, bytes);
+    }
+  }
+  await Promise.all(Array.from({ length: parallel || 8 }, worker));
+  return failed;
+}
+function bootList(d) { return [DISTROS[d].fs].concat(BOOT_FILES[d].map(f => LAB_BASE + "flat/" + f)); }
+let warmed = false;
+function warmUp() {
+  if (warmed) return; warmed = true;
+  const c = navigator.connection;
+  if (c && (c.saveData || /2g/.test(c.effectiveType || ""))) return;
+  loadLib().catch(() => {});
+  // kernel e initramfs são os mesmos nos dois sistemas
+  prefetch(BOOT_FILES.debian.slice(0, 2).map(f => LAB_BASE + "flat/" + f), null, 2);
+}
+const mb = (b) => (b / 1048576).toFixed(1).replace(".", ",");
+
 /* ---------- máquina virtual ---------- */
 let emu = null, distro = "debian", ready = false, serial = "", libLoaded = null, bootTimer = null;
 function loadLib() {
@@ -361,7 +400,15 @@ async function startVM() {
     setVM("off", "Erro"); return;
   }
   startClock();
-  $("ov-text").textContent = "Baixando o kernel e iniciando o sistema. Os arquivos chegam conforme o sistema pede.";
+  const list = bootList(distro);
+  const failed = await prefetch(list, (n, t, b) => {
+    $("ov-text").textContent = "Baixando o sistema: " + n + " de " + t + " arquivos (" + mb(b) + " MB)";
+  });
+  if (failed > 3) {
+    showOverlay("Não foi possível baixar o sistema", "Alguns arquivos não chegaram. Verifique a conexão e clique em Reiniciar a máquina.", false);
+    setVM("off", "Erro"); return;
+  }
+  $("ov-text").textContent = "Arquivos prontos. Ligando o kernel...";
   serial = "";
   const t0 = Date.now();
   bootTimer = setInterval(() => { $("ov-log").textContent = Math.round((Date.now() - t0) / 1000) + " s"; }, 1000);
@@ -372,7 +419,7 @@ async function startVM() {
     screen_container: $("screen_container"),
     bios: { url: "lab/v86/seabios.bin" },
     vga_bios: { url: "lab/v86/vgabios.bin" },
-    filesystem: { baseurl: "lab/flat/", basefs: DISTROS[distro].fs },
+    filesystem: { baseurl: LAB_BASE + "flat/", basefs: DISTROS[distro].fs },
     hda: { buffer: new ArrayBuffer(64 * 1024 * 1024) },
     bzimage_initrd_from_filesystem: true,
     cmdline: CMDLINE,
@@ -426,7 +473,7 @@ function runCheck(cmd) {
       const s = serial.slice(start);
       if (s.indexOf(ok) !== -1) { clearInterval(iv); resolve("ok"); }
       else if (s.indexOf(no) !== -1) { clearInterval(iv); resolve("no"); }
-      else if (Date.now() - t0 > 25000) { clearInterval(iv); resolve("timeout"); }
+      else if (Date.now() - t0 > 45000) { clearInterval(iv); resolve("timeout"); }
     }, 150);
   });
   const p = queue.then(job);
@@ -525,7 +572,16 @@ function choose(d) {
   requestAnimationFrame(fitTerm);
   startVM();
 }
-document.querySelectorAll(".card").forEach(c => c.addEventListener("click", () => choose(c.dataset.distro)));
+document.querySelectorAll(".card").forEach(c => {
+  c.addEventListener("click", () => choose(c.dataset.distro));
+  c.addEventListener("pointerenter", warmUp);
+  c.addEventListener("focus", warmUp);
+});
+if ("IntersectionObserver" in window) {
+  const io = new IntersectionObserver((es) => { if (es.some(e => e.isIntersecting)) { warmUp(); io.disconnect(); } }, { rootMargin: "300px" });
+  const target = document.querySelector(".cards");
+  if (target) io.observe(target);
+}
 $("btn-switch").onclick = () => {
   stopVM(); setVM("off", "Desligada");
   document.body.classList.remove("running");

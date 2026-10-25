@@ -186,7 +186,7 @@ mountpoint -q /tmp || mount -t tmpfs tmpfs /tmp -o mode=1777
 hostname -F /etc/hostname
 ip link set lo up 2>/dev/null
 : > /var/run/utmp 2>/dev/null
-depmod -a 2>/dev/null
+modprobe -a sd_mod ext4 loop 2>/dev/null
 # serviços reais da distro (sem systemd: iniciados direto aqui)
 if command -v rsyslogd >/dev/null; then rsyslogd 2>/dev/null; else syslogd -O /var/log/messages 2>/dev/null; fi
 if [ -x /usr/sbin/cron ]; then /usr/sbin/cron; elif [ -x /usr/sbin/crond ] && [ ! -L /usr/local/bin/crond ]; then /usr/sbin/crond; else crond -c /var/spool/cron/crontabs 2>/dev/null; fi
@@ -337,6 +337,9 @@ for p in ("/var/cache/yum", "/var/cache/apt/archives", "/var/lib/apt/lists"):
                 os.remove(f)
 
 subprocess.run(["chroot", out, "depmod", "-a", kver], check=True)
+# initramfs mínima (troca a do Alpine, de 8 MB)
+subprocess.run([sys.executable, "-I", os.path.join(os.path.dirname(os.path.abspath(__file__)), "mkinitrd.py"),
+                alpine, dst_mod, P("/boot/initramfs-virt")], check=True)
 import re as _re
 CP437 = set("áéíóúçàâêôÇüÉ")
 for _f in ("/etc/motd", "/usr/local/bin/kb-ajuda", "/var/lib/kernelbase/.estudo/2026/segredo-lpic.txt"):

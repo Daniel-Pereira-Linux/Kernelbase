@@ -1,9 +1,13 @@
 # Como as imagens do laboratório são montadas
 
-O `lab.html` liga um Debian 12 ou um CentOS 7 (i386) no navegador com o
-emulador [v86](https://github.com/copy/v86). Os arquivos de cada sistema ficam
-em `lab/flat/` (compactados com zstd) e a árvore de cada um em
-`lab/debian-fs.json` e `lab/centos-fs.json`.
+A seção **Laboratório** do `index.html` liga um Debian 12 ou um CentOS 7 (i386)
+no navegador com o emulador [v86](https://github.com/copy/v86). O runtime do v86
+fica em `lab/v86/`. Os arquivos de cada sistema (compactados com zstd) e a árvore
+de cada um (`debian-fs.json`, `centos-fs.json`) ficam na branch **`lab-files`**,
+servida por raw.githubusercontent.com num commit fixo. Assim o GitHub Pages não
+precisa publicar os ~300 MB do laboratório. O `sw.js` guarda esses arquivos no
+navegador do aluno, e a página baixa em paralelo os arquivos do boot
+(`boot_files.json`) antes de ligar a máquina.
 
 ## Origem
 
@@ -20,7 +24,13 @@ em `lab/flat/` (compactados com zstd) e a árvore de cada um em
    `/opt/kernelbase`, motd e `kb-ajuda`.
 3. `mkflat.py <saida> <nome> <dir> <chroot-com-zstd>`: gera o `<nome>-fs.json` e os
    arquivos `.bin.zst`.
-4. `mklab.py lab.html`: gera a página com as missões de `missions.json`.
+4. Publique o diretório gerado na branch `lab-files` e grave o hash do commit
+   em `labfiles.sha`.
+5. `mklab_section.py`: gera a seção do laboratório (com as missões de
+   `missions.json`), que o gerador da página inicial insere em `#laboratorio`.
+
+`mkinitrd.py` monta a initramfs mínima (busybox + 4 módulos do 9p), que
+substitui a do Alpine e corta o boot pela metade.
 
 ## Como as missões são corrigidas
 
