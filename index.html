@@ -431,22 +431,21 @@ footer{padding:2.5rem 0 3rem;font-size:.98rem;color:var(--muted)}
   <div class="wrap lab-grid">
     <div>
       <h2>Pratique num terminal Linux de verdade</h2>
-      <p>Ao abrir o laboratório, você recebe um token de sessão válido por 30 minutos e uma máquina virtual só sua. Ela roda dentro do seu navegador, então ninguém mais enxerga o que você faz.</p>
+      <p>Escolha Debian 12 ou CentOS 7 e pratique num sistema completo, com vim, man, fdisk, cron, rsyslog, ssh e os gerenciadores de pacotes de cada família. A máquina roda dentro do seu navegador, só para você.</p>
       <ul class="lab-points">
-        <li>Token de sessão de 30 minutos, gerado ao entrar no laboratório.</li>
-        <li>Ambiente isolado: a máquina roda no seu navegador e é apagada quando a sessão acaba.</li>
-        <li>Alpine Linux real, com desafios ligados aos objetivos oficiais do exame.</li>
+        <li>35 missões ligadas aos objetivos do exame, corrigidas na hora, com dica e solução.</li>
+        <li>Disco virtual para particionar, formatar e montar sem medo de estragar nada.</li>
+        <li>Sessão de 30 minutos com token próprio. Quando acaba, a máquina é apagada.</li>
       </ul>
-      <p>O laboratório está em construção: hoje já dá para abrir o terminal e resolver o desafio do objetivo 101.1. Os outros objetivos entram aos poucos.</p>
       <div class="cta-row"><a class="btn" href="lab.html">Abrir o laboratório</a></div>
     </div>
     <div class="term2" aria-hidden="true">
-      <span class="tl sess">sessão KB-XXXX-XXXX-XXXX: 30:00</span>
-      <span class="tl"># uname -sm</span>
-      <span class="tl out">Linux i686</span>
-      <span class="tl"># head -1 /etc/os-release</span>
-      <span class="tl out">NAME="Alpine Linux"</span>
-      <span class="tl"># <span class="cursor"></span></span>
+      <span class="tl sess">sessão KB-7QX2-MN4P-A9RD: 30:00</span>
+      <span class="tl">root@debian-lab:~# dpkg -S /bin/ls</span>
+      <span class="tl out">coreutils: /bin/ls</span>
+      <span class="tl">root@centos-lab:~# rpm -qf /bin/ls</span>
+      <span class="tl out">coreutils-8.22-24.el7.i686</span>
+      <span class="tl">root@centos-lab:~# <span class="cursor"></span></span>
     </div>
   </div>
 </section>
