@@ -426,7 +426,7 @@ async function startVM() {
     autostart: true,
     disable_mouse: true,
   });
-  emu.keyboard_set_status(false);
+  syncKeyboard();
   emu.add_listener("serial0-output-byte", (b) => {
     serial += String.fromCharCode(b);
     if (serial.length > 200000) serial = serial.slice(-50000);
@@ -435,6 +435,7 @@ async function startVM() {
       hideOverlay();
       setVM("on", DISTROS[distro].name + " ligado");
       $("screen").focus({ preventScroll: true });
+      syncKeyboard();
     }
   });
 }
@@ -448,14 +449,32 @@ function fitTerm() {
 window.addEventListener("resize", fitTerm);
 
 /* foco: o teclado só vai para a máquina quando o terminal está em foco */
-$("screen").addEventListener("focus", () => { if (emu) emu.keyboard_set_status(true); $("termbox").classList.add("focused"); $("focus-hint").textContent = "Digitando no terminal"; });
-$("screen").addEventListener("blur", () => { if (emu) emu.keyboard_set_status(false); $("termbox").classList.remove("focused"); $("focus-hint").textContent = "Clique no terminal para digitar"; });
-$("screen").addEventListener("mousedown", () => $("screen").focus());
+/* o teclado vai para a máquina sempre que o terminal estiver em foco,
+   inclusive se o aluno clicou nele antes de a máquina terminar de ligar */
+function syncKeyboard() {
+  const on = document.activeElement === $("screen");
+  if (emu) emu.keyboard_set_status(on);
+  $("termbox").classList.toggle("focused", on);
+  $("focus-hint").textContent = on ? "Digitando no terminal" : "Clique no terminal para digitar";
+}
+$("screen").addEventListener("focus", syncKeyboard);
+$("screen").addEventListener("blur", syncKeyboard);
+$("termbox").addEventListener("mousedown", (e) => {
+  if (e.target.closest("input,button,form")) return;
+  e.preventDefault();
+  $("screen").focus({ preventScroll: true });
+  syncKeyboard();
+});
+$("termbox").addEventListener("touchstart", (e) => {
+  if (e.target.closest("input,button,form")) return;
+  $("sendinput").focus();
+}, { passive: true });
 
 $("sendform").addEventListener("submit", (e) => {
   e.preventDefault();
   const v = $("sendinput").value;
   if (!emu || !ready || !v) return;
+  emu.keyboard_set_status(true); /* a barra funciona mesmo sem foco no terminal */
   emu.keyboard_send_text(v + "\n");
   $("sendinput").value = "";
 });
