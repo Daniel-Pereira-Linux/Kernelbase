@@ -1,0 +1,10 @@
+#!/bin/bash
+tz=$(cat /etc/timezone 2>/dev/null || readlink /etc/localtime 2>/dev/null | sed 's#.*/zoneinfo/##'); tz=${tz:-UTC}
+case $1 in
+  ""|status|show) echo "               Local time: $(date '+%a %Y-%m-%d %H:%M:%S %Z')"; echo "           Universal time: $(date -u '+%a %Y-%m-%d %H:%M:%S UTC')"; echo "                 RTC time: $(date -u '+%a %Y-%m-%d %H:%M:%S')"; echo "                Time zone: $tz ($(date +%Z), $(date +%z))"; echo "System clock synchronized: no"; echo "              NTP service: inactive"; echo "          RTC in local TZ: no";;
+  list-timezones) (cd /usr/share/zoneinfo 2>/dev/null && find . -type f ! -name '*.tab' ! -name 'posix*' ! -name 'right*' | sed 's#^\./##' | grep '/' | sort);;
+  set-timezone) [ -e /usr/share/zoneinfo/$2 ] || { echo "Failed to set time zone: Invalid time zone '$2'" >&2; exit 1; }; ln -sf /usr/share/zoneinfo/$2 /etc/localtime; echo $2 > /etc/timezone;;
+  set-time) date -s "$2 $3" >/dev/null || exit 1;;
+  set-ntp) echo "(simulado) NTP $2";;
+  *) echo "Unknown command $1" >&2; exit 1;;
+esac

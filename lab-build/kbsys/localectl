@@ -1,0 +1,9 @@
+#!/bin/bash
+case $1 in
+  ""|status) echo "   System Locale: LANG=${LANG:-en_US.UTF-8}"; echo "       VC Keymap: us"; echo "      X11 Layout: n/a";;
+  list-locales) locale -a;;
+  list-keymaps) ls /usr/share/keymaps /usr/share/kbd/keymaps 2>/dev/null | head -50;;
+  set-locale) shift; for a in "$@"; do case $a in LANG=*) if [ -f /etc/locale.conf ] || [ -f /etc/redhat-release ]; then echo "$a" > /etc/locale.conf; else echo "$a" > /etc/default/locale; fi;; esac; done;;
+  set-keymap) echo "(simulado) keymap $2";;
+  *) echo "Unknown command $1" >&2; exit 1;;
+esac

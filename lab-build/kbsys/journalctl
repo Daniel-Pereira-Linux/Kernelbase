@@ -1,0 +1,20 @@
+#!/bin/bash
+# journalctl do laboratório: lê os logs do rsyslog (nao há journald no emulador)
+LOG=/tmp/.kb-journal; : > $LOG; for f in /var/log/syslog /var/log/messages /var/log/auth.log /var/log/secure /var/log/mail.log /var/log/maillog; do [ -f $f ] && cat $f >> $LOG; done; sort -s -k1,3 $LOG -o $LOG 2>/dev/null
+N=""; F=0; UNIT=""; K=0; REV=0; GREP=""; PRIO=""
+while [ $# -gt 0 ]; do case $1 in
+  -u|--unit) UNIT=${2%.service}; shift;; --unit=*) UNIT=${1#*=}; UNIT=${UNIT%.service};;
+  -n|--lines) N=$2; shift;; --lines=*) N=${1#*=};; -[0-9]*) N=${1#-};;
+  -f|--follow) F=1;; -k|--dmesg) K=1;; -r|--reverse) REV=1;; -g|--grep) GREP=$2; shift;;
+  -p|--priority) PRIO=$2; shift;; --disk-usage) echo "Archived and active journals take up 1.0M in the file system."; exit 0;;
+  --list-boots) echo " 0 $(cat /proc/sys/kernel/random/boot_id | tr -d -) $(date '+%a %Y-%m-%d %H:%M:%S %Z')-$(date '+%a %Y-%m-%d %H:%M:%S %Z')"; exit 0;;
+  --vacuum-*|--rotate|--flush|--verify) exit 0;;
+  -S|--since|-U|--until|-o|--output|-D|--directory|-t|--identifier|-m) shift;;
+  *) ;; esac; shift; done
+if [ $K = 1 ]; then exec dmesg ${N:+| tail -n $N}; fi
+[ -f "$LOG" ] || { echo "-- No entries --"; exit 0; }
+case ${UNIT} in ssh|sshd) PAT='sshd|ssh\.service';; cron|crond) PAT='cron|CROND';; rsyslog|rsyslogd) PAT='rsyslogd';; chrony|chronyd) PAT='chronyd';; postfix) PAT='postfix';; cups) PAT='cups';; "") PAT='';; *) PAT=$UNIT;; esac
+echo "-- Journal begins at $(date -d "-$(cut -d. -f1 /proc/uptime) seconds" '+%a %Y-%m-%d %H:%M:%S %Z'). --"
+run() { if [ -n "$PAT" ]; then grep -E -i -- "$PAT" "$LOG"; else cat "$LOG"; fi | { if [ -n "$GREP" ]; then grep -E -- "$GREP"; else cat; fi; } | { if [ -n "$N" ]; then tail -n "$N"; else cat; fi; } | { if [ $REV = 1 ]; then tac; else cat; fi; }; }
+if [ $F = 1 ]; then run; exec tail -n0 -F "$LOG" | { if [ -n "$PAT" ]; then grep --line-buffered -E -i "$PAT"; else cat; fi; }; fi
+run

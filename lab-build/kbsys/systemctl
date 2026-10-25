@@ -1,0 +1,166 @@
+#!/bin/bash
+# systemctl do laboratório KernelBase: imita o systemd (que nao roda no emulador)
+# controlando os serviços de verdade (sshd, cron, rsyslog, atd...) e simulando o resto.
+STATE=/run/kb-sd; ENAB=/var/lib/kb-sd/enabled; MASK=/var/lib/kb-sd/masked
+mkdir -p $STATE $ENAB $MASK 2>/dev/null
+DISTRO=debian; [ -f /etc/redhat-release ] && DISTRO=centos
+UNITDIR=/lib/systemd/system; [ $DISTRO = centos ] && UNITDIR=/usr/lib/systemd/system
+VERSION="systemd 252 (kernelbase-lab: simulado)"
+
+# nome|descriçao|processo|binário|comando de início|comando de parada
+CATALOG="
+ssh|OpenBSD Secure Shell server|sshd|/usr/sbin/sshd|mkdir -p /run/sshd; /usr/sbin/sshd -o ListenAddress=127.0.0.1|pkill -x sshd
+cron|Regular background program processing daemon|cron|/usr/sbin/cron|[ -x /usr/sbin/cron ] && /usr/sbin/cron; [ -x /usr/sbin/crond ] && /usr/sbin/crond|pkill -x cron; pkill -x crond
+rsyslog|System Logging Service|rsyslogd|/usr/sbin/rsyslogd|/usr/sbin/rsyslogd|pkill -x rsyslogd
+atd|Deferred execution scheduler|atd|/usr/sbin/atd|/usr/sbin/atd|pkill -x atd
+chrony|chrony, an NTP client/server|chronyd|/usr/sbin/chronyd|/usr/sbin/chronyd|pkill -x chronyd
+postfix|Postfix Mail Transport Agent|master|/usr/sbin/postfix|postfix start|postfix stop
+cups|CUPS Scheduler|cupsd|/usr/sbin/cupsd|/usr/sbin/cupsd|pkill -x cupsd
+anacron|Run anacron jobs|anacron|/usr/sbin/anacron|:|:
+nftables|nftables|-|/usr/sbin/nft|:|:
+iptables|IPv4 firewall with iptables|-|/usr/sbin/iptables|:|:
+firewalld|firewalld - dynamic firewall daemon|firewalld|/usr/sbin/firewalld|:|:
+xinetd|Xinetd A Powerful Replacement For Inetd|xinetd|/usr/sbin/xinetd|/usr/sbin/xinetd|pkill -x xinetd
+smartd|Self Monitoring and Reporting Technology (SMART) Daemon|smartd|/usr/sbin/smartd|:|:
+mdmonitor|Software RAID monitoring and management|mdadm|/sbin/mdadm|:|:
+sysstat|Resets System Activity Logs|-|/usr/lib/sysstat/sa1|:|:
+nfs-server|NFS server and services|-|/usr/sbin/exportfs|:|:
+networking|Raise network interfaces|-|/sbin/ip|:|:
+network|LSB: Bring up/down networking|-|/sbin/ip|:|:
+systemd-journald|Journal Service|-|/bin/true|:|:
+systemd-logind|User Login Management|-|/bin/true|:|:
+systemd-timesyncd|Network Time Synchronization|-|/bin/true|:|:
+systemd-udevd|Rule-based Manager for Device Events and Files|-|/bin/true|:|:
+dbus|D-Bus System Message Bus|-|/bin/true|:|:
+getty@tty1|Getty on tty1|-|/bin/true|:|:
+"
+# apelidos entre distros
+canon() { local u=${1%.service}; case $u in sshd) u=ssh;; crond) u=cron;; chronyd) u=chrony;; cupsd) u=cups;; httpd|apache2) u=$u;; esac; echo "$u"; }
+shown() { local u=$1; [ $DISTRO = centos ] && case $u in ssh) u=sshd;; cron) u=crond;; chrony) u=chronyd;; esac; echo "$u"; }
+field() { echo "$CATALOG" | awk -F'|' -v n="$1" -v f="$2" '$1==n{print $f}'; }
+exists() { local b; b=$(field "$1" 4); [ -n "$b" ] && { [ -e "$b" ] || [ -e "${b}d" ] || [ "$b" = /bin/true ]; }; }
+runs() { # está ativo?
+  local u=$1 p; p=$(field "$u" 3)
+  if [ -n "$p" ] && [ "$p" != "-" ]; then pgrep -x "$p" >/dev/null 2>&1 && return 0; [ "$p" = cron ] && pgrep -x crond >/dev/null 2>&1 && return 0; [ -e $STATE/$u.stop ] && return 1; [ -e $STATE/$u ] && [ "$u" = postfix ] && return 1; return 1; fi
+  [ -e $STATE/$u ] && return 0
+  case $u in systemd-*|dbus|getty@tty1|networking|network|rsyslog) [ ! -e $STATE/$u.stop ] && return 0;; esac
+  return 1
+}
+runs_proc() { local p; p=$(field "$1" 3); [ -n "$p" ] && [ "$p" != "-" ] && { pgrep -x "$p" >/dev/null 2>&1 || { [ "$p" = cron ] && pgrep -x crond >/dev/null 2>&1; }; }; }
+is_enabled() { [ -e $ENAB/$1 ] || { [ ! -e $ENAB/$1.off ] && case $1 in ssh|cron|rsyslog|atd|networking|network|systemd-journald|systemd-logind|dbus|getty@tty1) true;; *) false;; esac; }; }
+is_masked() { [ -e $MASK/$1 ]; }
+pidof_u() { local p; p=$(field "$1" 3); [ "$p" != "-" ] && { pgrep -x "$p" 2>/dev/null || pgrep -x "${p}d" 2>/dev/null; } | head -1; }
+since() { local f=$STATE/$1.since; [ -e $f ] && cat $f || date "+%a %Y-%m-%d %H:%M:%S %Z"; }
+unitfile() { for d in /etc/systemd/system $UNITDIR; do [ -e $d/$1.service ] && { echo $d/$1.service; return; }; done; echo "$UNITDIR/$1.service"; }
+
+need_unit() { # $1=nome canônico; imprime erro e sai com 5 se nao existe
+  if ! exists "$1"; then echo "Unit $(shown $1).service could not be found." >&2; return 1; fi; return 0
+}
+do_start() {
+  local u=$1 cmd; need_unit $u || return 5
+  is_masked $u && { echo "Failed to start $(shown $u).service: Unit $(shown $u).service is masked." >&2; return 1; }
+  runs $u && return 0
+  cmd=$(field $u 5); [ -n "$cmd" ] && [ "$cmd" != ":" ] && ( eval "$cmd" ) >/dev/null 2>&1
+  logger -t systemd "Started $(shown $u).service - $(field $u 2)." 2>/dev/null
+  rm -f $STATE/$u.stop; : > $STATE/$u; date "+%a %Y-%m-%d %H:%M:%S %Z" > $STATE/$u.since
+  return 0
+}
+do_stop() {
+  local u=$1 cmd; need_unit $u || return 5
+  cmd=$(field $u 6); [ -n "$cmd" ] && [ "$cmd" != ":" ] && ( eval "$cmd" ) >/dev/null 2>&1
+  logger -t systemd "Stopped $(shown $u).service - $(field $u 2)." 2>/dev/null
+  local i; for i in 1 2 3 4 5 6; do runs_proc $u || break; sleep 0.5; done
+  rm -f $STATE/$u; : > $STATE/$u.stop; return 0
+}
+dot() { if runs $1; then printf '\033[1;32m*\033[0m'; else printf 'o'; fi; }
+status_one() {
+  local u=$1 f s en st act
+  if ! exists $u; then echo "Unit $(shown $u).service could not be found." >&2; return 4; fi
+  f=$(unitfile $(shown $u)); [ -e "$f" ] || f=$(unitfile $u)
+  en=disabled; is_enabled $u && en=enabled; is_masked $u && en=masked
+  printf '%b %s.service - %s\n' "$(dot $u)" "$(shown $u)" "$(field $u 2)"
+  printf '     Loaded: loaded (%s; %s; preset: %s)\n' "$f" "$en" enabled
+  if runs $u; then
+    pid=$(pidof_u $u)
+    if [ -n "$pid" ]; then act="active (running)"; else act="active (exited)"; fi
+    printf '     Active: \033[1;32m%s\033[0m since %s\n' "$act" "$(since $u)"
+    [ -n "$pid" ] && printf '   Main PID: %s (%s)\n' "$pid" "$(field $u 3)"
+    [ -n "$pid" ] && printf '      Tasks: 1 (limit: 4915)\n     CGroup: /system.slice/%s.service\n             `-%s %s\n' "$(shown $u)" "$pid" "$(tr '\0' ' ' < /proc/$pid/cmdline 2>/dev/null)"
+  else
+    printf '     Active: inactive (dead)\n'
+  fi
+  return 0
+}
+list_units() {
+  local all=$1 u line
+  printf '  %-28s %-8s %-8s %-8s %s\n' UNIT LOAD ACTIVE SUB DESCRIPTION
+  echo "$CATALOG" | while IFS='|' read -r u d p b s t; do
+    [ -z "$u" ] && continue; exists $u || continue
+    if runs $u; then a=active; sub=running; [ "$p" = "-" ] && sub=exited; [ -z "$(pidof_u $u)" ] && sub=exited
+    else [ "$all" = 1 ] || continue; a=inactive; sub=dead; fi
+    printf '  %-28s %-8s %-8s %-8s %s\n' "$(shown $u).service" loaded $a $sub "$d"
+  done
+  echo; echo "LOAD   = Reflects whether the unit definition was properly loaded."; echo "ACTIVE = The high-level unit activation state, i.e. generalization of SUB."; echo "SUB    = The low-level unit activation state, values depend on unit type."
+}
+list_files() {
+  printf '%-40s %-10s %s\n' UNIT FILE STATE PRESET
+  echo "$CATALOG" | while IFS='|' read -r u d p b s t; do
+    [ -z "$u" ] && continue; exists $u || continue
+    st=disabled; is_enabled $u && st=enabled; is_masked $u && st=masked
+    printf '%-40s %-10s %-9s\n' "$(shown $u).service" "$st" enabled
+  done
+  for t in multi-user graphical rescue basic network poweroff reboot sysinit sockets timers default; do printf '%-40s %-10s %s\n' "$t.target" static -; done
+}
+usage() { echo "systemctl [OPTIONS...] COMMAND [UNIT...]   (versao simulada do laboratório; veja: kb-ajuda)"; }
+
+# ---- opçoes ----
+ARGS=(); ALL=0; NOW=0; TYPE=""; STATEF=""; PROP=""; FAILED=0
+while [ $# -gt 0 ]; do case $1 in
+  --version) echo "$VERSION"; exit 0;;
+  -a|--all) ALL=1;; --now) NOW=1;; -t|--type) TYPE=$2; shift;; --type=*) TYPE=${1#*=};;
+  --state=*) STATEF=${1#*=};; --failed) FAILED=1;; -p|--property) PROP=$2; shift;; --property=*) PROP=${1#*=};;
+  --no-pager|-l|--full|--no-legend|--no-ask-password|-q|--quiet|--user|--system|-f|--force) ;;
+  -h|--help) usage; exit 0;; -*) ;; *) ARGS+=("$1");; esac; shift; done
+CMD=${ARGS[0]}; UNITS=("${ARGS[@]:1}")
+case $CMD in
+  ""|list-units) [ -n "$CMD" ] || true; [ "$FAILED" = 1 ] && { echo "  UNIT LOAD ACTIVE SUB DESCRIPTION"; echo "0 loaded units listed."; exit 0; }
+     if [ "$TYPE" != "" ] && [ "$TYPE" != service ]; then echo "  UNIT                 LOAD   ACTIVE SUB    DESCRIPTION"; for t in multi-user basic sysinit network sockets timers; do printf '  %-20s loaded active active %s\n' "$t.target" "$t"; done; exit 0; fi
+     [ "$STATEF" = inactive ] || [ "$STATEF" = dead ] && ALL=1
+     list_units $ALL; exit 0;;
+  list-unit-files) list_files; exit 0;;
+  list-timers) echo "NEXT                        LEFT       LAST PASSED UNIT                         ACTIVATES"; echo "(sem timers ativos no laboratório)"; exit 0;;
+  list-sockets|list-jobs) echo "0 sockets/jobs listed."; exit 0;;
+  daemon-reload|daemon-reexec|reset-failed) exit 0;;
+  get-default) echo multi-user.target; exit 0;;
+  set-default) echo "Created symlink /etc/systemd/system/default.target -> /lib/systemd/system/${UNITS[0]}."; exit 0;;
+  isolate) case ${UNITS[0]} in poweroff.target) exec shutdown -h now;; reboot.target) exec shutdown -r now;; *) exit 0;; esac;;
+  poweroff|halt) exec shutdown -h now;; reboot) exec shutdown -r now;;
+  is-system-running) echo running; exit 0;;
+  show) u=$(canon ${UNITS[0]:-x}); if [ -n "$PROP" ]; then case $PROP in ActiveState) runs $u && echo ActiveState=active || echo ActiveState=inactive;; SubState) runs $u && echo SubState=running || echo SubState=dead;; MainPID) echo MainPID=$(pidof_u $u || echo 0);; UnitFileState) is_enabled $u && echo UnitFileState=enabled || echo UnitFileState=disabled;; Description) echo Description=$(field $u 2);; Id) echo Id=$(shown $u).service;; *) echo "$PROP=";; esac; else echo "Id=$(shown $u).service"; echo "Description=$(field $u 2)"; runs $u && { echo LoadState=loaded; echo ActiveState=active; echo SubState=running; } || { echo LoadState=loaded; echo ActiveState=inactive; echo SubState=dead; }; echo MainPID=$(pidof_u $u || echo 0); fi; exit 0;;
+  cat) u=$(canon ${UNITS[0]}); need_unit $u || exit 1; f=$(unitfile $(shown $u)); echo "# $f"; if [ -e "$f" ]; then cat "$f"; else printf '[Unit]\nDescription=%s\nAfter=network.target\n\n[Service]\nExecStart=%s\nRestart=on-failure\n\n[Install]\nWantedBy=multi-user.target\n' "$(field $u 2)" "$(field $u 4)"; fi; exit 0;;
+  list-dependencies) echo "${UNITS[0]:-default.target}"; echo "* |-basic.target"; echo "* |-multi-user.target"; echo "* '-sysinit.target"; exit 0;;
+  status) if [ ${#UNITS[@]} = 0 ]; then echo "* $(hostname)"; echo "    State: running"; echo "     Jobs: 0 queued"; echo "   Failed: 0 units"; echo "    Since: $(uptime -s 2>/dev/null)"; exit 0; fi;;
+esac
+[ ${#UNITS[@]} = 0 ] && { echo "Too few arguments." >&2; exit 1; }
+rc=0
+for raw in "${UNITS[@]}"; do
+  case $raw in *.target|*.timer|*.socket|*.mount|*.path) case $CMD in status) echo "* $raw - $raw"; echo "     Active: active"; ;; is-active) echo active;; is-enabled) echo static;; *) :;; esac; continue;; esac
+  u=$(canon $raw)
+  case $CMD in
+    start) do_start $u || rc=$?;;
+    stop) do_stop $u || rc=$?;;
+    restart|try-restart|reload-or-restart|try-reload-or-restart) if [ "$CMD" = try-restart ] && ! runs $u; then :; else do_stop $u && sleep 1 && do_start $u || rc=$?; fi;;
+    reload) need_unit $u || { rc=5; continue; }; case $u in ssh) pkill -HUP -x sshd;; cron) :;; rsyslog) pkill -HUP -x rsyslogd;; *) :;; esac;;
+    status) status_one $u || rc=$?;;
+    is-active) if exists $u && runs $u; then echo active; else echo inactive; rc=3; fi;;
+    is-failed) echo active; rc=1;;
+    is-enabled) if exists $u; then if is_masked $u; then echo masked; rc=1; elif is_enabled $u; then echo enabled; else echo disabled; rc=1; fi; else echo "Failed to get unit file state for $(shown $u).service: No such file or directory" >&2; rc=1; fi;;
+    enable) need_unit $u || { rc=1; continue; }; : > $ENAB/$u; rm -f $ENAB/$u.off; echo "Created symlink /etc/systemd/system/multi-user.target.wants/$(shown $u).service -> $(unitfile $(shown $u))."; [ $NOW = 1 ] && do_start $u;;
+    disable) need_unit $u || { rc=1; continue; }; rm -f $ENAB/$u; : > $ENAB/$u.off; echo "Removed /etc/systemd/system/multi-user.target.wants/$(shown $u).service."; [ $NOW = 1 ] && do_stop $u;;
+    mask) need_unit $u || { rc=1; continue; }; : > $MASK/$u; echo "Created symlink /etc/systemd/system/$(shown $u).service -> /dev/null.";;
+    unmask) rm -f $MASK/$u; echo "Removed /etc/systemd/system/$(shown $u).service.";;
+    kill) pkill -x "$(field $u 3)" 2>/dev/null;;
+    *) echo "Unknown command verb $CMD." >&2; exit 1;;
+  esac
+done
+exit $rc

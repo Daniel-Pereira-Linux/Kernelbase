@@ -283,6 +283,23 @@ __PKG__
   110.1  find / -perm -4000 2>/dev/null   passwd -l aluno   chage -l aluno   last   w   lsof
   110.2  cat /etc/login.defs   ulimit -a
 
+101  Systemd, runlevels e desligamento (systemctl e journalctl SIMULADOS aqui)
+  101.3  systemctl status ssh   systemctl restart cron   systemctl enable --now chrony   systemctl list-units
+         systemctl list-unit-files   systemctl is-active rsyslog   systemctl get-default   journalctl -u ssh -n 20
+         runlevel   telinit 3   shutdown -h +5   shutdown -c   reboot   poweroff
+  108.1  timedatectl   timedatectl set-timezone America/Sao_Paulo   hostnamectl   hostnamectl set-hostname novo   localectl
+  108.2  chronyc tracking   chronyc sources   cat /etc/chrony*   ntpdate -q servidor   logrotate -d /etc/logrotate.conf
+  108.3  postfix check   mailq   newaliases   echo teste | mail -s assunto root   cat /etc/aliases
+  108.4  lpstat -a   lpr arquivo   lpq   lprm   cat /etc/cups/cupsd.conf   (CUPS instalado, sem impressora real)
+109  Rede e firewall
+  109.2  iptables -L -n -v   iptables -A INPUT -p tcp --dport 22 -j ACCEPT   nft list ruleset   ethtool lo   tcpdump -i lo -c 5
+  109.3  nmap -sT 127.0.0.1   ss -tlnp   telnet 127.0.0.1 22   nc -zv 127.0.0.1 22   traceroute 127.0.0.1   mtr
+  109.4  dig localhost   host localhost   cat /etc/resolv.conf   cat /etc/nsswitch.conf   getent hosts localhost
+110  Seguranca
+  110.3  gpg --gen-key   gpg --list-keys   ssh-keygen -t ed25519   ssh-copy-id   openssl version   getfacl   setfacl
+  102.2  grub-mkconfig (Debian) / grub2-mkconfig (CentOS)   ls /boot/grub*   update-initramfs / dracut  (so leitura: o boot aqui e do emulador)
+  104.4  quota   edquota   repquota   mdadm --detail   smartctl -i /dev/sda   cryptsetup --version   gdisk -l /dev/sda
+
 Sem internet: a rede externa fica bloqueada nesta máquina.
 FIM
 '''.replace("__PKG__", AJUDA_PKG), 0o755)
@@ -310,6 +327,77 @@ if distro == "centos" and os.path.exists(rc):
     lc = P("/etc/rsyslog.d/listen.conf")
     if os.path.exists(lc):
         os.remove(lc)
+
+# systemctl, journalctl, shutdown... simulados (o systemd não roda no emulador)
+_kbsys = os.path.join(os.path.dirname(os.path.abspath(__file__)), "kbsys")
+for _n in sorted(os.listdir(_kbsys)):
+    _src = os.path.join(_kbsys, _n)
+    for _d in ("/usr/local/bin",) + (("/usr/local/sbin",) if _n in ("init", "telinit", "shutdown", "reboot", "poweroff", "halt", "runlevel") else ()):
+        _dst = P(_d + "/" + _n)
+        os.makedirs(os.path.dirname(_dst), exist_ok=True)
+        if os.path.lexists(_dst):
+            os.remove(_dst)
+        if os.path.islink(_src):
+            os.symlink(os.readlink(_src), _dst)
+        else:
+            shutil.copy2(_src, _dst)
+            os.chmod(_dst, 0o755)
+
+# postfix do Debian vem sem configuração (debconf "No configuration"): cria uma mínima, só local
+if os.path.isdir(P("/etc/postfix")) and not os.path.exists(P("/etc/postfix/main.cf")):
+    write("/etc/postfix/main.cf", """smtpd_banner = $myhostname ESMTP $mail_name
+biff = no
+append_dot_mydomain = no
+compatibility_level = 3.6
+myhostname = %s-lab.kernelbase.lab
+myorigin = /etc/mailname
+mydestination = $myhostname, kernelbase.lab, localhost.$mydomain, localhost
+mynetworks = 127.0.0.0/8
+inet_interfaces = loopback-only
+inet_protocols = ipv4
+alias_maps = hash:/etc/aliases
+alias_database = hash:/etc/aliases
+mailbox_size_limit = 0
+recipient_delimiter = +
+""" % distro)
+    write("/etc/mailname", "kernelbase.lab\n")
+    if not os.path.exists(P("/etc/aliases")):
+        write("/etc/aliases", "postmaster: root\n")
+    if os.path.exists(P("/usr/share/postfix/master.cf.dist")) and not os.path.exists(P("/etc/postfix/master.cf")):
+        shutil.copy2(P("/usr/share/postfix/master.cf.dist"), P("/etc/postfix/master.cf"))
+    subprocess.run(["chroot", out, "/usr/sbin/postalias", "/etc/aliases"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+if os.path.exists(P("/usr/sbin/postalias")) and os.path.exists(P("/etc/aliases")):
+    subprocess.run(["chroot", out, "/usr/sbin/postalias", "/etc/aliases"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+# CentOS 7: o kernel novo não tem o iptables antigo (ip_tables); leva o iptables/nft do Debian
+# (backend nf_tables) com as bibliotecas dele, num prefixo próprio
+if distro == "centos":
+    deb = os.path.join(os.path.dirname(os.path.abspath(__file__)), "root-debian")
+    DN = P("/opt/kernelbase/debnet")
+    for d in ("bin", "lib", "xtables"):
+        os.makedirs(DN + "/" + d, exist_ok=True)
+    def rr(path):
+        return os.path.realpath(os.path.join(deb, path.lstrip("/")), strict=False)
+    libs = ["ld-linux.so.2", "libc.so.6", "libxtables.so.12", "libmnl.so.0", "libnftnl.so.11", "libnftables.so.1",
+            "libedit.so.2", "libjansson.so.4", "libgmp.so.10", "libtinfo.so.6", "libbsd.so.0", "libmd.so.0", "libresolv.so.2", "libm.so.6", "libdl.so.2", "libpthread.so.0"]
+    for l in libs:
+        for d in ("/lib/i386-linux-gnu/", "/usr/lib/i386-linux-gnu/", "/lib/"):
+            src = os.path.join(deb, d.lstrip("/"), l)
+            if os.path.lexists(src):
+                shutil.copy2(os.path.realpath(src), DN + "/lib/" + l)
+                break
+    shutil.copy2(rr("/usr/sbin/xtables-nft-multi"), DN + "/bin/xtables-nft-multi")
+    shutil.copy2(rr("/usr/sbin/nft"), DN + "/bin/nft")
+    for n in ("iptables-nft", "iptables-nft-save", "iptables-nft-restore", "ip6tables-nft", "ip6tables-nft-save", "ip6tables-nft-restore"):
+        if not os.path.lexists(DN + "/bin/" + n):
+            os.symlink("xtables-nft-multi", DN + "/bin/" + n)
+    xt = os.path.join(deb, "usr/lib/i386-linux-gnu/xtables")
+    for f in os.listdir(xt):
+        shutil.copy2(os.path.join(xt, f), DN + "/xtables/" + f)
+    for cmd, app in (("iptables", "iptables-nft"), ("iptables-save", "iptables-nft-save"), ("iptables-restore", "iptables-nft-restore"),
+                     ("ip6tables", "ip6tables-nft"), ("ip6tables-save", "ip6tables-nft-save"), ("ip6tables-restore", "ip6tables-nft-restore"), ("nft", "nft")):
+        write("/usr/local/sbin/" + cmd, "#!/bin/sh\nexport XTABLES_LIBDIR=/opt/kernelbase/debnet/xtables\nexec /opt/kernelbase/debnet/lib/ld-linux.so.2 --library-path /opt/kernelbase/debnet/lib /opt/kernelbase/debnet/bin/%s \"$@\"\n" % app, 0o755)
 
 # arquivo escondido para a missão de busca (104.7)
 write("/var/lib/kernelbase/.estudo/2026/segredo-lpic.txt", "Você achou o arquivo escondido.\n")

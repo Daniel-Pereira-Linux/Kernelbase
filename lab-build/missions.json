@@ -408,5 +408,82 @@
   "hint": "ssh-keygen -t ed25519",
   "solution": "ssh-keygen -q -t ed25519 -N '' -f /root/.ssh/id_ed25519",
   "check": "[ -f /root/.ssh/id_ed25519 ] && [ -f /root/.ssh/id_ed25519.pub ]"
+ },
+ {
+  "id": "systemd",
+  "obj": "101.3",
+  "topic": "Systemd e serviços",
+  "title": "Reiniciar um serviço com systemctl",
+  "goal": "Pare o serviço cron com systemctl, inicie de novo e grave em /root/lab/cron.txt a resposta de systemctl is-active cron.",
+  "learn": "O systemctl controla serviços: start, stop, restart, status, enable e is-active. Aqui o systemd é simulado, mas os comandos são os mesmos do exame.",
+  "hint": "systemctl stop cron, depois systemctl start cron, e redirecione o is-active para o arquivo.",
+  "solution": "systemctl stop cron; systemctl start cron; systemctl is-active cron > /root/lab/cron.txt",
+  "check": "[ \"$(cat /root/lab/cron.txt)\" = active ] && [ \"$(systemctl is-active cron)\" = active ]"
+ },
+ {
+  "id": "firewall",
+  "obj": "110.2",
+  "topic": "Segurança",
+  "title": "Regra de firewall com iptables",
+  "goal": "Crie uma regra no iptables, na chain INPUT, que descarte (DROP) pacotes TCP para a porta 2222.",
+  "learn": "O iptables filtra pacotes por chain e regra. -A acrescenta, -p escolhe o protocolo, --dport a porta de destino e -j a ação (ACCEPT, DROP, REJECT).",
+  "hint": "iptables -A INPUT -p tcp --dport 2222 -j DROP",
+  "solution": "iptables -A INPUT -p tcp --dport 2222 -j DROP",
+  "check": "iptables -S INPUT | grep -q -- '--dport 2222 -j DROP'"
+ },
+ {
+  "id": "hostname",
+  "obj": "109.1",
+  "topic": "Rede",
+  "title": "Mudar o nome da máquina",
+  "goal": "Mude o nome da máquina para servidor01, de forma que continue valendo depois de reiniciar.",
+  "learn": "O nome fica em /etc/hostname. hostnamectl set-hostname grava no arquivo e muda o nome em uso.",
+  "hint": "hostnamectl set-hostname servidor01",
+  "solution": "hostnamectl set-hostname servidor01",
+  "check": "[ \"$(cat /etc/hostname)\" = servidor01 ] && [ \"$(hostname)\" = servidor01 ]"
+ },
+ {
+  "id": "fuso",
+  "obj": "107.3",
+  "topic": "Administração",
+  "title": "Configurar o fuso horário",
+  "goal": "Configure o fuso horário da máquina para America/Sao_Paulo.",
+  "learn": "O fuso é o link /etc/localtime apontando para um arquivo de /usr/share/zoneinfo. timedatectl set-timezone faz isso por você.",
+  "hint": "timedatectl set-timezone America/Sao_Paulo",
+  "solution": "timedatectl set-timezone America/Sao_Paulo",
+  "check": "[ \"$(readlink -f /etc/localtime)\" = /usr/share/zoneinfo/America/Sao_Paulo ]"
+ },
+ {
+  "id": "logrotate",
+  "obj": "108.2",
+  "topic": "Serviços essenciais",
+  "title": "Rotação de logs",
+  "goal": "Crie o arquivo /etc/logrotate.d/lab para girar /var/log/lab.log toda semana, guardando 4 cópias compactadas.",
+  "learn": "O logrotate lê /etc/logrotate.conf e /etc/logrotate.d/. As diretivas weekly, rotate 4 e compress definem a frequência, o número de cópias e a compactação.",
+  "hint": "Um bloco: /var/log/lab.log { weekly rotate 4 compress }",
+  "solution": "printf '/var/log/lab.log {\\n  weekly\\n  rotate 4\\n  compress\\n}\\n' > /etc/logrotate.d/lab",
+  "check": "grep -q weekly /etc/logrotate.d/lab && grep -q 'rotate 4' /etc/logrotate.d/lab && grep -q compress /etc/logrotate.d/lab && grep -q '/var/log/lab.log' /etc/logrotate.d/lab"
+ },
+ {
+  "id": "alias",
+  "obj": "108.3",
+  "topic": "Serviços essenciais",
+  "title": "Alias de e-mail",
+  "goal": "Crie o alias suporte, que entrega para root, em /etc/aliases e atualize o banco de aliases.",
+  "learn": "O /etc/aliases mapeia nomes para destinos. Depois de editar, rode newaliases para gerar o banco (/etc/aliases.db) que o MTA realmente lê.",
+  "hint": "Acrescente suporte: root ao arquivo e rode newaliases.",
+  "solution": "echo 'suporte: root' >> /etc/aliases; newaliases",
+  "check": "grep -q '^suporte:.*root' /etc/aliases && [ /etc/aliases.db -nt /etc/aliases -o -e /etc/aliases.db ]"
+ },
+ {
+  "id": "nmap",
+  "obj": "109.3",
+  "topic": "Rede",
+  "title": "Descobrir uma porta aberta",
+  "goal": "Use o nmap para ver se a porta 22 está aberta em 127.0.0.1 e grave a palavra open em /root/lab/porta22.txt.",
+  "learn": "O nmap varre portas. -p escolhe a porta e a coluna STATE mostra open, closed ou filtered. O ss -tln mostra o mesmo olhando por dentro da máquina.",
+  "hint": "nmap -p 22 127.0.0.1",
+  "solution": "nmap -p 22 127.0.0.1 | grep -q '22/tcp *open' && echo open > /root/lab/porta22.txt",
+  "check": "[ \"$(cat /root/lab/porta22.txt)\" = open ] && nmap -p 22 127.0.0.1 | grep -q \"22/tcp *open\""
  }
 ]

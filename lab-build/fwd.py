@@ -1,7 +1,7 @@
 # proxy HTTP local -> busca o mesmo caminho via HTTPS (com verificação de certificado)
 import http.server, socketserver, urllib.request, ssl, sys, shutil
 ctx = ssl.create_default_context(cafile="/root/.ccr/ca-bundle.crt")
-opener = urllib.request.build_opener(urllib.request.ProxyHandler({"https": "http://127.0.0.1:37119"}),
+opener = urllib.request.build_opener(urllib.request.ProxyHandler({"https": __import__("os").environ["HTTPS_PROXY"]}),
                                      urllib.request.HTTPSHandler(context=ctx))
 class H(http.server.BaseHTTPRequestHandler):
     def do_GET(self, head=False):

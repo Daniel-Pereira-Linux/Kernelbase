@@ -1,0 +1,3 @@
+#!/bin/bash
+# telinit/init do laboratório
+case $1 in 0) exec shutdown -h now;; 6) exec shutdown -r now;; 1|2|3|4|5|s|S|q|Q|u|U) [ -n "$1" ] && echo "(simulado) nível de execuçao $1 solicitado; o laboratório continua em multi-user.target";; *) echo "Usage: telinit {0123456sSQqabcUu}" >&2; exit 1;; esac

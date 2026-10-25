@@ -1,0 +1,5 @@
+#!/bin/bash
+case $1 in
+  ""|list-sessions) echo "SESSION  UID USER SEAT  TTY"; echo "      1    0 root seat0 tty1"; echo; echo "1 sessions listed.";;
+  list-users) echo " UID USER"; echo "   0 root"; echo; echo "1 users listed.";;
+  *) echo "(simulado) loginctl $*";; esac

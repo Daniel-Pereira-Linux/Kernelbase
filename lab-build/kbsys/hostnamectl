@@ -1,0 +1,8 @@
+#!/bin/bash
+case $1 in
+  set-hostname) [ -n "$2" ] || { echo "Too few arguments." >&2; exit 1; }; echo "$2" > /etc/hostname; hostname "$2";;
+  ""|status|--static|--transient|--pretty) case $1 in --static|--transient) hostname; exit 0;; esac
+     . /etc/os-release 2>/dev/null
+     echo "   Static hostname: $(cat /etc/hostname 2>/dev/null || hostname)"; echo "         Icon name: computer-vm"; echo "           Chassis: vm"; echo "  Operating System: ${PRETTY_NAME:-Linux}"; echo "            Kernel: Linux $(uname -r)"; echo "      Architecture: x86";;
+  *) echo "Unknown command $1" >&2; exit 1;;
+esac

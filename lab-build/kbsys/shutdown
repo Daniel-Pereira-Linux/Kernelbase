@@ -1,0 +1,32 @@
+#!/bin/bash
+# shutdown/poweroff/reboot/halt do laboratório
+ME=$(basename "$0"); ACT=poweroff; TIME=""; MSG=""; KILL=0; CANCEL=0; DRY=0
+case $ME in reboot) ACT=reboot;; halt) ACT=halt;; poweroff) ACT=poweroff;; esac
+while [ $# -gt 0 ]; do case $1 in
+  -h|-P|--poweroff) ACT=poweroff;; -H|--halt) ACT=halt;; -r|--reboot) ACT=reboot;;
+  -k) KILL=1;; -c) CANCEL=1;; --no-wall|-n|-f|--force|-w|-d|-t|-i) [ "$1" = -t ] && shift;;
+  --help) echo "shutdown [OPTIONS...] [TIME] [WALL...]"; exit 0;;
+  -*) ;; *) if [ -z "$TIME" ] && { [ "$ME" = shutdown ] || [ "$ME" = init ]; }; then TIME=$1; else MSG="$MSG $1"; fi;; esac; shift; done
+PIDF=/run/kb-shutdown.pid
+if [ $CANCEL = 1 ]; then [ -f $PIDF ] && { kill $(cat $PIDF) 2>/dev/null; rm -f $PIDF; wall "O desligamento agendado foi cancelado" 2>/dev/null; echo "Shutdown cancelled"; exit 0; }; echo "No scheduled shutdown." >&2; exit 1; fi
+WHAT="power-off"; [ $ACT = reboot ] && WHAT=reboot; [ $ACT = halt ] && WHAT=halt
+secs=0
+case ${TIME:-now} in now|+0|0) secs=0;; +*) secs=$(( ${TIME#+} * 60 ));; [0-9]*:[0-9]*) t=$(date -d "$TIME" +%s 2>/dev/null) && secs=$(( t - $(date +%s) )); [ $secs -lt 0 ] && secs=$((secs+86400));; *) [ "$ME" = shutdown ] && { echo "Failed to parse time specification: $TIME" >&2; exit 1; };; esac
+[ "$ME" != shutdown ] && secs=0
+doit() {
+  sync
+  if [ $KILL = 1 ]; then return; fi
+  echo 1 > /proc/sys/kernel/sysrq 2>/dev/null
+  case $ACT in reboot) echo b > /proc/sysrq-trigger;; *) echo o > /proc/sysrq-trigger; sleep 2;; esac
+}
+if [ $secs -gt 0 ]; then
+  [ -f $PIDF ] && kill $(cat $PIDF) 2>/dev/null
+  echo "Shutdown scheduled for $(date -d "+$secs seconds" '+%a %Y-%m-%d %H:%M:%S %Z'), use 'shutdown -c' to cancel."
+  wall "O sistema vai desligar em $((secs/60)) minuto(s) ($WHAT).$MSG" 2>/dev/null
+  ( sleep $secs; rm -f $PIDF; wall "O sistema está desligando agora" 2>/dev/null; doit ) >/dev/null 2>&1 &
+  echo $! > $PIDF; exit 0
+fi
+wall "O sistema está desligando agora ($WHAT).$MSG" 2>/dev/null
+[ $KILL = 1 ] && { echo "Shutdown (simulado, -k): só o aviso foi enviado."; exit 0; }
+echo "Enviando o sinal $WHAT... (o laboratório vai parar; use o botao Reiniciar para ligar de novo)"
+doit
