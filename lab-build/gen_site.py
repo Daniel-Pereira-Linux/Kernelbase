@@ -569,7 +569,7 @@ PAGE = r"""<!DOCTYPE html>
           <a class="btn" href="%%WA%%" target="_blank" rel="noopener">Entrar na turma de novembro</a>
           <a class="btn btn-ghost" href="#programa">Ver o programa</a>
         </div>
-        <p class="cta-note">O valor é enviado pelo WhatsApp.</p>
+        <p class="cta-note"><strong>R$ 250</strong> no Pix ou no cartão de crédito.</p>
       </div>
       <div class="term" aria-hidden="true">
         <p class="term-bar">kernelbase tty1</p>
@@ -602,7 +602,8 @@ PAGE = r"""<!DOCTYPE html>
       <div class="fact"><dt>Conteúdo</dt><dd>Os 42 objetivos oficiais da LPIC-1: 23 do exame 101-500 e 19 do 102-500.</dd></div>
       <div class="fact"><dt>Ordem</dt><dd>As semanas 1 a 6 fecham o exame 101-500. As semanas 7 a 12 cobrem o 102-500 e terminam com simulados.</dd></div>
       <div class="fact"><dt>Certificação</dt><dd>A LPIC-1 exige aprovação nos dois exames, aplicados pelo LPI.</dd></div>
-      <div class="fact"><dt>Início</dt><dd>7 de novembro de 2026, um sábado, às 20h. O valor é enviado pelo WhatsApp a quem pedir.</dd></div>
+      <div class="fact"><dt>Início</dt><dd>7 de novembro de 2026, um sábado, às 20h.</dd></div>
+      <div class="fact"><dt>Valor</dt><dd>R$ 250, no Pix ou no cartão de crédito. Para garantir a vaga, chame no WhatsApp.</dd></div>
     </dl>
   </div>
 </section>
@@ -663,7 +664,7 @@ PAGE = r"""<!DOCTYPE html>
       <details><summary>Onde faço as provas?</summary><p>Em centros de testes da Pearson VUE ou online, com supervisão (OnVUE).</p></details>
       <details><summary>Preciso de alguma certificação antes?</summary><p>Não. A LPIC-1 é o primeiro nível da trilha Linux do LPI.</p></details>
       <details><summary>Qual é o horário das aulas?</summary><p>Todas as sextas e todos os sábados, às 20h, no horário de Brasília.</p></details>
-      <details><summary>Quando começa a turma e quanto custa?</summary><p>A primeira aula é no sábado, 7 de novembro de 2026, às 20h (horário de Brasília). O valor é enviado pelo WhatsApp: chame a KernelBase e peça as informações da turma.</p></details>
+      <details><summary>Quando começa a turma e quanto custa?</summary><p>A primeira aula é no sábado, 7 de novembro de 2026, às 20h (horário de Brasília). O curso custa R$ 250, no Pix ou no cartão de crédito. Para garantir a vaga, chame a KernelBase no WhatsApp.</p></details>
     </div>
   </div>
 </section>
@@ -672,7 +673,7 @@ PAGE = r"""<!DOCTYPE html>
   <div class="wrap">
     <div class="final-card">
       <h2>Entre na turma de novembro</h2>
-      <p>A primeira aula é em 7 de novembro de 2026. Chame no WhatsApp para saber o valor e como garantir o seu lugar.</p>
+      <p>A primeira aula é em 7 de novembro de 2026. O valor é R$ 250, no Pix ou no cartão de crédito. Chame no WhatsApp para garantir o seu lugar.</p>
       <div class="cta-row">
         <a class="btn" href="%%WA%%" target="_blank" rel="noopener">Falar no WhatsApp</a>
       </div>
