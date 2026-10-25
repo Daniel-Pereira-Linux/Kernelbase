@@ -3,689 +3,311 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KernelBase Tecnologia — Automação de atendimento com IA</title>
-<meta name="description" content="KernelBase Tecnologia: assistentes com IA que atendem seus clientes no WhatsApp, Instagram e site, 24 horas por dia. Também: consultoria Linux, aulas LPIC, Metal as a Service e Ansible.">
-<meta property="og:title" content="KernelBase Tecnologia — Automação de atendimento com IA">
-<meta property="og:description" content="Assistentes com IA que atendem seus clientes no WhatsApp, Instagram e site, 24 horas por dia.">
+<script>document.documentElement.className+=' js';</script>
+<title>KernelBase: curso de LPIC-1 em 3 meses</title>
+<meta name="description" content="Curso de LPIC-1 em 3 meses: todo o conteúdo dos exames 101-500 e 102-500, em 24 aulas, toda sexta e sábado às 20h (horário de Brasília).">
+<meta property="og:title" content="KernelBase: curso de LPIC-1 em 3 meses">
+<meta property="og:description" content="Todo o conteúdo dos exames 101-500 e 102-500 da LPIC-1, em 24 aulas, toda sexta e sábado às 20h.">
 <meta property="og:url" content="https://kernelbase.com.br/">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#090c12">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23090c12'/%3E%3Ctext x='50' y='66' font-family='monospace' font-size='58' font-weight='700' fill='%23f5c445' text-anchor='middle'%3E%3E_%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="css/style.css?v=20261002b">
+<meta property="og:locale" content="pt_BR">
+<meta name="theme-color" content="#F1F3EE">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%232547F0'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Course","name":"Curso LPIC-1 em 3 meses","description":"Preparação para os exames 101-500 e 102-500 da LPIC-1, com 24 aulas às sextas e sábados às 20h.","provider":{"@type":"Organization","name":"KernelBase","url":"https://kernelbase.com.br/"},"inLanguage":"pt-BR"}
+</script>
+<style>
+:root{
+  --chalk:#F1F3EE; --white:#FBFCFA; --slate:#16252E; --muted:#53636D; --line:#C9D1CC;
+  --cobalt:#2547F0; --cobalt-d:#1A33B8; --abyss:#0A1620; --amber:#FFC15A; --mint:#7FD6A0; --dim:#8AA0AF;
+  --display:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:5rem}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{background:var(--chalk);color:var(--slate);font-family:var(--serif);font-size:1.125rem;line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:var(--cobalt-d);text-underline-offset:.2em}
+a:hover{color:var(--cobalt)}
+:focus-visible{outline:3px solid var(--cobalt);outline-offset:3px;border-radius:2px}
+.wrap{width:min(1120px,100% - 2.5rem);margin-inline:auto}
+.nw{white-space:nowrap}
+.skip{position:absolute;left:-999px;top:.5rem;background:var(--slate);color:#fff;padding:.5rem .9rem;z-index:20}
+.skip:focus{left:.5rem}
+
+/* topo */
+.top{position:sticky;top:0;z-index:10;background:rgba(241,243,238,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top-in{display:flex;align-items:center;gap:1.5rem;min-height:4rem}
+.brand{font-family:var(--display);font-weight:800;font-size:1.35rem;letter-spacing:-.03em;color:var(--slate);text-decoration:none;display:inline-flex;align-items:center;gap:.5rem}
+.brand-mark{width:.8rem;height:.8rem;background:var(--cobalt);display:inline-block}
+.nav{display:flex;gap:1.4rem;margin-left:auto;font-family:var(--display);font-weight:500;font-size:.98rem}
+.nav a{color:var(--slate);text-decoration:none;padding:.3rem 0;border-bottom:2px solid transparent}
+.nav a:hover{border-color:var(--cobalt)}
+.btn{display:inline-block;font-family:var(--display);font-weight:600;font-size:1.05rem;line-height:1;text-decoration:none;padding:.95rem 1.4rem;border-radius:4px;background:var(--cobalt);color:#fff;border:2px solid var(--cobalt);transition:background .15s,border-color .15s}
+.btn:hover{background:var(--cobalt-d);border-color:var(--cobalt-d);color:#fff}
+.btn-sm{font-size:.95rem;padding:.65rem 1rem}
+.btn-ghost{background:transparent;color:var(--slate);border-color:var(--slate)}
+.btn-ghost:hover{background:var(--slate);border-color:var(--slate);color:#fff}
+
+/* hero */
+.hero{padding:clamp(2.5rem,6vw,5.5rem) 0 clamp(3rem,6vw,5rem)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:clamp(2rem,5vw,4.5rem);align-items:center}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2.6rem,1.1rem + 5.6vw,5rem);line-height:.98;letter-spacing:-.035em;text-wrap:balance}
+.lede{margin-top:1.5rem;font-size:clamp(1.15rem,1rem + .6vw,1.4rem);line-height:1.5;max-width:34rem}
+.cta-row{margin-top:2rem;display:flex;flex-wrap:wrap;gap:.9rem;align-items:center}
+.cta-note{margin-top:1rem;color:var(--muted);font-size:.98rem}
+
+/* terminal */
+.term{background:var(--abyss);color:var(--amber);border-radius:10px;padding:1.2rem 1.3rem 1.5rem;font-family:var(--mono);font-size:.9rem;line-height:1.8;box-shadow:0 30px 60px -30px rgba(10,22,32,.55);min-height:17.5rem}
+.term-bar{color:var(--dim);font-size:.8rem;margin-bottom:.9rem;padding-bottom:.7rem;border-bottom:1px solid #1B2D3A}
+.ln{display:block;overflow-wrap:anywhere}
+.ln .ok{color:var(--mint)}
+.ln .dim{color:var(--dim)}
+.js .ln{opacity:0}
+.js .ln.on{opacity:1}
+.cursor{display:inline-block;width:.6em;height:1.05em;background:var(--amber);vertical-align:text-bottom;margin-left:.15em;animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.cursor{animation:none}}
+
+/* seções */
+section.block{padding:clamp(3rem,6vw,5.5rem) 0;border-top:1px solid var(--line)}
+h2{font-family:var(--display);font-weight:700;font-size:clamp(1.9rem,1.2rem + 2.4vw,3rem);line-height:1.05;letter-spacing:-.025em;text-wrap:balance}
+.sec-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:2rem;align-items:end;margin-bottom:2.5rem}
+.sec-head p{color:var(--muted);max-width:36rem}
+h3{font-family:var(--display);font-weight:600;letter-spacing:-.01em}
+
+/* como funciona */
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:0 3rem}
+.fact{padding:1.1rem 0;border-top:1px solid var(--line);display:grid;grid-template-columns:8.5rem 1fr;gap:1rem}
+.fact dt{font-family:var(--display);font-weight:600;color:var(--muted);font-size:1rem}
+.fact dd{font-size:1.1rem}
+
+/* programa */
+.sum{display:flex;flex-wrap:wrap;gap:.5rem 2.5rem;margin-bottom:2.5rem;font-family:var(--display);font-size:1.05rem}
+.sum strong{font-weight:700}
+.month{margin-top:3rem}
+.month-title{font-size:1.6rem;display:flex;flex-wrap:wrap;align-items:baseline;gap:.4rem 1rem;padding-bottom:.9rem;border-bottom:2px solid var(--slate)}
+.month-n{color:var(--cobalt-d);font-weight:800}
+.weeks{list-style:none}
+.week{display:grid;grid-template-columns:7.5rem minmax(0,1fr) minmax(0,1fr);gap:1rem 2rem;padding:1.3rem 0;border-bottom:1px solid var(--line)}
+.week-n{font-family:var(--display);font-weight:700;font-size:1.05rem}
+.slot-day{font-family:var(--display);font-size:.95rem;color:var(--muted)}
+.slot-title{font-family:var(--display);font-weight:600;font-size:1.15rem;line-height:1.25;margin:.15rem 0 .35rem}
+.obj{display:block;color:var(--muted);font-size:.95rem;font-variant-numeric:tabular-nums}
+.marker{list-style:none;margin:.2rem 0;padding:.8rem 1rem;background:var(--slate);color:#fff;font-family:var(--display);font-size:1rem;border-radius:4px}
+
+/* instrutor */
+.who{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:2rem}
+.who p+p{margin-top:1rem}
+.who-links{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.5rem}
+
+/* faq */
+.faq details{border-top:1px solid var(--line)}
+.faq details:last-child{border-bottom:1px solid var(--line)}
+.faq summary{cursor:pointer;list-style:none;font-family:var(--display);font-weight:600;font-size:1.2rem;padding:1.15rem 2.5rem 1.15rem 0;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:.2rem;top:50%;transform:translateY(-50%);font-size:1.6rem;font-weight:400;color:var(--cobalt-d)}
+.faq details[open] summary::after{content:"\2212"}
+.faq details p{padding:0 2.5rem 1.3rem 0;max-width:46rem}
+
+/* chamada final */
+.final{background:var(--slate);color:#fff;border-top:0}
+.final h2{color:#fff;max-width:40rem}
+.final p{max-width:36rem;margin-top:1rem;color:#D7DEDB}
+.final .cta-row{margin-top:2rem}
+.final .btn{background:var(--amber);border-color:var(--amber);color:var(--abyss)}
+.final .btn:hover{background:#FFD07F;border-color:#FFD07F;color:var(--abyss)}
+.final a.txt{color:#fff}
+.final .alt{margin-top:1.25rem;color:#D7DEDB;font-size:1rem}
+
+footer{padding:2.5rem 0 3rem;font-size:.98rem;color:var(--muted)}
+.foot{display:flex;flex-wrap:wrap;gap:1rem 2.5rem;justify-content:space-between}
+.foot nav{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem}
+.foot a{color:var(--slate)}
+.legal{margin-top:1.5rem;font-size:.9rem}
+
+@media (max-width:900px){
+  .hero-grid,.sec-head,.who,.facts{grid-template-columns:1fr}
+  .facts{gap:0}
+  .nav{display:none}
+  .top .btn-sm{margin-left:auto}
+  .week{grid-template-columns:1fr;gap:.9rem}
+  .week-n{border-bottom:1px solid var(--line);padding-bottom:.4rem}
+  .fact{grid-template-columns:7rem 1fr}
+}
+@media (max-width:480px){
+  body{font-size:1.05rem}
+  .term{font-size:.82rem;padding:1rem}
+  .btn{width:100%;text-align:center}
+}
+</style>
 </head>
 <body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
 
-<canvas id="bg-grid" aria-hidden="true"></canvas>
-
-<div id="boot-screen"><div id="boot-lines"><span class="cursor"></span></div></div>
-
-<header class="topbar">
-	<div class="topbar-inner">
-		<a class="brand" href="#inicio" data-tab="home">
-			<span>kernel<span class="dot">Base</span></span>
-		</a>
-		<nav class="tabs">
-			<a href="#inicio" data-tab="home" id="nav-home" class="active-tab">Início</a>
-			<a href="#docs" data-tab="docs" id="nav-docs">Documentação</a>
-			<a href="#patches" data-tab="patches" id="nav-patches">Patches</a>
-		</nav>
-		<div class="topbar-actions">
-			<a href="#contato" class="btn primary topbar-cta" data-wa="Olá! Vim pelo site da KernelBase.">Fale no WhatsApp</a>
-			<button class="icon-btn" id="sound-toggle-btn" title="Ativar sons da interface">🔈</button>
-			<div class="theme-menu">
-				<button class="icon-btn" id="theme-toggle-btn" title="Trocar tema">🎨</button>
-				<div class="theme-dropdown" id="theme-dropdown"></div>
-			</div>
-			<a class="icon-btn" href="https://github.com/Daniel-Pereira-Linux/kernel-docs-br" target="_blank" rel="noopener" title="Ver no GitHub">
-				<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-			</a>
-		</div>
-	</div>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true"></span>KernelBase</a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#programa">Programa</a>
+      <a href="#instrutor">Instrutor</a>
+      <a href="#duvidas">Dúvidas</a>
+      <a href="kernel.html#docs">Documentação do Kernel</a>
+    </nav>
+    <a class="btn btn-sm" href="https://wa.me/5583933003583?text=Ol%C3%A1%21%20Quero%20saber%20da%20pr%C3%B3xima%20turma%20do%20curso%20LPIC-1%20da%20KernelBase." target="_blank" rel="noopener">Entrar na turma</a>
+  </div>
 </header>
 
-<main class="container">
+<main id="conteudo">
 
-	<!-- ===================== INÍCIO (site da empresa) ===================== -->
-	<div id="home" class="tab-content active">
+<section class="hero" id="inicio">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Prepare-se para a <span class="nw">LPIC-1</span> em 3 meses</h1>
+      <p class="lede">Todo o conteúdo dos exames <span class="nw">101-500</span> e <span class="nw">102-500</span>, em 24 aulas. Toda sexta e sábado, às 20h (horário de Brasília).</p>
+      <div class="cta-row">
+        <a class="btn" href="https://wa.me/5583933003583?text=Ol%C3%A1%21%20Quero%20saber%20da%20pr%C3%B3xima%20turma%20do%20curso%20LPIC-1%20da%20KernelBase." target="_blank" rel="noopener">Entrar na próxima turma</a>
+        <a class="btn btn-ghost" href="#programa">Ver o programa</a>
+      </div>
+      <p class="cta-note">Datas de início e valores são enviados pelo WhatsApp.</p>
+    </div>
+    <div class="term" aria-hidden="true">
+      <p class="term-bar">kernelbase tty1</p>
+      <span class="ln"><span class="ok">[  OK  ]</span> Carregando exame <span class="nw">101-500</span> <span class="dim">semanas 1 a 6</span></span>
+      <span class="ln"><span class="ok">[  OK  ]</span> Carregando exame <span class="nw">102-500</span> <span class="dim">semanas 7 a 12</span></span>
+      <span class="ln"><span class="ok">[  OK  ]</span> Montando horário <span class="dim">sexta e sábado, 20h</span></span>
+      <span class="ln"><span class="ok">[  OK  ]</span> Iniciando 24 aulas</span>
+      <span class="ln">kernelbase login: aluno<span class="cursor"></span></span>
+    </div>
+  </div>
+</section>
 
-		<section class="home-hero">
-			<div class="home-hero-copy">
-				<span class="hero-badge">
-					<span class="pulse-dot"></span>
-					Automação de atendimento com IA
-				</span>
-				<h1 class="hero-title">Seu atendimento,<br><span class="grad">no automático.</span></h1>
-				<p class="hero-lede">A <strong>KernelBase Tecnologia</strong> cria assistentes com IA que atendem seus clientes no <strong>WhatsApp</strong>, no <strong>Instagram</strong> e no <strong>seu site</strong>, 24 horas por dia. Eles tiram dúvidas, agendam, registram pedidos e passam a conversa para a sua equipe quando precisa.</p>
-				<div class="cta-row">
-					<a href="#contato" class="btn primary btn-lg" data-wa="Olá! Quero automatizar o atendimento da minha empresa.">Quero automatizar meu atendimento →</a>
-					<a href="#como-funciona" class="btn btn-lg" data-scroll="como-funciona">Como funciona</a>
-				</div>
-				<ul class="hero-points">
-					<li>Responde em segundos, a qualquer hora</li>
-					<li>Integra com seus sistemas</li>
-					<li>Sua equipe assume quando quiser</li>
-				</ul>
-			</div>
+<section class="block" id="como-funciona">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Como o curso funciona</h2>
+      <p>Um calendário fixo, do primeiro ao último dia, para você organizar a semana e estudar sem perder o ritmo.</p>
+    </div>
+    <dl class="facts">
+      <div class="fact"><dt>Duração</dt><dd>3 meses, em 12 semanas.</dd></div>
+      <div class="fact"><dt>Aulas</dt><dd>24 aulas, uma na sexta e outra no sábado de cada semana, às 20h (horário de Brasília).</dd></div>
+      <div class="fact"><dt>Conteúdo</dt><dd>Os 42 objetivos oficiais da <span class="nw">LPIC-1</span>: 23 do exame <span class="nw">101-500</span> e 19 do <span class="nw">102-500</span>.</dd></div>
+      <div class="fact"><dt>Ordem</dt><dd>As semanas 1 a 6 fecham o exame <span class="nw">101-500</span>. As semanas 7 a 12 cobrem o <span class="nw">102-500</span> e terminam com simulados.</dd></div>
+      <div class="fact"><dt>Certificação</dt><dd>A <span class="nw">LPIC-1</span> exige aprovação nos dois exames, aplicados pelo LPI.</dd></div>
+      <div class="fact"><dt>Turmas</dt><dd>Datas de início e valores são enviados pelo WhatsApp a quem pedir.</dd></div>
+    </dl>
+  </div>
+</section>
 
-			<div class="chat" aria-label="Exemplo de conversa com um assistente de atendimento">
-				<div class="chat-bar">
-					<div class="chat-avatar mono">kB</div>
-					<div class="chat-who">
-						<strong>Assistente da sua empresa</strong>
-						<span id="chat-status">online</span>
-					</div>
-					<span class="chat-demo mono">demonstração</span>
-				</div>
-				<div class="chat-body" id="hero-chat"></div>
-			</div>
-		</section>
+<section class="block" id="programa">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>O programa, semana a semana</h2>
+      <p>Cada aula mostra os objetivos oficiais do exame que ela cobre, para você acompanhar o que já viu e o que falta.</p>
+    </div>
+    <p class="sum"><span><strong>12</strong> semanas</span><span><strong>24</strong> aulas</span><span><strong>42</strong> objetivos oficiais</span></p>
+    <section class="month" aria-labelledby="mes1">
+<h3 class="month-title" id="mes1"><span class="month-n">Mês 1</span> Sistema, pacotes e linha de comando</h3>
+<ol class="weeks">
+<li class="week"><p class="week-n">Semana 1</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Hardware e processo de boot</p><span class="obj" aria-label="Objetivos 101.1, 101.2">101.1, 101.2</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Boot targets, desligamento e layout de disco</p><span class="obj" aria-label="Objetivos 101.3, 102.1">101.3, 102.1</span></div></li>
+<li class="week"><p class="week-n">Semana 2</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Gerenciador de boot e bibliotecas compartilhadas</p><span class="obj" aria-label="Objetivos 102.2, 102.3">102.2, 102.3</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Pacotes Debian e RPM</p><span class="obj" aria-label="Objetivos 102.4, 102.5">102.4, 102.5</span></div></li>
+<li class="week"><p class="week-n">Semana 3</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Virtualização e a linha de comando</p><span class="obj" aria-label="Objetivos 102.6, 103.1">102.6, 103.1</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Filtros de texto e gerenciamento de arquivos</p><span class="obj" aria-label="Objetivos 103.2, 103.3">103.2, 103.3</span></div></li>
+<li class="week"><p class="week-n">Semana 4</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Pipes, redirecionamento e processos</p><span class="obj" aria-label="Objetivos 103.4, 103.5">103.4, 103.5</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Prioridades de processos e expressões regulares</p><span class="obj" aria-label="Objetivos 103.6, 103.7">103.6, 103.7</span></div></li>
+</ol></section>
+<section class="month" aria-labelledby="mes2">
+<h3 class="month-title" id="mes2"><span class="month-n">Mês 2</span> Discos, permissões, shell e administração</h3>
+<ol class="weeks">
+<li class="week"><p class="week-n">Semana 5</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Editor vi e particionamento de disco</p><span class="obj" aria-label="Objetivos 103.8, 104.1">103.8, 104.1</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Integridade e montagem de sistemas de arquivos</p><span class="obj" aria-label="Objetivos 104.2, 104.3">104.2, 104.3</span></div></li>
+<li class="week"><p class="week-n">Semana 6</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Permissões e propriedade de arquivos</p><span class="obj" aria-label="Objetivos 104.5">104.5</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Links, FHS e localização de arquivos</p><span class="obj" aria-label="Objetivos 104.6, 104.7">104.6, 104.7</span></div></li>
+<li class="marker" role="presentation">Aqui termina o conteúdo do exame <span class="nw">101-500</span>. Daqui em diante, o <span class="nw">102-500</span>.</li>
+<li class="week"><p class="week-n">Semana 7</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Ambiente do shell</p><span class="obj" aria-label="Objetivos 105.1">105.1</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Scripts simples</p><span class="obj" aria-label="Objetivos 105.2">105.2</span></div></li>
+<li class="week"><p class="week-n">Semana 8</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Usuários e grupos</p><span class="obj" aria-label="Objetivos 107.1">107.1</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Agendamento de tarefas e localização</p><span class="obj" aria-label="Objetivos 107.2, 107.3">107.2, 107.3</span></div></li>
+</ol></section>
+<section class="month" aria-labelledby="mes3">
+<h3 class="month-title" id="mes3"><span class="month-n">Mês 3</span> Serviços, rede, segurança e simulados</h3>
+<ol class="weeks">
+<li class="week"><p class="week-n">Semana 9</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Hora do sistema e logs</p><span class="obj" aria-label="Objetivos 108.1, 108.2">108.1, 108.2</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">E-mail (MTA) e impressão</p><span class="obj" aria-label="Objetivos 108.3, 108.4">108.3, 108.4</span></div></li>
+<li class="week"><p class="week-n">Semana 10</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Protocolos de internet e rede persistente</p><span class="obj" aria-label="Objetivos 109.1, 109.2">109.1, 109.2</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Diagnóstico de rede e DNS cliente</p><span class="obj" aria-label="Objetivos 109.3, 109.4">109.3, 109.4</span></div></li>
+<li class="week"><p class="week-n">Semana 11</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Administração de segurança e segurança do host</p><span class="obj" aria-label="Objetivos 110.1, 110.2">110.1, 110.2</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Criptografia de dados: SSH e GPG</p><span class="obj" aria-label="Objetivos 110.3">110.3</span></div></li>
+<li class="week"><p class="week-n">Semana 12</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Interface gráfica, desktops e acessibilidade</p><span class="obj" aria-label="Objetivos 106.1, 106.2, 106.3">106.1, 106.2, 106.3</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Simulados e revisão dos dois exames</p><span class="obj">Revisão</span></div></li>
+</ol></section>
+  </div>
+</section>
 
-		<section class="stats" aria-label="Diferenciais">
-			<div class="stat">
-				<div class="stat-value mono">24/7</div>
-				<div class="stat-label">atendimento sem pausa, inclusive à noite e no fim de semana</div>
-			</div>
-			<div class="stat">
-				<div class="stat-value mono">segundos</div>
-				<div class="stat-label">para a primeira resposta, sem fila de espera</div>
-			</div>
-			<div class="stat">
-				<div class="stat-value mono">3 canais</div>
-				<div class="stat-label">WhatsApp, Instagram e chat no site, num fluxo só</div>
-			</div>
-			<div class="stat">
-				<div class="stat-value mono">humano</div>
-				<div class="stat-label">no controle: a sua equipe assume a conversa quando quiser</div>
-			</div>
-		</section>
+<section class="block" id="instrutor">
+  <div class="wrap who">
+    <h2>Quem ensina</h2>
+    <div>
+      <p>Daniel Pereira é engenheiro de sistemas e fundador da KernelBase. Ele mantém a tradução para português brasileiro da documentação do Kernel Linux e a localização pt_BR do Git.</p>
+      <p>Esse trabalho é público: o guia de como contribuir com o Kernel, os patches recentes e o código do site estão abertos para qualquer pessoa ver.</p>
+      <div class="who-links">
+        <a class="btn btn-ghost btn-sm" href="kernel.html#docs">Documentação do Kernel</a>
+        <a class="btn btn-ghost btn-sm" href="kernel.html#patches">Patches recentes</a>
+        <a class="btn btn-ghost btn-sm" href="https://github.com/Daniel-Pereira-Linux/kernel-docs-br" target="_blank" rel="noopener">Código no GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-		<!-- como funciona -->
-		<section class="home-section" id="como-funciona">
-			<div class="eyebrow">// automação de atendimento</div>
-			<h2 class="h2">Um assistente que conhece o seu negócio</h2>
-			<p class="section-sub">Nada de robô engessado com menu de opções. O assistente entende o que o cliente escreve, responde com base nas informações da sua empresa e executa tarefas de verdade.</p>
+<section class="block" id="duvidas">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Dúvidas frequentes</h2>
+      <p>Não achou a sua? Pergunte pelo WhatsApp.</p>
+    </div>
+    <div class="faq">
+      <details><summary>Quantas provas tem a <span class="nw">LPIC-1</span>?</summary><p>Duas: a <span class="nw">101-500</span> e a <span class="nw">102-500</span>. Para ganhar a certificação, você precisa passar nas duas, em qualquer ordem, dentro de um prazo de 5 anos.</p></details>
+      <details><summary>Onde faço as provas?</summary><p>Em centros de testes da Pearson VUE ou online, com supervisão (OnVUE).</p></details>
+      <details><summary>Preciso de alguma certificação antes?</summary><p>Não. A <span class="nw">LPIC-1</span> é o primeiro nível da trilha Linux do LPI.</p></details>
+      <details><summary>Qual é o horário das aulas?</summary><p>Todas as sextas e todos os sábados, às 20h, no horário de Brasília.</p></details>
+      <details><summary>Quando começa a próxima turma e quanto custa?</summary><p>As datas e os valores são enviados pelo WhatsApp. Chame a KernelBase e peça as informações da turma.</p></details>
+    </div>
+  </div>
+</section>
 
-			<div class="svc-grid">
-				<article class="svc-card reveal featured">
-					<div class="svc-icon">💬</div>
-					<h3>Todos os canais num só lugar</h3>
-					<p>WhatsApp, Instagram e chat no site atendidos pelo mesmo assistente, com o histórico de cada cliente organizado.</p>
-					<div class="tags"><span>WhatsApp</span><span>Instagram</span><span>site</span></div>
-				</article>
-				<article class="svc-card reveal">
-					<div class="svc-icon">📚</div>
-					<h3>Respostas com o seu conteúdo</h3>
-					<p>Treinado com seus preços, catálogo, políticas e perguntas frequentes. Ele responde o que a sua empresa responderia, e não inventa.</p>
-					<div class="tags"><span>FAQ</span><span>catálogo</span><span>políticas</span></div>
-				</article>
-				<article class="svc-card reveal">
-					<div class="svc-icon">📅</div>
-					<h3>Agendamentos e pedidos</h3>
-					<p>Marca horários, consulta disponibilidade, registra pedidos e envia confirmações, direto nos sistemas que você já usa.</p>
-					<div class="tags"><span>agenda</span><span>pedidos</span><span>lembretes</span></div>
-				</article>
-				<article class="svc-card reveal">
-					<div class="svc-icon">🎯</div>
-					<h3>Qualificação de clientes</h3>
-					<p>Faz as perguntas certas, identifica quem está pronto para comprar e entrega o contato qualificado para o seu time comercial ou CRM.</p>
-					<div class="tags"><span>leads</span><span>CRM</span><span>vendas</span></div>
-				</article>
-				<article class="svc-card reveal">
-					<div class="svc-icon">🙋</div>
-					<h3>Passagem para humano</h3>
-					<p>Quando o assunto pede uma pessoa, a conversa vai para a sua equipe com todo o contexto, sem o cliente repetir nada.</p>
-					<div class="tags"><span>handoff</span><span>contexto</span><span>equipe</span></div>
-				</article>
-				<article class="svc-card reveal">
-					<div class="svc-icon">📊</div>
-					<h3>Relatórios e melhoria contínua</h3>
-					<p>Veja o que os clientes mais perguntam, onde a conversa trava e o que pode ser automatizado a seguir. Ajustamos junto com você.</p>
-					<div class="tags"><span>métricas</span><span>ajustes</span><span>suporte</span></div>
-				</article>
-			</div>
-		</section>
-
-		<!-- para quem -->
-		<section class="home-section split" id="para-quem">
-			<div>
-				<div class="eyebrow">// para quem é</div>
-				<h2 class="h2">Para empresas que não podem deixar cliente esperando</h2>
-				<p class="section-sub">Se o seu time passa o dia respondendo as mesmas perguntas, ou se mensagens ficam sem resposta fora do horário comercial, a automação paga a conta.</p>
-				<ul class="checklist">
-					<li>Assistente configurado com a linguagem e o tom da sua marca</li>
-					<li>Integração com agenda, ERP, CRM e planilhas que você já usa</li>
-					<li>Dados tratados com cuidado e em conformidade com a LGPD</li>
-					<li>Infraestrutura Linux operada por quem entende do assunto</li>
-				</ul>
-				<div class="cta-row">
-					<a href="#contato" class="btn primary" data-wa="Olá! Quero automatizar o atendimento da minha empresa.">Conversar no WhatsApp →</a>
-				</div>
-			</div>
-			<div class="track">
-				<div class="track-step reveal">
-					<span class="track-code mono">clínicas e consultórios</span>
-					<strong>Agendamento, confirmação e lembrete de consultas</strong>
-				</div>
-				<div class="track-step reveal">
-					<span class="track-code mono">lojas e e-commerce</span>
-					<strong>Dúvidas sobre produtos, status de pedido e trocas</strong>
-				</div>
-				<div class="track-step reveal">
-					<span class="track-code mono">prestadores de serviço</span>
-					<strong>Orçamentos, qualificação e agendamento de visitas</strong>
-				</div>
-				<div class="track-step reveal">
-					<span class="track-code mono">provedores e suporte de TI</span>
-					<strong>Triagem de chamados, segunda via e diagnóstico inicial</strong>
-				</div>
-			</div>
-		</section>
-
-		<!-- processo -->
-		<section class="home-section" id="processo">
-			<div class="eyebrow">// como trabalhamos</div>
-			<h2 class="h2">Do primeiro contato ao assistente no ar</h2>
-			<div class="steps">
-				<div class="step reveal"><span class="step-n mono">01</span><h3>Diagnóstico</h3><p>Mapeamos como seus clientes chegam, o que perguntam e onde o atendimento trava hoje.</p></div>
-				<div class="step reveal"><span class="step-n mono">02</span><h3>Desenho dos fluxos</h3><p>Definimos o que o assistente resolve sozinho, o que vai para a equipe e com quais sistemas ele conversa.</p></div>
-				<div class="step reveal"><span class="step-n mono">03</span><h3>Implantação</h3><p>Configuramos canais, integrações e conteúdo, e testamos com conversas reais antes de ligar.</p></div>
-				<div class="step reveal"><span class="step-n mono">04</span><h3>Acompanhamento</h3><p>Monitoramos as conversas, ajustamos respostas e ampliamos a automação conforme o resultado.</p></div>
-			</div>
-		</section>
-
-		<!-- outros serviços -->
-		<section class="home-section" id="servicos">
-			<div class="eyebrow">// também fazemos</div>
-			<h2 class="h2">Engenharia e formação Linux</h2>
-			<p class="section-sub">A base técnica por trás das nossas automações também está disponível como serviço.</p>
-			<div class="mini-grid">
-				<article class="mini-card reveal">
-					<h3>🎓 Aulas LPIC-1 e LPIC-2</h3>
-					<p>Aulas particulares ao vivo, com plano de estudo sob medida para os exames 101/102 e 201/202.</p>
-				</article>
-				<article class="mini-card reveal">
-					<h3>🔎 Consultoria Linux</h3>
-					<p>Performance, troubleshooting de kernel e drivers, hardening e padronização de servidores.</p>
-				</article>
-				<article class="mini-card reveal">
-					<h3>🖥️ Metal as a Service</h3>
-					<p>Servidores físicos provisionados como nuvem: PXE, IPMI/Redfish e deploy de SO sob demanda.</p>
-				</article>
-				<article class="mini-card reveal">
-					<h3>⚙️ Automação com Ansible</h3>
-					<p>Playbooks e roles idempotentes para uma infraestrutura reproduzível e versionada no Git.</p>
-				</article>
-			</div>
-		</section>
-
-		<!-- open source -->
-		<section class="home-section" id="comunidade">
-			<div class="community">
-				<div>
-					<div class="eyebrow">// open source</div>
-					<h2 class="h2">Documentação aberta do Kernel Linux</h2>
-					<p class="section-sub">Mantemos, de graça e em português, o guia de como contribuir com a documentação do Kernel Linux, além do acompanhamento dos patches pt_BR. Daniel Pereira, fundador da KernelBase, é o mantenedor da tradução pt_BR do Kernel Linux.</p>
-					<div class="cta-row">
-						<a href="#docs" class="btn primary" data-tab="docs">Abrir a Documentação</a>
-						<a href="#patches" class="btn" data-tab="patches">Patches</a>
-						<a href="https://github.com/Daniel-Pereira-Linux/kernel-docs-br" class="btn" target="_blank" rel="noopener">GitHub ↗</a>
-					</div>
-				</div>
-				<pre class="community-code mono"><span class="c">$</span> git clone --branch docs-next \
-    git://git.lwn.net/linux.git
-<span class="c">$</span> git commit -s
-<span class="c">$</span> git send-email --to=linux-doc@vger.kernel.org
-<span class="ok">Result: 250</span></pre>
-			</div>
-		</section>
-
-		<!-- contato -->
-		<section class="home-section" id="contato">
-			<div class="contact">
-				<div class="contact-copy">
-					<div class="eyebrow">// contato</div>
-					<h2 class="h2">Vamos colocar seu atendimento no automático?</h2>
-					<p class="section-sub">Conte como funciona o seu atendimento hoje. A gente responde com uma proposta de automação para o seu caso.</p>
-					<ul class="contact-list">
-						<li><span class="mono accent">whatsapp</span> <a href="#contato" data-wa="Olá! Vim pelo site da KernelBase.">(83) 93300-3583</a></li>
-						<li><span class="mono accent">email</span> <a id="contact-email-link" href="#"></a></li>
-						<li><span class="mono accent">site</span> kernelbase.com.br</li>
-						<li><span class="mono accent">atendimento</span> remoto, em todo o Brasil</li>
-					</ul>
-				</div>
-				<form class="contact-form" id="contact-form">
-					<label>Nome<input name="nome" required autocomplete="name"></label>
-					<label>Interesse
-						<select name="interesse" id="contact-interest">
-							<option>Automação de atendimento</option>
-							<option>Outras automações com IA</option>
-							<option>Aulas LPIC-1 / LPIC-2</option>
-							<option>Consultoria Linux</option>
-							<option>Metal as a Service</option>
-							<option>Automação com Ansible</option>
-							<option>Outro assunto</option>
-						</select>
-					</label>
-					<label>Mensagem<textarea name="mensagem" rows="4" required placeholder="Ex.: recebemos 200 mensagens por dia no WhatsApp, a maioria pedindo horário..."></textarea></label>
-					<button type="submit" class="btn primary btn-lg">Enviar pelo WhatsApp →</button>
-					<p class="form-note">Ao enviar, o WhatsApp abre com a sua mensagem pronta.</p>
-				</form>
-			</div>
-		</section>
-	</div>
-
-	<!-- ===================== DOCUMENTAÇÃO ===================== -->
-	<div id="docs" class="tab-content">
-		<div class="section-title">Documentação</div>
-		<div class="section-lede">Passo a passo completo para contribuir com traduções de documentação para o Kernel Linux.</div>
-		<div class="banner-card open" id="kernel-banner">
-			<div class="banner-title" id="banner-title"><span class="pulse"></span>Carregando status do kernel...</div>
-			<div class="banner-desc" id="banner-desc">Buscando a versão mainline mais recente em kernel.org.</div>
-			<div class="releases-toggle" id="releases-toggle">▸ ver todas as versões (mainline, stable, longterm)</div>
-			<table class="releases-table" id="releases-table">
-				<thead><tr><th>Tipo</th><th>Versão</th><th>Data</th><th>Links</th></tr></thead>
-				<tbody id="releases-tbody"></tbody>
-			</table>
-		</div>
-		<div class="prose">
-<h1>Pré-requisitos</h1>
-<p>É preciso instalar algumas dependências para conseguir contribuir:</p>
-<p>Debian:</p>
-<pre><code class="language-bash">sudo apt update
-
-sudo apt install \
-  git \
-  git-email \
-  perl \
-  make \
-  python3
-
-sudo apt install \
-  python3-pip \
-  python3-venv
-</code></pre>
-<p>Fedora:</p>
-<pre><code class="language-bash">sudo dnf install \
-  git \
-  git-email \
-  perl \
-  make \
-  python3
-
-sudo dnf install \
-  python3-pip
-</code></pre>
-<p>Verifique:</p>
-<pre><code class="language-bash">git --version
-git send-email --help
-perl --version
-python3 --version
-</code></pre>
-<h2>Primeiro passo: preparar o ambiente</h2>
-<p>Verificar instalação:</p>
-<pre><code class="language-bash">git send-email --help
-</code></pre>
-<p>Configure a sua identidade:</p>
-<pre><code class="language-bash">git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
-</code></pre>
-<p>Configurando SMTP:</p>
-<pre><code class="language-bash">git config --global sendemail.smtpserver smtp.gmail.com
-git config --global sendemail.smtpserverport 587
-git config --global sendemail.smtpencryption tls
-git config --global sendemail.smtpuser seuemail@gmail.com
-</code></pre>
-<p>Pode-se adicionar:</p>
-<pre><code class="language-bash">git config --global sendemail.assume8bitEncoding UTF-8
-</code></pre>
-<p>Isso evitará que todas as vezes seja perguntado sobre o encoding em patches com acento, etc.</p>
-<p>Verifique:</p>
-<pre><code class="language-bash">cat ~/.gitconfig
-</code></pre>
-<p>Você deve ter algo assim:</p>
-<pre><code class="language-bash">[user]
-    email = seuemail@gmail.com
-    name = seu nome
-[sendemail]
-    smtpServer = smtp.gmail.com
-    smtpServerPort = 587
-    smtpEncryption = tls
-    smtpUser = seuemail@gmail.com
-</code></pre>
-<p>Essa parte é muito importante, pois é por meio do email que iremos enviar os nossos patches.</p>
-<h3>Gerando senha de app (Gmail)</h3>
-<p>Para autenticar no Gmail, uma opção simples é utilizar uma senha de app. Para gerá-la, a conta Google deve estar com a verificação em duas etapas ativada. OAuth2 também pode ser utilizado.</p>
-<p><a href="https://support.google.com/mail/answer/185833?hl=pt-br" target="_blank" rel="noopener">support.google.com/mail/answer/185833</a></p>
-<p>A senha de app será utilizada pelo <code>git send-email</code> na autenticação SMTP quando solicitada.</p>
-<h3>Clonando</h3>
-<p>Com a configuração acima realizada, podemos realizar o clone do kernel para começar a tradução:</p>
-<pre><code class="language-bash">git clone \
-  --branch docs-next \
-  --single-branch \
-  git://git.lwn.net/linux.git \
-  linux-docs
-</code></pre>
-<p>O <code>--single-branch</code> limita o clone à branch <code>docs-next</code>, evitando buscar as demais branches do repositório.</p>
-<pre><code class="language-bash">cd linux-docs/
-</code></pre>
-<pre><code class="language-bash">git switch -c nomeDaSuaBranch
-</code></pre>
-<p>Após criar sua branch de trabalho, edite apenas os arquivos necessários para a contribuição, por exemplo:</p>
-<pre><code class="language-bash">Documentation/translations/pt_BR/process/index.rst
-Documentation/translations/pt_BR/process/volatile-considered-harmful.rst
-</code></pre>
-<h3>Pós clone</h3>
-<p>Crie um ambiente virtual Python na raiz do kernel (usado apenas para gerar a documentação em HTML com Sphinx):</p>
-<pre><code class="language-bash">python3 -m venv .venv-sphinx
-source .venv-sphinx/bin/activate
-python -m pip install --upgrade pip
-</code></pre>
-<p>Instalar dependências faltantes:</p>
-<pre><code class="language-bash">pip install -r Documentation/sphinx/requirements.txt
-pip install ply
-</code></pre>
-<h3>Pós tradução</h3>
-<p>Revise as alterações realizadas:</p>
-<pre><code class="language-bash">git diff
-</code></pre>
-<p>Revise se há problemas como espaço em branco:</p>
-<pre><code class="language-bash">git diff --check
-</code></pre>
-<p>O comando <code>git diff --check</code> não deve retornar nenhuma mensagem.</p>
-<p>Adicione somente os arquivos modificados que fazem parte do patch:</p>
-<pre><code class="language-bash">git add \
-  Documentation/translations/pt_BR/process/index.rst \
-  Documentation/translations/pt_BR/process/volatile-considered-harmful.rst
-</code></pre>
-<p>Evite usar <code>git add .</code></p>
-<p>Revisar conteúdo em staging:</p>
-<pre><code class="language-bash">git diff --cached
-git diff --cached --check
-</code></pre>
-<p>Criar commit:</p>
-<pre><code class="language-bash">git commit -s
-</code></pre>
-<p>Revisar:</p>
-<pre><code class="language-bash">git show HEAD
-git show --check HEAD
-</code></pre>
-<p>O summary deve ser curto e descritivo, com aproximadamente 70–75 caracteres no máximo. O corpo da mensagem deve ser quebrado em aproximadamente 75 colunas.</p>
-<pre><code class="language-bash">docs: translations: pt_BR: translate volatile-considered-harmful.rst
-
-Translate volatile-considered-harmful.rst into Brazilian Portuguese and
-add it to the pt_BR process documentation index.
-
-Assisted-by: LLM
-Signed-off-by: Seu Nome &lt;seu-email@example.com&gt;
-</code></pre>
-<p>Essa primeira linha será o subject do email.</p>
-<p>Para validar ou corrigir a mensagem:</p>
-<pre><code class="language-bash">git commit --amend
-</code></pre>
-<p>Verificando:</p>
-<pre><code class="language-bash">git log -1 --format=full
-</code></pre>
-<h4>Testando a documentação</h4>
-<pre><code class="language-bash">make htmldocs
-</code></pre>
-<p><em>Opcionalmente:</em></p>
-<pre><code class="language-bash">make pdfdocs
-</code></pre>
-<h4>Criando patch</h4>
-<pre><code class="language-bash">rm -rf /tmp/volatile-patch
-mkdir -p /tmp/volatile-patch
-</code></pre>
-<pre><code class="language-bash">git format-patch -1 HEAD -o /tmp/volatile-patch
-</code></pre>
-<p>Isso criaria algo assim:</p>
-<pre><code class="language-bash">/tmp/volatile-patch/0001-docs-translations-pt_BR-translate-volatile-considere.patch
-</code></pre>
-<p>Lendo seu patch (antes de enviar):</p>
-<pre><code class="language-bash">cat /tmp/volatile-patch/0001-*.patch
-
-# ou
-git format-patch -1 HEAD --stdout | less
-</code></pre>
-<p>Rode o script sobre o patch que será enviado:</p>
-<pre><code class="language-bash">./scripts/checkpatch.pl --strict \
-  /tmp/volatile-patch/0001-*.patch
-</code></pre>
-<h3>Se preparando para envio do patch</h3>
-<p>Descobrindo os destinatários:</p>
-<pre><code class="language-bash">./scripts/get_maintainer.pl \
-  /tmp/volatile-patch/0001-*.patch
-</code></pre>
-<p>Exemplo:</p>
-<pre><code>Daniel Pereira (maintainer:PORTUGUESE (BRAZILIAN) TRANSLATION)
-Jonathan Corbet (maintainer:DOCUMENTATION)
-Shuah Khan (reviewer:DOCUMENTATION)
-Randy Dunlap (reviewer:DOCUMENTATION)
-linux-doc@vger.kernel.org (open list)
-linux-kernel@vger.kernel.org (open list)
-</code></pre>
-<p>O script pode retornar mais pessoas do que as que é preciso; para isso, priorize o envio para:<br>
-1. mantenedor específico;<br>
-2. mantenedores do subsistema;<br>
-3. reviewers indicados;<br>
-4. mailing lists relevantes.</p>
-<p>Normalmente:<br>
-— mantenedores diretamente responsáveis vão em <strong>To</strong>;<br>
-— reviewers e demais interessados vão em <strong>Cc</strong>;<br>
-— as mailing lists relevantes também devem ser incluídas.</p>
-<p>Não envie para pessoas ou listas sem relação com o patch.</p>
-<p>Testando o envio:</p>
-<pre><code class="language-bash">git send-email \
-  --dry-run \
-  --confirm=always \
-  --to="Daniel Pereira &lt;danielmaraboo@gmail.com&gt;" \
-  --to="Jonathan Corbet &lt;corbet@lwn.net&gt;" \
-  --cc="Shuah Khan &lt;skhan@linuxfoundation.org&gt;" \
-  --cc="Randy Dunlap &lt;rdunlap@infradead.org&gt;" \
-  --cc="linux-doc@vger.kernel.org" \
-  --cc="linux-kernel@vger.kernel.org" \
-  --cc="Seu Nome &lt;seu-email@example.com&gt;" \
-  /tmp/volatile-patch/0001-*.patch
-</code></pre>
-<p>No dry-run nenhum email é enviado; o que esperamos com esse teste é um retorno <code>Result: OK</code>. Também confira:</p>
-<pre><code class="language-bash">From:
-To:
-Cc:
-Subject:
-</code></pre>
-<p>Pode aparecer:</p>
-<pre><code class="language-bash">The following files are 8bit, but do not declare a Content-Transfer-Encoding.
-
-Declare which 8bit encoding to use [default: UTF-8]?
-</code></pre>
-<p>Caso <code>sendemail.assume8bitEncoding</code> não esteja configurado, o Git pode solicitar o encoding ao encontrar caracteres não ASCII. Nesse caso, pressione <code>ENTER</code> para aceitar o padrão UTF-8.</p>
-<h3>Envio real!!</h3>
-<pre><code class="language-bash">git send-email \
-  --confirm=always \
-  --to="Daniel Pereira &lt;danielmaraboo@gmail.com&gt;" \
-  --to="Jonathan Corbet &lt;corbet@lwn.net&gt;" \
-  --cc="Shuah Khan &lt;skhan@linuxfoundation.org&gt;" \
-  --cc="Randy Dunlap &lt;rdunlap@infradead.org&gt;" \
-  --cc="linux-doc@vger.kernel.org" \
-  --cc="linux-kernel@vger.kernel.org" \
-  --cc="Seu Nome &lt;seu-email@example.com&gt;" \
-  /tmp/volatile-patch/0001-*.patch
-</code></pre>
-<p>Quando aparecer:</p>
-<pre><code class="language-bash">Send this email? ([y]es|[n]o|[e]dit|[q]uit|[a]ll):
-</code></pre>
-<p>Confira:</p>
-<pre><code class="language-bash">To
-Cc
-Subject
-</code></pre>
-<p>Estando correto: <code>y</code></p>
-<p>Um envio bem-sucedido retorna: <code>Result: 250</code></p>
-<h5>Detalhes</h5>
-<ol>
-<li>Salve o message-ID:</li>
-</ol>
-<pre><code>&lt;20260830205912.478358-1-lucasadramalho@gmail.com&gt;
-</code></pre>
-<p>Isso será importante para você conseguir acompanhar pela lore.kernel.org e referenciar patches antigos em V2, V3 etc. Exemplo de como o link ficaria:</p>
-<pre><code class="language-bash">https://lore.kernel.org/all/20260830205912.478358-1-lucasadramalho@gmail.com/
-</code></pre>
-<p>Importante notar que o corpo deve ser quebrado em aproximadamente 75 colunas.</p>
-<hr>
-<h3>Enviando V != 1</h3>
-<p>Não é preciso criar um novo commit para revisões simples do mesmo patch:</p>
-<pre><code class="language-bash">git add arquivo
-</code></pre>
-<pre><code class="language-bash">git commit --amend
-</code></pre>
-<p>Caso alguém responda com <code>Reviewed-by</code>, preserve os <code>trailers</code>:</p>
-<pre><code class="language-bash">Assisted-by: ...
-Reviewed-by: Reviewer &lt;reviewer@example.com&gt;
-Signed-off-by: Seu Nome &lt;seu-email@example.com&gt;
-</code></pre>
-<p><strong>OBS.:</strong> Se uma nova versão alterar substancialmente o patch, trailers como <code>Reviewed-by:</code>, <code>Tested-by:</code> e <code>Acked-by:</code> podem deixar de ser aplicáveis. Remova os trailers cuja revisão, teste ou aprovação tenha sido invalidada e mencione a remoção no changelog da nova versão.</p>
-<h4>Gerando V2</h4>
-<pre><code class="language-bash">rm -rf /tmp/volatile-v2
-mkdir -p /tmp/volatile-v2
-</code></pre>
-<pre><code class="language-bash">git format-patch \
-  -v2 \
-  -1 HEAD \
-  -o /tmp/volatile-v2
-</code></pre>
-<h4>Adicionando changelog</h4>
-<pre><code class="language-bash">vim /tmp/volatile-v2/v2-0001-*.patch
-</code></pre>
-<p>Procure por:</p>
-<pre><code class="language-bash">Signed-off-by: ...
----
- diffstat...
-</code></pre>
-<p>Adicione depois dos <code>---</code>:</p>
-<pre><code class="language-bash">---
-Changes in v2:
-- Address review comments from Reviewer Name.
-- Fix terminology in the translated text.
-- Fix indentation in the process index.
-
-v1: https://lore.kernel.org/r/MESSAGE-ID-DA-V1
-</code></pre>
-<p>O conteúdo após <code>---</code> não faz parte do commit final aplicado. Isso garante que não entre no histórico de commits, poluindo-o sem necessidade.</p>
-<p>Changelog não pertence ao commit.</p>
-<hr>
-<h5>Extras</h5>
-<h4>Verificando atualização da tradução</h4>
-<p>Para verificar se a tradução está sincronizada com sua versão original:</p>
-<pre><code class="language-bash">tools/docs/checktransupdate.py \
-  Documentation/translations/pt_BR/process/volatile-considered-harmful.rst
-</code></pre>
-<hr>
-<h2>Checklist V1</h2>
-<pre><code class="language-bash">[ ] branch criada a partir da árvore correta
-[ ] alterações revisadas
-[ ] git diff --check
-[ ] make htmldocs
-[ ] checktransupdate.py, quando aplicável
-[ ] git add somente dos arquivos corretos
-[ ] git diff --cached
-[ ] git diff --cached --check
-[ ] git commit -s
-[ ] Signed-off-by presente
-[ ] git show --check HEAD
-[ ] git format-patch
-[ ] patch revisado com less/cat
-[ ] checkpatch.pl --strict
-[ ] get_maintainer.pl
-[ ] To e Cc revisados
-[ ] git send-email --dry-run
-[ ] Subject revisado
-[ ] encoding UTF-8 correto
-[ ] Result: OK no dry-run
-[ ] envio real
-[ ] Result: 250
-[ ] Message-ID salvo
-[ ] link do lore salvo
-</code></pre>
-<h2>Checklist V != 1</h2>
-<pre><code>[ ] review lido
-[ ] alterações feitas
-[ ] trailers recebidos adicionados
-[ ] git commit --amend
-[ ] testes repetidos
-[ ] git format-patch -vN
-[ ] Changes in vN adicionado após ---
-[ ] Link to vN-1 adicionado
-[ ] checkpatch.pl
-[ ] dry-run
-[ ] envio real
-[ ] novo Message-ID salvo
-</code></pre>
-<hr>
-		</div>
-	</div>
-
-	<div id="patches" class="tab-content">
-		<div class="section-title">Patches</div>
-		<div class="section-lede">Patches recentes da lista <a href="https://lore.kernel.org/linux-doc/?q=pt_BR" target="_blank" rel="noopener">linux-doc (pt_BR)</a> no lore.kernel.org. Atualizado periodicamente.</div>
-		<div id="patch-list-wrap">
-			<div class="patch-toolbar">
-				<input type="text" id="search-input" class="search-box" placeholder="Buscar por título, autor ou conteúdo..." oninput="filterPatches()">
-			</div>
-			<div class="patch-count" id="patch-count"></div>
-			<div class="loading" id="patches-loading" style="display:none;">Carregando patches<span class="spinner"></span></div>
-			<ul class="patch-list" id="patch-list"></ul>
-		</div>
-		<div id="patch-viewer">
-			<div class="viewer-head">
-				<h3 id="viewer-title"></h3>
-				<div style="display:flex; gap:8px;">
-					<a id="viewer-lore-link" class="btn" href="#" target="_blank" rel="noopener">Ver no Lore ↗</a>
-					<button class="btn" onclick="closePatch()">Fechar</button>
-				</div>
-			</div>
-			<div class="viewer-meta" id="viewer-meta"></div>
-			<div class="patch-content" id="viewer-content"></div>
-		</div>
-	</div>
+<section class="block final" id="entrar">
+  <div class="wrap">
+    <h2>Entre na próxima turma</h2>
+    <p>Chame no WhatsApp para saber a data de início, o valor e como garantir o seu lugar.</p>
+    <div class="cta-row">
+      <a class="btn" href="https://wa.me/5583933003583?text=Ol%C3%A1%21%20Quero%20saber%20da%20pr%C3%B3xima%20turma%20do%20curso%20LPIC-1%20da%20KernelBase." target="_blank" rel="noopener">Falar no WhatsApp</a>
+    </div>
+    <p class="alt">Prefere e-mail? Escreva para <a class="txt" href="mailto:danielmaraboo@gmail.com">danielmaraboo@gmail.com</a>.</p>
+  </div>
+</section>
 
 </main>
 
-<footer class="site-footer">
-	<div class="footer-inner">
-		<div class="footer-brand">
-			<strong>kernelBase</strong>
-			<p>KernelBase Tecnologia LTDA. Automação de atendimento com IA para WhatsApp, Instagram e site, além de engenharia e formação Linux.</p>
-		</div>
-		<div class="footer-links">
-			<div class="footer-col">
-				<h4>Empresa</h4>
-				<a href="#como-funciona" data-tab="home" data-scroll="como-funciona">Automação de atendimento</a>
-				<a href="#servicos" data-tab="home" data-scroll="servicos">Outros serviços</a>
-				<a href="#contato" data-tab="home" data-scroll="contato">Contato</a>
-			</div>
-			<div class="footer-col">
-				<h4>Open source</h4>
-				<a href="#docs" data-tab="docs">Documentação</a>
-				<a href="#patches" data-tab="patches">Patches</a>
-			</div>
-			<div class="footer-col">
-				<h4>Comunidade</h4>
-				<a href="https://lore.kernel.org/linux-doc/" target="_blank" rel="noopener">Lista linux-doc</a>
-				<a href="https://kernelnewbies.org/" target="_blank" rel="noopener">Kernel Newbies</a>
-			</div>
-			<div class="footer-col">
-				<h4>Projeto</h4>
-				<a href="https://github.com/Daniel-Pereira-Linux/kernel-docs-br" target="_blank" rel="noopener">Código-fonte</a>
-				<a href="https://github.com/Daniel-Pereira-Linux/kernel-docs-br/issues" target="_blank" rel="noopener">Reportar problema</a>
-			</div>
-		</div>
-	</div>
-	<div class="footer-bottom">© <span id="year">2026</span> KernelBase Tecnologia LTDA · dados ao vivo de kernel.org e lore.kernel.org</div>
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <p><strong>KernelBase</strong><br>Curso de <span class="nw">LPIC-1</span> e documentação aberta do Kernel Linux.</p>
+      <nav aria-label="Rodapé">
+        <a href="#programa">Programa</a>
+        <a href="kernel.html#docs">Documentação do Kernel</a>
+        <a href="kernel.html#patches">Patches</a>
+        <a href="https://github.com/Daniel-Pereira-Linux/kernel-docs-br" target="_blank" rel="noopener">Código-fonte</a>
+        <a href="https://github.com/Daniel-Pereira-Linux/kernel-docs-br/issues" target="_blank" rel="noopener">Reportar problema</a>
+      </nav>
+    </div>
+    <p class="legal">LPI e <span class="nw">LPIC-1</span> são marcas do Linux Professional Institute. © 2026 KernelBase.</p>
+  </div>
 </footer>
 
-<a class="wa-float" href="#contato" data-wa="Olá! Vim pelo site da KernelBase." aria-label="Falar no WhatsApp" title="Falar no WhatsApp">
-	<svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-2.1 0-4.1-.6-5.9-1.7l-.4-.3-3.8 1.2 1.2-3.7-.3-.4a10.4 10.4 0 0 1-1.6-5.6C5.2 10 10 5.3 16 5.3S26.8 10 26.8 15.8 22 26.4 16 26.4zm5.9-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.7s1.2 3.2 1.4 3.4c.2.2 2.4 3.6 5.8 5 .8.4 1.4.6 1.9.7.8.3 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
-</a>
-
-<script src="js/app.js?v=20261002b" defer></script>
+<script>
+(function(){
+  var t=document.querySelector('.term'); if(!t) return;
+  var lines=[].slice.call(t.querySelectorAll('.ln'));
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    lines.forEach(function(l){l.classList.add('on')}); return;
+  }
+  lines.forEach(function(l,i){ setTimeout(function(){l.classList.add('on')}, 500 + i*480); });
+})();
+</script>
 </body>
 </html>

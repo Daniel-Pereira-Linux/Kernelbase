@@ -2,6 +2,13 @@
 
 Site: **[kernelbase.com.br](https://kernelbase.com.br)**
 
+A KernelBase oferece um curso de LPIC-1 em 3 meses (todo o conteúdo dos exames
+101-500 e 102-500, aulas às sextas e sábados às 20h). A página inicial
+(`index.html`) apresenta o curso. A central de documentação do Kernel Linux
+continua no ar em `kernel.html`.
+
+## Documentação do Kernel
+
 Central de documentação em português para contribuir com o Kernel Linux —
 um guia prático de como traduzir, revisar e enviar patches de documentação
 via `git send-email`, além de acompanhar patches recentes da lista
@@ -10,9 +17,11 @@ via `git send-email`, além de acompanhar patches recentes da lista
 ## Estrutura
 
 ```
-index.html               página única (docs / patches / notícias)
+index.html               página do curso LPIC-1 (landing)
+kernel.html              documentação do Kernel, patches e status (abas)
+lab.html                 página do laboratório
 css/style.css             estilos e temas
-js/app.js                 interatividade (abas, temas, busca, dados)
+js/app.js                 interatividade de kernel.html (abas, temas, busca, dados)
 kernel-releases.json      status atual do kernel (kernel.org)
 patches.json               patches recentes (lore.kernel.org, lista linux-doc)
 news.json                   notícias traduzidas (Phoronix, LWN, Planet Kernel, ...)
@@ -20,7 +29,7 @@ scripts/                    scripts Python que alimentam os JSON acima
 .github/workflows/sync.yml  atualiza os JSON automaticamente a cada 30 min
 ```
 
-O site é 100% estático (HTML/CSS/JS puro, sem build step) e hospedado via
+O site é 100% estático (HTML/CSS/JS puro, sem build step; a landing é um único `index.html` com CSS e JS embutidos) e hospedado via
 GitHub Pages a partir da branch `gh-pages`. Os três arquivos `.json` na raiz
 são lidos diretamente pelo `js/app.js` no navegador.
 

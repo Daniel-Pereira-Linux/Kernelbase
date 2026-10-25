@@ -138,12 +138,8 @@
 	const TABS = ['home', 'docs', 'patches'];
 	// hash da URL -> [aba, seção para rolar]
 	const HASH_ROUTES = {
-		'': ['home'], inicio: ['home'],
+		'': ['docs'], inicio: ['docs'],
 		docs: ['docs'], patches: ['patches'],
-		'como-funciona': ['home', 'como-funciona'], 'para-quem': ['home', 'para-quem'],
-		servicos: ['home', 'servicos'],
-		processo: ['home', 'processo'], comunidade: ['home', 'comunidade'],
-		contato: ['home', 'contato'],
 	};
 
 	function showTab(tabName, scrollTo) {
@@ -171,7 +167,7 @@
 	window.showTab = showTab;
 
 	function routeFromHash() {
-		const route = HASH_ROUTES[location.hash.slice(1)] || ['home'];
+		const route = HASH_ROUTES[location.hash.slice(1)] || ['docs'];
 		showTab(route[0], route[1]);
 	}
 
