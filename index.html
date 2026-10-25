@@ -5,129 +5,181 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script>document.documentElement.className+=' js';</script>
 <title>KernelBase: curso de LPIC-1 em 3 meses</title>
-<meta name="description" content="Curso de LPIC-1 em 3 meses: todo o conteúdo dos exames 101-500 e 102-500, em 24 aulas, toda sexta e sábado às 20h (horário de Brasília).">
+<meta name="description" content="Curso de LPIC-1 em 3 meses com Daniel Pereira, mantenedor da tradução pt_BR do Kernel Linux. Todo o conteúdo dos exames 101-500 e 102-500, em 24 aulas, toda sexta e sábado às 20h.">
 <meta property="og:title" content="KernelBase: curso de LPIC-1 em 3 meses">
 <meta property="og:description" content="Todo o conteúdo dos exames 101-500 e 102-500 da LPIC-1, em 24 aulas, toda sexta e sábado às 20h.">
 <meta property="og:url" content="https://kernelbase.com.br/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
-<meta name="theme-color" content="#F1F3EE">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%232547F0'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#090C24">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2322E5F0'/%3E%3Cstop offset='1' stop-color='%23FF3EA5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='18' fill='url(%23g)'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Course","name":"Curso LPIC-1 em 3 meses","description":"Preparação para os exames 101-500 e 102-500 da LPIC-1, com 24 aulas às sextas e sábados às 20h.","provider":{"@type":"Organization","name":"KernelBase","url":"https://kernelbase.com.br/"},"inLanguage":"pt-BR"}
+{"@context":"https://schema.org","@type":"Course","name":"Curso LPIC-1 em 3 meses","description":"Preparação para os exames 101-500 e 102-500 da LPIC-1, com 24 aulas às sextas e sábados às 20h.","provider":{"@type":"Organization","name":"KernelBase","url":"https://kernelbase.com.br/"},"instructor":{"@type":"Person","name":"Daniel Pereira"},"inLanguage":"pt-BR"}
 </script>
 <style>
 :root{
-  --chalk:#F1F3EE; --white:#FBFCFA; --slate:#16252E; --muted:#53636D; --line:#C9D1CC;
-  --cobalt:#2547F0; --cobalt-d:#1A33B8; --abyss:#0A1620; --amber:#FFC15A; --mint:#7FD6A0; --dim:#8AA0AF;
+  --night:#090C24; --deep:#10153B; --panel:#151B4A; --ink:#EEF0FF; --muted:#A3ABDD; --rule:#262E6B;
+  --cyan:#22E5F0; --magenta:#FF3EA5; --yellow:#FFD60A; --cobalt:#4C6FFF; --violet:#7A4DFF;
   --display:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;
   --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
   --mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;scroll-padding-top:5rem}
+html{scroll-behavior:smooth;scroll-padding-top:5.5rem;background:var(--night)}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-body{background:var(--chalk);color:var(--slate);font-family:var(--serif);font-size:1.125rem;line-height:1.65;-webkit-font-smoothing:antialiased}
-a{color:var(--cobalt-d);text-underline-offset:.2em}
-a:hover{color:var(--cobalt)}
-:focus-visible{outline:3px solid var(--cobalt);outline-offset:3px;border-radius:2px}
+body{background:var(--night);color:var(--ink);font-family:var(--serif);font-size:1.125rem;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:var(--cyan);text-underline-offset:.2em}
+a:hover{color:#8CF3F8}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:3px;border-radius:3px}
 .wrap{width:min(1120px,100% - 2.5rem);margin-inline:auto}
-.nw{white-space:nowrap}
-.skip{position:absolute;left:-999px;top:.5rem;background:var(--slate);color:#fff;padding:.5rem .9rem;z-index:20}
+.skip{position:absolute;left:-999px;top:.5rem;background:var(--yellow);color:var(--night);padding:.5rem .9rem;z-index:30;font-family:var(--display);font-weight:600}
 .skip:focus{left:.5rem}
+.nw{white-space:nowrap}
 
 /* topo */
-.top{position:sticky;top:0;z-index:10;background:rgba(241,243,238,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-.top-in{display:flex;align-items:center;gap:1.5rem;min-height:4rem}
-.brand{font-family:var(--display);font-weight:800;font-size:1.35rem;letter-spacing:-.03em;color:var(--slate);text-decoration:none;display:inline-flex;align-items:center;gap:.5rem}
-.brand-mark{width:.8rem;height:.8rem;background:var(--cobalt);display:inline-block}
-.nav{display:flex;gap:1.4rem;margin-left:auto;font-family:var(--display);font-weight:500;font-size:.98rem}
-.nav a{color:var(--slate);text-decoration:none;padding:.3rem 0;border-bottom:2px solid transparent}
-.nav a:hover{border-color:var(--cobalt)}
-.btn{display:inline-block;font-family:var(--display);font-weight:600;font-size:1.05rem;line-height:1;text-decoration:none;padding:.95rem 1.4rem;border-radius:4px;background:var(--cobalt);color:#fff;border:2px solid var(--cobalt);transition:background .15s,border-color .15s}
-.btn:hover{background:var(--cobalt-d);border-color:var(--cobalt-d);color:#fff}
-.btn-sm{font-size:.95rem;padding:.65rem 1rem}
-.btn-ghost{background:transparent;color:var(--slate);border-color:var(--slate)}
-.btn-ghost:hover{background:var(--slate);border-color:var(--slate);color:#fff}
+.top{position:sticky;top:0;z-index:20;background:rgba(9,12,36,.82);backdrop-filter:blur(10px);border-bottom:1px solid var(--rule)}
+.top-in{display:flex;align-items:center;gap:1.5rem;min-height:4.1rem}
+.brand{font-family:var(--display);font-weight:800;font-size:1.4rem;letter-spacing:-.03em;color:var(--ink);text-decoration:none;display:inline-flex;align-items:center;gap:.55rem}
+.brand:hover{color:var(--ink)}
+.brand-mark{width:.85rem;height:.85rem;background:linear-gradient(135deg,var(--cyan),var(--magenta));display:inline-block}
+.nav{display:flex;gap:1.5rem;margin-left:auto;font-family:var(--display);font-weight:500;font-size:.98rem}
+.nav a{color:var(--ink);text-decoration:none;padding:.3rem 0;border-bottom:2px solid transparent}
+.nav a:hover{border-color:var(--magenta);color:var(--ink)}
+.btn{display:inline-block;font-family:var(--display);font-weight:700;font-size:1.05rem;line-height:1;text-decoration:none;padding:1rem 1.5rem;border-radius:6px;background:var(--yellow);color:var(--night);border:2px solid var(--yellow);transition:transform .15s,box-shadow .15s,background .15s}
+.btn:hover{background:#FFE24A;border-color:#FFE24A;color:var(--night);box-shadow:0 10px 30px -8px rgba(255,214,10,.55);transform:translateY(-2px)}
+.btn-sm{font-size:.95rem;padding:.7rem 1.05rem}
+.btn-ghost{background:transparent;color:var(--ink);border-color:var(--cobalt)}
+.btn-ghost:hover{background:var(--cobalt);border-color:var(--cobalt);color:#fff;box-shadow:0 10px 30px -8px rgba(76,111,255,.6)}
+@media (prefers-reduced-motion:reduce){.btn{transition:none}.btn:hover{transform:none}}
 
 /* hero */
-.hero{padding:clamp(2.5rem,6vw,5.5rem) 0 clamp(3rem,6vw,5rem)}
-.hero-grid{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:clamp(2rem,5vw,4.5rem);align-items:center}
-h1{font-family:var(--display);font-weight:800;font-size:clamp(2.6rem,1.1rem + 5.6vw,5rem);line-height:.98;letter-spacing:-.035em;text-wrap:balance}
-.lede{margin-top:1.5rem;font-size:clamp(1.15rem,1rem + .6vw,1.4rem);line-height:1.5;max-width:34rem}
+.hero{position:relative;padding:clamp(2.5rem,6vw,5rem) 0 clamp(2.5rem,5vw,4rem);overflow:hidden;isolation:isolate}
+.hero::before,.hero::after{content:"";position:absolute;z-index:-1;border-radius:50%;filter:blur(90px);opacity:.55;pointer-events:none}
+.hero::before{width:34rem;height:34rem;left:-12rem;top:-10rem;background:var(--violet)}
+.hero::after{width:30rem;height:30rem;right:-8rem;top:2rem;background:var(--magenta);opacity:.3}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(2rem,5vw,4.5rem);align-items:center}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2.7rem,1.1rem + 5.8vw,5.3rem);line-height:.96;letter-spacing:-.04em;text-wrap:balance}
+.lede{margin-top:1.5rem;font-size:clamp(1.15rem,1rem + .6vw,1.4rem);line-height:1.5;max-width:34rem;color:#DDE1FF}
+.by{margin-top:1.1rem;font-family:var(--display);font-size:1.02rem;color:var(--muted);max-width:34rem}
+.by strong{color:var(--ink);font-weight:600}
 .cta-row{margin-top:2rem;display:flex;flex-wrap:wrap;gap:.9rem;align-items:center}
 .cta-note{margin-top:1rem;color:var(--muted);font-size:.98rem}
 
 /* terminal */
-.term{background:var(--abyss);color:var(--amber);border-radius:10px;padding:1.2rem 1.3rem 1.5rem;font-family:var(--mono);font-size:.9rem;line-height:1.8;box-shadow:0 30px 60px -30px rgba(10,22,32,.55);min-height:17.5rem}
-.term-bar{color:var(--dim);font-size:.8rem;margin-bottom:.9rem;padding-bottom:.7rem;border-bottom:1px solid #1B2D3A}
+.term{position:relative;background:#050816;color:var(--yellow);border-radius:12px;padding:1.2rem 1.3rem 1.5rem;font-family:var(--mono);font-size:.9rem;line-height:1.8;min-height:17.5rem;border:1px solid transparent;
+  background-image:linear-gradient(#050816,#050816),linear-gradient(135deg,var(--cyan),var(--violet) 55%,var(--magenta));background-origin:border-box;background-clip:padding-box,border-box;
+  box-shadow:0 0 0 1px rgba(34,229,240,.08),0 30px 80px -20px rgba(122,77,255,.55)}
+.term-bar{color:var(--muted);font-size:.8rem;margin-bottom:.9rem;padding-bottom:.7rem;border-bottom:1px solid var(--rule)}
 .ln{display:block;overflow-wrap:anywhere}
-.ln .ok{color:var(--mint)}
-.ln .dim{color:var(--dim)}
+.ln .ok{color:#59F0A8}
+.ln .dim{color:#8F98D6}
+.ln .c1{color:var(--cyan)}
+.ln .c2{color:var(--magenta)}
 .js .ln{opacity:0}
 .js .ln.on{opacity:1}
-.cursor{display:inline-block;width:.6em;height:1.05em;background:var(--amber);vertical-align:text-bottom;margin-left:.15em;animation:blink 1.1s steps(1) infinite}
+.cursor{display:inline-block;width:.6em;height:1.05em;background:var(--yellow);vertical-align:text-bottom;margin-left:.15em;animation:blink 1.1s steps(1) infinite}
 @keyframes blink{50%{opacity:0}}
 @media (prefers-reduced-motion:reduce){.cursor{animation:none}}
 
+/* grade das 24 aulas */
+.cal{margin-top:clamp(2.5rem,5vw,4rem)}
+.cal-title{font-family:var(--display);font-weight:600;font-size:1.1rem;color:var(--muted);margin-bottom:1rem}
+.grid24{display:grid;grid-template-columns:3.2rem repeat(12,minmax(0,1fr));gap:.4rem;align-items:center}
+.g-lab{font-family:var(--display);font-size:.85rem;color:var(--muted)}
+.g-wk{font-family:var(--display);font-weight:700;font-size:.85rem;text-align:center;font-variant-numeric:tabular-nums}
+.g-wk.e101{color:var(--cyan)}
+.g-wk.e102{color:var(--magenta)}
+.cell{position:relative;display:block;height:2.6rem;border-radius:5px;text-decoration:none;transition:transform .15s,box-shadow .15s}
+.cell.e101{background:var(--cyan);box-shadow:0 0 0 0 rgba(34,229,240,.0)}
+.cell.e102{background:var(--magenta)}
+.cell:hover,.cell:focus-visible{transform:translateY(-3px)}
+.cell.e101:hover,.cell.e101:focus-visible{box-shadow:0 8px 22px -4px rgba(34,229,240,.75)}
+.cell.e102:hover,.cell.e102:focus-visible{box-shadow:0 8px 22px -4px rgba(255,62,165,.75)}
+.cell::after{content:"Semana " attr(data-tip);position:absolute;z-index:5;bottom:calc(100% + .6rem);left:50%;transform:translateX(-50%);width:max-content;max-width:15rem;background:var(--ink);color:var(--night);font-family:var(--display);font-weight:600;font-size:.85rem;line-height:1.3;padding:.5rem .7rem;border-radius:5px;opacity:0;pointer-events:none;transition:opacity .12s}
+.cell:hover::after,.cell:focus-visible::after{opacity:1}
+.js .cell{opacity:.14}
+.js .cell.on{opacity:1}
+.js .cell{transition:opacity .35s,transform .15s,box-shadow .15s}
+@media (prefers-reduced-motion:reduce){.js .cell{transition:none}.cell{transition:none}}
+.legend{list-style:none;display:flex;flex-wrap:wrap;gap:.4rem 2rem;margin-top:1.1rem;font-family:var(--display);font-size:.95rem;color:var(--muted)}
+.legend li{display:flex;align-items:center;gap:.55rem}
+.sw{width:.9rem;height:.9rem;border-radius:3px;display:inline-block}
+.sw.e101{background:var(--cyan)}
+.sw.e102{background:var(--magenta)}
+
 /* seções */
-section.block{padding:clamp(3rem,6vw,5.5rem) 0;border-top:1px solid var(--line)}
-h2{font-family:var(--display);font-weight:700;font-size:clamp(1.9rem,1.2rem + 2.4vw,3rem);line-height:1.05;letter-spacing:-.025em;text-wrap:balance}
+section.block{padding:clamp(3rem,6vw,5.5rem) 0;border-top:1px solid var(--rule)}
+h2{font-family:var(--display);font-weight:700;font-size:clamp(1.95rem,1.2rem + 2.5vw,3.1rem);line-height:1.04;letter-spacing:-.03em;text-wrap:balance}
 .sec-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:2rem;align-items:end;margin-bottom:2.5rem}
 .sec-head p{color:var(--muted);max-width:36rem}
 h3{font-family:var(--display);font-weight:600;letter-spacing:-.01em}
 
 /* como funciona */
 .facts{display:grid;grid-template-columns:1fr 1fr;gap:0 3rem}
-.fact{padding:1.1rem 0;border-top:1px solid var(--line);display:grid;grid-template-columns:8.5rem 1fr;gap:1rem}
-.fact dt{font-family:var(--display);font-weight:600;color:var(--muted);font-size:1rem}
-.fact dd{font-size:1.1rem}
+.fact{padding:1.15rem 0;border-top:1px solid var(--rule);display:grid;grid-template-columns:8.5rem 1fr;gap:1rem}
+.fact dt{font-family:var(--display);font-weight:600;color:var(--cyan);font-size:1rem}
+.fact dd{font-size:1.1rem;color:#DDE1FF}
 
 /* programa */
-.sum{display:flex;flex-wrap:wrap;gap:.5rem 2.5rem;margin-bottom:2.5rem;font-family:var(--display);font-size:1.05rem}
-.sum strong{font-weight:700}
+.sum{display:flex;flex-wrap:wrap;gap:.5rem 2.5rem;margin-bottom:2.5rem;font-family:var(--display);font-size:1.05rem;color:var(--muted)}
+.sum strong{font-weight:800;font-size:2rem;color:var(--ink);margin-right:.25rem;letter-spacing:-.03em}
 .month{margin-top:3rem}
-.month-title{font-size:1.6rem;display:flex;flex-wrap:wrap;align-items:baseline;gap:.4rem 1rem;padding-bottom:.9rem;border-bottom:2px solid var(--slate)}
-.month-n{color:var(--cobalt-d);font-weight:800}
+.month-title{font-size:1.6rem;display:flex;flex-wrap:wrap;align-items:baseline;gap:.4rem 1rem;padding-bottom:.9rem;border-bottom:2px solid var(--rule)}
+.month-n{color:var(--yellow);font-weight:800}
 .weeks{list-style:none}
-.week{display:grid;grid-template-columns:7.5rem minmax(0,1fr) minmax(0,1fr);gap:1rem 2rem;padding:1.3rem 0;border-bottom:1px solid var(--line)}
-.week-n{font-family:var(--display);font-weight:700;font-size:1.05rem}
+.week{display:grid;grid-template-columns:7.5rem minmax(0,1fr) minmax(0,1fr);gap:1rem 2rem;padding:1.4rem 0 1.4rem 1.1rem;border-bottom:1px solid var(--rule);border-left:4px solid var(--cyan);margin-top:.35rem;background:linear-gradient(90deg,rgba(34,229,240,.07),transparent 40%)}
+.week.e102{border-left-color:var(--magenta);background:linear-gradient(90deg,rgba(255,62,165,.08),transparent 40%)}
+.week-n{font-family:var(--display);font-weight:800;font-size:1.05rem;color:var(--cyan)}
+.week.e102 .week-n{color:var(--magenta)}
 .slot-day{font-family:var(--display);font-size:.95rem;color:var(--muted)}
 .slot-title{font-family:var(--display);font-weight:600;font-size:1.15rem;line-height:1.25;margin:.15rem 0 .35rem}
 .obj{display:block;color:var(--muted);font-size:.95rem;font-variant-numeric:tabular-nums}
-.marker{list-style:none;margin:.2rem 0;padding:.8rem 1rem;background:var(--slate);color:#fff;font-family:var(--display);font-size:1rem;border-radius:4px}
+.marker{list-style:none;margin:1rem 0 .6rem;padding:.9rem 1.1rem;background:linear-gradient(90deg,var(--cyan),var(--violet) 55%,var(--magenta));color:var(--night);font-family:var(--display);font-weight:700;font-size:1rem;border-radius:6px}
 
 /* instrutor */
-.who{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:2rem}
-.who p+p{margin-top:1rem}
-.who-links{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.5rem}
+.who{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(1.5rem,4vw,3.5rem);align-items:start}
+.mono-card{position:relative;aspect-ratio:1/1;max-width:22rem;border-radius:18px;background:linear-gradient(140deg,var(--cyan) 0%,var(--cobalt) 40%,var(--violet) 70%,var(--magenta) 100%);display:grid;place-items:center;overflow:hidden;box-shadow:0 30px 70px -25px rgba(122,77,255,.7)}
+.mono-card span{font-family:var(--display);font-weight:800;font-size:clamp(5rem,14vw,9rem);letter-spacing:-.06em;color:var(--night);line-height:1}
+.mono-card::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(9,12,36,.07) 0 2px,transparent 2px 6px)}
+.who h2{margin-bottom:.4rem}
+.who-role{font-family:var(--display);font-weight:600;color:var(--cyan);font-size:1.15rem;margin-bottom:1.4rem}
+.creds{list-style:none;margin:1.2rem 0 0}
+.creds li{display:grid;grid-template-columns:.8rem 1fr;gap:.9rem;padding:.85rem 0;border-top:1px solid var(--rule);font-size:1.08rem;line-height:1.45}
+.creds li::before{content:"";width:.8rem;height:.8rem;margin-top:.45rem;border-radius:2px;background:var(--cyan)}
+.creds li:nth-child(2)::before{background:var(--yellow)}
+.creds li:nth-child(3)::before{background:var(--magenta)}
+.who p{color:#DDE1FF}
+.who-links{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.6rem}
 
 /* faq */
-.faq details{border-top:1px solid var(--line)}
-.faq details:last-child{border-bottom:1px solid var(--line)}
+.faq details{border-top:1px solid var(--rule)}
+.faq details:last-child{border-bottom:1px solid var(--rule)}
 .faq summary{cursor:pointer;list-style:none;font-family:var(--display);font-weight:600;font-size:1.2rem;padding:1.15rem 2.5rem 1.15rem 0;position:relative}
 .faq summary::-webkit-details-marker{display:none}
-.faq summary::after{content:"+";position:absolute;right:.2rem;top:50%;transform:translateY(-50%);font-size:1.6rem;font-weight:400;color:var(--cobalt-d)}
+.faq summary::after{content:"+";position:absolute;right:.2rem;top:50%;transform:translateY(-50%);font-size:1.7rem;font-weight:400;color:var(--magenta)}
 .faq details[open] summary::after{content:"\2212"}
-.faq details p{padding:0 2.5rem 1.3rem 0;max-width:46rem}
+.faq details p{padding:0 2.5rem 1.3rem 0;max-width:46rem;color:#DDE1FF}
 
 /* chamada final */
-.final{background:var(--slate);color:#fff;border-top:0}
-.final h2{color:#fff;max-width:40rem}
-.final p{max-width:36rem;margin-top:1rem;color:#D7DEDB}
+.final{border-top:0;padding-top:0}
+.final-card{border-radius:20px;padding:clamp(2rem,6vw,4.5rem);background:linear-gradient(120deg,var(--cobalt) 0%,var(--violet) 50%,var(--magenta) 100%);position:relative;overflow:hidden}
+.final-card::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(9,12,36,.08) 0 2px,transparent 2px 7px);pointer-events:none}
+.final-card>*{position:relative;z-index:1}
+.final h2{color:#fff;max-width:40rem;font-size:clamp(2.1rem,1.2rem + 3.4vw,3.8rem)}
+.final p{max-width:36rem;margin-top:1rem;color:#fff;font-size:1.2rem}
 .final .cta-row{margin-top:2rem}
-.final .btn{background:var(--amber);border-color:var(--amber);color:var(--abyss)}
-.final .btn:hover{background:#FFD07F;border-color:#FFD07F;color:var(--abyss)}
-.final a.txt{color:#fff}
-.final .alt{margin-top:1.25rem;color:#D7DEDB;font-size:1rem}
+.final .btn{background:var(--yellow);color:var(--night)}
+.final a.txt{color:#fff;font-weight:600}
+.final .alt{margin-top:1.4rem;font-size:1rem}
 
 footer{padding:2.5rem 0 3rem;font-size:.98rem;color:var(--muted)}
 .foot{display:flex;flex-wrap:wrap;gap:1rem 2.5rem;justify-content:space-between}
 .foot nav{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem}
-.foot a{color:var(--slate)}
+.foot a{color:var(--ink)}
+.foot strong{color:var(--ink)}
 .legal{margin-top:1.5rem;font-size:.9rem}
 
 @media (max-width:900px){
@@ -136,13 +188,18 @@ footer{padding:2.5rem 0 3rem;font-size:.98rem;color:var(--muted)}
   .nav{display:none}
   .top .btn-sm{margin-left:auto}
   .week{grid-template-columns:1fr;gap:.9rem}
-  .week-n{border-bottom:1px solid var(--line);padding-bottom:.4rem}
   .fact{grid-template-columns:7rem 1fr}
+  .mono-card{max-width:13rem}
+  .cell::after{display:none}
 }
 @media (max-width:480px){
   body{font-size:1.05rem}
   .term{font-size:.82rem;padding:1rem}
   .btn{width:100%;text-align:center}
+  .btn-sm{width:auto}
+  .grid24{grid-template-columns:2.4rem repeat(12,minmax(0,1fr));gap:.25rem}
+  .cell{height:2.2rem;border-radius:3px}
+  .g-wk{font-size:.72rem}
 }
 </style>
 </head>
@@ -166,23 +223,71 @@ footer{padding:2.5rem 0 3rem;font-size:.98rem;color:var(--muted)}
 <main id="conteudo">
 
 <section class="hero" id="inicio">
-  <div class="wrap hero-grid">
-    <div>
-      <h1>Prepare-se para a <span class="nw">LPIC-1</span> em 3 meses</h1>
-      <p class="lede">Todo o conteúdo dos exames <span class="nw">101-500</span> e <span class="nw">102-500</span>, em 24 aulas. Toda sexta e sábado, às 20h (horário de Brasília).</p>
-      <div class="cta-row">
-        <a class="btn" href="https://wa.me/5583933003583?text=Ol%C3%A1%21%20Quero%20saber%20da%20pr%C3%B3xima%20turma%20do%20curso%20LPIC-1%20da%20KernelBase." target="_blank" rel="noopener">Entrar na próxima turma</a>
-        <a class="btn btn-ghost" href="#programa">Ver o programa</a>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <h1>Prepare-se para a <span class="nw">LPIC-1</span> em 3 meses</h1>
+        <p class="lede">Todo o conteúdo dos exames <span class="nw">101-500</span> e <span class="nw">102-500</span>, em 24 aulas. Toda sexta e sábado, às 20h (horário de Brasília).</p>
+        <p class="by">Com <strong>Daniel Pereira</strong>, mantenedor da tradução pt_BR da documentação do Kernel Linux.</p>
+        <div class="cta-row">
+          <a class="btn" href="https://wa.me/5583933003583?text=Ol%C3%A1%21%20Quero%20saber%20da%20pr%C3%B3xima%20turma%20do%20curso%20LPIC-1%20da%20KernelBase." target="_blank" rel="noopener">Entrar na próxima turma</a>
+          <a class="btn btn-ghost" href="#programa">Ver o programa</a>
+        </div>
+        <p class="cta-note">Datas de início e valores são enviados pelo WhatsApp.</p>
       </div>
-      <p class="cta-note">Datas de início e valores são enviados pelo WhatsApp.</p>
+      <div class="term" aria-hidden="true">
+        <p class="term-bar">kernelbase tty1</p>
+        <span class="ln"><span class="ok">[  OK  ]</span> Carregando exame <span class="c1"><span class="nw">101-500</span></span> <span class="dim">semanas 1 a 6</span></span>
+        <span class="ln"><span class="ok">[  OK  ]</span> Carregando exame <span class="c2"><span class="nw">102-500</span></span> <span class="dim">semanas 7 a 12</span></span>
+        <span class="ln"><span class="ok">[  OK  ]</span> Montando horário <span class="dim">sexta e sábado, 20h</span></span>
+        <span class="ln"><span class="ok">[  OK  ]</span> Iniciando 24 aulas</span>
+        <span class="ln">kernelbase login: aluno<span class="cursor"></span></span>
+      </div>
     </div>
-    <div class="term" aria-hidden="true">
-      <p class="term-bar">kernelbase tty1</p>
-      <span class="ln"><span class="ok">[  OK  ]</span> Carregando exame <span class="nw">101-500</span> <span class="dim">semanas 1 a 6</span></span>
-      <span class="ln"><span class="ok">[  OK  ]</span> Carregando exame <span class="nw">102-500</span> <span class="dim">semanas 7 a 12</span></span>
-      <span class="ln"><span class="ok">[  OK  ]</span> Montando horário <span class="dim">sexta e sábado, 20h</span></span>
-      <span class="ln"><span class="ok">[  OK  ]</span> Iniciando 24 aulas</span>
-      <span class="ln">kernelbase login: aluno<span class="cursor"></span></span>
+    <div class="cal">
+      <p class="cal-title">As 24 aulas do curso. Clique em uma para ver a semana.</p>
+      <div class="grid24" role="group" aria-label="Calendário das 24 aulas: clique em uma aula para ver a semana">
+<span class="g-lab" aria-hidden="true"></span>
+<span class="g-wk e101" aria-hidden="true">1</span>
+<span class="g-wk e101" aria-hidden="true">2</span>
+<span class="g-wk e101" aria-hidden="true">3</span>
+<span class="g-wk e101" aria-hidden="true">4</span>
+<span class="g-wk e101" aria-hidden="true">5</span>
+<span class="g-wk e101" aria-hidden="true">6</span>
+<span class="g-wk e102" aria-hidden="true">7</span>
+<span class="g-wk e102" aria-hidden="true">8</span>
+<span class="g-wk e102" aria-hidden="true">9</span>
+<span class="g-wk e102" aria-hidden="true">10</span>
+<span class="g-wk e102" aria-hidden="true">11</span>
+<span class="g-wk e102" aria-hidden="true">12</span>
+<span class="g-lab" aria-hidden="true">Sex</span>
+<a class="cell e101" href="#semana-1" data-tip="1, sexta: Hardware e processo de boot" aria-label="Semana 1, sexta: Hardware e processo de boot (objetivos 101.1, 101.2)"></a>
+<a class="cell e101" href="#semana-2" data-tip="2, sexta: Gerenciador de boot e bibliotecas compartilhadas" aria-label="Semana 2, sexta: Gerenciador de boot e bibliotecas compartilhadas (objetivos 102.2, 102.3)"></a>
+<a class="cell e101" href="#semana-3" data-tip="3, sexta: Virtualização e a linha de comando" aria-label="Semana 3, sexta: Virtualização e a linha de comando (objetivos 102.6, 103.1)"></a>
+<a class="cell e101" href="#semana-4" data-tip="4, sexta: Pipes, redirecionamento e processos" aria-label="Semana 4, sexta: Pipes, redirecionamento e processos (objetivos 103.4, 103.5)"></a>
+<a class="cell e101" href="#semana-5" data-tip="5, sexta: Editor vi e particionamento de disco" aria-label="Semana 5, sexta: Editor vi e particionamento de disco (objetivos 103.8, 104.1)"></a>
+<a class="cell e101" href="#semana-6" data-tip="6, sexta: Permissões e propriedade de arquivos" aria-label="Semana 6, sexta: Permissões e propriedade de arquivos (objetivos 104.5)"></a>
+<a class="cell e102" href="#semana-7" data-tip="7, sexta: Ambiente do shell" aria-label="Semana 7, sexta: Ambiente do shell (objetivos 105.1)"></a>
+<a class="cell e102" href="#semana-8" data-tip="8, sexta: Usuários e grupos" aria-label="Semana 8, sexta: Usuários e grupos (objetivos 107.1)"></a>
+<a class="cell e102" href="#semana-9" data-tip="9, sexta: Hora do sistema e logs" aria-label="Semana 9, sexta: Hora do sistema e logs (objetivos 108.1, 108.2)"></a>
+<a class="cell e102" href="#semana-10" data-tip="10, sexta: Protocolos de internet e rede persistente" aria-label="Semana 10, sexta: Protocolos de internet e rede persistente (objetivos 109.1, 109.2)"></a>
+<a class="cell e102" href="#semana-11" data-tip="11, sexta: Administração de segurança e segurança do host" aria-label="Semana 11, sexta: Administração de segurança e segurança do host (objetivos 110.1, 110.2)"></a>
+<a class="cell e102" href="#semana-12" data-tip="12, sexta: Interface gráfica, desktops e acessibilidade" aria-label="Semana 12, sexta: Interface gráfica, desktops e acessibilidade (objetivos 106.1, 106.2, 106.3)"></a>
+<span class="g-lab" aria-hidden="true">Sáb</span>
+<a class="cell e101" href="#semana-1" data-tip="1, sábado: Boot targets, desligamento e layout de disco" aria-label="Semana 1, sábado: Boot targets, desligamento e layout de disco (objetivos 101.3, 102.1)"></a>
+<a class="cell e101" href="#semana-2" data-tip="2, sábado: Pacotes Debian e RPM" aria-label="Semana 2, sábado: Pacotes Debian e RPM (objetivos 102.4, 102.5)"></a>
+<a class="cell e101" href="#semana-3" data-tip="3, sábado: Filtros de texto e gerenciamento de arquivos" aria-label="Semana 3, sábado: Filtros de texto e gerenciamento de arquivos (objetivos 103.2, 103.3)"></a>
+<a class="cell e101" href="#semana-4" data-tip="4, sábado: Prioridades de processos e expressões regulares" aria-label="Semana 4, sábado: Prioridades de processos e expressões regulares (objetivos 103.6, 103.7)"></a>
+<a class="cell e101" href="#semana-5" data-tip="5, sábado: Integridade e montagem de sistemas de arquivos" aria-label="Semana 5, sábado: Integridade e montagem de sistemas de arquivos (objetivos 104.2, 104.3)"></a>
+<a class="cell e101" href="#semana-6" data-tip="6, sábado: Links, FHS e localização de arquivos" aria-label="Semana 6, sábado: Links, FHS e localização de arquivos (objetivos 104.6, 104.7)"></a>
+<a class="cell e102" href="#semana-7" data-tip="7, sábado: Scripts simples" aria-label="Semana 7, sábado: Scripts simples (objetivos 105.2)"></a>
+<a class="cell e102" href="#semana-8" data-tip="8, sábado: Agendamento de tarefas e localização" aria-label="Semana 8, sábado: Agendamento de tarefas e localização (objetivos 107.2, 107.3)"></a>
+<a class="cell e102" href="#semana-9" data-tip="9, sábado: E-mail (MTA) e impressão" aria-label="Semana 9, sábado: E-mail (MTA) e impressão (objetivos 108.3, 108.4)"></a>
+<a class="cell e102" href="#semana-10" data-tip="10, sábado: Diagnóstico de rede e DNS cliente" aria-label="Semana 10, sábado: Diagnóstico de rede e DNS cliente (objetivos 109.3, 109.4)"></a>
+<a class="cell e102" href="#semana-11" data-tip="11, sábado: Criptografia de dados: SSH e GPG" aria-label="Semana 11, sábado: Criptografia de dados: SSH e GPG (objetivos 110.3)"></a>
+<a class="cell e102" href="#semana-12" data-tip="12, sábado: Simulados e revisão dos dois exames" aria-label="Semana 12, sábado: Simulados e revisão dos dois exames"></a>
+</div>
+<ul class="legend"><li><span class="sw e101"></span><span>Exame <span class="nw">101-500</span>: semanas 1 a 6</span></li><li><span class="sw e102"></span><span>Exame <span class="nw">102-500</span>: semanas 7 a 12</span></li></ul>
     </div>
   </div>
 </section>
@@ -210,41 +315,48 @@ footer{padding:2.5rem 0 3rem;font-size:.98rem;color:var(--muted)}
       <h2>O programa, semana a semana</h2>
       <p>Cada aula mostra os objetivos oficiais do exame que ela cobre, para você acompanhar o que já viu e o que falta.</p>
     </div>
-    <p class="sum"><span><strong>12</strong> semanas</span><span><strong>24</strong> aulas</span><span><strong>42</strong> objetivos oficiais</span></p>
+    <p class="sum"><span><strong>12</strong>semanas</span><span><strong>24</strong>aulas</span><span><strong>42</strong>objetivos oficiais</span></p>
     <section class="month" aria-labelledby="mes1">
 <h3 class="month-title" id="mes1"><span class="month-n">Mês 1</span> Sistema, pacotes e linha de comando</h3>
 <ol class="weeks">
-<li class="week"><p class="week-n">Semana 1</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Hardware e processo de boot</p><span class="obj" aria-label="Objetivos 101.1, 101.2">101.1, 101.2</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Boot targets, desligamento e layout de disco</p><span class="obj" aria-label="Objetivos 101.3, 102.1">101.3, 102.1</span></div></li>
-<li class="week"><p class="week-n">Semana 2</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Gerenciador de boot e bibliotecas compartilhadas</p><span class="obj" aria-label="Objetivos 102.2, 102.3">102.2, 102.3</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Pacotes Debian e RPM</p><span class="obj" aria-label="Objetivos 102.4, 102.5">102.4, 102.5</span></div></li>
-<li class="week"><p class="week-n">Semana 3</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Virtualização e a linha de comando</p><span class="obj" aria-label="Objetivos 102.6, 103.1">102.6, 103.1</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Filtros de texto e gerenciamento de arquivos</p><span class="obj" aria-label="Objetivos 103.2, 103.3">103.2, 103.3</span></div></li>
-<li class="week"><p class="week-n">Semana 4</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Pipes, redirecionamento e processos</p><span class="obj" aria-label="Objetivos 103.4, 103.5">103.4, 103.5</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Prioridades de processos e expressões regulares</p><span class="obj" aria-label="Objetivos 103.6, 103.7">103.6, 103.7</span></div></li>
+<li class="week e101" id="semana-1"><p class="week-n">Semana 1</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Hardware e processo de boot</p><span class="obj" aria-label="Objetivos 101.1, 101.2">101.1, 101.2</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Boot targets, desligamento e layout de disco</p><span class="obj" aria-label="Objetivos 101.3, 102.1">101.3, 102.1</span></div></li>
+<li class="week e101" id="semana-2"><p class="week-n">Semana 2</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Gerenciador de boot e bibliotecas compartilhadas</p><span class="obj" aria-label="Objetivos 102.2, 102.3">102.2, 102.3</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Pacotes Debian e RPM</p><span class="obj" aria-label="Objetivos 102.4, 102.5">102.4, 102.5</span></div></li>
+<li class="week e101" id="semana-3"><p class="week-n">Semana 3</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Virtualização e a linha de comando</p><span class="obj" aria-label="Objetivos 102.6, 103.1">102.6, 103.1</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Filtros de texto e gerenciamento de arquivos</p><span class="obj" aria-label="Objetivos 103.2, 103.3">103.2, 103.3</span></div></li>
+<li class="week e101" id="semana-4"><p class="week-n">Semana 4</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Pipes, redirecionamento e processos</p><span class="obj" aria-label="Objetivos 103.4, 103.5">103.4, 103.5</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Prioridades de processos e expressões regulares</p><span class="obj" aria-label="Objetivos 103.6, 103.7">103.6, 103.7</span></div></li>
 </ol></section>
 <section class="month" aria-labelledby="mes2">
 <h3 class="month-title" id="mes2"><span class="month-n">Mês 2</span> Discos, permissões, shell e administração</h3>
 <ol class="weeks">
-<li class="week"><p class="week-n">Semana 5</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Editor vi e particionamento de disco</p><span class="obj" aria-label="Objetivos 103.8, 104.1">103.8, 104.1</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Integridade e montagem de sistemas de arquivos</p><span class="obj" aria-label="Objetivos 104.2, 104.3">104.2, 104.3</span></div></li>
-<li class="week"><p class="week-n">Semana 6</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Permissões e propriedade de arquivos</p><span class="obj" aria-label="Objetivos 104.5">104.5</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Links, FHS e localização de arquivos</p><span class="obj" aria-label="Objetivos 104.6, 104.7">104.6, 104.7</span></div></li>
+<li class="week e101" id="semana-5"><p class="week-n">Semana 5</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Editor vi e particionamento de disco</p><span class="obj" aria-label="Objetivos 103.8, 104.1">103.8, 104.1</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Integridade e montagem de sistemas de arquivos</p><span class="obj" aria-label="Objetivos 104.2, 104.3">104.2, 104.3</span></div></li>
+<li class="week e101" id="semana-6"><p class="week-n">Semana 6</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Permissões e propriedade de arquivos</p><span class="obj" aria-label="Objetivos 104.5">104.5</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Links, FHS e localização de arquivos</p><span class="obj" aria-label="Objetivos 104.6, 104.7">104.6, 104.7</span></div></li>
 <li class="marker" role="presentation">Aqui termina o conteúdo do exame <span class="nw">101-500</span>. Daqui em diante, o <span class="nw">102-500</span>.</li>
-<li class="week"><p class="week-n">Semana 7</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Ambiente do shell</p><span class="obj" aria-label="Objetivos 105.1">105.1</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Scripts simples</p><span class="obj" aria-label="Objetivos 105.2">105.2</span></div></li>
-<li class="week"><p class="week-n">Semana 8</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Usuários e grupos</p><span class="obj" aria-label="Objetivos 107.1">107.1</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Agendamento de tarefas e localização</p><span class="obj" aria-label="Objetivos 107.2, 107.3">107.2, 107.3</span></div></li>
+<li class="week e102" id="semana-7"><p class="week-n">Semana 7</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Ambiente do shell</p><span class="obj" aria-label="Objetivos 105.1">105.1</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Scripts simples</p><span class="obj" aria-label="Objetivos 105.2">105.2</span></div></li>
+<li class="week e102" id="semana-8"><p class="week-n">Semana 8</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Usuários e grupos</p><span class="obj" aria-label="Objetivos 107.1">107.1</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Agendamento de tarefas e localização</p><span class="obj" aria-label="Objetivos 107.2, 107.3">107.2, 107.3</span></div></li>
 </ol></section>
 <section class="month" aria-labelledby="mes3">
 <h3 class="month-title" id="mes3"><span class="month-n">Mês 3</span> Serviços, rede, segurança e simulados</h3>
 <ol class="weeks">
-<li class="week"><p class="week-n">Semana 9</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Hora do sistema e logs</p><span class="obj" aria-label="Objetivos 108.1, 108.2">108.1, 108.2</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">E-mail (MTA) e impressão</p><span class="obj" aria-label="Objetivos 108.3, 108.4">108.3, 108.4</span></div></li>
-<li class="week"><p class="week-n">Semana 10</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Protocolos de internet e rede persistente</p><span class="obj" aria-label="Objetivos 109.1, 109.2">109.1, 109.2</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Diagnóstico de rede e DNS cliente</p><span class="obj" aria-label="Objetivos 109.3, 109.4">109.3, 109.4</span></div></li>
-<li class="week"><p class="week-n">Semana 11</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Administração de segurança e segurança do host</p><span class="obj" aria-label="Objetivos 110.1, 110.2">110.1, 110.2</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Criptografia de dados: SSH e GPG</p><span class="obj" aria-label="Objetivos 110.3">110.3</span></div></li>
-<li class="week"><p class="week-n">Semana 12</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Interface gráfica, desktops e acessibilidade</p><span class="obj" aria-label="Objetivos 106.1, 106.2, 106.3">106.1, 106.2, 106.3</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Simulados e revisão dos dois exames</p><span class="obj">Revisão</span></div></li>
+<li class="week e102" id="semana-9"><p class="week-n">Semana 9</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Hora do sistema e logs</p><span class="obj" aria-label="Objetivos 108.1, 108.2">108.1, 108.2</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">E-mail (MTA) e impressão</p><span class="obj" aria-label="Objetivos 108.3, 108.4">108.3, 108.4</span></div></li>
+<li class="week e102" id="semana-10"><p class="week-n">Semana 10</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Protocolos de internet e rede persistente</p><span class="obj" aria-label="Objetivos 109.1, 109.2">109.1, 109.2</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Diagnóstico de rede e DNS cliente</p><span class="obj" aria-label="Objetivos 109.3, 109.4">109.3, 109.4</span></div></li>
+<li class="week e102" id="semana-11"><p class="week-n">Semana 11</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Administração de segurança e segurança do host</p><span class="obj" aria-label="Objetivos 110.1, 110.2">110.1, 110.2</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Criptografia de dados: SSH e GPG</p><span class="obj" aria-label="Objetivos 110.3">110.3</span></div></li>
+<li class="week e102" id="semana-12"><p class="week-n">Semana 12</p><div class="slot"><p class="slot-day">Sexta, 20h</p><p class="slot-title">Interface gráfica, desktops e acessibilidade</p><span class="obj" aria-label="Objetivos 106.1, 106.2, 106.3">106.1, 106.2, 106.3</span></div><div class="slot"><p class="slot-day">Sábado, 20h</p><p class="slot-title">Simulados e revisão dos dois exames</p><span class="obj">Revisão</span></div></li>
 </ol></section>
   </div>
 </section>
 
 <section class="block" id="instrutor">
   <div class="wrap who">
-    <h2>Quem ensina</h2>
+    <div class="mono-card" aria-hidden="true"><span>DP</span></div>
     <div>
-      <p>Daniel Pereira é engenheiro de sistemas e fundador da KernelBase. Ele mantém a tradução para português brasileiro da documentação do Kernel Linux e a localização pt_BR do Git.</p>
-      <p>Esse trabalho é público: o guia de como contribuir com o Kernel, os patches recentes e o código do site estão abertos para qualquer pessoa ver.</p>
+      <h2>Daniel Pereira</h2>
+      <p class="who-role">Instrutor e fundador da KernelBase</p>
+      <p>Daniel é mantenedor da tradução para português brasileiro da documentação do Kernel Linux e da localização pt_BR do Git.</p>
+      <ul class="creds">
+        <li>Mantenedor da tradução pt_BR da documentação do Kernel Linux</li>
+        <li>Mantenedor da localização pt_BR do Git</li>
+        <li>Engenheiro de sistemas, com foco em infraestrutura</li>
+      </ul>
+      <p style="margin-top:1.2rem">Esse trabalho é público: o guia de como contribuir com o Kernel, os patches recentes e o código do site estão abertos para qualquer pessoa ver.</p>
       <div class="who-links">
         <a class="btn btn-ghost btn-sm" href="kernel.html#docs">Documentação do Kernel</a>
         <a class="btn btn-ghost btn-sm" href="kernel.html#patches">Patches recentes</a>
@@ -272,12 +384,14 @@ footer{padding:2.5rem 0 3rem;font-size:.98rem;color:var(--muted)}
 
 <section class="block final" id="entrar">
   <div class="wrap">
-    <h2>Entre na próxima turma</h2>
-    <p>Chame no WhatsApp para saber a data de início, o valor e como garantir o seu lugar.</p>
-    <div class="cta-row">
-      <a class="btn" href="https://wa.me/5583933003583?text=Ol%C3%A1%21%20Quero%20saber%20da%20pr%C3%B3xima%20turma%20do%20curso%20LPIC-1%20da%20KernelBase." target="_blank" rel="noopener">Falar no WhatsApp</a>
+    <div class="final-card">
+      <h2>Entre na próxima turma</h2>
+      <p>Chame no WhatsApp para saber a data de início, o valor e como garantir o seu lugar.</p>
+      <div class="cta-row">
+        <a class="btn" href="https://wa.me/5583933003583?text=Ol%C3%A1%21%20Quero%20saber%20da%20pr%C3%B3xima%20turma%20do%20curso%20LPIC-1%20da%20KernelBase." target="_blank" rel="noopener">Falar no WhatsApp</a>
+      </div>
+      <p class="alt">Prefere e-mail? Escreva para <a class="txt" href="mailto:danielmaraboo@gmail.com">danielmaraboo@gmail.com</a>.</p>
     </div>
-    <p class="alt">Prefere e-mail? Escreva para <a class="txt" href="mailto:danielmaraboo@gmail.com">danielmaraboo@gmail.com</a>.</p>
   </div>
 </section>
 
@@ -303,10 +417,19 @@ footer{padding:2.5rem 0 3rem;font-size:.98rem;color:var(--muted)}
 (function(){
   var t=document.querySelector('.term'); if(!t) return;
   var lines=[].slice.call(t.querySelectorAll('.ln'));
-  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){
-    lines.forEach(function(l){l.classList.add('on')}); return;
+  var cells=[].slice.call(document.querySelectorAll('.cell'));
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduce){
+    lines.forEach(function(l){l.classList.add('on')});
+    cells.forEach(function(c){c.classList.add('on')});
+    return;
   }
   lines.forEach(function(l,i){ setTimeout(function(){l.classList.add('on')}, 500 + i*480); });
+  var start = 500 + (lines.length-1)*480 + 150;
+  // acende as 24 aulas em ordem: sexta e sábado de cada semana
+  var order=[];
+  for(var w=0;w<12;w++){ order.push(cells[w]); order.push(cells[12+w]); }
+  order.forEach(function(c,i){ setTimeout(function(){ c.classList.add('on') }, start + i*70); });
 })();
 </script>
 </body>
