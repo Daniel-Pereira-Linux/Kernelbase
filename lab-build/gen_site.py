@@ -533,6 +533,7 @@ PAGE = r"""<!DOCTYPE html>
 {"@context":"https://schema.org","@type":"Course","name":"Curso LPIC-1 em 3 meses","description":"Preparação para os exames 101-500 e 102-500 da LPIC-1, com 24 aulas às sextas e sábados às 20h.","provider":{"@type":"Organization","name":"KernelBase","url":"https://kernelbase.com.br/"},"instructor":{"@type":"Person","name":"Daniel Pereira"},"inLanguage":"pt-BR","hasCourseInstance":{"@type":"CourseInstance","startDate":"2026-11-07","endDate":"2027-05-01"}}
 </script>
 <style>%%CSS%%</style>
+<link rel="stylesheet" href="css/noticias.css">
 </head>
 <body>
 <a class="skip" href="#conteudo">Pular para o conteúdo</a>
@@ -542,7 +543,8 @@ PAGE = r"""<!DOCTYPE html>
   <div class="wrap top-in">
     <a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true"></span>KernelBase</a>
     <nav class="nav" aria-label="Principal">
-      <a href="#programa">Programa</a>
+      <a href="#programa">Torne-se especialista</a>
+      <a href="#noticias">Notícias</a>
       <a href="#laboratorio">Laboratório</a>
       <a href="#teste">Teste seu nível</a>
       <a href="#instrutor">Instrutor</a>
@@ -590,6 +592,20 @@ PAGE = r"""<!DOCTYPE html>
 
 <div class="ticker" aria-hidden="true"><div class="ticker-track"><span>ls</span><span>cp</span><span>find</span><span>tar</span><span>grep</span><span>sed</span><span>chmod</span><span>chown</span><span>ln</span><span>mount</span><span>fdisk</span><span>mkfs</span><span>fsck</span><span>systemctl</span><span>journalctl</span><span>dpkg</span><span>apt</span><span>rpm</span><span>useradd</span><span>crontab</span><span>ip</span><span>ping</span><span>ss</span><span>dig</span><span>ssh</span><span>gpg</span><span>vi</span><span>ps</span><span>nice</span><span>dd</span><span>lsblk</span><span>lspci</span><span>ls</span><span>cp</span><span>find</span><span>tar</span><span>grep</span><span>sed</span><span>chmod</span><span>chown</span><span>ln</span><span>mount</span><span>fdisk</span><span>mkfs</span><span>fsck</span><span>systemctl</span><span>journalctl</span><span>dpkg</span><span>apt</span><span>rpm</span><span>useradd</span><span>crontab</span><span>ip</span><span>ping</span><span>ss</span><span>dig</span><span>ssh</span><span>gpg</span><span>vi</span><span>ps</span><span>nice</span><span>dd</span><span>lsblk</span><span>lspci</span></div></div>
 
+<section class="block news-sec" id="noticias">
+  <div class="wrap">
+    <div class="news-head">
+      <div>
+        <span class="news-live"><i></i>Atualizado pela KernelBase</span>
+        <h2>Últimas notícias</h2>
+        <p>Novidades do curso, do laboratório e do mundo Linux.</p>
+      </div>
+      <a class="btn btn-ghost btn-sm" href="noticias.html">Ver todas</a>
+    </div>
+    <div id="kb-news" data-mode="home"></div>
+  </div>
+</section>
+
 <section class="block" id="como-funciona">
   <div class="wrap">
     <div class="sec-head">
@@ -611,8 +627,8 @@ PAGE = r"""<!DOCTYPE html>
 <section class="block" id="programa">
   <div class="wrap">
     <div class="sec-head">
-      <h2>O programa, semana a semana</h2>
-      <p>Cada aula mostra os objetivos oficiais do exame que ela cobre, para você acompanhar o que já viu e o que falta.</p>
+      <h2>Torne-se especialista</h2>
+      <p>O programa do curso, semana a semana. Cada aula mostra os objetivos oficiais do exame que ela cobre, para você acompanhar o que já viu e o que falta.</p>
     </div>
     <p class="sum"><span><strong>12</strong>semanas</span><span><strong>24</strong>aulas</span><span><strong>42</strong>objetivos oficiais</span></p>
     %%PROGRAMA%%
@@ -689,7 +705,8 @@ PAGE = r"""<!DOCTYPE html>
     <div class="foot">
       <p><strong>KernelBase</strong><br>Curso de LPIC-1 e documentação aberta do Kernel Linux.</p>
       <nav aria-label="Rodapé">
-        <a href="#programa">Programa</a>
+        <a href="#programa">Torne-se especialista</a>
+        <a href="noticias.html">Notícias</a>
         <a href="#laboratorio">Laboratório</a>
         <a href="kernel.html#docs">Documentação do Kernel</a>
         <a href="kernel.html#patches">Patches</a>
@@ -703,6 +720,7 @@ PAGE = r"""<!DOCTYPE html>
 
 <a class="wa-fab" href="%%WA%%" target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 3h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-5 4v-4H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg>WhatsApp</a>
 <script>%%JS%%</script>
+<script src="js/noticias.js"></script>
 </body>
 </html>
 """
