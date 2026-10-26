@@ -1,5 +1,464 @@
 [
   {
+    "source": "9to5Linux",
+    "title_en": "Kali Linux 2026.3 Released with Linux 7.1, KDE Plasma 6.7, and New Tools",
+    "title_pt": "Kali Linux 2026.3 Released with Linux 7.1, KDE Plasma 6.7, and New Tools",
+    "summary_en": "Kali Linux 2026.3 ethical hacking and penetration testing distribution is now available for download with KDE Plasma 6.7, new tools, Kali NetHunter uUpdates, and more. \n The post  Kali Linux 2026.3 Released with Linux 7.1, KDE Plasma 6.7, and New Tools  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Kali Linux 2026.3 ethical hacking and penetration testing distribution is now available for download with KDE Plasma 6.7, new tools, Kali NetHunter uUpdates, and more. \n The post  Kali Linux 2026.3 Released with Linux 7.1, KDE Plasma 6.7, and New Tools  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/kali-linux-2026-3-released-with-linux-7-1-kde-plasma-6-7-and-new-tools",
+    "date": "Mon, 26 Oct 2026 08:48:05 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "9to5Linux Weekly Roundup: October 25th, 2026",
+    "title_pt": "9to5Linux Weekly Roundup: October 25th, 2026",
+    "summary_en": "9to5Linux Weekly Roundup for October 24th, 2026, brings news about Linux 7.3, GNU Linux-libre 7.3, SparkyOS, KDE Plasma 6.8.1, OpenSSL 4.1, siduction 2026.1, OBS Studio 33, COSMIC 1.11, KeePassXC 2.8, qBittorrent 5.3, MocaccinoOS 26.10, Audacious 4.6.2, DietPi 10.8, MKVToolNix 103, BleachBit 6.0.6, PipeWire 1.6.10, Shelly 3.1.9, Calibre 9.17, fwupd 2.1.9, Transmission 4.1.4, Agama 25, and more....",
+    "summary_pt": "9to5Linux Weekly Roundup for October 24th, 2026, brings news about Linux 7.3, GNU Linux-libre 7.3, SparkyOS, KDE Plasma 6.8.1, OpenSSL 4.1, siduction 2026.1, OBS Studio 33, COSMIC 1.11, KeePassXC 2.8, qBittorrent 5.3, MocaccinoOS 26.10, Audacious 4.6.2, DietPi 10.8, MKVToolNix 103, BleachBit 6.0.6, PipeWire 1.6.10, Shelly 3.1.9, Calibre 9.17, fwupd 2.1.9, Transmission 4.1.4, Agama 25, and more....",
+    "link": "https://9to5linux.com/9to5linux-weekly-roundup-october-25th-2026",
+    "date": "Sun, 25 Oct 2026 13:45:28 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Transmission 4.1.4 Open-Source BitTorrent Client Released with Various Fixes",
+    "title_pt": "Transmission 4.1.4 Open-Source BitTorrent Client Released with Various Fixes",
+    "summary_en": "Transmission 4.1.4 open-source BitTorrent client is now available for download with various bug fixes and improvements for the Qt client, GTK client, macOS Client, and Web client. \n The post  Transmission 4.1.4 Open-Source BitTorrent Client Released with Various Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not sc...",
+    "summary_pt": "Transmission 4.1.4 open-source BitTorrent client is now available for download with various bug fixes and improvements for the Qt client, GTK client, macOS Client, and Web client. \n The post  Transmission 4.1.4 Open-Source BitTorrent Client Released with Various Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not sc...",
+    "link": "https://9to5linux.com/transmission-4-1-4-open-source-bittorrent-client-released-with-various-fixes",
+    "date": "Sat, 24 Oct 2026 01:15:00 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "OBS Studio 33 Officially Released with Many New Features and Improvements",
+    "title_pt": "OBS Studio 33 Officially Released with Many New Features and Improvements",
+    "summary_en": "OBS Studio 33 open-source video recording and live streaming software is now available for download with support for newest NVIDIA Broadcast SDKs for NVIDIA Audio Effects and Video Effects. \n The post  OBS Studio 33 Officially Released with Many New Features and Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers,...",
+    "summary_pt": "OBS Studio 33 open-source video recording and live streaming software is now available for download with support for newest NVIDIA Broadcast SDKs for NVIDIA Audio Effects and Video Effects. \n The post  OBS Studio 33 Officially Released with Many New Features and Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers,...",
+    "link": "https://9to5linux.com/obs-studio-33-officially-released-with-many-new-features-and-improvements",
+    "date": "Fri, 23 Oct 2026 23:51:09 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Fwupd 2.1.9 Linux Firmware Updater Released with New Features",
+    "title_pt": "Fwupd 2.1.9 Linux Firmware Updater Released with New Features",
+    "summary_en": "Fwupd 2.1.9 Linux firmware updater is now available for download with support for Pixart PID 38CA, new features, and bug fixes. \n The post  Fwupd 2.1.9 Linux Firmware Updater Released with New Features  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Fwupd 2.1.9 Linux firmware updater is now available for download with support for Pixart PID 38CA, new features, and bug fixes. \n The post  Fwupd 2.1.9 Linux Firmware Updater Released with New Features  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/fwupd-2-1-9-linux-firmware-updater-released-with-new-features",
+    "date": "Fri, 23 Oct 2026 13:39:03 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "OpenSSL 4.1 Released with Support for DTLS 1.3, IKEV2 KDF, and GREASE",
+    "title_pt": "OpenSSL 4.1 Released with Support for DTLS 1.3, IKEV2 KDF, and GREASE",
+    "summary_en": "OpenSSL 4.1 is now available for download with an alpha version adding support for DTLS 1.3, IKEV2 KDF, and GREASE, as well as other improvements. \n The post  OpenSSL 4.1 Released with Support for DTLS 1.3, IKEV2 KDF, and GREASE  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "OpenSSL 4.1 is now available for download with an alpha version adding support for DTLS 1.3, IKEV2 KDF, and GREASE, as well as other improvements. \n The post  OpenSSL 4.1 Released with Support for DTLS 1.3, IKEV2 KDF, and GREASE  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/openssl-4-1-released-with-support-for-dtls-1-3-ikev2-kdf-and-grease",
+    "date": "Fri, 23 Oct 2026 12:33:57 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Calibre 9.17 E-Book Manager Adds JPEG XL Support and Performance Improvements",
+    "title_pt": "Calibre 9.17 E-Book Manager Adds JPEG XL Support and Performance Improvements",
+    "summary_en": "Calibre 9.17 open-source e-book manager is now available for download with support for JPEG XL images for e-book cover conversion, faster MOBI/AZW3/PDB conversion, and more. \n The post  Calibre 9.17 E-Book Manager Adds JPEG XL Support and Performance Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Calibre 9.17 open-source e-book manager is now available for download with support for JPEG XL images for e-book cover conversion, faster MOBI/AZW3/PDB conversion, and more. \n The post  Calibre 9.17 E-Book Manager Adds JPEG XL Support and Performance Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/calibre-9-17-e-book-manager-adds-jpeg-xl-support-and-performance-improvements",
+    "date": "Fri, 23 Oct 2026 04:35:26 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Shelly 3.1.9 GUI Package Manager for Arch Linux Improves AUR Support",
+    "title_pt": "Shelly 3.1.9 GUI Package Manager for Arch Linux Improves AUR Support",
+    "summary_en": "Shelly 3.1.9 graphical package manager for Arch Linux distributions is now available for download with file migration support to RLPM, more reliable AUR builds, and other changes. \n The post  Shelly 3.1.9 GUI Package Manager for Arch Linux Improves AUR Support  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Shelly 3.1.9 graphical package manager for Arch Linux distributions is now available for download with file migration support to RLPM, more reliable AUR builds, and other changes. \n The post  Shelly 3.1.9 GUI Package Manager for Arch Linux Improves AUR Support  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/shelly-3-1-9-gui-package-manager-for-arch-linux-improves-aur-support",
+    "date": "Fri, 23 Oct 2026 01:59:23 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "openSUSE Releases Agama 25 Installer with Web-Based Terminal, Exit Option",
+    "title_pt": "openSUSE Releases Agama 25 Installer with Web-Based Terminal, Exit Option",
+    "summary_en": "openSUSE releases the Agama 25 web-based installer for Tumbleweed, Slowroll, and MicroOS with a web-based terminal, enhanced bond port selection, and polishing of the OpenAPI specification. \n The post  openSUSE Releases Agama 25 Installer with Web-Based Terminal, Exit Option  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers,...",
+    "summary_pt": "openSUSE releases the Agama 25 web-based installer for Tumbleweed, Slowroll, and MicroOS with a web-based terminal, enhanced bond port selection, and polishing of the OpenAPI specification. \n The post  openSUSE Releases Agama 25 Installer with Web-Based Terminal, Exit Option  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers,...",
+    "link": "https://9to5linux.com/opensuse-releases-agama-25-installer-with-web-based-terminal-exit-option",
+    "date": "Thu, 22 Oct 2026 16:52:44 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "PipeWire 1.6.10 Is Out to Improve JACK, Bluetooth, Pulse Server, and ALSA Plugin",
+    "title_pt": "PipeWire 1.6.10 Is Out to Improve JACK, Bluetooth, Pulse Server, and ALSA Plugin",
+    "summary_en": "PipeWire 1.6.10 audio/video server for Linux is now available for download with improvements to JACK, Bluetooth, GStreamer, and ALSA support. \n The post  PipeWire 1.6.10 Is Out to Improve JACK, Bluetooth, Pulse Server, and ALSA Plugin  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "PipeWire 1.6.10 audio/video server for Linux is now available for download with improvements to JACK, Bluetooth, GStreamer, and ALSA support. \n The post  PipeWire 1.6.10 Is Out to Improve JACK, Bluetooth, Pulse Server, and ALSA Plugin  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/pipewire-1-6-10-is-out-to-improve-jack-bluetooth-pulse-server-and-alsa-plugin",
+    "date": "Thu, 22 Oct 2026 16:22:36 +0000"
+  },
+  {
+    "source": "Planet Kernel",
+    "title_en": "Linux Plumbers Conference: LPC 2026 – Kernel Testing MC",
+    "title_pt": "Linux Plumbers Conference: LPC 2026 – Kernel Testing MC",
+    "summary_en": "The  Kernel Testing & Dependability Micro-Conference  was back again at Plumbers this year, in Prague and with a wide variety of topics. In addition to the well-established frameworks such as KUnit and kselftest, some new frontiers are being explored with the spotlight on LLM-assisted tools. Developers are also getting special treats with new  kci-dev  features and expert insights into local bu...",
+    "summary_pt": "The  Kernel Testing & Dependability Micro-Conference  was back again at Plumbers this year, in Prague and with a wide variety of topics. In addition to the well-established frameworks such as KUnit and kselftest, some new frontiers are being explored with the spotlight on LLM-assisted tools. Developers are also getting special treats with new  kci-dev  features and expert insights into local bu...",
+    "link": "https://lpc.events/blog/current/index.php/2026/10/20/lpc-2026-kernel-testing-mc/",
+    "date": "Tue, 20 Oct 2026 19:06:41 +0000"
+  },
+  {
+    "source": "Planet Kernel",
+    "title_en": "Linux Plumbers Conference: LPC 2026 Video recordings are available",
+    "title_pt": "Linux Plumbers Conference: LPC 2026 Video recordings are available",
+    "summary_en": "We are glad to announce that video recordings of the talks are available on our  YouTube channel . \n You can use the complete conference  playlist  or look for “video” links in each contribution in the  schedule",
+    "summary_pt": "We are glad to announce that video recordings of the talks are available on our  YouTube channel . \n You can use the complete conference  playlist  or look for “video” links in each contribution in the  schedule",
+    "link": "https://lpc.events/blog/current/index.php/2026/10/19/lpc-2026-video-recordings-are-available/",
+    "date": "Mon, 19 Oct 2026 15:39:49 +0000"
+  },
+  {
+    "source": "Planet Kernel",
+    "title_en": "Dave Airlie (blogspot): jetlag diversions - llvmpipe 512-wide vector support",
+    "title_pt": "Dave Airlie (blogspot): jetlag diversions - llvmpipe 512-wide vector support",
+    "summary_en": "I was travelling last week, and got back to Mike rebasing the zink-video branch and using LLM powerups to fix the final bits of it. We had been locked in a death stare for a few years, and he flinched first. But it got me thinking about another stalled branch I started working on ages ago. Adding support for avx512 to llvmpipe. The basics have been there, but running LP_NATIVE_VECTOR_WIDTH=512 ...",
+    "summary_pt": "I was travelling last week, and got back to Mike rebasing the zink-video branch and using LLM powerups to fix the final bits of it. We had been locked in a death stare for a few years, and he flinched first. But it got me thinking about another stalled branch I started working on ages ago. Adding support for avx512 to llvmpipe. The basics have been there, but running LP_NATIVE_VECTOR_WIDTH=512 ...",
+    "link": "https://airlied.blogspot.com/2026/10/jetlag-diversions-llvmpipe-512-wide.html",
+    "date": "Fri, 16 Oct 2026 09:32:04 +0000"
+  },
+  {
+    "source": "Planet Kernel",
+    "title_en": "Matthew Garrett: Epic's EAC2 v2 seems fairly easily bypassable",
+    "title_pt": "Matthew Garrett: Epic's EAC2 v2 seems fairly easily bypassable",
+    "summary_en": "Epic just  announced  the upcoming version 2 of their Linux implementation of Easy Anti-Cheat. It’s based on using the  Linux eBPF security module  to monitor what’s happening, and then a bunch of extra infrastructure to make sure this can’t be bypassed. The core part of this is requiring secure boot be enabled (ensuring that modified kernels can’t be used), using measured boot to verify that s...",
+    "summary_pt": "Epic just  announced  the upcoming version 2 of their Linux implementation of Easy Anti-Cheat. It’s based on using the  Linux eBPF security module  to monitor what’s happening, and then a bunch of extra infrastructure to make sure this can’t be bypassed. The core part of this is requiring secure boot be enabled (ensuring that modified kernels can’t be used), using measured boot to verify that s...",
+    "link": "https://codon.org.uk/~mjg59/blog/p/epics-eac2-v2-seems-fairly-easily-bypassable/",
+    "date": "Thu, 15 Oct 2026 20:23:59 +0000"
+  },
+  {
+    "source": "Planet Kernel",
+    "title_en": "Matthew Garrett: Linux Lockdown and Hibernation (again)",
+    "title_pt": "Matthew Garrett: Linux Lockdown and Hibernation (again)",
+    "summary_en": "(This is an  updated version of an older post  - the introduction remains the same, the technical details are different) \n Linux draws a distinction between code running in kernel (kernel space) and applications running in userland (user space). This is enforced at the hardware level - in x86-speak 1 , kernel space code runs in ring 0 and user space code runs in ring 3 2 . If you’re running in ...",
+    "summary_pt": "(This is an  updated version of an older post  - the introduction remains the same, the technical details are different) \n Linux draws a distinction between code running in kernel (kernel space) and applications running in userland (user space). This is enforced at the hardware level - in x86-speak 1 , kernel space code runs in ring 0 and user space code runs in ring 3 2 . If you’re running in ...",
+    "link": "https://codon.org.uk/~mjg59/blog/p/linux-lockdown-and-hibernation-again/",
+    "date": "Tue, 13 Oct 2026 18:14:36 +0000"
+  },
+  {
+    "source": "Planet Kernel",
+    "title_en": "Linux Plumbers Conference: Free Live Streaming and Matrix Chat available",
+    "title_pt": "Linux Plumbers Conference: Free Live Streaming and Matrix Chat available",
+    "summary_en": "To watch any of our live streams on youtube, go to the  schedule overview  and hover over the paperclip to see the ‘Live Stream’ link.  Live streams are only available for A/V assisted tracks (so not non-A/V BoFs).  If you want a two way conversation, you need to have a matrix account, join the  Linux Plumbers Space  and find the room corresponding to the track you’re watching.",
+    "summary_pt": "To watch any of our live streams on youtube, go to the  schedule overview  and hover over the paperclip to see the ‘Live Stream’ link.  Live streams are only available for A/V assisted tracks (so not non-A/V BoFs).  If you want a two way conversation, you need to have a matrix account, join the  Linux Plumbers Space  and find the room corresponding to the track you’re watching.",
+    "link": "https://lpc.events/blog/current/index.php/2026/10/06/free-live-streaming-and-matrix-chat-available/",
+    "date": "Tue, 06 Oct 2026 06:27:23 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] The first part of the 7.4 merge window",
+    "title_pt": "[$] The first part of the 7.4 merge window",
+    "summary_en": "Since the merge window for 7.4 opened, there have been 6,753 non-merge\nchangesets pulled into the mainline repository. Many more are expected,\nespecially given the possibility that this merge window will be extended to\nthree weeks. Still, even this initial set brought in a number of new features,\nin addition to the continued general cleanups and security fixes that the kernel\nhas seen recently.",
+    "summary_pt": "Since the merge window for 7.4 opened, there have been 6,753 non-merge\nchangesets pulled into the mainline repository. Many more are expected,\nespecially given the possibility that this merge window will be extended to\nthree weeks. Still, even this initial set brought in a number of new features,\nin addition to the continued general cleanups and security fixes that the kernel\nhas seen recently.",
+    "link": "https://lwn.net/Articles/1101211/",
+    "date": "Fri, 23 Oct 2026 18:54:33 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] Seeking smaller kernel stacks",
+    "title_pt": "[$] Seeking smaller kernel stacks",
+    "summary_en": "Memory has always been a scarce resource in computing systems, but the\nproblem seems to have worsened recently.  In particular, the worldwide\nshortage of memory chips has led to a renewed focus by systems developers\non reducing memory usage.  During the memory-management microconference at\nthe 2026  Linux Plumbers Conference , Will\nDeacon discussed one specific consumer of memory that is being\n...",
+    "summary_pt": "Memory has always been a scarce resource in computing systems, but the\nproblem seems to have worsened recently.  In particular, the worldwide\nshortage of memory chips has led to a renewed focus by systems developers\non reducing memory usage.  During the memory-management microconference at\nthe 2026  Linux Plumbers Conference , Will\nDeacon discussed one specific consumer of memory that is being\n...",
+    "link": "https://lwn.net/Articles/1100271/",
+    "date": "Fri, 23 Oct 2026 14:59:24 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Friday",
+    "title_pt": "Security updates for Friday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (buildah, expat, grafana, grafana-pcp, httpd, iperf3, openssh, php, php8.4, php:7.4, php:8.2, and php:8.3),  Debian  (aide, chromium, clamav, erlang, linux-6.12, roundcube, unbound, and webkit2gtk),  Fedora  (bind9-next, ca-certificates, clevis-pin-trustee, golang-x-mobile, knot-resolver, maradns, ntpsec, php, socat, and vlc),  Mageia  (golang, j...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (buildah, expat, grafana, grafana-pcp, httpd, iperf3, openssh, php, php8.4, php:7.4, php:8.2, and php:8.3),  Debian  (aide, chromium, clamav, erlang, linux-6.12, roundcube, unbound, and webkit2gtk),  Fedora  (bind9-next, ca-certificates, clevis-pin-trustee, golang-x-mobile, knot-resolver, maradns, ntpsec, php, socat, and vlc),  Mageia  (golang, j...",
+    "link": "https://lwn.net/Articles/1102546/",
+    "date": "Fri, 23 Oct 2026 13:02:03 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] The end of __get_user() and __put_user()",
+    "title_pt": "[$] The end of __get_user() and __put_user()",
+    "summary_en": "Linus Torvalds rarely writes significant amounts of kernel code these days, so\nthe  merging \nof a 48-part patch series from him is an unusual event.  This series,\ndestined for the 7.4 kernel release, performs some long-delayed kernel\ncleanup by removing a couple of the primitives used to access user-space memory\nfrom the kernel.  What was once a best practice has long been superseded,\nbut it ca...",
+    "summary_pt": "Linus Torvalds rarely writes significant amounts of kernel code these days, so\nthe  merging \nof a 48-part patch series from him is an unusual event.  This series,\ndestined for the 7.4 kernel release, performs some long-delayed kernel\ncleanup by removing a couple of the primitives used to access user-space memory\nfrom the kernel.  What was once a best practice has long been superseded,\nbut it ca...",
+    "link": "https://lwn.net/Articles/1102061/",
+    "date": "Thu, 22 Oct 2026 16:25:50 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "KeePassXC 2.8.0 released",
+    "title_pt": "KeePassXC 2.8.0 released",
+    "summary_en": "Version\n2.8.0  of the  KeePassXC  password-management application has been\nreleased. \n \nThe new release brings a lot of long-awaited new features, many bugfixes, and\nseveral security updates. Among the major features are the migration from Qt5 to\nQt6, Auto-Type on Wayland (Linux), configurable keyboard shortcuts, remote\ndatabase synchronization with external tools, quick unlock with password on...",
+    "summary_pt": "Version\n2.8.0  of the  KeePassXC  password-management application has been\nreleased. \n \nThe new release brings a lot of long-awaited new features, many bugfixes, and\nseveral security updates. Among the major features are the migration from Qt5 to\nQt6, Auto-Type on Wayland (Linux), configurable keyboard shortcuts, remote\ndatabase synchronization with external tools, quick unlock with password on...",
+    "link": "https://lwn.net/Articles/1102270/",
+    "date": "Thu, 22 Oct 2026 13:34:37 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] Rust features in the future",
+    "title_pt": "[$] Rust features in the future",
+    "summary_en": "There are several Rust features that kernel developers have been hoping to\nstabilize, but Josh Triplett wanted to describe all of the  other \nfeatures that the Rust project is currently working on. He spoke about the topic\nat Kangrejos 2026, leaving the assembled kernel developers with several ideas\nabout how to use these upcoming Rust features in the kernel.\nThe features included refinements t...",
+    "summary_pt": "There are several Rust features that kernel developers have been hoping to\nstabilize, but Josh Triplett wanted to describe all of the  other \nfeatures that the Rust project is currently working on. He spoke about the topic\nat Kangrejos 2026, leaving the assembled kernel developers with several ideas\nabout how to use these upcoming Rust features in the kernel.\nThe features included refinements t...",
+    "link": "https://lwn.net/Articles/1099606/",
+    "date": "Thu, 22 Oct 2026 13:19:56 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Thursday",
+    "title_pt": "Security updates for Thursday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (.NET 10.0, .NET 8.0, .NET 9.0, cockpit-files, cockpit-machines, fetchmail, glycin-loaders, go-toolset:rhel8, golang, hostapd, jackson-core, kernel, kernel-rt, librsvg2, lrzsz, mariadb11.8, openexr, openssh, openssl, perl-DBI:1.641, python-urllib3, python3.12-urllib3, qt5-qtbase, rust-sequoia-sq, and xorg-x11-server-Xwayland),  Arch Linux  (php a...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (.NET 10.0, .NET 8.0, .NET 9.0, cockpit-files, cockpit-machines, fetchmail, glycin-loaders, go-toolset:rhel8, golang, hostapd, jackson-core, kernel, kernel-rt, librsvg2, lrzsz, mariadb11.8, openexr, openssh, openssl, perl-DBI:1.641, python-urllib3, python3.12-urllib3, qt5-qtbase, rust-sequoia-sq, and xorg-x11-server-Xwayland),  Arch Linux  (php a...",
+    "link": "https://lwn.net/Articles/1102265/",
+    "date": "Thu, 22 Oct 2026 13:09:09 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] LWN.net Weekly Edition for October 22, 2026",
+    "title_pt": "[$] LWN.net Weekly Edition for October 22, 2026",
+    "summary_en": "Inside this week's LWN.net Weekly Edition:\n         \n \n   Front : Android vendor hooks; Reproducible builds and kernel integrity; Rust data structures; NFS server changes; Setting no_new_privs for PID 1; Rust XArray; Rust cross-crate declarations; 7.3 statistics; Nix flakes.\n               Briefs : eMudhra CA compromise; PHP RCEs; Node.js and musl vulnerabilities; GNOME OS; OpenBSD 8.0; Ubuntu ...",
+    "summary_pt": "Inside this week's LWN.net Weekly Edition:\n         \n \n   Front : Android vendor hooks; Reproducible builds and kernel integrity; Rust data structures; NFS server changes; Setting no_new_privs for PID 1; Rust XArray; Rust cross-crate declarations; 7.3 statistics; Nix flakes.\n               Briefs : eMudhra CA compromise; PHP RCEs; Node.js and musl vulnerabilities; GNOME OS; OpenBSD 8.0; Ubuntu ...",
+    "link": "https://lwn.net/Articles/1100612/",
+    "date": "Thu, 22 Oct 2026 00:29:22 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Today's PHP Security Release, and How We're Strengthening PHP Security (PHP Foundation)",
+    "title_pt": "Today's PHP Security Release, and How We're Strengthening PHP Security (PHP Foundation)",
+    "summary_en": "The PHP Foundation has put out  a\nblog entry  explaining how the vulnerabilities disclosed today came\nabout and why they took so long to fix.\n \n \n\tTo fix the OOM problem, the PHP security team developed several\n\tcompeting approaches, but each came with its own trade-offs:\n\tbackward compatibility breaks, new denial-of-service potential, or\n\trequiring changes to many third-party extensions which ...",
+    "summary_pt": "The PHP Foundation has put out  a\nblog entry  explaining how the vulnerabilities disclosed today came\nabout and why they took so long to fix.\n \n \n\tTo fix the OOM problem, the PHP security team developed several\n\tcompeting approaches, but each came with its own trade-offs:\n\tbackward compatibility breaks, new denial-of-service potential, or\n\trequiring changes to many third-party extensions which ...",
+    "link": "https://lwn.net/Articles/1102060/",
+    "date": "Wed, 21 Oct 2026 20:20:34 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "More vulnerabilities in widely deployed software",
+    "title_pt": "More vulnerabilities in widely deployed software",
+    "summary_en": "The Node.js project has\n released\na number of security updates  to fix, among other vulnerabilities, a\nremote-code-execution bug affecting programs that use Brotli compression. And,\nin case any programmers who use compiled languages thought they could relax, the\n musl libc project  has also announced a\nnew vulnerability: an\n out-of-bounds\nwrite  that could potentially lead to remote code execut...",
+    "summary_pt": "The Node.js project has\n released\na number of security updates  to fix, among other vulnerabilities, a\nremote-code-execution bug affecting programs that use Brotli compression. And,\nin case any programmers who use compiled languages thought they could relax, the\n musl libc project  has also announced a\nnew vulnerability: an\n out-of-bounds\nwrite  that could potentially lead to remote code execut...",
+    "link": "https://lwn.net/Articles/1102044/",
+    "date": "Wed, 21 Oct 2026 17:09:24 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] Hash-based module integrity for reproducible distributions",
+    "title_pt": "[$] Hash-based module integrity for reproducible distributions",
+    "summary_en": "We last looked in on  hash-based integrity\nchecking for kernel modules  just over a year and half ago.  Since that time,\nthe  patch\nset  has undergone multiple revisions.  At the 2026  Linux Plumbers Conference \n(LPC),  Thomas Weißschuh described the need for kernel-module integrity\nguarantees while still providing reproducible builds, how his patches implement that, and some ideas for possible...",
+    "summary_pt": "We last looked in on  hash-based integrity\nchecking for kernel modules  just over a year and half ago.  Since that time,\nthe  patch\nset  has undergone multiple revisions.  At the 2026  Linux Plumbers Conference \n(LPC),  Thomas Weißschuh described the need for kernel-module integrity\nguarantees while still providing reproducible builds, how his patches implement that, and some ideas for possible...",
+    "link": "https://lwn.net/Articles/1100026/",
+    "date": "Wed, 21 Oct 2026 16:14:55 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Upstreaming Tyr: Rust, DRM, and the Linux Kernel (Collabora)",
+    "title_pt": "Upstreaming Tyr: Rust, DRM, and the Linux Kernel (Collabora)",
+    "summary_en": "The Collabora blog  provides\nan update on Tyr , a driver for Arm Mali GPUs.\n \n \n\tOne of our biggest challenges has been developing Tyr while the\n\tRust kernel abstractions and driver interfaces are also being\n\tdeveloped. As the driver interfaces are naturally revised and\n\timproved, we have rewritten Tyr several times to adapt to the\n\tlarger Rust ecosystem. This not only makes progress much slowe...",
+    "summary_pt": "The Collabora blog  provides\nan update on Tyr , a driver for Arm Mali GPUs.\n \n \n\tOne of our biggest challenges has been developing Tyr while the\n\tRust kernel abstractions and driver interfaces are also being\n\tdeveloped. As the driver interfaces are naturally revised and\n\timproved, we have rewritten Tyr several times to adapt to the\n\tlarger Rust ecosystem. This not only makes progress much slowe...",
+    "link": "https://lwn.net/Articles/1102024/",
+    "date": "Wed, 21 Oct 2026 14:58:56 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] Understanding Nix flakes",
+    "title_pt": "[$] Understanding Nix flakes",
+    "summary_en": "Nix flakes  are an\nexperimental feature of the  Nix package-management\ntool  designed to build projects in a more self-contained and reproducible\nway. Despite the feature's experimental status, it has become increasingly\npopular for open-source projects to publish  flake.nix  files that offer\npredefined development environments and build automation even when those\nrepositories may not offer an ...",
+    "summary_pt": "Nix flakes  are an\nexperimental feature of the  Nix package-management\ntool  designed to build projects in a more self-contained and reproducible\nway. Despite the feature's experimental status, it has become increasingly\npopular for open-source projects to publish  flake.nix  files that offer\npredefined development environments and build automation even when those\nrepositories may not offer an ...",
+    "link": "https://lwn.net/Articles/1094226/",
+    "date": "Wed, 21 Oct 2026 14:33:54 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "PHP patches released for two critical RCEs",
+    "title_pt": "PHP patches released for two critical RCEs",
+    "summary_en": "The PHP project has  published  PHP\nversions  8.5.12 ,\n 8.4.27 ,  8.3.36  and  8.2.35  to address\ntwo critical vulnerabilities that could allow unauthenticated remote code\nexecution. \n \n Who is at risk:  all PHP installations serving web requests,\nincluding PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed. We\nconsider the risk highest for mod_php, with a demonstrated exploit wher...",
+    "summary_pt": "The PHP project has  published  PHP\nversions  8.5.12 ,\n 8.4.27 ,  8.3.36  and  8.2.35  to address\ntwo critical vulnerabilities that could allow unauthenticated remote code\nexecution. \n \n Who is at risk:  all PHP installations serving web requests,\nincluding PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed. We\nconsider the risk highest for mod_php, with a demonstrated exploit wher...",
+    "link": "https://lwn.net/Articles/1102014/",
+    "date": "Wed, 21 Oct 2026 13:53:18 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Four stable kernels for Wednesday",
+    "title_pt": "Four stable kernels for Wednesday",
+    "summary_en": "Greg Kroah-Hartman has announced the release of the  7.2.12 ,\n 6.18.58 ,\n 6.12.114 , and \n 6.6.160  stable kernels. Each contains a number\nof important fixes; users are advised to upgrade.",
+    "summary_pt": "Greg Kroah-Hartman has announced the release of the  7.2.12 ,\n 6.18.58 ,\n 6.12.114 , and \n 6.6.160  stable kernels. Each contains a number\nof important fixes; users are advised to upgrade.",
+    "link": "https://lwn.net/Articles/1101758/",
+    "date": "Wed, 21 Oct 2026 13:24:25 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Nouveau-DKMS Aims For Better NVIDIA Open-Source Experience On Old GPUs",
+    "title_pt": "Nouveau-DKMS Aims For Better NVIDIA Open-Source Experience On Old GPUs",
+    "summary_en": "Nouveau-DKMS is in development as an out-of-tree spin-off of the open-source NVIDIA \"Nouveau\" driver focused on providing better support for NVIDIA GeForce 400/500 \"Fermi\" series graphics processors and potentially other generations too pre-Turing where the modern Nova driver is in development by NVIDIA...",
+    "summary_pt": "Nouveau-DKMS is in development as an out-of-tree spin-off of the open-source NVIDIA \"Nouveau\" driver focused on providing better support for NVIDIA GeForce 400/500 \"Fermi\" series graphics processors and potentially other generations too pre-Turing where the modern Nova driver is in development by NVIDIA...",
+    "link": "https://www.phoronix.com/news/Nouveau-DKMS",
+    "date": "Mon, 26 Oct 2026 08:24:01 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.4 Begins Employing New \"Core MM\" Tree",
+    "title_pt": "Linux 7.4 Begins Employing New \"Core MM\" Tree",
+    "summary_en": "Core memory management patches to the Linux kernel have typically been routed to mainline via Andrew Morton's \"MM\" branch, which is where also a variety of broader memory management related patches are also queued like all the ongoing work to DAMON/DAMOS. Kernel maintainers have now agreed to a new \"Core MM\" tree as the home for all of the core memory management changes moving forward...",
+    "summary_pt": "Core memory management patches to the Linux kernel have typically been routed to mainline via Andrew Morton's \"MM\" branch, which is where also a variety of broader memory management related patches are also queued like all the ongoing work to DAMON/DAMOS. Kernel maintainers have now agreed to a new \"Core MM\" tree as the home for all of the core memory management changes moving forward...",
+    "link": "https://www.phoronix.com/news/Linux-Core-MM-Tree",
+    "date": "Mon, 26 Oct 2026 07:42:27 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux Fixes AMD Ryzen AI 9 HX 370 Regression Due To Cache Aware Scheduling",
+    "title_pt": "Linux Fixes AMD Ryzen AI 9 HX 370 Regression Due To Cache Aware Scheduling",
+    "summary_en": "Merged for Linux 7.4 Git and marked for back-porting to Linux 7.2/7.3 stable is a regression fix affecting at least the AMD Ryzen AI 9 HX 370 \"Strix Point\" laptop SoC when making use of Cache Aware Scheduling...",
+    "summary_pt": "Merged for Linux 7.4 Git and marked for back-porting to Linux 7.2/7.3 stable is a regression fix affecting at least the AMD Ryzen AI 9 HX 370 \"Strix Point\" laptop SoC when making use of Cache Aware Scheduling...",
+    "link": "https://www.phoronix.com/news/Linux-CAS-Regression-AMD-HX-370",
+    "date": "Mon, 26 Oct 2026 06:22:28 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Moxnox: NT-Like, POSIX-Compatible Hobby OS Running Atop Btrfs",
+    "title_pt": "Moxnox: NT-Like, POSIX-Compatible Hobby OS Running Atop Btrfs",
+    "summary_en": "Open-source developer Mark Harmstone who is known for his work on developing a Btrfs file-system driver for Windows has spent the past few years working on a new hobby operating system. Moxnox is an NT-like, POSIX-compatible operating system...",
+    "summary_pt": "Open-source developer Mark Harmstone who is known for his work on developing a Btrfs file-system driver for Windows has spent the past few years working on a new hobby operating system. Moxnox is an NT-like, POSIX-compatible operating system...",
+    "link": "https://www.phoronix.com/news/Moxnox-OS",
+    "date": "Mon, 26 Oct 2026 06:04:34 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "EXT4 Lands Optional Buffered IOmap For Significant Performance Win With Large Writes",
+    "title_pt": "EXT4 Lands Optional Buffered IOmap For Significant Performance Win With Large Writes",
+    "summary_en": "The EXT4 file-system changes were merged Sunday night for the ongoing Linux 7.4 merge window. The headline feature of EXT4 in this new kernel version is opt-in support for buffered IOmap usage that can lead to \"significant\" performance improvements for large writes...",
+    "summary_pt": "The EXT4 file-system changes were merged Sunday night for the ongoing Linux 7.4 merge window. The headline feature of EXT4 in this new kernel version is opt-in support for buffered IOmap usage that can lead to \"significant\" performance improvements for large writes...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-EXT4",
+    "date": "Mon, 26 Oct 2026 05:53:55 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Redox OS Landed Nice Performance Improvements In September",
+    "title_pt": "Redox OS Landed Nice Performance Improvements In September",
+    "summary_en": "The Rust-based open-source operating system Redox OS had a very eventful September as they outlined in a status update published this weekend...",
+    "summary_pt": "The Rust-based open-source operating system Redox OS had a very eventful September as they outlined in a status update published this weekend...",
+    "link": "https://www.phoronix.com/news/Redox-OS-September-2026",
+    "date": "Sun, 25 Oct 2026 20:24:45 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "New Wayland Protocol Proposed For VNC/Remote Software",
+    "title_pt": "New Wayland Protocol Proposed For VNC/Remote Software",
+    "summary_en": "Prominent Wayland developer Simon Ser sent out a merge request today for introducing the new ext-transient-output protocol. With ext-transient-output, it's intent is for helping remoting software like VNC servers in a Wayland world...",
+    "summary_pt": "Prominent Wayland developer Simon Ser sent out a merge request today for introducing the new ext-transient-output protocol. With ext-transient-output, it's intent is for helping remoting software like VNC servers in a Wayland world...",
+    "link": "https://www.phoronix.com/news/Wayland-ext-transient-output",
+    "date": "Sun, 25 Oct 2026 11:05:18 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.4 Sound Changes Merged: \"The AI Flood Continues\"",
+    "title_pt": "Linux 7.4 Sound Changes Merged: \"The AI Flood Continues\"",
+    "summary_en": "Linux sound subsystem maintainer Takashi Iwai of SUSE began the Linux 7.4 sound pull request by noting that \"the AI flood continues\" with there continuing to be a lot of new patches coming as a result of AI/LLM agents devising patches as well as uncovering new kernel bugs...",
+    "summary_pt": "Linux sound subsystem maintainer Takashi Iwai of SUSE began the Linux 7.4 sound pull request by noting that \"the AI flood continues\" with there continuing to be a lot of new patches coming as a result of AI/LLM agents devising patches as well as uncovering new kernel bugs...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-Sound",
+    "date": "Sun, 25 Oct 2026 10:01:55 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Cheap GameSir Nova Lite Gaming Controller Supported By Linux 7.4",
+    "title_pt": "Cheap GameSir Nova Lite Gaming Controller Supported By Linux 7.4",
+    "summary_en": "Following all the HID driver updates/additions in Linux 7.4, the input subsystem changes were merged this weekend for this new kernel version...",
+    "summary_pt": "Following all the HID driver updates/additions in Linux 7.4, the input subsystem changes were merged this weekend for this new kernel version...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-Input",
+    "date": "Sun, 25 Oct 2026 06:57:01 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AV2 Video Codec Adoption Talked Up, SVT-AV2 Being Developed",
+    "title_pt": "AV2 Video Codec Adoption Talked Up, SVT-AV2 Being Developed",
+    "summary_en": "Back in May the AV2 v1.0 specification was released for this next-generaton, royalty-free video codec. This week the Alliance For Open Media issued a press release talking up the early adoption of AV2...",
+    "summary_pt": "Back in May the AV2 v1.0 specification was released for this next-generaton, royalty-free video codec. This week the Alliance For Open Media issued a press release talking up the early adoption of AV2...",
+    "link": "https://www.phoronix.com/news/AV2-Adoption-Plus-SVT-AV2",
+    "date": "Sun, 25 Oct 2026 06:42:00 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Realtek rtl8723bs Driver Deleted From Staging Area In Linux 7.4",
+    "title_pt": "Realtek rtl8723bs Driver Deleted From Staging Area In Linux 7.4",
+    "summary_en": "After nearly a decade in the Linux kernel's staging area and being worked on by many different kernel developer newcomers, the Realtek rtl8723bs was deleted from the staging area. This comes as Realtek rtl8723bs was added onto the more mature RTW88 driver in the Linux networking subsystem...",
+    "summary_pt": "After nearly a decade in the Linux kernel's staging area and being worked on by many different kernel developer newcomers, the Realtek rtl8723bs was deleted from the staging area. This comes as Realtek rtl8723bs was added onto the more mature RTW88 driver in the Linux networking subsystem...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-Staging",
+    "date": "Sun, 25 Oct 2026 06:27:17 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD 600 Series Chipsets Now Have Temperature Monitoring Support On Linux",
+    "title_pt": "AMD 600 Series Chipsets Now Have Temperature Monitoring Support On Linux",
+    "summary_en": "With the Linux 7.4 kernel and also marked for back-porting to the v7.2 and v7.3 series is finally the ability to monitor temperature sensors on AMD 600 Series chipsets that launched alongside the Ryzen 7000 series processors...",
+    "summary_pt": "With the Linux 7.4 kernel and also marked for back-porting to the v7.2 and v7.3 series is finally the ability to monitor temperature sensors on AMD 600 Series chipsets that launched alongside the Ryzen 7000 series processors...",
+    "link": "https://www.phoronix.com/news/AMD-600-Series-Linux-Temp",
+    "date": "Sun, 25 Oct 2026 06:14:00 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Google's C Binder Driver Removed With Rust Binder Ready For \"Few Billion Devices\"",
+    "title_pt": "Google's C Binder Driver Removed With Rust Binder Ready For \"Few Billion Devices\"",
+    "summary_en": "Linus Torvalds merged the \"char/misc\" changes for the Linux 7.4 kernel driver on Saturday. Most notable this cycle for char/misc is what's being removed: Google's C-written Binder driver has left the kernel with the Rust-based modern Binder driver ready to take for the role of being used by all future Android devices...",
+    "summary_pt": "Linus Torvalds merged the \"char/misc\" changes for the Linux 7.4 kernel driver on Saturday. Most notable this cycle for char/misc is what's being removed: Google's C-written Binder driver has left the kernel with the Rust-based modern Binder driver ready to take for the role of being used by all future Android devices...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-Char-Misc",
+    "date": "Sun, 25 Oct 2026 05:59:30 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.4 Block Updates Range From Floppy Disk Driver Fixes To Apple M4 NVMe Support",
+    "title_pt": "Linux 7.4 Block Updates Range From Floppy Disk Driver Fixes To Apple M4 NVMe Support",
+    "summary_en": "The Linux 7.4 block/storage and IO_uring updates were merged today for the ongoing merge window. With the breadth of Linux hardware support, the pull request varies from fixes to Linux's floppy driver to enabling support for NVMe storage on Apple M4 devices...",
+    "summary_pt": "The Linux 7.4 block/storage and IO_uring updates were merged today for the ongoing merge window. With the breadth of Linux hardware support, the pull request varies from fixes to Linux's floppy driver to enabling support for NVMe storage on Apple M4 devices...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-Block",
+    "date": "Sat, 24 Oct 2026 20:42:28 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "SteamOS 3.9.5 Released With Linux 7.2 Kernel, KDE Plasma 6.7 Desktop & Other Updates",
+    "title_pt": "SteamOS 3.9.5 Released With Linux 7.2 Kernel, KDE Plasma 6.7 Desktop & Other Updates",
+    "summary_en": "On Friday Valve released SteamOS 3.9.5 as their first stable release in the SteamOS 3.9 series. This brings all the great improvements previously available in preview form with many package updates and other enhancements...",
+    "summary_pt": "On Friday Valve released SteamOS 3.9.5 as their first stable release in the SteamOS 3.9 series. This brings all the great improvements previously available in preview form with many package updates and other enhancements...",
+    "link": "https://www.phoronix.com/news/SteamOS-3.9.5",
+    "date": "Sat, 24 Oct 2026 14:54:10 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux's Early Boot-Time Physical Memory Allocator Sees Big Speed-Up: ~268s To ~50ms",
+    "title_pt": "Linux's Early Boot-Time Physical Memory Allocator Sees Big Speed-Up: ~268s To ~50ms",
+    "summary_en": "Sent out today for the Linux 7.4 kernel were a set of memblock improvements. Most notable is a performance optimization within mm/memblock.c that implements the kernel's early boot-time physical memory allocator that is used prior to the bring-up of the full page allocator...",
+    "summary_pt": "Sent out today for the Linux 7.4 kernel were a set of memblock improvements. Most notable is a performance optimization within mm/memblock.c that implements the kernel's early boot-time physical memory allocator that is used prior to the bring-up of the full page allocator...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-memblock",
+    "date": "Sat, 24 Oct 2026 09:00:00 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "systemd Merges Support For Rust Programs",
+    "title_pt": "systemd Merges Support For Rust Programs",
+    "summary_en": "As of today in systemd Git it's now possible for the systemd programs to be written in the Rust programming language as an alternative to C...",
+    "summary_pt": "As of today in systemd Git it's now possible for the systemd programs to be written in the Rust programming language as an alternative to C...",
+    "link": "https://www.phoronix.com/news/systemd-Merges-Rust-Programs",
+    "date": "Sat, 24 Oct 2026 07:11:00 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "539 MM Patches Merged For Linux 7.4 From Optimizations To More DAMON",
+    "title_pt": "539 MM Patches Merged For Linux 7.4 From Optimizations To More DAMON",
+    "summary_en": "Andrew Morton sent out the big set of memory management \"MM\" related patches for the Linux 7.4 merge window. This cycle it topped out at 539 total patches and a reviewed rate of 76%...",
+    "summary_pt": "Andrew Morton sent out the big set of memory management \"MM\" related patches for the Linux 7.4 merge window. This cycle it topped out at 539 total patches and a reviewed rate of 76%...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-MM",
+    "date": "Sat, 24 Oct 2026 07:05:56 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Wild 0.11 Linker Released - Now Able To Link Linux Kernel Modules, WASM By Default",
+    "title_pt": "Wild 0.11 Linker Released - Now Able To Link Linux Kernel Modules, WASM By Default",
+    "summary_en": "Wild 0.11 is out as the latest feature release of this very fast linker currently targeting Linux systems and focused on iterative development...",
+    "summary_pt": "Wild 0.11 is out as the latest feature release of this very fast linker currently targeting Linux systems and focused on iterative development...",
+    "link": "https://www.phoronix.com/news/Wild-0.11-Released",
+    "date": "Sat, 24 Oct 2026 06:12:15 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.4 Graphics Driver Changes Headlined By AMDGPU HDMI 2.1 Features",
+    "title_pt": "Linux 7.4 Graphics Driver Changes Headlined By AMDGPU HDMI 2.1 Features",
+    "summary_en": "Merged overnight were all the Direct Rendering Manager (DRM) driver updates consisting of many kernel graphics/display driver improvements. Arguably most exciting with these updates for Linux 7.4 is the AMD Radeon (AMDGPU) driver seeing HDMI 2.1 FRL enabled by default along with other HDMI 2.1 features...",
+    "summary_pt": "Merged overnight were all the Direct Rendering Manager (DRM) driver updates consisting of many kernel graphics/display driver improvements. Arguably most exciting with these updates for Linux 7.4 is the AMD Radeon (AMDGPU) driver seeing HDMI 2.1 FRL enabled by default along with other HDMI 2.1 features...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-Graphics-Drivers",
+    "date": "Sat, 24 Oct 2026 06:00:00 -0400"
+  },
+  {
     "source": "Kernel.org",
     "title_en": "next-20260910: linux-next",
     "title_pt": "next-20260910: linux-next",
