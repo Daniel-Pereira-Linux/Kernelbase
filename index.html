@@ -216,32 +216,6 @@ footer{padding:2.5rem 0 3rem;font-size:.98rem;color:var(--muted)}
 @keyframes tick{to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){.ticker-track{animation:none;flex-wrap:wrap;width:auto}}
 
-/* quiz */
-.quiz-sec{display:none}
-.js .quiz-sec{display:block}
-.quiz{max-width:46rem;border-radius:16px;padding:clamp(1.3rem,4vw,2.2rem);border:1px solid transparent;
-  background-image:linear-gradient(var(--deep),var(--deep)),linear-gradient(135deg,var(--cyan),var(--violet) 55%,var(--magenta));background-origin:border-box;background-clip:padding-box,border-box;
-  box-shadow:0 30px 80px -30px rgba(122,77,255,.55)}
-.q-step{font-family:var(--display);font-weight:600;font-size:.95rem;color:var(--muted)}
-.q-bar{height:4px;background:var(--rule);border-radius:2px;margin:.6rem 0 1.4rem;overflow:hidden}
-.q-bar i{display:block;height:100%;background:linear-gradient(90deg,var(--cyan),var(--magenta));transition:width .3s}
-.q-text{font-family:var(--display);font-weight:600;font-size:clamp(1.25rem,1rem + 1vw,1.6rem);line-height:1.25;margin-bottom:1.2rem}
-.opts{display:grid;gap:.7rem}
-.opt{font-family:var(--mono);font-size:.98rem;text-align:left;color:var(--ink);background:var(--night);border:2px solid var(--rule);border-radius:8px;padding:.85rem 1rem;cursor:pointer;transition:border-color .15s,background .15s;width:100%}
-.opt:hover:not(:disabled){border-color:var(--cyan)}
-.opt:disabled{cursor:default}
-.opt.right{border-color:#59F0A8;background:rgba(89,240,168,.1)}
-.opt.wrong{border-color:var(--magenta);background:rgba(255,62,165,.1)}
-.q-fb{margin-top:1.2rem;padding:1rem 1.1rem;border-radius:8px;background:var(--night);border-left:4px solid var(--cyan);font-size:1.02rem}
-.q-fb strong{font-family:var(--display)}
-.q-fb p+p{margin-top:.5rem}
-.q-actions{margin-top:1.3rem;display:flex;flex-wrap:wrap;gap:.8rem}
-.q-score{font-family:var(--display);font-weight:800;font-size:clamp(3.5rem,10vw,6rem);line-height:1;letter-spacing:-.04em}
-.q-score span{color:var(--muted);font-weight:600;font-size:.4em;letter-spacing:0}
-.q-miss{list-style:none;margin:1rem 0 0}
-.q-miss li{padding:.7rem 0;border-top:1px solid var(--rule)}
-@media (prefers-reduced-motion:reduce){.q-bar i,.opt{transition:none}}
-
 /* botão fixo do WhatsApp */
 .wa-fab{position:fixed;right:1rem;bottom:1rem;z-index:25;display:inline-flex;align-items:center;gap:.55rem;font-family:var(--display);font-weight:700;font-size:1rem;text-decoration:none;color:var(--night);background:var(--yellow);padding:.8rem 1.1rem;border-radius:999px;box-shadow:0 12px 30px -8px rgba(255,214,10,.55)}
 .wa-fab:hover{background:#FFE24A;color:var(--night)}
@@ -405,7 +379,6 @@ footer{padding:2.5rem 0 3rem;font-size:.98rem;color:var(--muted)}
       <a href="#inicio">Torne-se especialista</a>
       <a href="noticias.html">Notícias</a>
       <a href="#laboratorio">Laboratório</a>
-      <a href="#teste">Teste seu nível</a>
       <a href="#instrutor">Instrutor</a>
       <a href="kernel.html#docs">Docs do Kernel</a>
     </nav>
@@ -637,16 +610,6 @@ footer{padding:2.5rem 0 3rem;font-size:.98rem;color:var(--muted)}
 </section>
 
 
-<section class="block quiz-sec" id="teste">
-  <div class="wrap">
-    <div class="sec-head">
-      <h2>Teste seu nível em 1 minuto</h2>
-      <p>Cinco perguntas no estilo da <span class="nw">LPIC-1</span>. No final, você vê em que semana do curso cada ponto aparece.</p>
-    </div>
-    <div class="quiz" id="quiz" data-wa="https://wa.me/5583933003583?text="></div>
-  </div>
-</section>
-
 <section class="block" id="instrutor">
   <div class="wrap who">
     <div class="mono-card" aria-hidden="true"><span>DP</span></div>
@@ -758,95 +721,6 @@ footer{padding:2.5rem 0 3rem;font-size:.98rem;color:var(--muted)}
     upd();
   }
 
-  /* quiz de nível */
-  var root=document.getElementById('quiz'); if(!root) return;
-  var WA=root.getAttribute('data-wa');
-  var Q=[
-    {q:'Qual comando dá ao dono leitura, escrita e execução, e ao grupo e aos outros só leitura e execução?',
-     o:['chmod 644 arquivo','chmod 755 arquivo','chmod 777 arquivo','chmod 700 arquivo'],a:1,
-     e:'No 755, o 7 é rwx para o dono e o 5 é r-x para o grupo e para os outros.',w:6,t:'Permissões de arquivos (104.5)'},
-    {q:'Qual comando pede ao processo de PID 1234 que encerre normalmente (sinal SIGTERM)?',
-     o:['kill 1234','kill -9 1234','nice 1234','top 1234'],a:0,
-     e:'O kill sem opções envia o SIGTERM (15). O kill -9 envia o SIGKILL, que encerra o processo sem aviso.',w:4,t:'Processos (103.5)'},
-    {q:'Como salvar só as mensagens de erro de um comando no arquivo erros.txt?',
-     o:['comando > erros.txt','comando 2> erros.txt','comando < erros.txt','comando | erros.txt'],a:1,
-     e:'O 2> redireciona o descritor 2, que é a saída de erro (stderr). O > sozinho redireciona só a saída padrão.',w:4,t:'Redirecionamento (103.4)'},
-    {q:'Em um sistema com systemd, qual comando mostra o target de boot padrão?',
-     o:['systemctl show-target','init --default','systemctl get-default','systemctl status boot'],a:2,
-     e:'O systemctl get-default mostra o target padrão, como graphical.target ou multi-user.target.',w:1,t:'Boot targets (101.3)'},
-    {q:'Qual arquivo lista os sistemas de arquivos montados automaticamente na inicialização?',
-     o:['/etc/mtab','/etc/mount.conf','/proc/boot','/etc/fstab'],a:3,
-     e:'O /etc/fstab define o que é montado no boot, e onde. O /etc/mtab só reflete o que está montado agora.',w:5,t:'Montagem de sistemas de arquivos (104.3)'}
-  ];
-  var i=0, score=0, missed=[];
-
-  function el(tag,cls,txt){ var n=document.createElement(tag); if(cls) n.className=cls; if(txt!==undefined) n.textContent=txt; return n; }
-  function clear(){ while(root.firstChild) root.removeChild(root.firstChild); }
-
-  function render(){
-    clear();
-    var d=Q[i];
-    root.appendChild(el('p','q-step','Pergunta '+(i+1)+' de '+Q.length));
-    var bar=el('div','q-bar'); var fill=el('i'); fill.style.width=((i)/Q.length*100)+'%'; bar.appendChild(fill); root.appendChild(bar);
-    var h=el('h3','q-text',d.q); root.appendChild(h);
-    var list=el('div','opts'); list.setAttribute('role','group'); list.setAttribute('aria-label','Alternativas');
-    var fb=el('div'); fb.setAttribute('aria-live','polite');
-    d.o.forEach(function(txt,k){
-      var b=el('button','opt',txt); b.type='button';
-      b.addEventListener('click',function(){ answer(k,list,fb); });
-      list.appendChild(b);
-    });
-    root.appendChild(list); root.appendChild(fb);
-    fill.style.width=((i+1)/Q.length*100)+'%';
-  }
-
-  function answer(k,list,fb){
-    var d=Q[i], btns=list.querySelectorAll('button');
-    for(var n=0;n<btns.length;n++){ btns[n].disabled=true; }
-    btns[d.a].classList.add('right');
-    var ok=(k===d.a);
-    if(ok){ score++; } else { btns[k].classList.add('wrong'); missed.push(i); }
-    var box=el('div','q-fb');
-    var p1=el('p'); var s=el('strong',null, ok?'Correta. ':'Incorreta. '); p1.appendChild(s);
-    if(!ok){ p1.appendChild(document.createTextNode('A resposta certa é: '+d.o[d.a]+'. ')); }
-    box.appendChild(p1);
-    box.appendChild(el('p',null,d.e));
-    var p3=el('p'); p3.appendChild(document.createTextNode('Esse ponto aparece na '));
-    var a=el('a',null,'semana '+d.w); a.href='#semana-'+d.w; p3.appendChild(a); p3.appendChild(document.createTextNode('.'));
-    box.appendChild(p3);
-    var act=el('div','q-actions');
-    var nx=el('button','btn',(i<Q.length-1)?'Próxima pergunta':'Ver resultado'); nx.type='button';
-    nx.addEventListener('click',function(){ if(i<Q.length-1){ i++; render(); } else { result(); } });
-    act.appendChild(nx); box.appendChild(act);
-    fb.appendChild(box);
-    nx.focus();
-  }
-
-  function result(){
-    clear();
-    root.appendChild(el('p','q-step','Resultado'));
-    var sc=el('p','q-score',String(score)); sc.appendChild(el('span',null,' de '+Q.length)); root.appendChild(sc);
-    var msg = score>=5 ? 'Você já domina essa base. A turma serve para fechar os 42 objetivos oficiais e se preparar para as duas provas.'
-            : score>=3 ? 'Boa base. Os pontos que você errou aparecem nas semanas indicadas abaixo.'
-            : 'Sem problema: o curso cobre cada um desses pontos, na ordem, desde a primeira semana.';
-    root.appendChild(el('p',null,msg));
-    if(missed.length){
-      var ul=el('ul','q-miss');
-      missed.forEach(function(m){
-        var li=el('li'); var a=el('a',null,'Semana '+Q[m].w); a.href='#semana-'+Q[m].w;
-        li.appendChild(a); li.appendChild(document.createTextNode(': '+Q[m].t)); ul.appendChild(li);
-      });
-      root.appendChild(ul);
-    }
-    var act=el('div','q-actions');
-    var wa=el('a','btn','Falar no WhatsApp com meu resultado');
-    wa.href=WA+encodeURIComponent('Olá! Fiz o teste de nível no site da KernelBase e acertei '+score+' de '+Q.length+'. Quero saber da turma de 7 de novembro do curso LPIC-1.');
-    wa.target='_blank'; wa.rel='noopener'; act.appendChild(wa);
-    var again=el('button','btn btn-ghost','Refazer o teste'); again.type='button';
-    again.addEventListener('click',function(){ i=0; score=0; missed=[]; render(); });
-    act.appendChild(again); root.appendChild(act);
-  }
-  render();
 })();
 (function(){
 
