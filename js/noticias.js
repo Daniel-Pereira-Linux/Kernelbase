@@ -121,7 +121,7 @@
 
   Promise.resolve().then(function () { root.appendChild(skeleton(MODE === 'home' ? 3 : 6)); });
 
-  Promise.all([load('noticias.json', normManual), load('news.json', normAuto)]).then(function (r) {
+  Promise.all([load('noticias.json', normManual), root.getAttribute('data-kernel') === '1' ? load('news.json', normAuto) : Promise.resolve([])]).then(function (r) {
     var manual = r[0].sort(byDate), auto = r[1].sort(byDate);
     while (root.firstChild) root.removeChild(root.firstChild);
     if (MODE === 'home') return home(manual, auto);
@@ -141,6 +141,10 @@
 
   function page(manual, auto) {
     var all = manual.concat(auto).sort(byDate);
+    if (!all.length) {
+      var e = el('p', 'news-empty', 'Ainda não há notícias por aqui. Volte em breve.');
+      root.appendChild(e); return;
+    }
     var state = { cat: 'todas', q: '', shown: PAGE };
     var counts = { todas: all.length };
     all.forEach(function (p) { counts[p.cat] = (counts[p.cat] || 0) + 1; });
