@@ -1,5 +1,95 @@
 [
   {
+    "source": "LWN",
+    "title_en": "[$] Python's experimental JIT to be removed",
+    "title_pt": "[$] Python's experimental JIT to be removed",
+    "summary_en": "Python's  experimental\njust-in-time (JIT) compiler , which was added to CPython in 2024 for the  3.13 release ,\nis on its way out. In June, the Python steering council  announced \nthat it was pausing work on the JIT in CPython's main branch until there was an\naccepted  Python Enhancement\nProposal  (PEP) that addressed concerns about maintenance, compatibility, and\nset clear success metrics as w...",
+    "summary_pt": "Python's  experimental\njust-in-time (JIT) compiler , which was added to CPython in 2024 for the  3.13 release ,\nis on its way out. In June, the Python steering council  announced \nthat it was pausing work on the JIT in CPython's main branch until there was an\naccepted  Python Enhancement\nProposal  (PEP) that addressed concerns about maintenance, compatibility, and\nset clear success metrics as w...",
+    "link": "https://lwn.net/Articles/1102102/",
+    "date": "Mon, 26 Oct 2026 15:45:58 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Two stable kernels for Monday",
+    "title_pt": "Two stable kernels for Monday",
+    "summary_en": "Greg Kroah-Hartman has announced the release of the  7.2.13  and  6.18.59  stable kernels. Each contains a number of\nfixes throughout the tree. Users are advised to upgrade.",
+    "summary_pt": "Greg Kroah-Hartman has announced the release of the  7.2.13  and  6.18.59  stable kernels. Each contains a number of\nfixes throughout the tree. Users are advised to upgrade.",
+    "link": "https://lwn.net/Articles/1102973/",
+    "date": "Mon, 26 Oct 2026 15:45:34 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Systemd adds support for components written in Rust",
+    "title_pt": "Systemd adds support for components written in Rust",
+    "summary_en": "Christian Brauner has  announced  that he\nhas  merged support \nfor writing leaf components of systemd in Rust. Rust will be used only for new\nleaf components, existing code is not being ported to Rust and nothing that\nother components depend on is written in Rust. \n Brauner  said  that the\nproject would like to move forward with Rust support in core systemd, \" but\nthere are several blockers in ...",
+    "summary_pt": "Christian Brauner has  announced  that he\nhas  merged support \nfor writing leaf components of systemd in Rust. Rust will be used only for new\nleaf components, existing code is not being ported to Rust and nothing that\nother components depend on is written in Rust. \n Brauner  said  that the\nproject would like to move forward with Rust support in core systemd, \" but\nthere are several blockers in ...",
+    "link": "https://lwn.net/Articles/1102970/",
+    "date": "Mon, 26 Oct 2026 15:13:59 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Monday",
+    "title_pt": "Security updates for Monday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (ca-certificates, cockpit-machines, container-tools:4.0, expat, flute, libbase, libfonts, libformula, liblayout, libloader, libreoffice, librepository, libserializer, pentaho-libxml, pentaho-reporting-flow-engine, and sac, golang-github-openprinting-ipp-usb, grafana-pcp, hplip, kernel, nodejs:14, nodejs:18, openssl, php:7.2, php:7.3, php:8.0, php...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (ca-certificates, cockpit-machines, container-tools:4.0, expat, flute, libbase, libfonts, libformula, liblayout, libloader, libreoffice, librepository, libserializer, pentaho-libxml, pentaho-reporting-flow-engine, and sac, golang-github-openprinting-ipp-usb, grafana-pcp, hplip, kernel, nodejs:14, nodejs:18, openssl, php:7.2, php:7.3, php:8.0, php...",
+    "link": "https://lwn.net/Articles/1102946/",
+    "date": "Mon, 26 Oct 2026 13:12:04 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "KMSCON 10.1 Released With Support For Per-Monitor Configurations",
+    "title_pt": "KMSCON 10.1 Released With Support For Per-Monitor Configurations",
+    "summary_en": "KMSCON as the user-space terminal emulator targeting Linux DRM/KMS interfaces as an alternative to the in-kernel VT now is able to individually configure monitors in multi-monitor setups. Plus a variety of other improvements with today's KMSCON 10.1 release...",
+    "summary_pt": "KMSCON as the user-space terminal emulator targeting Linux DRM/KMS interfaces as an alternative to the in-kernel VT now is able to individually configure monitors in multi-monitor setups. Plus a variety of other improvements with today's KMSCON 10.1 release...",
+    "link": "https://www.phoronix.com/news/KMSCON-10.1-Released",
+    "date": "Mon, 26 Oct 2026 15:17:21 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Intel IPU8 Support Upstreamed In Linux 7.4 For Nova Lake Laptops",
+    "title_pt": "Intel IPU8 Support Upstreamed In Linux 7.4 For Nova Lake Laptops",
+    "summary_en": "The media subsystem changes have been merged for the Linux 7.4 kernel. Most notable is Intel IPU8 support being introduced for the next-gen image processing unit in high-end Nova Lake laptops..",
+    "summary_pt": "The media subsystem changes have been merged for the Linux 7.4 kernel. Most notable is Intel IPU8 support being introduced for the next-gen image processing unit in high-end Nova Lake laptops..",
+    "link": "https://www.phoronix.com/news/Linux-7.4-Media",
+    "date": "Mon, 26 Oct 2026 13:48:22 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "KWin-Type Introduced To Address KDE Wayland Usability Gap For Auto-Typing Text",
+    "title_pt": "KWin-Type Introduced To Address KDE Wayland Usability Gap For Auto-Typing Text",
+    "summary_en": "Open-source developer Jason Donenfeld known for his work on WireGuard announced today the release of kwin-type. KWin-type is a new Wayland-compatible program for auto-typing text from the standard input under the KWin Wayland compositor...",
+    "summary_pt": "Open-source developer Jason Donenfeld known for his work on WireGuard announced today the release of kwin-type. KWin-type is a new Wayland-compatible program for auto-typing text from the standard input under the KWin Wayland compositor...",
+    "link": "https://www.phoronix.com/news/KDE-KWin-Type",
+    "date": "Mon, 26 Oct 2026 13:11:02 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Mesa 27.0 Switching To Kraid Compiler By Default For Arm Mali GPUs",
+    "title_pt": "Mesa 27.0 Switching To Kraid Compiler By Default For Arm Mali GPUs",
+    "summary_en": "In development for a number of months now has been Kraid as a modern graphics compiler for recent Arm Mali GPUs. Kraid was merged for Mesa 26.2 back in June while in Mesa 27.0 due out in Q1 it will be switching to this new shader compiler by default...",
+    "summary_pt": "In development for a number of months now has been Kraid as a modern graphics compiler for recent Arm Mali GPUs. Kraid was merged for Mesa 26.2 back in June while in Mesa 27.0 due out in Q1 it will be switching to this new shader compiler by default...",
+    "link": "https://www.phoronix.com/news/Mesa-27.0-Goes-Kraid",
+    "date": "Mon, 26 Oct 2026 10:28:59 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Snapdragon X1 Elite / Acer Swift 14 AI Performance On The Ubuntu 26.10 X1E Concept",
+    "title_pt": "Snapdragon X1 Elite / Acer Swift 14 AI Performance On The Ubuntu 26.10 X1E Concept",
+    "summary_en": "For those curious about the Snapdragon X1 Elite performance on the recently released Ubuntu 26.10 Concept X1E ISO, here are some benchmarks showing the performance relative to Ubuntu 26.04 LTS X1E state on the same hardware.",
+    "summary_pt": "For those curious about the Snapdragon X1 Elite performance on the recently released Ubuntu 26.10 Concept X1E ISO, here are some benchmarks showing the performance relative to Ubuntu 26.04 LTS X1E state on the same hardware.",
+    "link": "https://www.phoronix.com/review/ubuntu-2610-snapdragon-x1e",
+    "date": "Mon, 26 Oct 2026 09:55:24 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.4 EFI Brings Improvement For Helping Systemd When Kernel Booted Directly",
+    "title_pt": "Linux 7.4 EFI Brings Improvement For Helping Systemd When Kernel Booted Directly",
+    "summary_en": "The EFI updates have been merged for the Linux 7.4 kernel and include an improvement for when the system was booted directly into the kernel on EFI-based systems without using a bootloader like GRUB or systemd-boot...",
+    "summary_pt": "The EFI updates have been merged for the Linux 7.4 kernel and include an improvement for when the system was booted directly into the kernel on EFI-based systems without using a bootloader like GRUB or systemd-boot...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-EFI",
+    "date": "Mon, 26 Oct 2026 08:54:13 -0400"
+  },
+  {
     "source": "9to5Linux",
     "title_en": "Kali Linux 2026.3 Released with Linux 7.1, KDE Plasma 6.7, and New Tools",
     "title_pt": "Kali Linux 2026.3 Released with Linux 7.1, KDE Plasma 6.7, and New Tools",
