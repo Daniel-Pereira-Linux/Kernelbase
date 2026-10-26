@@ -542,7 +542,7 @@ PAGE = r"""<!DOCTYPE html>
   <div class="wrap top-in">
     <a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true"></span>KernelBase</a>
     <nav class="nav" aria-label="Principal">
-      <a href="#programa">Torne-se especialista</a>
+      <a href="#inicio">Torne-se especialista</a>
       <a href="noticias.html">Notícias</a>
       <a href="#laboratorio">Laboratório</a>
       <a href="#teste">Teste seu nível</a>
@@ -690,7 +690,7 @@ PAGE = r"""<!DOCTYPE html>
     <div class="foot">
       <p><strong>KernelBase</strong><br>Curso de LPIC-1 e documentação aberta do Kernel Linux.</p>
       <nav aria-label="Rodapé">
-        <a href="#programa">Torne-se especialista</a>
+        <a href="#inicio">Torne-se especialista</a>
         <a href="noticias.html">Notícias</a>
         <a href="#laboratorio">Laboratório</a>
         <a href="kernel.html#docs">Documentação do Kernel</a>
