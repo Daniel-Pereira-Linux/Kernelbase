@@ -1,6 +1,132 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Mozilla Thunderbird 159 Email Client Improves Tray Icon Support on Linux",
+    "title_pt": "Mozilla Thunderbird 159 Email Client Improves Tray Icon Support on Linux",
+    "summary_en": "Mozilla Thunderbird 159 open-source email client is now available for download with updated tray icons on Linux to indicate unread mail and show the message count in the tooltip. \n The post  Mozilla Thunderbird 159 Email Client Improves Tray Icon Support on Linux  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Mozilla Thunderbird 159 open-source email client is now available for download with updated tray icons on Linux to indicate unread mail and show the message count in the tooltip. \n The post  Mozilla Thunderbird 159 Email Client Improves Tray Icon Support on Linux  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/mozilla-thunderbird-159-email-client-improves-tray-icon-support-on-linux?utm_source=rss",
+    "date": "Tue, 27 Oct 2026 18:07:42 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "KDE Plasma 6.8.2 Desktop Environment Released with Numerous Bug Fixes",
+    "title_pt": "KDE Plasma 6.8.2 Desktop Environment Released with Numerous Bug Fixes",
+    "summary_en": "KDE Plasma 6.8.2 is now available as the second maintenance update to the latest KDE Plasma 6.8 desktop environment series with various bug fixes and improvements. \n The post  KDE Plasma 6.8.2 Desktop Environment Released with Numerous Bug Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "KDE Plasma 6.8.2 is now available as the second maintenance update to the latest KDE Plasma 6.8 desktop environment series with various bug fixes and improvements. \n The post  KDE Plasma 6.8.2 Desktop Environment Released with Numerous Bug Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/kde-plasma-6-8-2-desktop-environment-released-with-numerous-bug-fixes?utm_source=rss",
+    "date": "Tue, 27 Oct 2026 14:13:20 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Mozilla Firefox 159 Is Now Available for Download, Here’s What’s New",
+    "title_pt": "Mozilla Firefox 159 Is Now Available for Download, Here’s What’s New",
+    "summary_en": "Mozilla Firefox 159 open-source web browser is now available for download with better memory management on Linux systems with AMD GPUs, better Wayland support, and new developer features. \n The post  Mozilla Firefox 159 Is Now Available for Download, Here’s What’s New  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not sc...",
+    "summary_pt": "Mozilla Firefox 159 open-source web browser is now available for download with better memory management on Linux systems with AMD GPUs, better Wayland support, and new developer features. \n The post  Mozilla Firefox 159 Is Now Available for Download, Here’s What’s New  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not sc...",
+    "link": "https://9to5linux.com/mozilla-firefox-159-is-now-available-for-download-heres-whats-new?utm_source=rss",
+    "date": "Tue, 27 Oct 2026 01:44:15 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Mozilla Firefox 160 Enters Public Beta Testing, Here’s What to Expect",
+    "title_pt": "Mozilla Firefox 160 Enters Public Beta Testing, Here’s What to Expect",
+    "summary_en": "Mozilla Firefox 160 open-source web browser is now available for public beta testing with various new features and improvements. Here's what to expect from the final release. \n The post  Mozilla Firefox 160 Enters Public Beta Testing, Here’s What to Expect  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Mozilla Firefox 160 open-source web browser is now available for public beta testing with various new features and improvements. Here's what to expect from the final release. \n The post  Mozilla Firefox 160 Enters Public Beta Testing, Here’s What to Expect  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/mozilla-firefox-160-enters-public-beta-testing-heres-what-to-expect?utm_source=rss",
+    "date": "Mon, 26 Oct 2026 22:55:52 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Kali Linux 2026.3 Released with Linux 7.1, KDE Plasma 6.7, and New Tools",
+    "title_pt": "Kali Linux 2026.3 Released with Linux 7.1, KDE Plasma 6.7, and New Tools",
+    "summary_en": "Kali Linux 2026.3 ethical hacking and penetration testing distribution is now available for download with KDE Plasma 6.7, new tools, Kali NetHunter uUpdates, and more. \n The post  Kali Linux 2026.3 Released with Linux 7.1, KDE Plasma 6.7, and New Tools  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Kali Linux 2026.3 ethical hacking and penetration testing distribution is now available for download with KDE Plasma 6.7, new tools, Kali NetHunter uUpdates, and more. \n The post  Kali Linux 2026.3 Released with Linux 7.1, KDE Plasma 6.7, and New Tools  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/kali-linux-2026-3-released-with-linux-7-1-kde-plasma-6-7-and-new-tools?utm_source=rss",
+    "date": "Mon, 26 Oct 2026 08:48:05 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "9to5Linux Weekly Roundup: October 25th, 2026",
+    "title_pt": "9to5Linux Weekly Roundup: October 25th, 2026",
+    "summary_en": "9to5Linux Weekly Roundup for October 24th, 2026, brings news about Linux 7.3, GNU Linux-libre 7.3, SparkyOS, KDE Plasma 6.8.1, OpenSSL 4.1, siduction 2026.1, OBS Studio 33, COSMIC 1.11, KeePassXC 2.8, qBittorrent 5.3, MocaccinoOS 26.10, Audacious 4.6.2, DietPi 10.8, MKVToolNix 103, BleachBit 6.0.6, PipeWire 1.6.10, Shelly 3.1.9, Calibre 9.17, fwupd 2.1.9, Transmission 4.1.4, Agama 25, and more....",
+    "summary_pt": "9to5Linux Weekly Roundup for October 24th, 2026, brings news about Linux 7.3, GNU Linux-libre 7.3, SparkyOS, KDE Plasma 6.8.1, OpenSSL 4.1, siduction 2026.1, OBS Studio 33, COSMIC 1.11, KeePassXC 2.8, qBittorrent 5.3, MocaccinoOS 26.10, Audacious 4.6.2, DietPi 10.8, MKVToolNix 103, BleachBit 6.0.6, PipeWire 1.6.10, Shelly 3.1.9, Calibre 9.17, fwupd 2.1.9, Transmission 4.1.4, Agama 25, and more....",
+    "link": "https://9to5linux.com/9to5linux-weekly-roundup-october-25th-2026?utm_source=rss",
+    "date": "Sun, 25 Oct 2026 13:45:28 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Transmission 4.1.4 Open-Source BitTorrent Client Released with Various Fixes",
+    "title_pt": "Transmission 4.1.4 Open-Source BitTorrent Client Released with Various Fixes",
+    "summary_en": "Transmission 4.1.4 open-source BitTorrent client is now available for download with various bug fixes and improvements for the Qt client, GTK client, macOS Client, and Web client. \n The post  Transmission 4.1.4 Open-Source BitTorrent Client Released with Various Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not sc...",
+    "summary_pt": "Transmission 4.1.4 open-source BitTorrent client is now available for download with various bug fixes and improvements for the Qt client, GTK client, macOS Client, and Web client. \n The post  Transmission 4.1.4 Open-Source BitTorrent Client Released with Various Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not sc...",
+    "link": "https://9to5linux.com/transmission-4-1-4-open-source-bittorrent-client-released-with-various-fixes?utm_source=rss",
+    "date": "Sat, 24 Oct 2026 01:15:00 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "OBS Studio 33 Officially Released with Many New Features and Improvements",
+    "title_pt": "OBS Studio 33 Officially Released with Many New Features and Improvements",
+    "summary_en": "OBS Studio 33 open-source video recording and live streaming software is now available for download with support for newest NVIDIA Broadcast SDKs for NVIDIA Audio Effects and Video Effects. \n The post  OBS Studio 33 Officially Released with Many New Features and Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers,...",
+    "summary_pt": "OBS Studio 33 open-source video recording and live streaming software is now available for download with support for newest NVIDIA Broadcast SDKs for NVIDIA Audio Effects and Video Effects. \n The post  OBS Studio 33 Officially Released with Many New Features and Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers,...",
+    "link": "https://9to5linux.com/obs-studio-33-officially-released-with-many-new-features-and-improvements?utm_source=rss",
+    "date": "Fri, 23 Oct 2026 23:51:09 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Fwupd 2.1.9 Linux Firmware Updater Released with New Features",
+    "title_pt": "Fwupd 2.1.9 Linux Firmware Updater Released with New Features",
+    "summary_en": "Fwupd 2.1.9 Linux firmware updater is now available for download with support for Pixart PID 38CA, new features, and bug fixes. \n The post  Fwupd 2.1.9 Linux Firmware Updater Released with New Features  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Fwupd 2.1.9 Linux firmware updater is now available for download with support for Pixart PID 38CA, new features, and bug fixes. \n The post  Fwupd 2.1.9 Linux Firmware Updater Released with New Features  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/fwupd-2-1-9-linux-firmware-updater-released-with-new-features?utm_source=rss",
+    "date": "Fri, 23 Oct 2026 13:39:03 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "OpenSSL 4.1 Released with Support for DTLS 1.3, IKEV2 KDF, and GREASE",
+    "title_pt": "OpenSSL 4.1 Released with Support for DTLS 1.3, IKEV2 KDF, and GREASE",
+    "summary_en": "OpenSSL 4.1 is now available for download with an alpha version adding support for DTLS 1.3, IKEV2 KDF, and GREASE, as well as other improvements. \n The post  OpenSSL 4.1 Released with Support for DTLS 1.3, IKEV2 KDF, and GREASE  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "OpenSSL 4.1 is now available for download with an alpha version adding support for DTLS 1.3, IKEV2 KDF, and GREASE, as well as other improvements. \n The post  OpenSSL 4.1 Released with Support for DTLS 1.3, IKEV2 KDF, and GREASE  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/openssl-4-1-released-with-support-for-dtls-1-3-ikev2-kdf-and-grease?utm_source=rss",
+    "date": "Fri, 23 Oct 2026 12:33:57 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Robinson: Raspberry Pi 5 on Fedora",
+    "title_pt": "Robinson: Raspberry Pi 5 on Fedora",
+    "summary_en": "Peter Robinson has written a  blog post  about\nthe current state of Fedora support for Raspberry Pi 5\ndevices. According to Robinson, the upcoming Fedora 45 release will\nwork—with caveats—on\nall variants of the Raspberry Pi Model 5B; the\nCompute Module 5 and Pi 500+ are still works in progress.\n\n \nFor Fedora 44 release you need to have a temporary workaround when booting. If\nyou update to the l...",
+    "summary_pt": "Peter Robinson has written a  blog post  about\nthe current state of Fedora support for Raspberry Pi 5\ndevices. According to Robinson, the upcoming Fedora 45 release will\nwork—with caveats—on\nall variants of the Raspberry Pi Model 5B; the\nCompute Module 5 and Pi 500+ are still works in progress.\n\n \nFor Fedora 44 release you need to have a temporary workaround when booting. If\nyou update to the l...",
+    "link": "https://lwn.net/Articles/1103212/",
+    "date": "Tue, 27 Oct 2026 18:11:48 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.4 Introduces DMA-BUF Support To I/O Path With IO_uring",
+    "title_pt": "Linux 7.4 Introduces DMA-BUF Support To I/O Path With IO_uring",
+    "summary_en": "Merged today for the ongoing Linux 7.4 merge window is the infrastructure for enabling DMA-BUF support in the kernel's I/O path with the wonderful IO_uring framework...",
+    "summary_pt": "Merged today for the ongoing Linux 7.4 merge window is the infrastructure for enabling DMA-BUF support in the kernel's I/O path with the wonderful IO_uring framework...",
+    "link": "https://www.phoronix.com/news/DMA-BUF-IO-uring-Linux-7.4",
+    "date": "Tue, 27 Oct 2026 17:09:43 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Raspberry Pi Zero 3 W & Raspberry Pi 4 Model A Surface In Linux Kernel Patches",
+    "title_pt": "Raspberry Pi Zero 3 W & Raspberry Pi 4 Model A Surface In Linux Kernel Patches",
+    "summary_en": "It looks like a next-generation Raspberry Pi Zero is about to surface, the long-awaited Raspberry Pi Zero 3 W. And in an interesting twist in these times amid high PC component costs and supply chain constraints, a Raspberry Pi 4 Model A...",
+    "summary_pt": "It looks like a next-generation Raspberry Pi Zero is about to surface, the long-awaited Raspberry Pi Zero 3 W. And in an interesting twist in these times amid high PC component costs and supply chain constraints, a Raspberry Pi 4 Model A...",
+    "link": "https://www.phoronix.com/news/Raspberry-Pi-Zero-3-W-Pi-4-A",
+    "date": "Tue, 27 Oct 2026 15:53:34 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "KDE Fixes 15 Year Old Bug Over Inaccurate Notifications When Copying Files To USB Drives",
+    "title_pt": "KDE Fixes 15 Year Old Bug Over Inaccurate Notifications When Copying Files To USB Drives",
+    "summary_en": "A long-standing KDE bug is set to be resolved with next month's KDE Frameworks 6.32 release...",
+    "summary_pt": "A long-standing KDE bug is set to be resolved with next month's KDE Frameworks 6.32 release...",
+    "link": "https://www.phoronix.com/news/KDE-Fixes-15-Year-Old-Bugs",
+    "date": "Tue, 27 Oct 2026 12:50:22 -0400"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "KDE Plasma 6.8.2 Desktop Environment Released with Numerous Bug Fixes",
     "title_pt": "KDE Plasma 6.8.2 Desktop Environment Released with Numerous Bug Fixes",
     "summary_en": "KDE Plasma 6.8.2 is now available as the second maintenance update to the latest KDE Plasma 6.8 desktop environment series with various bug fixes and improvements. \n The post  KDE Plasma 6.8.2 Desktop Environment Released with Numerous Bug Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
