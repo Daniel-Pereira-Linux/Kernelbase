@@ -1,6 +1,33 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Mozilla Firefox 159 Is Now Available for Download, Here’s What’s New",
+    "title_pt": "Mozilla Firefox 159 Is Now Available for Download, Here’s What’s New",
+    "summary_en": "Mozilla Firefox 159 open-source web browser is now available for download with better memory management on Linux systems with AMD GPUs, better Wayland support, and new developer features. \n The post  Mozilla Firefox 159 Is Now Available for Download, Here’s What’s New  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not sc...",
+    "summary_pt": "Mozilla Firefox 159 open-source web browser is now available for download with better memory management on Linux systems with AMD GPUs, better Wayland support, and new developer features. \n The post  Mozilla Firefox 159 Is Now Available for Download, Here’s What’s New  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not sc...",
+    "link": "https://9to5linux.com/mozilla-firefox-159-is-now-available-for-download-heres-whats-new",
+    "date": "Tue, 27 Oct 2026 01:44:15 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Initial Support For The Apple M4 & Apple A18 Pro Make It Into Linux 7.4",
+    "title_pt": "Initial Support For The Apple M4 & Apple A18 Pro Make It Into Linux 7.4",
+    "summary_en": "The many SoC patches have landed within the Linux 7.4 kernel providing support for dozens of new boards as well as a number of new SoCs like the Apple M4 and the A18 Pro as found in the MacBook Neo. The Google Tensor 5 was also finally mainlined along with Pixel 10 devices. Plus some unreleased Qualcomm SoC support rounds out the bunch...",
+    "summary_pt": "The many SoC patches have landed within the Linux 7.4 kernel providing support for dozens of new boards as well as a number of new SoCs like the Apple M4 and the A18 Pro as found in the MacBook Neo. The Google Tensor 5 was also finally mainlined along with Pixel 10 devices. Plus some unreleased Qualcomm SoC support rounds out the bunch...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-SoCs",
+    "date": "Mon, 26 Oct 2026 20:52:15 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Steam Frame VR Headset Sees Mainline Support With Linux 7.4",
+    "title_pt": "Steam Frame VR Headset Sees Mainline Support With Linux 7.4",
+    "summary_en": "The mainline Linux 7.4 kernel will be capable of running  on the Steam Frame VR headset...",
+    "summary_pt": "The mainline Linux 7.4 kernel will be capable of running  on the Steam Frame VR headset...",
+    "link": "https://www.phoronix.com/news/Steam-Frame-FR-Linux-7.4",
+    "date": "Mon, 26 Oct 2026 20:36:40 -0400"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Mozilla Firefox 160 Enters Public Beta Testing, Here’s What to Expect",
     "title_pt": "Mozilla Firefox 160 Enters Public Beta Testing, Here’s What to Expect",
     "summary_en": "Mozilla Firefox 160 open-source web browser is now available for public beta testing with various new features and improvements. Here's what to expect from the final release. \n The post  Mozilla Firefox 160 Enters Public Beta Testing, Here’s What to Expect  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
