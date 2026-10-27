@@ -1,5 +1,23 @@
 [
   {
+    "source": "9to5Linux",
+    "title_en": "Mozilla Firefox 160 Enters Public Beta Testing, Here’s What to Expect",
+    "title_pt": "Mozilla Firefox 160 Enters Public Beta Testing, Here’s What to Expect",
+    "summary_en": "Mozilla Firefox 160 open-source web browser is now available for public beta testing with various new features and improvements. Here's what to expect from the final release. \n The post  Mozilla Firefox 160 Enters Public Beta Testing, Here’s What to Expect  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Mozilla Firefox 160 open-source web browser is now available for public beta testing with various new features and improvements. Here's what to expect from the final release. \n The post  Mozilla Firefox 160 Enters Public Beta Testing, Here’s What to Expect  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/mozilla-firefox-160-enters-public-beta-testing-heres-what-to-expect",
+    "date": "Mon, 26 Oct 2026 22:55:52 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.4 Preps CXL For Very Neat Dynamic Capacity Devices \"DCD\"",
+    "title_pt": "Linux 7.4 Preps CXL For Very Neat Dynamic Capacity Devices \"DCD\"",
+    "summary_en": "The Compute Express Link (CXL) subsystem changes were merged today for the Linux 7.4 kernel. The fun work this cycle is preparing to support Dynamic Capacity Devices...",
+    "summary_pt": "The Compute Express Link (CXL) subsystem changes were merged today for the Linux 7.4 kernel. The fun work this cycle is preparing to support Dynamic Capacity Devices...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-CXL",
+    "date": "Mon, 26 Oct 2026 17:05:32 -0400"
+  },
+  {
     "source": "LWN",
     "title_en": "[$] Python's experimental JIT to be removed",
     "title_pt": "[$] Python's experimental JIT to be removed",
