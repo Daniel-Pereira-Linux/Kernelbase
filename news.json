@@ -1,6 +1,96 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "KDE Plasma 6.8.2 Desktop Environment Released with Numerous Bug Fixes",
+    "title_pt": "KDE Plasma 6.8.2 Desktop Environment Released with Numerous Bug Fixes",
+    "summary_en": "KDE Plasma 6.8.2 is now available as the second maintenance update to the latest KDE Plasma 6.8 desktop environment series with various bug fixes and improvements. \n The post  KDE Plasma 6.8.2 Desktop Environment Released with Numerous Bug Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "KDE Plasma 6.8.2 is now available as the second maintenance update to the latest KDE Plasma 6.8 desktop environment series with various bug fixes and improvements. \n The post  KDE Plasma 6.8.2 Desktop Environment Released with Numerous Bug Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/kde-plasma-6-8-2-desktop-environment-released-with-numerous-bug-fixes",
+    "date": "Tue, 27 Oct 2026 14:13:20 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] Guidelines for panics in kernel code",
+    "title_pt": "[$] Guidelines for panics in kernel code",
+    "summary_en": "Alexandre Courbot spends most of his time working on the kernel doing code\nreviews. Recently, he's been wondering about what the standards should be for\nwhen Rust code is allowed to panic, and how it should do error handling more\ngenerally. Unlike many of the other talks at Kangrejos 2026, his talk was not\npresenting some existing work, but rather hoping to solicit opinions on the\ntopic from th...",
+    "summary_pt": "Alexandre Courbot spends most of his time working on the kernel doing code\nreviews. Recently, he's been wondering about what the standards should be for\nwhen Rust code is allowed to panic, and how it should do error handling more\ngenerally. Unlike many of the other talks at Kangrejos 2026, his talk was not\npresenting some existing work, but rather hoping to solicit opinions on the\ntopic from th...",
+    "link": "https://lwn.net/Articles/1100873/",
+    "date": "Tue, 27 Oct 2026 13:56:24 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Tuesday",
+    "title_pt": "Security updates for Tuesday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (bind, bind9.18, brotli, buildah, container-tools:4.0, container-tools:rhel8, firefox, flatpak, freeipmi, gcc, golang, grafana, httpd, kernel, kernel-rt, libreswan, libX11, lrzsz, nodejs:14, nodejs:18, oci-seccomp-bpf-hook, podman, python-urllib3, python3.9, python38:3.8 and python38-devel:3.8, skopeo, thunderbird, xorg-x11-server, and xz),  Debi...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (bind, bind9.18, brotli, buildah, container-tools:4.0, container-tools:rhel8, firefox, flatpak, freeipmi, gcc, golang, grafana, httpd, kernel, kernel-rt, libreswan, libX11, lrzsz, nodejs:14, nodejs:18, oci-seccomp-bpf-hook, podman, python-urllib3, python3.9, python38:3.8 and python38-devel:3.8, skopeo, thunderbird, xorg-x11-server, and xz),  Debi...",
+    "link": "https://lwn.net/Articles/1103188/",
+    "date": "Tue, 27 Oct 2026 13:37:48 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Pavee OS: Ikey Doherty's New Daily-Driver Desktop Distro Being Built Atop Barney",
+    "title_pt": "Pavee OS: Ikey Doherty's New Daily-Driver Desktop Distro Being Built Atop Barney",
+    "summary_en": "Back in September Ikey Doherty of Solus Linux and Serpent OS notoriety as well as being a former Intel Clear Linux developer announced  Barney as his planned showcase for how to \"properly\" build a modern Linux distribution in 2026+. Today he's provided an update on this Barney distro tooling effort as well as announcing Pavee OS as his planned daily-driver desktop distribution built atop it...",
+    "summary_pt": "Back in September Ikey Doherty of Solus Linux and Serpent OS notoriety as well as being a former Intel Clear Linux developer announced  Barney as his planned showcase for how to \"properly\" build a modern Linux distribution in 2026+. Today he's provided an update on this Barney distro tooling effort as well as announcing Pavee OS as his planned daily-driver desktop distribution built atop it...",
+    "link": "https://www.phoronix.com/news/Pavee-OS",
+    "date": "Tue, 27 Oct 2026 09:11:30 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "KDE Plasma 6.8.2 Released With Dozens Of Additional Bug Fixes",
+    "title_pt": "KDE Plasma 6.8.2 Released With Dozens Of Additional Bug Fixes",
+    "summary_en": "Debuting two weeks ago on the 30th anniversary of the KDE project was the Plasma 6.8 desktop with many exciting improvements. Last week it was succeeded by Plasma 6.8.1 with dozens of bug fixes and this week now brings Plasma 6.8.2 with yet more bug fixing...",
+    "summary_pt": "Debuting two weeks ago on the 30th anniversary of the KDE project was the Plasma 6.8 desktop with many exciting improvements. Last week it was succeeded by Plasma 6.8.1 with dozens of bug fixes and this week now brings Plasma 6.8.2 with yet more bug fixing...",
+    "link": "https://www.phoronix.com/news/KDE-Plasma-6.8.2",
+    "date": "Tue, 27 Oct 2026 09:02:10 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD EPYC Zen 6 PML Support, ARM64 On s390 Merged For Linux 7.4 KVM",
+    "title_pt": "AMD EPYC Zen 6 PML Support, ARM64 On s390 Merged For Linux 7.4 KVM",
+    "summary_en": "The many Kernel-based Virtual Machine (KVM) improvements have been merged for Linux 7.4 to deliver a number of new features for different server processors...",
+    "summary_pt": "The many Kernel-based Virtual Machine (KVM) improvements have been merged for Linux 7.4 to deliver a number of new features for different server processors...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-KVM",
+    "date": "Tue, 27 Oct 2026 08:00:00 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Accelerating HTTP Web Servers With In-Kernel eBPF Deliver Up To 4.5x Throughput",
+    "title_pt": "Accelerating HTTP Web Servers With In-Kernel eBPF Deliver Up To 4.5x Throughput",
+    "summary_en": "An interesting new open-source project born out of university research is Beeper to provide application-layer parsing within the in-kernel eBPF. With an HTTP parser implemented by Beeper in eBPF and providing an in-kernel HTTP cache, the throughput for web servers could be improved by 3x at high rates...",
+    "summary_pt": "An interesting new open-source project born out of university research is Beeper to provide application-layer parsing within the in-kernel eBPF. With an HTTP parser implemented by Beeper in eBPF and providing an in-kernel HTTP cache, the throughput for web servers could be improved by 3x at high rates...",
+    "link": "https://www.phoronix.com/news/Beeper-In-Kernel-Parsing-eBPF",
+    "date": "Tue, 27 Oct 2026 06:26:22 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux's Modern NTFS Driver Now Supports Alternate Data Streams (ADS)",
+    "title_pt": "Linux's Modern NTFS Driver Now Supports Alternate Data Streams (ADS)",
+    "summary_en": "Merged back in Linux 7.1 was the new NTFS kernel driver implementation for better supporting Microsoft's NTFS file-system on Linux. Since then new features and improvements have continued to land for this NTFS driver with some more notable additions also coming in Linux 7.4...",
+    "summary_pt": "Merged back in Linux 7.1 was the new NTFS kernel driver implementation for better supporting Microsoft's NTFS file-system on Linux. Since then new features and improvements have continued to land for this NTFS driver with some more notable additions also coming in Linux 7.4...",
+    "link": "https://www.phoronix.com/news/NTFS-Linux-7.4-Improvements",
+    "date": "Tue, 27 Oct 2026 06:11:29 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.4 Expands Sensor Monitoring For More ASUS & MSI Motherboards, New Minisforum Driver",
+    "title_pt": "Linux 7.4 Expands Sensor Monitoring For More ASUS & MSI Motherboards, New Minisforum Driver",
+    "summary_en": "With the Linux 7.4 kernel there are more MSI and ASUS motherboards with sensor monitoring support along with a variety of other additions to help broaden the selection of supported systems for hardware sensor monitoring under Linux. It's another busy cycle for the HWMON subsystem...",
+    "summary_pt": "With the Linux 7.4 kernel there are more MSI and ASUS motherboards with sensor monitoring support along with a variety of other additions to help broaden the selection of supported systems for hardware sensor monitoring under Linux. It's another busy cycle for the HWMON subsystem...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-HWMON",
+    "date": "Tue, 27 Oct 2026 05:52:30 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Firefox 159 Released With AMD  Linux Graphics Fix For Excessive Memory Use",
+    "title_pt": "Firefox 159 Released With AMD  Linux Graphics Fix For Excessive Memory Use",
+    "summary_en": "Firefox 159 is out today as the latest bi-weekly feature release for Mozilla's web browser...",
+    "summary_pt": "Firefox 159 is out today as the latest bi-weekly feature release for Mozilla's web browser...",
+    "link": "https://www.phoronix.com/news/Firefox-159-Released",
+    "date": "Tue, 27 Oct 2026 05:35:49 -0400"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Mozilla Firefox 159 Is Now Available for Download, Here’s What’s New",
     "title_pt": "Mozilla Firefox 159 Is Now Available for Download, Here’s What’s New",
     "summary_en": "Mozilla Firefox 159 open-source web browser is now available for download with better memory management on Linux systems with AMD GPUs, better Wayland support, and new developer features. \n The post  Mozilla Firefox 159 Is Now Available for Download, Here’s What’s New  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not sc...",
