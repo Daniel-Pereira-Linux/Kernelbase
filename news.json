@@ -1,6 +1,24 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Scribus 1.6.7 Open-Source Desktop Publishing App Released with Improvements",
+    "title_pt": "Scribus 1.6.7 Open-Source Desktop Publishing App Released with Improvements",
+    "summary_en": "Scribus 1.6.7 free and open-source desktop publishing software is now available for download with various improvements, as well as bug and security fixes. \n The post  Scribus 1.6.7 Open-Source Desktop Publishing App Released with Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Scribus 1.6.7 free and open-source desktop publishing software is now available for download with various improvements, as well as bug and security fixes. \n The post  Scribus 1.6.7 Open-Source Desktop Publishing App Released with Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/scribus-1-6-7-open-source-desktop-publishing-app-released-with-improvements?utm_source=rss",
+    "date": "Wed, 28 Oct 2026 00:35:43 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Wine Merges Support For MESA_map_buffer_client_pointer To Improve WoW64 32-bit OpenGL",
+    "title_pt": "Wine Merges Support For MESA_map_buffer_client_pointer To Improve WoW64 32-bit OpenGL",
+    "summary_en": "An initiative led by CodeWeavers this year has come to fruition for improving OpenGL support with WoW64 for bettering Windows 32-bit application/game support while using 64-bit system libraries...",
+    "summary_pt": "An initiative led by CodeWeavers this year has come to fruition for improving OpenGL support with WoW64 for bettering Windows 32-bit application/game support while using 64-bit system libraries...",
+    "link": "https://www.phoronix.com/news/Wine-Mesa-Map-Buffer-Client-Ptr",
+    "date": "Tue, 27 Oct 2026 20:33:36 -0400"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Mozilla Thunderbird 159 Email Client Improves Tray Icon Support on Linux",
     "title_pt": "Mozilla Thunderbird 159 Email Client Improves Tray Icon Support on Linux",
     "summary_en": "Mozilla Thunderbird 159 open-source email client is now available for download with updated tray icons on Linux to indicate unread mail and show the message count in the tooltip. \n The post  Mozilla Thunderbird 159 Email Client Improves Tray Icon Support on Linux  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
