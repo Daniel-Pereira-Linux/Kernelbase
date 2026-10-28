@@ -1,5 +1,122 @@
 [
   {
+    "source": "9to5Linux",
+    "title_en": "Armbian Imager 2.5 Released with First-Boot Profiles, Revamped Settings Page",
+    "title_pt": "Armbian Imager 2.5 Released with First-Boot Profiles, Revamped Settings Page",
+    "summary_en": "Armbian Imager 2.5 open-source utility for flashing Armbian Linux on single-board computers is now available for download with new features and many improvements. \n The post  Armbian Imager 2.5 Released with First-Boot Profiles, Revamped Settings Page  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Armbian Imager 2.5 open-source utility for flashing Armbian Linux on single-board computers is now available for download with new features and many improvements. \n The post  Armbian Imager 2.5 Released with First-Boot Profiles, Revamped Settings Page  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/armbian-imager-2-5-released-with-first-boot-profiles-revamped-settings-page?utm_source=rss",
+    "date": "Wed, 28 Oct 2026 19:01:10 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Canonical Plans to Revive Its Immutable Ubuntu Core Desktop Flavor",
+    "title_pt": "Canonical Plans to Revive Its Immutable Ubuntu Core Desktop Flavor",
+    "summary_en": "Ubuntu maker Canonical is bringing Ubuntu Core Desktop back from the dead, and this time, they mean business. \n The post  Canonical Plans to Revive Its Immutable Ubuntu Core Desktop Flavor  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Ubuntu maker Canonical is bringing Ubuntu Core Desktop back from the dead, and this time, they mean business. \n The post  Canonical Plans to Revive Its Immutable Ubuntu Core Desktop Flavor  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/canonical-plans-to-revive-its-immutable-ubuntu-core-desktop-flavor?utm_source=rss",
+    "date": "Wed, 28 Oct 2026 18:22:59 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "System76 Teases Thelio Prime AMD Mini Linux PC Running Pop!_OS with COSMIC",
+    "title_pt": "System76 Teases Thelio Prime AMD Mini Linux PC Running Pop!_OS with COSMIC",
+    "summary_en": "System76 unveils Thelio Prime as a Linux-powered mini PC running the Pop!_OS 24.04 LTS distribution with the COSMIC desktop environment. \n The post  System76 Teases Thelio Prime AMD Mini Linux PC Running Pop!_OS with COSMIC  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "System76 unveils Thelio Prime as a Linux-powered mini PC running the Pop!_OS 24.04 LTS distribution with the COSMIC desktop environment. \n The post  System76 Teases Thelio Prime AMD Mini Linux PC Running Pop!_OS with COSMIC  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/system76-teases-thelio-prime-amd-mini-linux-pc-running-pop_os-with-cosmic?utm_source=rss",
+    "date": "Wed, 28 Oct 2026 17:01:56 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Mesa 26.2.6 Released with Fixes for RADV, ANV, Zink, RadeonSI, and Freedreno",
+    "title_pt": "Mesa 26.2.6 Released with Fixes for RADV, ANV, Zink, RadeonSI, and Freedreno",
+    "summary_en": "Mesa 26.2.6 is is now available for download as a bug fix update to the Mesa 26.2 series, focusing on driver-specific corrections across AMD, Intel, Qualcomm, ARM, and software rendering backends. \n The post  Mesa 26.2.6 Released with Fixes for RADV, ANV, Zink, RadeonSI, and Freedreno  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended fo...",
+    "summary_pt": "Mesa 26.2.6 is is now available for download as a bug fix update to the Mesa 26.2 series, focusing on driver-specific corrections across AMD, Intel, Qualcomm, ARM, and software rendering backends. \n The post  Mesa 26.2.6 Released with Fixes for RADV, ANV, Zink, RadeonSI, and Freedreno  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended fo...",
+    "link": "https://9to5linux.com/mesa-26-2-6-released-with-fixes-for-radv-anv-zink-radeonsi-and-freedreno?utm_source=rss",
+    "date": "Wed, 28 Oct 2026 16:24:21 +0000"
+  },
+  {
+    "source": "Planet Kernel",
+    "title_en": "Linux Plumbers Conference: The sched_exit Microconference",
+    "title_pt": "Linux Plumbers Conference: The sched_exit Microconference",
+    "summary_en": "The  sched_ext Microconference  was very active this year at Linux Plumbers in Prague. It featured \nsix talks, preceded by an opening discussion on the future direction of sched_ext. \n(Written by Andrea Righi) \n Three main topics dominated the discussions \n \n Priority inversion and how to handle it in sched_ext : lock holder and \n  lock waiter preemption, time slice extension, and making proxy ...",
+    "summary_pt": "The  sched_ext Microconference  was very active this year at Linux Plumbers in Prague. It featured \nsix talks, preceded by an opening discussion on the future direction of sched_ext. \n(Written by Andrea Righi) \n Three main topics dominated the discussions \n \n Priority inversion and how to handle it in sched_ext : lock holder and \n  lock waiter preemption, time slice extension, and making proxy ...",
+    "link": "https://lpc.events/blog/current/index.php/2026/10/28/the-sched_exit-microconference/",
+    "date": "Wed, 28 Oct 2026 14:57:14 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] The campaign to push Northstar into Linux distributions",
+    "title_pt": "[$] The campaign to push Northstar into Linux distributions",
+    "summary_en": "There is not a broad selection of mature, open-source web-browser engines\nfor Linux users. Most of the browsers available for Linux are based on one of\njust three projects: Chromium's  Blink , Firefox's\n Gecko , or  WebKit . A new entrant would\ngenerally be seen as a welcome alternative, but the recent campaign to push one\nof the LLM-written  Nordstjernen  browsers\ninto  Debian  and   Arch Linu...",
+    "summary_pt": "There is not a broad selection of mature, open-source web-browser engines\nfor Linux users. Most of the browsers available for Linux are based on one of\njust three projects: Chromium's  Blink , Firefox's\n Gecko , or  WebKit . A new entrant would\ngenerally be seen as a welcome alternative, but the recent campaign to push one\nof the LLM-written  Nordstjernen  browsers\ninto  Debian  and   Arch Linu...",
+    "link": "https://lwn.net/Articles/1102738/",
+    "date": "Wed, 28 Oct 2026 14:26:59 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Redox OS ring buffers project summary",
+    "title_pt": "Redox OS ring buffers project summary",
+    "summary_en": "The  Redox OS  project, which is a\nUnix-like microkernel-based operating system written in Rust, has published a  report  on the work\nthat it has done in the last year to  implement io_uring-like\n I/O . \n \n Last year, the Redox team received a grant to develop io_uring-like Ring\nBuffer support at the system task level, as a first step towards ring buffer\ncommunications between the application a...",
+    "summary_pt": "The  Redox OS  project, which is a\nUnix-like microkernel-based operating system written in Rust, has published a  report  on the work\nthat it has done in the last year to  implement io_uring-like\n I/O . \n \n Last year, the Redox team received a grant to develop io_uring-like Ring\nBuffer support at the system task level, as a first step towards ring buffer\ncommunications between the application a...",
+    "link": "https://lwn.net/Articles/1103359/",
+    "date": "Wed, 28 Oct 2026 14:05:05 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Wednesday",
+    "title_pt": "Security updates for Wednesday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (emacs, thunderbird, and xdg-dbus-proxy),  Debian  (bind9, openjdk-21, pdns, php-mongodb, and thunderbird),  Fedora  (brotli, chromium, clevis, eog, flatpak, ghostscript, kernel, libinstpatch, libreswan, mingw-freetype, mingw-gstreamer1, mingw-gstreamer1-plugins-bad-free, mingw-gstreamer1-plugins-base, mingw-gstreamer1-plugins-good, openssh, perl...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (emacs, thunderbird, and xdg-dbus-proxy),  Debian  (bind9, openjdk-21, pdns, php-mongodb, and thunderbird),  Fedora  (brotli, chromium, clevis, eog, flatpak, ghostscript, kernel, libinstpatch, libreswan, mingw-freetype, mingw-gstreamer1, mingw-gstreamer1-plugins-bad-free, mingw-gstreamer1-plugins-base, mingw-gstreamer1-plugins-good, openssh, perl...",
+    "link": "https://lwn.net/Articles/1103357/",
+    "date": "Wed, 28 Oct 2026 13:10:19 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux Kernel Developers Considering Removal Of KGDB Debugging Functionality",
+    "title_pt": "Linux Kernel Developers Considering Removal Of KGDB Debugging Functionality",
+    "summary_en": "Merged to the kernel all the way back in Linux  2.6.26 in 2008 was KGDB for improving the kernel debugging experience. KGDB works in conjunction with the GNU Debugger (GDB) to debug the kernel in a similar fashion to user-space debugging. KGDB requires the use of a second computer connected via serial or network cable. KGDB isn't widely used in recent years and a patch was floated today to remo...",
+    "summary_pt": "Merged to the kernel all the way back in Linux  2.6.26 in 2008 was KGDB for improving the kernel debugging experience. KGDB works in conjunction with the GNU Debugger (GDB) to debug the kernel in a similar fashion to user-space debugging. KGDB requires the use of a second computer connected via serial or network cable. KGDB isn't widely used in recent years and a patch was floated today to remo...",
+    "link": "https://www.phoronix.com/news/Linux-Considers-Dropping--KGDB",
+    "date": "Wed, 28 Oct 2026 15:15:07 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "System76 Introducing AMD-Powered Linux Small PC",
+    "title_pt": "System76 Introducing AMD-Powered Linux Small PC",
+    "summary_en": "System76 began teasing today the new Thelio Prime Desktop as an AMD-powered Linux mini PC that will begin shipping in November...",
+    "summary_pt": "System76 began teasing today the new Thelio Prime Desktop as an AMD-powered Linux mini PC that will begin shipping in November...",
+    "link": "https://www.phoronix.com/news/System76-Thelio-Prime-Mini-PC",
+    "date": "Wed, 28 Oct 2026 13:32:46 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Canonical Reviving Their Immutable Ubuntu Core Desktop",
+    "title_pt": "Canonical Reviving Their Immutable Ubuntu Core Desktop",
+    "summary_en": "Canonical engineers back in 2023 outlined plans for Ubuntu Core Desktop as their immutable Linux desktop. They made some good initial progress but since 2024 it went rather silent. Now they are reviving Ubuntu Core Desktop as their immutable desktop  OS offering and with grand plans for the future...",
+    "summary_pt": "Canonical engineers back in 2023 outlined plans for Ubuntu Core Desktop as their immutable Linux desktop. They made some good initial progress but since 2024 it went rather silent. Now they are reviving Ubuntu Core Desktop as their immutable desktop  OS offering and with grand plans for the future...",
+    "link": "https://www.phoronix.com/news/Ubuntu-Core-Desktop-2026",
+    "date": "Wed, 28 Oct 2026 11:11:24 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "CachyOS vs. Fedora 45 vs. Ubuntu 26.10 Performance On AMD Ryzen 9",
+    "title_pt": "CachyOS vs. Fedora 45 vs. Ubuntu 26.10 Performance On AMD Ryzen 9",
+    "summary_en": "With the recently released Ubuntu 26.10 and the nearly-released Fedora Workstation 45, Phoronix readers have begun inquiring about fresh benchmarks looking at how they stack up against the performance-optimized, Arch Linux based CachyOS. Up today are our first CachyOS vs. Fedora 45 vs. Ubuntu 26.10 benchmarks on an AMD Ryzen 9 9900X3D2 desktop system.",
+    "summary_pt": "With the recently released Ubuntu 26.10 and the nearly-released Fedora Workstation 45, Phoronix readers have begun inquiring about fresh benchmarks looking at how they stack up against the performance-optimized, Arch Linux based CachyOS. Up today are our first CachyOS vs. Fedora 45 vs. Ubuntu 26.10 benchmarks on an AMD Ryzen 9 9900X3D2 desktop system.",
+    "link": "https://www.phoronix.com/review/cachyos-ubuntu2610-fedora45",
+    "date": "Wed, 28 Oct 2026 10:46:46 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "NetBSD Adds Alternative Text Editor To vi & xedit For Easing New Users",
+    "title_pt": "NetBSD Adds Alternative Text Editor To vi & xedit For Easing New Users",
+    "summary_en": "NetBSD-current has added a new command line text editor to its base set of packages for helping out new users as an alternative to their vi and xedit editors currently included...",
+    "summary_pt": "NetBSD-current has added a new command line text editor to its base set of packages for helping out new users as an alternative to their vi and xedit editors currently included...",
+    "link": "https://www.phoronix.com/news/NetBSD-New-Text-Editor",
+    "date": "Wed, 28 Oct 2026 09:48:00 -0400"
+  },
+  {
     "source": "Phoronix",
     "title_en": "X.Org XCB Co-Creator Praises Wayland's Protocol Design",
     "title_pt": "X.Org XCB Co-Creator Praises Wayland's Protocol Design",
