@@ -1,5 +1,68 @@
 [
   {
+    "source": "Phoronix",
+    "title_en": "X.Org XCB Co-Creator Praises Wayland's Protocol Design",
+    "title_pt": "X.Org XCB Co-Creator Praises Wayland's Protocol Design",
+    "summary_en": "Open-source developer Jamey Sharp who is a longtime X.Org developer and co-creator of the X protocol C-language Binding (XCB) finally had the need to write a Wayland client and ended up praising its design...",
+    "summary_pt": "Open-source developer Jamey Sharp who is a longtime X.Org developer and co-creator of the X protocol C-language Binding (XCB) finally had the need to write a Wayland client and ended up praising its design...",
+    "link": "https://www.phoronix.com/news/Jamey-Sharp-Praises-Wayland",
+    "date": "Wed, 28 Oct 2026 08:54:28 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Provenance Time Proposed As A New Timestamp For Linux",
+    "title_pt": "Provenance Time Proposed As A New Timestamp For Linux",
+    "summary_en": "While the Linux kernel and various file-system drivers already support the notion of the birth time for tracking a file/directory's birth/creation time, a slightly different provenance time \"ptime\" is now being proposed for the Linux kernel...",
+    "summary_pt": "While the Linux kernel and various file-system drivers already support the notion of the birth time for tracking a file/directory's birth/creation time, a slightly different provenance time \"ptime\" is now being proposed for the Linux kernel...",
+    "link": "https://www.phoronix.com/news/Linux-Provenance-Time-PTIME",
+    "date": "Wed, 28 Oct 2026 08:23:10 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Hyprland 0.57 Released With Compiz Inspired Wobbly Windows",
+    "title_pt": "Hyprland 0.57 Released With Compiz Inspired Wobbly Windows",
+    "summary_en": "For those that want to reminisce  over the days long ago of Compiz and Beryl on the Linux desktop, the Hyprland 0.57 Wayland compositor released today and has added Compiz-inspired wobbly windows support...",
+    "summary_pt": "For those that want to reminisce  over the days long ago of Compiz and Beryl on the Linux desktop, the Hyprland 0.57 Wayland compositor released today and has added Compiz-inspired wobbly windows support...",
+    "link": "https://www.phoronix.com/news/Hyprland-0.57",
+    "date": "Wed, 28 Oct 2026 07:45:33 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "VKD3D-Proton 3.1 Released With New Features Ahead Of Big v3.2 Release",
+    "title_pt": "VKD3D-Proton 3.1 Released With New Features Ahead Of Big v3.2 Release",
+    "summary_en": "Hans-Kristian Arntzen of Valve's Linux team just tagged the VKD3D-Proton 3.1 release. This version comes with a number of new features and performance optimizations while being the stable point ahead of VKD3D-Proton beginning to see a lot of new feature code for what will then become VKD3D-Proton 3.2...",
+    "summary_pt": "Hans-Kristian Arntzen of Valve's Linux team just tagged the VKD3D-Proton 3.1 release. This version comes with a number of new features and performance optimizations while being the stable point ahead of VKD3D-Proton beginning to see a lot of new feature code for what will then become VKD3D-Proton 3.2...",
+    "link": "https://www.phoronix.com/news/VKD3D-Proton-3.1",
+    "date": "Wed, 28 Oct 2026 06:27:21 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "GhostBSD 26.2 Released As FreeBSD 15.1 Powered OS With New Installer",
+    "title_pt": "GhostBSD 26.2 Released As FreeBSD 15.1 Powered OS With New Installer",
+    "summary_en": "GhostBSD 26.2 is out as the latest feature release of this FreeBSD-powered desktop operating system...",
+    "summary_pt": "GhostBSD 26.2 is out as the latest feature release of this FreeBSD-powered desktop operating system...",
+    "link": "https://www.phoronix.com/news/GhostBSD-26.2",
+    "date": "Wed, 28 Oct 2026 06:11:54 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "NTFS3 Hardened In Linux 7.4 Against Corrupted Or Maliciously-Crafted NTFS Volumes",
+    "title_pt": "NTFS3 Hardened In Linux 7.4 Against Corrupted Or Maliciously-Crafted NTFS Volumes",
+    "summary_en": "Paragon Software's Konstantin Komarov sent out the latest NTFS3 driver updates for this in-kernel NTFS read/write driver. With Linux 7.4, the NTFS3 driver is focused on being hardened against corrupted or maliciously-crafted NTFS volumes...",
+    "summary_pt": "Paragon Software's Konstantin Komarov sent out the latest NTFS3 driver updates for this in-kernel NTFS read/write driver. With Linux 7.4, the NTFS3 driver is focused on being hardened against corrupted or maliciously-crafted NTFS volumes...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-NTFS3",
+    "date": "Wed, 28 Oct 2026 06:02:34 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Retiring BSD-Compress Proposed For Linux PPP Network Code",
+    "title_pt": "Retiring BSD-Compress Proposed For Linux PPP Network Code",
+    "summary_en": "A patch has been proposed to remove the BSD-Compress support from the Linux kernel for the Linux networking point-to-point protocol (PPP) due to being unmaintained and having fundamental issues with the code that can lead to a fatal error...",
+    "summary_pt": "A patch has been proposed to remove the BSD-Compress support from the Linux kernel for the Linux networking point-to-point protocol (PPP) due to being unmaintained and having fundamental issues with the code that can lead to a fatal error...",
+    "link": "https://www.phoronix.com/news/Linux-May-Retire-PPP-BSD-Comp",
+    "date": "Wed, 28 Oct 2026 05:50:55 -0400"
+  },
+  {
     "source": "9to5Linux",
     "title_en": "Scribus 1.6.7 Open-Source Desktop Publishing App Released with Improvements",
     "title_pt": "Scribus 1.6.7 Open-Source Desktop Publishing App Released with Improvements",
