@@ -1,5 +1,13 @@
 [
   {
+    "title": "Re: [PATCH v2] docs: translations: pt_BR: add maintainer PGP guide",
+    "author": "Daniel Pereira",
+    "email": "danielmaraboo@gmail.com",
+    "updated": "2026-10-29T12:02:31Z",
+    "link": "https://lore.kernel.org/linux-doc/CAMAsx6cDw-tsyrz-0vY=qVjE0sdukxnRND=KGoF5hG0Tk=V5MQ@mail.gmail.com/",
+    "content": "Em qua., 28 de out. de 2026 às 18:28, Gabriel Ribeiro\n<ic.gabrielribeiro@gmail.com> escreveu:\n\n> +    tiver uma conta em kernel.org, poderá se qualificar para receber um\n> +    `Nitrokey Start gratuito`_ oferecido pela Linux Foundation.\n\nThe original says \"you qualify for a free Nitrokey Start ... courtesy of\nThe Linux Foundation\", which is a statement, while \"poderá se qualificar\"\nsounds uncertain. Maybe \"você tem direito a um `Nitrokey Start gratuito`_,\ncortesia da Linux Foundation\"?\n\n> +de suas considerações sobre hardware e software abertos ou proprietários.\n\nThe original says \"open/proprietary hardware considerations\". Was \"e\nsoftware\" added on purpose?\n\n> +- Os tarballs vêm acompanhados de assinaturas PGP separadas.\n\n\"with all downloads\" seems to be missing: \"... separadas em todos os\ndownloads\".\n\n> +verificar automaticamente a assinatura do commit apontado pela tag e\n\nThe original says \"the signature at the tip you're pulling\". Since Git\nverifies the tag signature, \"a assinatura da tag que você está obtendo\"\nmay be more accurate, but your wording is a possible reading too.\n\n> +e pode revelar informações sobre o cartão caso você o perca.\n> +sido concluída::\n> +   commits também serão úteis.\n\nSmall differences in strength from the original: \"will additionally\nleak\" (revelará), \"was successful\" (bem-sucedida) and \"even externally\nmaintained trees ... will be valuable\" (até mesmo ... valiosas).\n\n> +sessão do shell. Confira seus arquivos rc e remova configurações que\n\n\"You may want to check\" became an imperative. \"Talvez seja bom conferir\n...\" would keep the tone."
+  },
+  {
     "title": "[PATCH v2] docs: translations: pt_BR: add maintainer PGP guide",
     "author": "Gabriel Ribeiro",
     "email": "ic.gabrielribeiro@gmail.com",
@@ -1590,13 +1598,5 @@
     "updated": "2026-08-03T18:38:00Z",
     "link": "https://lore.kernel.org/linux-doc/CAMAsx6e-UHxnKKf25FKR42auZiLskVv5J4CVBQ_QYL8rdHKBjQ@mail.gmail.com/",
     "content": "Em seg., 3 de ago. de 2026 às 15:29, Jonathan Corbet <corbet@lwn.net> escreveu:\n>\n\n> Here is my suggestion: I'll apply the outstanding Portuguese translation\n> patches today, then say \"no more\" for 7.3.  You can then create a new\n> index.rst that is current with all of the done translations; we can\n> apply that either before or after the merge window.  Everybody doing\n> translation patches can then work against that new index.rst file and,\n> hopefully, life will get smoother.\n>\n> Does that work for you?\n>\n\nHi Jon,\n\nYou are absolutely right. I agree that just moving the entries won't\nsolve the long-term conflict issues.\n\nPlease discard this patch. I will wait for you to apply the\noutstanding translation patches, and once those are in, I will prepare\na new index.rst structure as you suggested.\n\nThanks for the guidance,\n\nDaniel"
-  },
-  {
-    "title": "Re: [PATCH] docs: pt_BR: Reorganize index.rst to avoid merge conflicts",
-    "author": "Jonathan Corbet",
-    "email": "corbet@lwn.net",
-    "updated": "2026-08-03T18:29:29Z",
-    "link": "https://lore.kernel.org/linux-doc/87fr0vys54.fsf@trenco.lwn.net/",
-    "content": "Daniel Pereira <danielmaraboo@gmail.com> writes:\n\n> The main index.rst file for the pt_BR translation was grouping all\n> translated documents directly in its toctree. Because many contributors\n> are submitting translations simultaneously to the same file, it has\n> become a bottleneck, causing frequent merge conflicts.\n>\n> To solve this issue and improve maintainability, this patch refactors\n> the structure to follow the pattern used by the base English\n> documentation. Specifically, a new index.rst was created inside the\n> process/ directory to handle all future contributions and document\n> additions targeting that specific directory.\n>\n> The root index.rst now simply references process/index.rst. This\n> modular organization keeps the main tree clean and significantly\n> reduces patch collisions.\n>\n> Signed-off-by: Daniel Pereira <danielmaraboo@gmail.com>\n> ---\n>  Documentation/translations/pt_BR/index.rst    | 28 +--------------\n>  .../translations/pt_BR/process/index.rst      | 34 +++++++++++++++++++\n>  2 files changed, 35 insertions(+), 27 deletions(-)\n>  create mode 100644 Documentation/translations/pt_BR/process/index.rst\n\nThis is a step in the right direction but...  having everybody just\nappend TOC entries to a different file will not change the overall\nsituation.  It would be far better to translate\nDocumentation/process/index.rst, with its subsection structure, to avoid\nthat \"everybody appends and conflicts\" behavior.\n\nThis patch, of course, also conflicts badly with the various other\ntranslations that you have acked.\n\nHere is my suggestion: I'll apply the outstanding Portuguese translation\npatches today, then say \"no more\" for 7.3.  You can then create a new\nindex.rst that is current with all of the done translations; we can\napply that either before or after the merge window.  Everybody doing\ntranslation patches can then work against that new index.rst file and,\nhopefully, life will get smoother.\n\nDoes that work for you?\n\nThanks,\n\njon"
   }
 ]
