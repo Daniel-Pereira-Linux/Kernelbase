@@ -1,5 +1,32 @@
 [
   {
+    "source": "LWN",
+    "title_en": "[$] LWN.net Weekly Edition for October 29, 2026",
+    "title_pt": "[$] LWN.net Weekly Edition for October 29, 2026",
+    "summary_en": "Inside this week's LWN.net Weekly Edition:\n         \n \n   Front : Python JIT; Kernel clean up; Rust panics; Future Rust features; Northstar browser; 7.4 merge window; Smaller kernel stacks.\n               Briefs : KeePassXC 2.8.0; Redox ring buffers; Rust in systemd; Quotes; ...\n               Announcements : Newsletters, conferences, security updates, patches, and more.",
+    "summary_pt": "Inside this week's LWN.net Weekly Edition:\n         \n \n   Front : Python JIT; Kernel clean up; Rust panics; Future Rust features; Northstar browser; 7.4 merge window; Smaller kernel stacks.\n               Briefs : KeePassXC 2.8.0; Redox ring buffers; Rust in systemd; Quotes; ...\n               Announcements : Newsletters, conferences, security updates, patches, and more.",
+    "link": "https://lwn.net/Articles/1102136/",
+    "date": "Thu, 29 Oct 2026 00:19:08 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "A report from the LPC sched_ext microconference",
+    "title_pt": "A report from the LPC sched_ext microconference",
+    "summary_en": "The Linux Plumbers Conference blog has  a\nreport  from the sched_ext microconference held in Prague.\n \n \n\tThree main topics dominated the discussions\n\t \n   Priority inversion and how to handle it in sched_ext : lock holder and\n  \t     lock waiter preemption, time slice extension, and making proxy execution\n  \t     work together with BPF schedulers. \n   Paravirtualized scheduling : letting the h...",
+    "summary_pt": "The Linux Plumbers Conference blog has  a\nreport  from the sched_ext microconference held in Prague.\n \n \n\tThree main topics dominated the discussions\n\t \n   Priority inversion and how to handle it in sched_ext : lock holder and\n  \t     lock waiter preemption, time slice extension, and making proxy execution\n  \t     work together with BPF schedulers. \n   Paravirtualized scheduling : letting the h...",
+    "link": "https://lwn.net/Articles/1103426/",
+    "date": "Wed, 28 Oct 2026 22:11:43 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "GXVK: 3Dfx Glide API Implemented Atop Vulkan For Modern Usage",
+    "title_pt": "GXVK: 3Dfx Glide API Implemented Atop Vulkan For Modern Usage",
+    "summary_en": "The open-source D7VK project that implements the Direct3D 7 / 6 / 5 / 3 APIs atop the Vulkan API for faster, modern performance is out with a new release. This new D7VK 2.4 release came as a bit of a surprise since it was just last month D7VK announced its maturity status and more or less in maintenance mode. But brought up in today's D7VK 2.4 announcement is an even bigger surprise: there's no...",
+    "summary_pt": "The open-source D7VK project that implements the Direct3D 7 / 6 / 5 / 3 APIs atop the Vulkan API for faster, modern performance is out with a new release. This new D7VK 2.4 release came as a bit of a surprise since it was just last month D7VK announced its maturity status and more or less in maintenance mode. But brought up in today's D7VK 2.4 announcement is an even bigger surprise: there's no...",
+    "link": "https://www.phoronix.com/news/GXVK-3Dfx-Glide-Vulkan",
+    "date": "Wed, 28 Oct 2026 20:44:56 -0400"
+  },
+  {
     "source": "9to5Linux",
     "title_en": "Armbian Imager 2.5 Released with First-Boot Profiles, Revamped Settings Page",
     "title_pt": "Armbian Imager 2.5 Released with First-Boot Profiles, Revamped Settings Page",
