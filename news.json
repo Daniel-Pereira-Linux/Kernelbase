@@ -1,6 +1,114 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Tor Browser 16.0 Anonymous Browser Brings Native ARM Support on Linux",
+    "title_pt": "Tor Browser 16.0 Anonymous Browser Brings Native ARM Support on Linux",
+    "summary_en": "Tor Browser 16.0 is now available for download as a major update to this open-source anonymous web browser based on the Tor technologies and Firefox web browser with ARM support on Linux and more. \n The post  Tor Browser 16.0 Anonymous Browser Brings Native ARM Support on Linux  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for reade...",
+    "summary_pt": "Tor Browser 16.0 is now available for download as a major update to this open-source anonymous web browser based on the Tor technologies and Firefox web browser with ARM support on Linux and more. \n The post  Tor Browser 16.0 Anonymous Browser Brings Native ARM Support on Linux  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for reade...",
+    "link": "https://9to5linux.com/tor-browser-16-0-anonymous-browser-brings-native-arm-support-on-linux",
+    "date": "Thu, 29 Oct 2026 18:12:59 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "IPFire Project Releases fireperf, a New Network Performance Measurement Tool",
+    "title_pt": "IPFire Project Releases fireperf, a New Network Performance Measurement Tool",
+    "summary_en": "fireperf is a new open-source network performance measurement tool for those who work with firewalls, routers, and other systems that maintain a state for each network connection. \n The post  IPFire Project Releases fireperf, a New Network Performance Measurement Tool  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not sc...",
+    "summary_pt": "fireperf is a new open-source network performance measurement tool for those who work with firewalls, routers, and other systems that maintain a state for each network connection. \n The post  IPFire Project Releases fireperf, a New Network Performance Measurement Tool  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not sc...",
+    "link": "https://9to5linux.com/ipfire-project-releases-fireperf-a-new-network-performance-measurement-tool",
+    "date": "Thu, 29 Oct 2026 15:56:45 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "TUXEDO Nano Pro Gen15 Mini Linux PC Launches with Intel CPU, Up to 128 GB RAM",
+    "title_pt": "TUXEDO Nano Pro Gen15 Mini Linux PC Launches with Intel CPU, Up to 128 GB RAM",
+    "summary_en": "TUXEDO Computers unveils the TUXEDO Nano Pro Gen15 mini PC with a fast Intel processor, a wide range of internal and external ports, and up to 128 GB of DDR5 RAM. \n The post  TUXEDO Nano Pro Gen15 Mini Linux PC Launches with Intel CPU, Up to 128 GB RAM  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "TUXEDO Computers unveils the TUXEDO Nano Pro Gen15 mini PC with a fast Intel processor, a wide range of internal and external ports, and up to 128 GB of DDR5 RAM. \n The post  TUXEDO Nano Pro Gen15 Mini Linux PC Launches with Intel CPU, Up to 128 GB RAM  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/tuxedo-nano-pro-gen15-mini-linux-pc-launches-with-intel-cpu-up-to-128-gb-ram",
+    "date": "Thu, 29 Oct 2026 14:12:16 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "LibreOffice 26.8.2 Open-Source Office Suite Released with More Than 30 Bug Fixes",
+    "title_pt": "LibreOffice 26.8.2 Open-Source Office Suite Released with More Than 30 Bug Fixes",
+    "summary_en": "LibreOffice 26.8.2 open-source is now available for download as the second point release to the LibreOffice 26.2 office suite series with over 30 bug fixes. \n The post  LibreOffice 26.8.2 Open-Source Office Suite Released with More Than 30 Bug Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "LibreOffice 26.8.2 open-source is now available for download as the second point release to the LibreOffice 26.2 office suite series with over 30 bug fixes. \n The post  LibreOffice 26.8.2 Open-Source Office Suite Released with More Than 30 Bug Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/libreoffice-26-8-2-open-source-office-suite-released-with-more-than-30-bug-fixes",
+    "date": "Thu, 29 Oct 2026 12:44:39 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "PipeWire 1.6.11 Is Out with More Bluetooth and ALSA Plugin Improvements",
+    "title_pt": "PipeWire 1.6.11 Is Out with More Bluetooth and ALSA Plugin Improvements",
+    "summary_en": "PipeWire 1.6.11 audio/video server for Linux is now available for download with improvements to Bluetooth, ALSA plugin, SPA, and modules. \n The post  PipeWire 1.6.11 Is Out with More Bluetooth and ALSA Plugin Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "PipeWire 1.6.11 audio/video server for Linux is now available for download with improvements to Bluetooth, ALSA plugin, SPA, and modules. \n The post  PipeWire 1.6.11 Is Out with More Bluetooth and ALSA Plugin Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/pipewire-1-6-11-is-out-with-more-bluetooth-and-alsa-plugin-improvements",
+    "date": "Thu, 29 Oct 2026 10:29:00 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] Containers as a recognized kernel object",
+    "title_pt": "[$] Containers as a recognized kernel object",
+    "summary_en": "The foundation of the design for containers in the kernel is that there\nisn't one; there is no container abstraction that the kernel recognizes.\nInstead, the kernel provides a long list of components — namespaces,\ncontrol groups, sandboxing mechanisms, and more — along with a note that\nsays, in effect, \"some assembly required\".  There have been  attempts  ( repeatedly ) over the years to turn c...",
+    "summary_pt": "The foundation of the design for containers in the kernel is that there\nisn't one; there is no container abstraction that the kernel recognizes.\nInstead, the kernel provides a long list of components — namespaces,\ncontrol groups, sandboxing mechanisms, and more — along with a note that\nsays, in effect, \"some assembly required\".  There have been  attempts  ( repeatedly ) over the years to turn c...",
+    "link": "https://lwn.net/Articles/1102593/",
+    "date": "Thu, 29 Oct 2026 14:02:30 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Thursday",
+    "title_pt": "Security updates for Thursday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (cjose, emacs, expat, gcc-toolset-15-gcc, java-17-openjdk, java-25-openjdk, kernel, kernel-rt, libX11, libXi, libXrender, libXtst, mod_auth_openidc:2.3, pki-deps:10.6, thunderbird, webkit2gtk3, and yggdrasil),  Debian  (chromium, firefox-esr, and openjdk-25),  Fedora  (firefox, librabbitmq, libreswan, python-pillow, and unbound),  Mageia  (fio an...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (cjose, emacs, expat, gcc-toolset-15-gcc, java-17-openjdk, java-25-openjdk, kernel, kernel-rt, libX11, libXi, libXrender, libXtst, mod_auth_openidc:2.3, pki-deps:10.6, thunderbird, webkit2gtk3, and yggdrasil),  Debian  (chromium, firefox-esr, and openjdk-25),  Fedora  (firefox, librabbitmq, libreswan, python-pillow, and unbound),  Mageia  (fio an...",
+    "link": "https://lwn.net/Articles/1103666/",
+    "date": "Thu, 29 Oct 2026 13:18:42 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "F2FS Adds Opt-In Multi-Grain Timestamps With Linux 7.4, Other Improvements",
+    "title_pt": "F2FS Adds Opt-In Multi-Grain Timestamps With Linux 7.4, Other Improvements",
+    "summary_en": "The F2FS (Flash Friendly File-System) improvements have been merged for Linux 7.4 to further enhance this flash-optimized solution...",
+    "summary_pt": "The F2FS (Flash Friendly File-System) improvements have been merged for Linux 7.4 to further enhance this flash-optimized solution...",
+    "link": "https://www.phoronix.com/news/F2FS-Linux-7.4",
+    "date": "Thu, 29 Oct 2026 12:52:52 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "NVIDIA Vera Single vs. Dual Socket CPU Performance",
+    "title_pt": "NVIDIA Vera Single vs. Dual Socket CPU Performance",
+    "summary_en": "For those curious how NVIDIA Vera is scaling between single and dual socket deployments, here are some benchmarks I carried out a while back exploring the power and performance from one to two Vera CPUs.",
+    "summary_pt": "For those curious how NVIDIA Vera is scaling between single and dual socket deployments, here are some benchmarks I carried out a while back exploring the power and performance from one to two Vera CPUs.",
+    "link": "https://www.phoronix.com/review/nvidia-vera-1p-2p",
+    "date": "Thu, 29 Oct 2026 09:36:24 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.4 Networking Brings Hardware Pacing Offload, New Drivers & More Performance",
+    "title_pt": "Linux 7.4 Networking Brings Hardware Pacing Offload, New Drivers & More Performance",
+    "summary_en": "The many Linux wired and wireless networking driver improvements were merged this week for the ongoing Linux 7.4 merge window....",
+    "summary_pt": "The many Linux wired and wireless networking driver improvements were merged this week for the ongoing Linux 7.4 merge window....",
+    "link": "https://www.phoronix.com/news/Linux-7.4-Networking",
+    "date": "Thu, 29 Oct 2026 08:55:00 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD's ROCm HRX Loom v0.1 Released For Targeting AMD CPUs, GPUs & NPUs",
+    "title_pt": "AMD's ROCm HRX Loom v0.1 Released For Targeting AMD CPUs, GPUs & NPUs",
+    "summary_en": "At this year's AMD Advancing AI event Hyperloom was announced among the ROCm improvements to expect. Hyperloom aims for agentic  workload optimizations and more with quote powerful abilities if everything works out right. As part of the latest round of ROCm advancements, the Loom SDK v0.1 release was released today...",
+    "summary_pt": "At this year's AMD Advancing AI event Hyperloom was announced among the ROCm improvements to expect. Hyperloom aims for agentic  workload optimizations and more with quote powerful abilities if everything works out right. As part of the latest round of ROCm advancements, the Loom SDK v0.1 release was released today...",
+    "link": "https://www.phoronix.com/news/AMD-ROCm-HRX-Loom-0.1",
+    "date": "Thu, 29 Oct 2026 06:22:15 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "FAT32 File-System Seeing As Much As 265x Improvement With Linux 7.4",
+    "title_pt": "FAT32 File-System Seeing As Much As 265x Improvement With Linux 7.4",
+    "summary_en": "A change merged for Linux 7.4 is showing some mighty big speed-ups for the FAT32 file-system...",
+    "summary_pt": "A change merged for Linux 7.4 is showing some mighty big speed-ups for the FAT32 file-system...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-Faster-FAT32",
+    "date": "Thu, 29 Oct 2026 06:06:09 -0400"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Armbian Imager 2.5 Released with First-Boot Profiles, Revamped Settings Page",
     "title_pt": "Armbian Imager 2.5 Released with First-Boot Profiles, Revamped Settings Page",
     "summary_en": "Armbian Imager 2.5 open-source utility for flashing Armbian Linux on single-board computers is now available for download with new features and many improvements. \n The post  Armbian Imager 2.5 Released with First-Boot Profiles, Revamped Settings Page  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
