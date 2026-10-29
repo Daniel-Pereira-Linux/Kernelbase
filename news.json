@@ -1,5 +1,77 @@
 [
   {
+    "source": "9to5Linux",
+    "title_en": "Armbian Imager 2.5 Released with First-Boot Profiles, Revamped Settings Page",
+    "title_pt": "Armbian Imager 2.5 Released with First-Boot Profiles, Revamped Settings Page",
+    "summary_en": "Armbian Imager 2.5 open-source utility for flashing Armbian Linux on single-board computers is now available for download with new features and many improvements. \n The post  Armbian Imager 2.5 Released with First-Boot Profiles, Revamped Settings Page  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Armbian Imager 2.5 open-source utility for flashing Armbian Linux on single-board computers is now available for download with new features and many improvements. \n The post  Armbian Imager 2.5 Released with First-Boot Profiles, Revamped Settings Page  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/armbian-imager-2-5-released-with-first-boot-profiles-revamped-settings-page",
+    "date": "Wed, 28 Oct 2026 19:01:10 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Canonical Plans to Revive Its Immutable Ubuntu Core Desktop Flavor",
+    "title_pt": "Canonical Plans to Revive Its Immutable Ubuntu Core Desktop Flavor",
+    "summary_en": "Ubuntu maker Canonical is bringing Ubuntu Core Desktop back from the dead, and this time, they mean business. \n The post  Canonical Plans to Revive Its Immutable Ubuntu Core Desktop Flavor  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Ubuntu maker Canonical is bringing Ubuntu Core Desktop back from the dead, and this time, they mean business. \n The post  Canonical Plans to Revive Its Immutable Ubuntu Core Desktop Flavor  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/canonical-plans-to-revive-its-immutable-ubuntu-core-desktop-flavor",
+    "date": "Wed, 28 Oct 2026 18:22:59 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "System76 Teases Thelio Prime AMD Mini Linux PC Running Pop!_OS with COSMIC",
+    "title_pt": "System76 Teases Thelio Prime AMD Mini Linux PC Running Pop!_OS with COSMIC",
+    "summary_en": "System76 unveils Thelio Prime as a Linux-powered mini PC running the Pop!_OS 24.04 LTS distribution with the COSMIC desktop environment. \n The post  System76 Teases Thelio Prime AMD Mini Linux PC Running Pop!_OS with COSMIC  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "System76 unveils Thelio Prime as a Linux-powered mini PC running the Pop!_OS 24.04 LTS distribution with the COSMIC desktop environment. \n The post  System76 Teases Thelio Prime AMD Mini Linux PC Running Pop!_OS with COSMIC  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/system76-teases-thelio-prime-amd-mini-linux-pc-running-pop_os-with-cosmic",
+    "date": "Wed, 28 Oct 2026 17:01:56 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Mesa 26.2.6 Released with Fixes for RADV, ANV, Zink, RadeonSI, and Freedreno",
+    "title_pt": "Mesa 26.2.6 Released with Fixes for RADV, ANV, Zink, RadeonSI, and Freedreno",
+    "summary_en": "Mesa 26.2.6 is is now available for download as a bug fix update to the Mesa 26.2 series, focusing on driver-specific corrections across AMD, Intel, Qualcomm, ARM, and software rendering backends. \n The post  Mesa 26.2.6 Released with Fixes for RADV, ANV, Zink, RadeonSI, and Freedreno  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended fo...",
+    "summary_pt": "Mesa 26.2.6 is is now available for download as a bug fix update to the Mesa 26.2 series, focusing on driver-specific corrections across AMD, Intel, Qualcomm, ARM, and software rendering backends. \n The post  Mesa 26.2.6 Released with Fixes for RADV, ANV, Zink, RadeonSI, and Freedreno  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended fo...",
+    "link": "https://9to5linux.com/mesa-26-2-6-released-with-fixes-for-radv-anv-zink-radeonsi-and-freedreno",
+    "date": "Wed, 28 Oct 2026 16:24:21 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Scribus 1.6.7 Open-Source Desktop Publishing App Released with Improvements",
+    "title_pt": "Scribus 1.6.7 Open-Source Desktop Publishing App Released with Improvements",
+    "summary_en": "Scribus 1.6.7 free and open-source desktop publishing software is now available for download with various improvements, as well as bug and security fixes. \n The post  Scribus 1.6.7 Open-Source Desktop Publishing App Released with Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Scribus 1.6.7 free and open-source desktop publishing software is now available for download with various improvements, as well as bug and security fixes. \n The post  Scribus 1.6.7 Open-Source Desktop Publishing App Released with Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/scribus-1-6-7-open-source-desktop-publishing-app-released-with-improvements",
+    "date": "Wed, 28 Oct 2026 00:35:43 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Mozilla Thunderbird 159 Email Client Improves Tray Icon Support on Linux",
+    "title_pt": "Mozilla Thunderbird 159 Email Client Improves Tray Icon Support on Linux",
+    "summary_en": "Mozilla Thunderbird 159 open-source email client is now available for download with updated tray icons on Linux to indicate unread mail and show the message count in the tooltip. \n The post  Mozilla Thunderbird 159 Email Client Improves Tray Icon Support on Linux  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Mozilla Thunderbird 159 open-source email client is now available for download with updated tray icons on Linux to indicate unread mail and show the message count in the tooltip. \n The post  Mozilla Thunderbird 159 Email Client Improves Tray Icon Support on Linux  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/mozilla-thunderbird-159-email-client-improves-tray-icon-support-on-linux",
+    "date": "Tue, 27 Oct 2026 18:07:42 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Graphics/NPU Driver Changes Already Begin Queuing Up For What Will Be Linux 7.5",
+    "title_pt": "Graphics/NPU Driver Changes Already Begin Queuing Up For What Will Be Linux 7.5",
+    "summary_en": "Since last week drm-misc-next pull requests have already been sent out to DRM-Next to begin staging new feature code for what's intended for the Linux 7.5 kernel cycle kicking off at the end of the year...",
+    "summary_pt": "Since last week drm-misc-next pull requests have already been sent out to DRM-Next to begin staging new feature code for what's intended for the Linux 7.5 kernel cycle kicking off at the end of the year...",
+    "link": "https://www.phoronix.com/news/Linux-7.5-drm-misc-next",
+    "date": "Thu, 29 Oct 2026 05:48:22 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "KSMBD Adds New  Options With Linux 7.4",
+    "title_pt": "KSMBD Adds New  Options With Linux 7.4",
+    "summary_en": "A number of improvements to KSMBD, the in-kernel SMB3 file server, were merged for the Linux 7.4 kernel...",
+    "summary_pt": "A number of improvements to KSMBD, the in-kernel SMB3 file server, were merged for the Linux 7.4 kernel...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-KSMBD",
+    "date": "Thu, 29 Oct 2026 05:33:13 -0400"
+  },
+  {
     "source": "LWN",
     "title_en": "[$] LWN.net Weekly Edition for October 29, 2026",
     "title_pt": "[$] LWN.net Weekly Edition for October 29, 2026",
