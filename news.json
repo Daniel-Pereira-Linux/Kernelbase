@@ -1,6 +1,24 @@
 [
   {
     "source": "Phoronix",
+    "title_en": "Vulkan 1.4.367 Released With VK_KHR_maintenance12",
+    "title_pt": "Vulkan 1.4.367 Released With VK_KHR_maintenance12",
+    "summary_en": "Vulkan 1.4.367 is out this morning as the newest spec revision for this high performance graphics and compute API...",
+    "summary_pt": "Vulkan 1.4.367 is out this morning as the newest spec revision for this high performance graphics and compute API...",
+    "link": "https://www.phoronix.com/news/Vulkan-1.4.367",
+    "date": "Fri, 30 Oct 2026 05:58:03 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "I3C Hub & HDR-DDR Support Merged For Linux 7.4",
+    "title_pt": "I3C Hub & HDR-DDR Support Merged For Linux 7.4",
+    "summary_en": "The I3C changes for Linux 7.4 were submitted this week by Bootlin's Alexandre Belloni and subsequently merged...",
+    "summary_pt": "The I3C changes for Linux 7.4 were submitted this week by Bootlin's Alexandre Belloni and subsequently merged...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-I3C",
+    "date": "Fri, 30 Oct 2026 05:50:29 -0400"
+  },
+  {
+    "source": "Phoronix",
     "title_en": "RISC-V Has A Nice Portable Performance Optimization With Linux 7.4",
     "title_pt": "RISC-V Has A Nice Portable Performance Optimization With Linux 7.4",
     "summary_en": "The RISC-V architecture changes were merged today for the Linux 7.4 kernel with one nice optimization standing out...",
