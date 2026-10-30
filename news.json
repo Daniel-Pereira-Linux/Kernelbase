@@ -1,5 +1,113 @@
 [
   {
+    "source": "9to5Linux",
+    "title_en": "Shelly 3.1.10 Brings More Reliable AUR Builds and a New “Shell” Progress Bar",
+    "title_pt": "Shelly 3.1.10 Brings More Reliable AUR Builds and a New “Shell” Progress Bar",
+    "summary_en": "Shelly 3.1.10graphical package manager for Arch Linux distributions is now available for download with a new “Shell” progress bar for the command-line interface, AUR build improvements, and more. \n The post  Shelly 3.1.10 Brings More Reliable AUR Builds and a New “Shell” Progress Bar  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for...",
+    "summary_pt": "Shelly 3.1.10graphical package manager for Arch Linux distributions is now available for download with a new “Shell” progress bar for the command-line interface, AUR build improvements, and more. \n The post  Shelly 3.1.10 Brings More Reliable AUR Builds and a New “Shell” Progress Bar  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for...",
+    "link": "https://9to5linux.com/shelly-3-1-10-brings-more-reliable-aur-builds-and-a-new-shell-progress-bar",
+    "date": "Fri, 30 Oct 2026 16:40:25 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] Removing binder.c",
+    "title_pt": "[$] Removing binder.c",
+    "summary_en": "The final talk at Kangrejos 2026 was about the removal of the C implementation\nof Android's\n \nBinder driver , the primary interprocess communication mechanism\nused on Android devices. Carlos Llamas announced that he had deleted the C\ncode to general applause, and then shared some insights about what went into\nreplacing the C implementation. Alice Ryhl, who has worked on the Rust\nimplementation ...",
+    "summary_pt": "The final talk at Kangrejos 2026 was about the removal of the C implementation\nof Android's\n \nBinder driver , the primary interprocess communication mechanism\nused on Android devices. Carlos Llamas announced that he had deleted the C\ncode to general applause, and then shared some insights about what went into\nreplacing the C implementation. Alice Ryhl, who has worked on the Rust\nimplementation ...",
+    "link": "https://lwn.net/Articles/1102982/",
+    "date": "Fri, 30 Oct 2026 17:46:46 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Haas: Postgres 19 is late, and it's AI's fault",
+    "title_pt": "Haas: Postgres 19 is late, and it's AI's fault",
+    "summary_en": "PostgreSQL developer Robert Haas  writes\nabout the struggles  the project has encountered in putting together its\nnext release.\n \n \n\tIn the end, I don't think that the delay in shipping PostgreSQL 19\n\tis particularly concerning. It is not a long delay in the grand\n\tscheme of things, and it emerges directly from the project's\n\tconcern for quality.\n \n\tThe long-term picture is less clear and in so...",
+    "summary_pt": "PostgreSQL developer Robert Haas  writes\nabout the struggles  the project has encountered in putting together its\nnext release.\n \n \n\tIn the end, I don't think that the delay in shipping PostgreSQL 19\n\tis particularly concerning. It is not a long delay in the grand\n\tscheme of things, and it emerges directly from the project's\n\tconcern for quality.\n \n\tThe long-term picture is less clear and in so...",
+    "link": "https://lwn.net/Articles/1104210/",
+    "date": "Fri, 30 Oct 2026 16:52:59 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Remote code execution on Linux systems with multipath TCP",
+    "title_pt": "Remote code execution on Linux systems with multipath TCP",
+    "summary_en": "On October 27, LLM provider Anthropic\n reported\non  a\n \nremotely exploitable use-after-free bug  affecting systems with\nmultipath TCP listeners open. The bug works by triggering a response to a\nretransmitted SYN packet at the same moment that the TCP connection is\nestablished in another thread, causing the first thread to access the\nconnection's options structure after the second thread has fre...",
+    "summary_pt": "On October 27, LLM provider Anthropic\n reported\non  a\n \nremotely exploitable use-after-free bug  affecting systems with\nmultipath TCP listeners open. The bug works by triggering a response to a\nretransmitted SYN packet at the same moment that the TCP connection is\nestablished in another thread, causing the first thread to access the\nconnection's options structure after the second thread has fre...",
+    "link": "https://lwn.net/Articles/1104192/",
+    "date": "Fri, 30 Oct 2026 15:45:27 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] System-call wrappers for glibc",
+    "title_pt": "[$] System-call wrappers for glibc",
+    "summary_en": "In a followup to his \n session at the\n2025 Linux Plumbers Conference  (LPC), Carlos O'Donell returned to the topic\nof  system-call\nwrappers for the GNU C library  (glibc) at this year's event.  This time\naround, he was joined by Florian Weimer, who is another glibc maintainer.\nThe idea was to give an update on what has happened over the last year with\nregard to Linux system calls that lack a gl...",
+    "summary_pt": "In a followup to his \n session at the\n2025 Linux Plumbers Conference  (LPC), Carlos O'Donell returned to the topic\nof  system-call\nwrappers for the GNU C library  (glibc) at this year's event.  This time\naround, he was joined by Florian Weimer, who is another glibc maintainer.\nThe idea was to give an update on what has happened over the last year with\nregard to Linux system calls that lack a gl...",
+    "link": "https://lwn.net/Articles/1101647/",
+    "date": "Fri, 30 Oct 2026 15:07:29 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Eight more stable kernel updates",
+    "title_pt": "Eight more stable kernel updates",
+    "summary_en": "Greg Kroah-Hartman has announced the release of the  7.3.1 ,\n 7.2.14 ,\n 6.18.60 ,\n 6.12.115 ,\n 6.6.161 ,\n 6.1.191 ,\n 5.15.224 , and\n 5.10.273  stable kernels. As usual, he advises\nall users to update—advice that seems especially wise given the\nincreased number of security-relevant bug fixes that the kernel is seeing these days.\n[Edit: the 7.2.15 stable release is already  in review  as well.]",
+    "summary_pt": "Greg Kroah-Hartman has announced the release of the  7.3.1 ,\n 7.2.14 ,\n 6.18.60 ,\n 6.12.115 ,\n 6.6.161 ,\n 6.1.191 ,\n 5.15.224 , and\n 5.10.273  stable kernels. As usual, he advises\nall users to update—advice that seems especially wise given the\nincreased number of security-relevant bug fixes that the kernel is seeing these days.\n[Edit: the 7.2.15 stable release is already  in review  as well.]",
+    "link": "https://lwn.net/Articles/1104177/",
+    "date": "Fri, 30 Oct 2026 14:22:39 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Friday",
+    "title_pt": "Security updates for Friday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (aspell, cjose, curl, gcc-toolset-15-gcc, httpd:2.4, ignition, java-21-openjdk, libX11, libXi, libXrender, libXtst, mariadb:10.11, nodejs:24, python-pillow, python3.12-urllib3, and webkit2gtk3),  Debian  (imagemagick, libdatetime-timezone-perl, python-git, tor, tzdata, vlc, and wordpress),  Fedora  (accessibility-inspector, akonadi-calendar, akon...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (aspell, cjose, curl, gcc-toolset-15-gcc, httpd:2.4, ignition, java-21-openjdk, libX11, libXi, libXrender, libXtst, mariadb:10.11, nodejs:24, python-pillow, python3.12-urllib3, and webkit2gtk3),  Debian  (imagemagick, libdatetime-timezone-perl, python-git, tor, tzdata, vlc, and wordpress),  Fedora  (accessibility-inspector, akonadi-calendar, akon...",
+    "link": "https://lwn.net/Articles/1104174/",
+    "date": "Fri, 30 Oct 2026 13:37:12 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Ubuntu 27.04 \"Tenacious T-Rex\" Opens For Development",
+    "title_pt": "Ubuntu 27.04 \"Tenacious T-Rex\" Opens For Development",
+    "summary_en": "Following this month's release of Ubuntu 26.10, Ubuntu 27.04 development formally got underway today...",
+    "summary_pt": "Following this month's release of Ubuntu 26.10, Ubuntu 27.04 development formally got underway today...",
+    "link": "https://www.phoronix.com/news/Ubuntu-27.04-Opens-For-Dev",
+    "date": "Fri, 30 Oct 2026 13:32:48 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD Ryzen Zen 6 Looks Like It Will Be In Good Shape With Linux 7.4, Laptop Improvements",
+    "title_pt": "AMD Ryzen Zen 6 Looks Like It Will Be In Good Shape With Linux 7.4, Laptop Improvements",
+    "summary_en": "The x86 platform driver changes were merged this week to the Linux 7.4 kernel ahead of the merge window closing this weekend...",
+    "summary_pt": "The x86 platform driver changes were merged this week to the Linux 7.4 kernel ahead of the merge window closing this weekend...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-x86-Platform-Driver",
+    "date": "Fri, 30 Oct 2026 11:24:46 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Another Week, Another Vibe Coded OS; Closed-Source In The Name Of Security",
+    "title_pt": "Another Week, Another Vibe Coded OS; Closed-Source In The Name Of Security",
+    "summary_en": "With today's AI/LLM capabilities, there is almost a new operating system heard about each week \"coded from scratch\" predominantly via AI agents. This week was no exception with another project hitting our email inbox. Though most of them are open-source, this one is closed-source in the name of security...",
+    "summary_pt": "With today's AI/LLM capabilities, there is almost a new operating system heard about each week \"coded from scratch\" predominantly via AI agents. This week was no exception with another project hitting our email inbox. Though most of them are open-source, this one is closed-source in the name of security...",
+    "link": "https://www.phoronix.com/news/NULLos",
+    "date": "Fri, 30 Oct 2026 08:23:06 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD PerfOpt Makes it Into Linux 7.4 As A Nice Performance Boost For AMD iGPUs",
+    "title_pt": "AMD PerfOpt Makes it Into Linux 7.4 As A Nice Performance Boost For AMD iGPUs",
+    "summary_en": "As anticipated, the AMD PerfOpt feature was picked up for the Linux 7.4 kernel. As shown already in multiple Phoronix benchmarks, AMD PerfOpt makes for a nice performance boost for AMD integrated graphics, especially for AI workloads...",
+    "summary_pt": "As anticipated, the AMD PerfOpt feature was picked up for the Linux 7.4 kernel. As shown already in multiple Phoronix benchmarks, AMD PerfOpt makes for a nice performance boost for AMD integrated graphics, especially for AI workloads...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-IOMMU",
+    "date": "Fri, 30 Oct 2026 06:21:54 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Apple Silicon Linux Driver Adapted To Help Older Intel-Powered Macs",
+    "title_pt": "Apple Silicon Linux Driver Adapted To Help Older Intel-Powered Macs",
+    "summary_en": "The Linux kernel's \"macsmc\" driver was developed for supporting the system management controller (SMC) on Apple Silicon Macs for supporting the light sensor, fan control, and other sensors. That macsmc driver now is seeing work to extend it for better supporting older Intel-powered Macs...",
+    "summary_pt": "The Linux kernel's \"macsmc\" driver was developed for supporting the system management controller (SMC) on Apple Silicon Macs for supporting the light sensor, fan control, and other sensors. That macsmc driver now is seeing work to extend it for better supporting older Intel-powered Macs...",
+    "link": "https://www.phoronix.com/news/Linux-Patches-Intel-macsmc",
+    "date": "Fri, 30 Oct 2026 06:05:47 -0400"
+  },
+  {
     "source": "Phoronix",
     "title_en": "Vulkan 1.4.367 Released With VK_KHR_maintenance12",
     "title_pt": "Vulkan 1.4.367 Released With VK_KHR_maintenance12",
