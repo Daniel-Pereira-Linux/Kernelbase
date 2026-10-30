@@ -1,5 +1,13 @@
 [
   {
+    "title": "Re: [PATCH v3] docs: translations: pt_BR: add maintainer PGP guide",
+    "author": "Daniel Pereira",
+    "email": "danielmaraboo@gmail.com",
+    "updated": "2026-10-30T11:49:10Z",
+    "link": "https://lore.kernel.org/linux-doc/CAMAsx6fmcnH6sQgMpnqbzcpc7_Jq6pDPDWAiRfTH0Hobn6d0_w@mail.gmail.com/",
+    "content": "On Thu, Oct 29, 2026 07:30 PM, Gabriel Ribeiro\n<ic.gabrielribeiro@gmail.com> wrote:\n>\n> Translate the maintainer PGP guide into Brazilian Portuguese and\n> add it to the pt_BR process index.\n>\n> Signed-off-by: Gabriel Ribeiro <ic.gabrielribeiro@gmail.com>\n> ---\n> Changes in v3:\n> - Preserve source certainty, tone, scope, and emphasis in reviewed passages.\n> - Restore the “all downloads” qualifier and remove the unsupported software detail.\n> - Clarify Nitrokey eligibility and Git tag-signature wording.\n\nHi Gabriel,\n\nLooks good to me. One note please always keep the changes from the\nprevious versions in the changelog, or add links to them on lore.\n\nReviewed-by: Daniel Pereira <danielmaraboo@gmail.com>\n\nThanks,\nDaniel"
+  },
+  {
     "title": "[PATCH v3] docs: translations: pt_BR: add maintainer PGP guide",
     "author": "Gabriel Ribeiro",
     "email": "ic.gabrielribeiro@gmail.com",
@@ -1590,13 +1598,5 @@
     "updated": "2026-08-03T18:45:14Z",
     "link": "https://lore.kernel.org/linux-doc/87tspbxcuf.fsf@trenco.lwn.net/",
     "content": "Álysson Gleyson da Silva <alyssongleyson.dev@gmail.com> writes:\n\n> Translate the documentation on security bugs into Brazilian Portuguese,\n> maintaining consistency with the original formatting rules.\n>\n> Signed-off-by: Álysson Gleyson da Silva <alyssongleyson.dev@gmail.com>\n> ---\n>  Documentation/translations/pt_BR/index.rst    |   1 +\n>  .../pt_BR/process/security-bugs.rst           | 370 ++++++++++++++++++\n>  2 files changed, 371 insertions(+)\n>  create mode 100644 Documentation/translations/pt_BR/process/security-bugs.rst\n>\n> diff --git a/Documentation/translations/pt_BR/index.rst b/Documentation/translations/pt_BR/index.rst\n> index 7a488f662..796fe9bca 100644\n> --- a/Documentation/translations/pt_BR/index.rst\n> +++ b/Documentation/translations/pt_BR/index.rst\n> @@ -78,3 +78,4 @@ kernel e sobre como ver seu trabalho integrado.\n>     Processo do subsistema SoC <process/maintainer-soc>\n>     Conformidade de DTS para SoC <process/maintainer-soc-clean-dts>\n>     Processo do subsistema KVM x86 <process/maintainer-kvm-x86>\n> +   Falhas de segurança <process/security-bugs>\n> diff --git a/Documentation/translations/pt_BR/process/security-bugs.rst b/Documentation/translations/pt_BR/process/security-bugs.rst\n> new file mode 100644\n> index 000000000..ef7b2d742\n> --- /dev/null\n> +++ b/Documentation/translations/pt_BR/process/security-bugs.rst\n> @@ -0,0 +1,370 @@\n> +.. SPDX-License-Identifier: GPL-2.0\n> +\n> +.. _pt_BR_securitybugs:\n\nPlease do not proliferate useless labels like this one, even if the\noriginal English has them.  I have removed it this time; patch applied,\nthanks.\n\njon"
-  },
-  {
-    "title": "Re: [PATCH v3] docs: pt_BR: process: Translate programming-language",
-    "author": "Jonathan Corbet",
-    "email": "corbet@lwn.net",
-    "updated": "2026-08-03T18:39:00Z",
-    "link": "https://lore.kernel.org/linux-doc/87y0enxd4t.fsf@trenco.lwn.net/",
-    "content": "Abel Philippe <le590616@gmail.com> writes:\n\n> Translate the programming language documentation into Brazilian Portuguese.\n>\n> Changes in v2:\n> - addition of SPDX-License-Identifier: GPL-2.0\n> - addition of the missing half of the file\n>\n> Changes in v3:\n> - change \"linguagem de progamação\" to \"linguagem de programação\"\n> - removing duplicate \"``rustc`` [rustc]_\" from programming_language.rst\n>\n> Signed-off-by: Abel Philippe <le590616@gmail.com>\n> ---\n>  pt_BR/index.rst                        |  2 +-\n>  pt_BR/process/programming-language.rst | 58 ++++++++++++++++++++++++++\n>  2 files changed, 59 insertions(+), 1 deletion(-)\n>  create mode 100644 pt_BR/process/programming-language.rst\n\nThis patch fails to apply:\n\nWARNING: Message contains suspicious unicode control characters!\n         Subject: [PATCH v3] docs: pt_BR: process: Translate programming-language\n            Line: +Além disso, alguns recursos instáveis ​​[rust-unstable-features]_ são utilizados no\n            ---------------------------------------------^\n            Char: ZERO WIDTH SPACE (0x200b)\n         If you are sure about this, rerun with the right flag to allow.\nAM FAILED\n\nPlease submit a version without this kind of problem.\n\nThanks,\n\njon"
   }
 ]
