@@ -1,5 +1,23 @@
 [
   {
+    "source": "Planet Kernel",
+    "title_en": "Matthew Garrett: Getting Google Cast on my Soundbar",
+    "title_pt": "Matthew Garrett: Getting Google Cast on my Soundbar",
+    "summary_en": "I have a Samsung Q800A soundbar. It ships with built-in support for the Apple Airplay protocol, but I’m not really an Apple kind of guy so that’s never been particularly helpful for me. So, instead, I have a Chromecast Audio plugged into it via TOSLINK, and that works fine - except for the fact that there’s no way to explicitly pick TOSLINK as the audio input. Instead, there’s a “Digital In” op...",
+    "summary_pt": "I have a Samsung Q800A soundbar. It ships with built-in support for the Apple Airplay protocol, but I’m not really an Apple kind of guy so that’s never been particularly helpful for me. So, instead, I have a Chromecast Audio plugged into it via TOSLINK, and that works fine - except for the fact that there’s no way to explicitly pick TOSLINK as the audio input. Instead, there’s a “Digital In” op...",
+    "link": "https://codon.org.uk/~mjg59/blog/p/getting-google-cast-on-my-soundbar/",
+    "date": "Fri, 30 Oct 2026 18:03:47 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "PostgreSQL 19 Running Behind Schedule Due To AI/LLM Burden",
+    "title_pt": "PostgreSQL 19 Running Behind Schedule Due To AI/LLM Burden",
+    "summary_en": "The PostgreSQL database server typically sees its annual feature release every September~October, but it's not coming until at least November if not longer this year. Due to the increased developer burden due to increased bug reporting and patches via AI/LLM activity, the PostgreSQL developers have been overwhelmed...",
+    "summary_pt": "The PostgreSQL database server typically sees its annual feature release every September~October, but it's not coming until at least November if not longer this year. Due to the increased developer burden due to increased bug reporting and patches via AI/LLM activity, the PostgreSQL developers have been overwhelmed...",
+    "link": "https://www.phoronix.com/news/PostgreSQL-19-Late",
+    "date": "Fri, 30 Oct 2026 14:06:06 -0400"
+  },
+  {
     "source": "9to5Linux",
     "title_en": "Shelly 3.1.10 Brings More Reliable AUR Builds and a New “Shell” Progress Bar",
     "title_pt": "Shelly 3.1.10 Brings More Reliable AUR Builds and a New “Shell” Progress Bar",
