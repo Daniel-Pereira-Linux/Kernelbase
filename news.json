@@ -1,5 +1,23 @@
 [
   {
+    "source": "Phoronix",
+    "title_en": "RISC-V Has A Nice Portable Performance Optimization With Linux 7.4",
+    "title_pt": "RISC-V Has A Nice Portable Performance Optimization With Linux 7.4",
+    "summary_en": "The RISC-V architecture changes were merged today for the Linux 7.4 kernel with one nice optimization standing out...",
+    "summary_pt": "The RISC-V architecture changes were merged today for the Linux 7.4 kernel with one nice optimization standing out...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-RISC-V",
+    "date": "Thu, 29 Oct 2026 20:36:39 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Fedora Linux 45 Shipping Next Week On 3 November",
+    "title_pt": "Fedora Linux 45 Shipping Next Week On 3 November",
+    "summary_en": "Fedora 45 is ready to ship! It will be formally released on Tuesday, 3 November...",
+    "summary_pt": "Fedora 45 is ready to ship! It will be formally released on Tuesday, 3 November...",
+    "link": "https://www.phoronix.com/news/Fedora-45-Ships-Next-Week",
+    "date": "Thu, 29 Oct 2026 18:00:54 -0400"
+  },
+  {
     "source": "9to5Linux",
     "title_en": "Tor Browser 16.0 Anonymous Browser Brings Native ARM Support on Linux",
     "title_pt": "Tor Browser 16.0 Anonymous Browser Brings Native ARM Support on Linux",
