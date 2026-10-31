@@ -1,5 +1,59 @@
 [
   {
+    "source": "9to5Linux",
+    "title_en": "Linux Mint Devs Introduce New System Monitor and Terminal Emulator Apps",
+    "title_pt": "Linux Mint Devs Introduce New System Monitor and Terminal Emulator Apps",
+    "summary_en": "Linux Mint devs unveil new system monitor, archive manager, and terminal emulator apps for Linux Mint, along with a preview pane for Nemo and hibernation support. \n The post  Linux Mint Devs Introduce New System Monitor and Terminal Emulator Apps  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Linux Mint devs unveil new system monitor, archive manager, and terminal emulator apps for Linux Mint, along with a preview pane for Nemo and hibernation support. \n The post  Linux Mint Devs Introduce New System Monitor and Terminal Emulator Apps  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/linux-mint-devs-introduce-new-system-monitor-and-terminal-emulator-apps",
+    "date": "Sat, 31 Oct 2026 15:47:42 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Enlightenment 0.28 Desktop Adds PipeWire Support, NetworkManager Module",
+    "title_pt": "Enlightenment 0.28 Desktop Adds PipeWire Support, NetworkManager Module",
+    "summary_en": "Enlightenment 0.28 desktop environment arrives with PipeWire support, a NetworkManager module, initial NetBSD support, mixer actions, an integrated clipboard history module, and more. \n The post  Enlightenment 0.28 Desktop Adds PipeWire Support, NetworkManager Module  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scr...",
+    "summary_pt": "Enlightenment 0.28 desktop environment arrives with PipeWire support, a NetworkManager module, initial NetBSD support, mixer actions, an integrated clipboard history module, and more. \n The post  Enlightenment 0.28 Desktop Adds PipeWire Support, NetworkManager Module  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scr...",
+    "link": "https://9to5linux.com/enlightenment-0-28-desktop-adds-pipewire-support-networkmanager-module",
+    "date": "Sat, 31 Oct 2026 15:05:02 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Linux Lite 8.2 Released with Linux Kernel 7.3, Based on Ubuntu 26.04 LTS",
+    "title_pt": "Linux Lite 8.2 Released with Linux Kernel 7.3, Based on Ubuntu 26.04 LTS",
+    "summary_en": "Linux Lite 8.2 distribution is now available for download based on Ubuntu 26.04 LTS (Resolute Raccoon) and powered by the Linux 7.3 kernel series, featuring the Xfce desktop environment. \n The post  Linux Lite 8.2 Released with Linux Kernel 7.3, Based on Ubuntu 26.04 LTS  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not...",
+    "summary_pt": "Linux Lite 8.2 distribution is now available for download based on Ubuntu 26.04 LTS (Resolute Raccoon) and powered by the Linux 7.3 kernel series, featuring the Xfce desktop environment. \n The post  Linux Lite 8.2 Released with Linux Kernel 7.3, Based on Ubuntu 26.04 LTS  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not...",
+    "link": "https://9to5linux.com/linux-lite-8-2-released-with-linux-kernel-7-3-based-on-ubuntu-26-04-lts",
+    "date": "Sat, 31 Oct 2026 14:03:21 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "How We Could Have Backdoored Bash (Hacktron blog)",
+    "title_pt": "How We Could Have Backdoored Bash (Hacktron blog)",
+    "summary_en": "The Hacktron blog  documents  how\nthe group was able to compromise the GNU Savannah forge and could have\npushed malware into any of the projects hosted there.\n \n \n\tUsing Hacktron, we found that an email address like\n\t `touch${IFS}/tmp/savane-rce-proof`@attacker.example  gave any\n\tregistered user code execution on its backend. From there, we made\n\tour account a superuser, impersonated Bash's mai...",
+    "summary_pt": "The Hacktron blog  documents  how\nthe group was able to compromise the GNU Savannah forge and could have\npushed malware into any of the projects hosted there.\n \n \n\tUsing Hacktron, we found that an email address like\n\t `touch${IFS}/tmp/savane-rce-proof`@attacker.example  gave any\n\tregistered user code execution on its backend. From there, we made\n\tour account a superuser, impersonated Bash's mai...",
+    "link": "https://lwn.net/Articles/1104262/",
+    "date": "Sat, 31 Oct 2026 14:00:42 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Enlightenment 0.28 Released With Many Improvements",
+    "title_pt": "Enlightenment 0.28 Released With Many Improvements",
+    "summary_en": "Enlightenment 0.27 released at the beginning of 2025 and since then there's been no major feature update, falling off their roughly 12 month release cadence. But out this Halloween is Enlightenment 0.28 now with the better part of two years worth of changes...",
+    "summary_pt": "Enlightenment 0.27 released at the beginning of 2025 and since then there's been no major feature update, falling off their roughly 12 month release cadence. But out this Halloween is Enlightenment 0.28 now with the better part of two years worth of changes...",
+    "link": "https://www.phoronix.com/news/Enlightenment-0.28",
+    "date": "Sat, 31 Oct 2026 10:46:26 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux Mint Developing New Apps For Terminal & System Monitoring",
+    "title_pt": "Linux Mint Developing New Apps For Terminal & System Monitoring",
+    "summary_en": "Linux Mint is out with their October 2026 status report to outline various initiatives they have underway in their lead-up to the Linux Mint 27 stable release happening on/around Christmas...",
+    "summary_pt": "Linux Mint is out with their October 2026 status report to outline various initiatives they have underway in their lead-up to the Linux Mint 27 stable release happening on/around Christmas...",
+    "link": "https://www.phoronix.com/news/Linux-Mint-October-2026",
+    "date": "Sat, 31 Oct 2026 10:36:11 -0400"
+  },
+  {
     "source": "Phoronix",
     "title_en": "New Linux 7.4 Feature For Reducing AI Noise Already Reverted Due To A \"Crazy Beast\"",
     "title_pt": "New Linux 7.4 Feature For Reducing AI Noise Already Reverted Due To A \"Crazy Beast\"",
