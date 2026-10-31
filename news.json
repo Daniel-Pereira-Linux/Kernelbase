@@ -1,6 +1,69 @@
 [
   {
     "source": "Phoronix",
+    "title_en": "New Linux 7.4 Feature For Reducing AI Noise Already Reverted Due To A \"Crazy Beast\"",
+    "title_pt": "New Linux 7.4 Feature For Reducing AI Noise Already Reverted Due To A \"Crazy Beast\"",
+    "summary_en": "A new feature merged last week for Linux 7.4 to help reduce AI/LLM generated noise from invalid/irrelevant testing configurations is now reverted due to a \"crazy beast\" in the VFIO subsystem...",
+    "summary_pt": "A new feature merged last week for Linux 7.4 to help reduce AI/LLM generated noise from invalid/irrelevant testing configurations is now reverted due to a \"crazy beast\" in the VFIO subsystem...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-Drops-Taint-Bind",
+    "date": "Sat, 31 Oct 2026 08:15:22 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "KDE Plasma 6.9 Lands Some New Performance Optimizations",
+    "title_pt": "KDE Plasma 6.9 Lands Some New Performance Optimizations",
+    "summary_en": "I love a good performance optimization and there are several this week in the KDE space with Plasma 6.9 development heating up...",
+    "summary_pt": "I love a good performance optimization and there are several this week in the KDE space with Plasma 6.9 development heating up...",
+    "link": "https://www.phoronix.com/news/KDE-Plasma-6.9-More-Performance",
+    "date": "Sat, 31 Oct 2026 06:51:01 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Ceph In Linux 7.4 Adds Global Mount Option For Lazy I/O",
+    "title_pt": "Ceph In Linux 7.4 Adds Global Mount Option For Lazy I/O",
+    "summary_en": "The Ceph kernel client changes have been submitted for Linux 7.4 ahead of its merge window expected to wrap up on Sunday...",
+    "summary_pt": "The Ceph kernel client changes have been submitted for Linux 7.4 ahead of its merge window expected to wrap up on Sunday...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-Ceph",
+    "date": "Sat, 31 Oct 2026 06:30:00 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "GNOME Now Has An Established RFC Process, GNOME OS Continues Improving",
+    "title_pt": "GNOME Now Has An Established RFC Process, GNOME OS Continues Improving",
+    "summary_en": "In recent weeks GNOME developers have been discussing a formal Request For Comments \"RFC\" process for solving major technical questions and changes to GNOME. This formalized process for succeeding their ad-hoc processes up to now has reached consensus...",
+    "summary_pt": "In recent weeks GNOME developers have been discussing a formal Request For Comments \"RFC\" process for solving major technical questions and changes to GNOME. This formalized process for succeeding their ad-hoc processes up to now has reached consensus...",
+    "link": "https://www.phoronix.com/news/GNOME-Establishes-RFC",
+    "date": "Sat, 31 Oct 2026 06:10:19 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "DXVK-NVAPI 0.9.3 Brings Nice Improvements For Linux Gamers On Latest NVIDIA Drivers",
+    "title_pt": "DXVK-NVAPI 0.9.3 Brings Nice Improvements For Linux Gamers On Latest NVIDIA Drivers",
+    "summary_en": "DXVK-NVAPI 0.9.3 is out this weekend as a new feature update to this NVIDIA NVAPI implementation used by Valve as part of Steam Play with Proton for nicely integrating NVIDIA technologies into various Windows games running on Linux...",
+    "summary_pt": "DXVK-NVAPI 0.9.3 is out this weekend as a new feature update to this NVIDIA NVAPI implementation used by Valve as part of Steam Play with Proton for nicely integrating NVIDIA technologies into various Windows games running on Linux...",
+    "link": "https://www.phoronix.com/news/DXVK-NVAPI-0.9.3",
+    "date": "Sat, 31 Oct 2026 06:00:00 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "CUDA Oxide 0.3 Vastly Improves Rust Support For NVIDIA CUDA Programming",
+    "title_pt": "CUDA Oxide 0.3 Vastly Improves Rust Support For NVIDIA CUDA Programming",
+    "summary_en": "NVIDIA software engineers released CUDA Oxide 0.3 for closing out October. CUDA Oxide as a reminder is their experimental Rust to CUDA compiler that has been seeing a lot of activity in recent months...",
+    "summary_pt": "NVIDIA software engineers released CUDA Oxide 0.3 for closing out October. CUDA Oxide as a reminder is their experimental Rust to CUDA compiler that has been seeing a lot of activity in recent months...",
+    "link": "https://www.phoronix.com/news/CUDA-Oxide-0.3",
+    "date": "Sat, 31 Oct 2026 05:50:00 -0400"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Sculpt OS 26.10 Released - Now Powered By Genode's Custom Microkernel",
+    "title_pt": "Sculpt OS 26.10 Released - Now Powered By Genode's Custom Microkernel",
+    "summary_en": "Sculpt OS as the general purpose operating system project born out of the Genode initiative is now using the project's own microkernel rather than a third-party microkernel...",
+    "summary_pt": "Sculpt OS as the general purpose operating system project born out of the Genode initiative is now using the project's own microkernel rather than a third-party microkernel...",
+    "link": "https://www.phoronix.com/news/Sculpt-OS-26.10",
+    "date": "Sat, 31 Oct 2026 05:37:22 -0400"
+  },
+  {
+    "source": "Phoronix",
     "title_en": "Wine 11.21 Released With Better WoW64 OpenGL Performance",
     "title_pt": "Wine 11.21 Released With Better WoW64 OpenGL Performance",
     "summary_en": "Wine 11.21 is out as the newest bi-weekly development release of Wine and as we near Wine 12.0 stable release happenings getting underway in about one month with the official v12.0 release expected early in the new year...",
