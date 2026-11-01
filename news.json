@@ -1,6 +1,33 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "OpenShot 4.1 Video Editor Is Out with Native ARM64 Linux Builds and Text Editing",
+    "title_pt": "OpenShot 4.1 Video Editor Is Out with Native ARM64 Linux Builds and Text Editing",
+    "summary_en": "OpenShot 4.1 open-source video editor is now available for download with native text editing, native Linux ARM64 builds, CLI automation, and more. \n The post  OpenShot 4.1 Video Editor Is Out with Native ARM64 Linux Builds and Text Editing  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "OpenShot 4.1 open-source video editor is now available for download with native text editing, native Linux ARM64 builds, CLI automation, and more. \n The post  OpenShot 4.1 Video Editor Is Out with Native ARM64 Linux Builds and Text Editing  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/openshot-4-1-video-editor-is-out-with-native-arm64-linux-builds-and-text-editing",
+    "date": "Sat, 31 Oct 2026 21:45:56 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "A massive pile of security updates for Saturday",
+    "title_pt": "A massive pile of security updates for Saturday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (.NET 10.0, .NET 11.0, .NET 8.0, .NET 9.0, aspell, bind, bind9.18, container-tools:1.0, container-tools:rhel8, curl, dogtag-pki, ignition, java-21-openjdk, python-pillow, tomcat, and virt:rhel, virt-devel:rhel),  Debian  (antiword, cyrus-sasl2, dovecot, dpdk, nss, python-git, and thunderbird),  Fedora  (7zip, aegisub, aom, apptainer, arm-none-eab...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (.NET 10.0, .NET 11.0, .NET 8.0, .NET 9.0, aspell, bind, bind9.18, container-tools:1.0, container-tools:rhel8, curl, dogtag-pki, ignition, java-21-openjdk, python-pillow, tomcat, and virt:rhel, virt-devel:rhel),  Debian  (antiword, cyrus-sasl2, dovecot, dpdk, nss, python-git, and thunderbird),  Fedora  (7zip, aegisub, aom, apptainer, arm-none-eab...",
+    "link": "https://lwn.net/Articles/1104612/",
+    "date": "Sat, 31 Oct 2026 22:34:30 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "OpenShot 4.1 Released With Auto-Optimize, CLI Automation & ARM64 Linux Builds",
+    "title_pt": "OpenShot 4.1 Released With Auto-Optimize, CLI Automation & ARM64 Linux Builds",
+    "summary_en": "OpenShot is closing out the month of October by releasing OpenShot 4.1 as the latest major feature release for this useful open-source video editing solution...",
+    "summary_pt": "OpenShot is closing out the month of October by releasing OpenShot 4.1 as the latest major feature release for this useful open-source video editing solution...",
+    "link": "https://www.phoronix.com/news/OpenShot-4.1-Released",
+    "date": "Sat, 31 Oct 2026 19:28:50 -0400"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Linux Mint Devs Introduce New System Monitor and Terminal Emulator Apps",
     "title_pt": "Linux Mint Devs Introduce New System Monitor and Terminal Emulator Apps",
     "summary_en": "Linux Mint devs unveil new system monitor, archive manager, and terminal emulator apps for Linux Mint, along with a preview pane for Nemo and hibernation support. \n The post  Linux Mint Devs Introduce New System Monitor and Terminal Emulator Apps  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
