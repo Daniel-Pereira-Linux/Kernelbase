@@ -1,6 +1,60 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Budgie 10.10.4 Desktop Environment Released with More Improvements",
+    "title_pt": "Budgie 10.10.4 Desktop Environment Released with More Improvements",
+    "summary_en": "Budgie 10.10.4 is now available as the fourth maintenance update to the Wayland-only Budgie 10.10 desktop environment series with various improvements and bug fixes. \n The post  Budgie 10.10.4 Desktop Environment Released with More Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Budgie 10.10.4 is now available as the fourth maintenance update to the Wayland-only Budgie 10.10 desktop environment series with various improvements and bug fixes. \n The post  Budgie 10.10.4 Desktop Environment Released with More Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/budgie-10-10-4-desktop-environment-released-with-more-improvements",
+    "date": "Sun, 01 Nov 2026 16:58:53 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Trinity Desktop Environment R14.1.7 Is Out with Support for Ubuntu 26.10",
+    "title_pt": "Trinity Desktop Environment R14.1.7 Is Out with Support for Ubuntu 26.10",
+    "summary_en": "Trinity Desktop Environment (TDE) R14.1.7 desktop environment is now available with support for new distributions, new features, and various enhancements for nostalgic KDE 3.5 fans. \n The post  Trinity Desktop Environment R14.1.7 Is Out with Support for Ubuntu 26.10  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scra...",
+    "summary_pt": "Trinity Desktop Environment (TDE) R14.1.7 desktop environment is now available with support for new distributions, new features, and various enhancements for nostalgic KDE 3.5 fans. \n The post  Trinity Desktop Environment R14.1.7 Is Out with Support for Ubuntu 26.10  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scra...",
+    "link": "https://9to5linux.com/trinity-desktop-environment-r14-1-7-is-out-with-support-for-ubuntu-26-10",
+    "date": "Sun, 01 Nov 2026 16:27:38 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "9to5Linux Weekly Roundup: November 1st, 2026",
+    "title_pt": "9to5Linux Weekly Roundup: November 1st, 2026",
+    "summary_en": "9to5Linux Weekly Roundup for November 1st, 2026, brings news about Kali Linux 2026.3, Firefox 159, KDE Plasma 6.8.2, Thunderbird 159, Scribus 1.6.7, Mesa 26.2.6, Armbian Imager 2.5, PipeWire 1.6.11, LibreOffice 26.8.2, Tor Browser 16.0, Shelly 3.1.10, Linux Lite 8.2, Enlightenment 0.28, OpenShot 4.1, PorteuX 2.9, and more. \n The post  9to5Linux Weekly Roundup: November 1st, 2026  appeared first...",
+    "summary_pt": "9to5Linux Weekly Roundup for November 1st, 2026, brings news about Kali Linux 2026.3, Firefox 159, KDE Plasma 6.8.2, Thunderbird 159, Scribus 1.6.7, Mesa 26.2.6, Armbian Imager 2.5, PipeWire 1.6.11, LibreOffice 26.8.2, Tor Browser 16.0, Shelly 3.1.10, Linux Lite 8.2, Enlightenment 0.28, OpenShot 4.1, PorteuX 2.9, and more. \n The post  9to5Linux Weekly Roundup: November 1st, 2026  appeared first...",
+    "link": "https://9to5linux.com/9to5linux-weekly-roundup-november-1st-2026",
+    "date": "Sun, 01 Nov 2026 16:04:28 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Linux Kernel 7.2 Reaches End of Life, It’s Time to Upgrade to Linux Kernel 7.3",
+    "title_pt": "Linux Kernel 7.2 Reaches End of Life, It’s Time to Upgrade to Linux Kernel 7.3",
+    "summary_en": "Linux kernel 7.2 reached end of life and all users are now recommended to upgrade their systems to the latest Linux 7.3 kernel series as soon as possible. \n The post  Linux Kernel 7.2 Reaches End of Life, It’s Time to Upgrade to Linux Kernel 7.3  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Linux kernel 7.2 reached end of life and all users are now recommended to upgrade their systems to the latest Linux 7.3 kernel series as soon as possible. \n The post  Linux Kernel 7.2 Reaches End of Life, It’s Time to Upgrade to Linux Kernel 7.3  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/linux-kernel-7-2-reaches-end-of-life-its-time-to-upgrade-to-linux-kernel-7-3",
+    "date": "Sun, 01 Nov 2026 13:31:11 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Final release for the 7.2 stable series",
+    "title_pt": "Final release for the 7.2 stable series",
+    "summary_en": "Greg Kroah-Hartman has announced the release of the \n 7.2.15  kernel, with a handful of updates. \n \n Note, this is the LAST 7.2.y kernel release.  After this one the 7.2.y kernel\ntree is end-of-life.  Please move to 7.3.y at this time. \n And yes, you aren't imagining things, this one went \"end-of-life\" a bit sooner\nthan normal.  But based on the release cycle at the moment, and the number of\npe...",
+    "summary_pt": "Greg Kroah-Hartman has announced the release of the \n 7.2.15  kernel, with a handful of updates. \n \n Note, this is the LAST 7.2.y kernel release.  After this one the 7.2.y kernel\ntree is end-of-life.  Please move to 7.3.y at this time. \n And yes, you aren't imagining things, this one went \"end-of-life\" a bit sooner\nthan normal.  But based on the release cycle at the moment, and the number of\npe...",
+    "link": "https://lwn.net/Articles/1104629/",
+    "date": "Sun, 01 Nov 2026 15:03:40 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Kwi Being Developed As New KDE Terminal Emulator With 3x To 35x Performance",
+    "title_pt": "Kwi Being Developed As New KDE Terminal Emulator With 3x To 35x Performance",
+    "summary_en": "A new KDE terminal emulator is in development as a modern alternative to Konsole. Kwi is this new terminal app being built atop the Ghostty library...",
+    "summary_pt": "A new KDE terminal emulator is in development as a modern alternative to Konsole. Kwi is this new terminal app being built atop the Ghostty library...",
+    "link": "https://www.phoronix.com/news/KDE-Kwi-Terminal-Emulator",
+    "date": "Sun, 01 Nov 2026 08:41:39 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "PorteuX 2.9 Released with Linux 7.3, KDE Plasma 6.8, GNOME 51, and COSMIC 1.11",
     "title_pt": "PorteuX 2.9 Released with Linux 7.3, KDE Plasma 6.8, GNOME 51, and COSMIC 1.11",
     "summary_en": "PorteuX 2.9 Linux distribution based on Slackware is now available for download with Linux kernel 7.3, KDE Plasma 6.8, GNOME 51, COSMIC 1.11, and various improvements. \n The post  PorteuX 2.9 Released with Linux 7.3, KDE Plasma 6.8, GNOME 51, and COSMIC 1.11  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
