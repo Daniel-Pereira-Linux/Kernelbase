@@ -38,21 +38,21 @@
     },
     {
       "moniker": "stable",
-      "version": "7.2.14",
-      "iseol": false,
+      "version": "7.2.15",
+      "iseol": true,
       "released": {
-        "timestamp": 1793362117,
-        "isodate": "2026-10-30"
+        "timestamp": 1793537096,
+        "isodate": "2026-11-01"
       },
-      "source": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.2.14.tar.xz",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.2.14.tar.sign",
+      "source": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.2.15.tar.xz",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.2.15.tar.sign",
       "patch": {
-        "full": "https://cdn.kernel.org/pub/linux/kernel/v7.x/patch-7.2.14.xz",
-        "incremental": "https://cdn.kernel.org/pub/linux/kernel/v7.x/incr/patch-7.2.13-14.xz"
+        "full": "https://cdn.kernel.org/pub/linux/kernel/v7.x/patch-7.2.15.xz",
+        "incremental": "https://cdn.kernel.org/pub/linux/kernel/v7.x/incr/patch-7.2.14-15.xz"
       },
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.2.14",
-      "gitweb": "https://git.kernel.org/stable/h/v7.2.14",
-      "diffview": "https://git.kernel.org/stable/ds/v7.2.14/v7.2.13"
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.2.15",
+      "gitweb": "https://git.kernel.org/stable/h/v7.2.15",
+      "diffview": "https://git.kernel.org/stable/ds/v7.2.15/v7.2.14"
     },
     {
       "moniker": "longterm",
