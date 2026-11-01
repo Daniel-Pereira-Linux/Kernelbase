@@ -1,6 +1,24 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Kwi Is a New Ghostty-Based GPU-Accelerated Terminal Emulator for KDE Plasma",
+    "title_pt": "Kwi Is a New Ghostty-Based GPU-Accelerated Terminal Emulator for KDE Plasma",
+    "summary_en": "Meet Kwi, a new Ghostty-based GPU-accelerated terminal emulator app for the KDE Plasma desktop environment that promises up to 35x faster performance, a more modern UI, and better protocol support. \n The post  Kwi Is a New Ghostty-Based GPU-Accelerated Terminal Emulator for KDE Plasma  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended fo...",
+    "summary_pt": "Meet Kwi, a new Ghostty-based GPU-accelerated terminal emulator app for the KDE Plasma desktop environment that promises up to 35x faster performance, a more modern UI, and better protocol support. \n The post  Kwi Is a New Ghostty-Based GPU-Accelerated Terminal Emulator for KDE Plasma  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended fo...",
+    "link": "https://9to5linux.com/kwi-is-a-new-ghostty-based-gpu-accelerated-terminal-emulator-for-kde-plasma",
+    "date": "Sun, 01 Nov 2026 05:47:09 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Brief Server Downtime Expected Tonight",
+    "title_pt": "Brief Server Downtime Expected Tonight",
+    "summary_en": "Just a friendly heads up that Phoronix.com and associated sites will be down briefly at around midnight PST / 3AM EST on 1 November for a failed drive in the NVMe SSD RAID array...",
+    "summary_pt": "Just a friendly heads up that Phoronix.com and associated sites will be down briefly at around midnight PST / 3AM EST on 1 November for a failed drive in the NVMe SSD RAID array...",
+    "link": "https://www.phoronix.com/news/RAID-Drive-Replacement-Tonight",
+    "date": "Sat, 31 Oct 2026 20:32:00 -0400"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "OpenShot 4.1 Video Editor Is Out with Native ARM64 Linux Builds and Text Editing",
     "title_pt": "OpenShot 4.1 Video Editor Is Out with Native ARM64 Linux Builds and Text Editing",
     "summary_en": "OpenShot 4.1 open-source video editor is now available for download with native text editing, native Linux ARM64 builds, CLI automation, and more. \n The post  OpenShot 4.1 Video Editor Is Out with Native ARM64 Linux Builds and Text Editing  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
