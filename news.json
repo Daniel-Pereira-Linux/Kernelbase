@@ -1,6 +1,60 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "PorteuX 2.9 Released with Linux 7.3, KDE Plasma 6.8, GNOME 51, and COSMIC 1.11",
+    "title_pt": "PorteuX 2.9 Released with Linux 7.3, KDE Plasma 6.8, GNOME 51, and COSMIC 1.11",
+    "summary_en": "PorteuX 2.9 Linux distribution based on Slackware is now available for download with Linux kernel 7.3, KDE Plasma 6.8, GNOME 51, COSMIC 1.11, and various improvements. \n The post  PorteuX 2.9 Released with Linux 7.3, KDE Plasma 6.8, GNOME 51, and COSMIC 1.11  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "PorteuX 2.9 Linux distribution based on Slackware is now available for download with Linux kernel 7.3, KDE Plasma 6.8, GNOME 51, COSMIC 1.11, and various improvements. \n The post  PorteuX 2.9 Released with Linux 7.3, KDE Plasma 6.8, GNOME 51, and COSMIC 1.11  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/porteux-2-9-released-with-linux-7-3-kde-plasma-6-8-gnome-51-and-cosmic-1-11",
+    "date": "Sun, 01 Nov 2026 12:55:41 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "The Linux 7.4 Merge Window Is Easily The Largest In Kernel History",
+    "title_pt": "The Linux 7.4 Merge Window Is Easily The Largest In Kernel History",
+    "summary_en": "After writing this morning with some stats about the size of the Linux 7.4 merge window and the kernel's source tree approaching 42 million lines, I was curious to run some numbers for putting the size of the merge window into perspective against the major kernel releases of the past 15 years. This shows the definite recent uptick due to AI/LLM activity...",
+    "summary_pt": "After writing this morning with some stats about the size of the Linux 7.4 merge window and the kernel's source tree approaching 42 million lines, I was curious to run some numbers for putting the size of the merge window into perspective against the major kernel releases of the past 15 years. This shows the definite recent uptick due to AI/LLM activity...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-Massive-Window",
+    "date": "Sun, 01 Nov 2026 07:00:11 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "OverlayFS Sees Many Fixes Thanks To AI Code Review",
+    "title_pt": "OverlayFS Sees Many Fixes Thanks To AI Code Review",
+    "summary_en": "Merged this weekend for Linux 7.4 and also marked for back-porting to current stable kernel versions are a number of fixes to the OverlayFS union mount file-system...",
+    "summary_pt": "Merged this weekend for Linux 7.4 and also marked for back-porting to current stable kernel versions are a number of fixes to the OverlayFS union mount file-system...",
+    "link": "https://www.phoronix.com/news/OverlayFS-Many-Fixes",
+    "date": "Sun, 01 Nov 2026 06:37:07 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AI Use In The Linux Kernel, Microsoft Defender On Linux & Other October Highlights",
+    "title_pt": "AI Use In The Linux Kernel, Microsoft Defender On Linux & Other October Highlights",
+    "summary_en": "October brought the releases of Linux 7.3, Ubuntu 26.10, the KDE Plasma 6.8 desktop, and a wealth of other open-source software releases. The expanding use of AI/LLMs within Linux kernel development also made for interesting discussions in October. Microsoft bringing their Defender software to the Linux desktop was perhaps the biggest surprise out of October. Here is a look back at the past mon...",
+    "summary_pt": "October brought the releases of Linux 7.3, Ubuntu 26.10, the KDE Plasma 6.8 desktop, and a wealth of other open-source software releases. The expanding use of AI/LLMs within Linux kernel development also made for interesting discussions in October. Microsoft bringing their Defender software to the Linux desktop was perhaps the biggest surprise out of October. Here is a look back at the past mon...",
+    "link": "https://www.phoronix.com/news/October-2026-Highlights",
+    "date": "Sun, 01 Nov 2026 05:54:04 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux's Perf Python Scripts More Robust & Faster With Linux 7.4",
+    "title_pt": "Linux's Perf Python Scripts More Robust & Faster With Linux 7.4",
+    "summary_en": "Merged this weekend to Linux 7.4 Git were all of the perf subsystem tooling updates. Most notable to these tooling updates for dealing with performance counters and more on Linux is an overhaul to the Python code...",
+    "summary_pt": "Merged this weekend to Linux 7.4 Git were all of the perf subsystem tooling updates. Most notable to these tooling updates for dealing with performance counters and more on Linux is an overhaul to the Python code...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-Perf-Tools",
+    "date": "Sun, 01 Nov 2026 05:38:55 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.4 Merge Window Saw Nearly 20k Commits, Source Tree Approaching 42 Million Lines",
+    "title_pt": "Linux 7.4 Merge Window Saw Nearly 20k Commits, Source Tree Approaching 42 Million Lines",
+    "summary_en": "Linux 7.3 started out just under 41 million lines in total in the kernel source tree. In the end the Linux v7.3 tag came in at 41,019,555 lines as measured by cloc while now with Linux 7.4 we are inching ever closer to 42 million lines. On a Git commit basis, the Linux 7.4 merge window has been the busiest on record...",
+    "summary_pt": "Linux 7.3 started out just under 41 million lines in total in the kernel source tree. In the end the Linux v7.3 tag came in at 41,019,555 lines as measured by cloc while now with Linux 7.4 we are inching ever closer to 42 million lines. On a Git commit basis, the Linux 7.4 merge window has been the busiest on record...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-Merge-Window",
+    "date": "Sun, 01 Nov 2026 05:28:22 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Kwi Is a New Ghostty-Based GPU-Accelerated Terminal Emulator for KDE Plasma",
     "title_pt": "Kwi Is a New Ghostty-Based GPU-Accelerated Terminal Emulator for KDE Plasma",
     "summary_en": "Meet Kwi, a new Ghostty-based GPU-accelerated terminal emulator app for the KDE Plasma desktop environment that promises up to 35x faster performance, a more modern UI, and better protocol support. \n The post  Kwi Is a New Ghostty-Based GPU-Accelerated Terminal Emulator for KDE Plasma  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended fo...",
