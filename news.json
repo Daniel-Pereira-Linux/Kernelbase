@@ -1,6 +1,33 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Linus Torvalds Announces First Linux Kernel 7.4 Release Candidate",
+    "title_pt": "Linus Torvalds Announces First Linux Kernel 7.4 Release Candidate",
+    "summary_en": "Linus Torvalds announced today the general availability of the first Release Candidate (RC) of the upcoming Linux 7.4 kernel series for public testing and early adopters. \n The post  Linus Torvalds Announces First Linux Kernel 7.4 Release Candidate  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Linus Torvalds announced today the general availability of the first Release Candidate (RC) of the upcoming Linux 7.4 kernel series for public testing and early adopters. \n The post  Linus Torvalds Announces First Linux Kernel 7.4 Release Candidate  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/linus-torvalds-announces-first-linux-kernel-7-4-release-candidate",
+    "date": "Sun, 01 Nov 2026 21:45:10 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Kernel prepatch 7.4-rc1",
+    "title_pt": "Kernel prepatch 7.4-rc1",
+    "summary_en": "The  7.4-rc1  kernel prepatch is out, and\nthe merge window is closed for this development cycle.\n \n \n\tThis is a *BIG* merge window. I think the reason is the by now\n\tobvious one, but I'm actually taking it as a good sign: I'm *much*\n\thappier with the flood of AI triggered work going into the merge\n\twindow than it showing up mainly as extra fixes during the -rc\n\tperiod. So I'm hoping that this m...",
+    "summary_pt": "The  7.4-rc1  kernel prepatch is out, and\nthe merge window is closed for this development cycle.\n \n \n\tThis is a *BIG* merge window. I think the reason is the by now\n\tobvious one, but I'm actually taking it as a good sign: I'm *much*\n\thappier with the flood of AI triggered work going into the merge\n\twindow than it showing up mainly as extra fixes during the -rc\n\tperiod. So I'm hoping that this m...",
+    "link": "https://lwn.net/Articles/1104654/",
+    "date": "Mon, 02 Nov 2026 00:17:08 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.4-rc1 Released With Nice Performance Improvements, AMD Ryzen Zen 6 Preparations & AMDGPU HDMI 2.1 Default",
+    "title_pt": "Linux 7.4-rc1 Released With Nice Performance Improvements, AMD Ryzen Zen 6 Preparations & AMDGPU HDMI 2.1 Default",
+    "summary_en": "Even with Linus Torvalds having been on holiday, Linux 7.4-rc1 is out today on-schedule for capping off the Linux 7.4 merge window...",
+    "summary_pt": "Even with Linus Torvalds having been on holiday, Linux 7.4-rc1 is out today on-schedule for capping off the Linux 7.4 merge window...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-rc1",
+    "date": "Sun, 01 Nov 2026 16:51:34 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Budgie 10.10.4 Desktop Environment Released with More Improvements",
     "title_pt": "Budgie 10.10.4 Desktop Environment Released with More Improvements",
     "summary_en": "Budgie 10.10.4 is now available as the fourth maintenance update to the Wayland-only Budgie 10.10 desktop environment series with various improvements and bug fixes. \n The post  Budgie 10.10.4 Desktop Environment Released with More Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
