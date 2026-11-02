@@ -1,6 +1,51 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Audacity 4.0.2 Audio Editor Restores Automatic Saving During Recording",
+    "title_pt": "Audacity 4.0.2 Audio Editor Restores Automatic Saving During Recording",
+    "summary_en": "Audacity 4.0.2 open-source audio editor is now available for download with automatic saving during recording, trim, clear selection, and zoom shortcuts, improved playback latency, and more. \n The post  Audacity 4.0.2 Audio Editor Restores Automatic Saving During Recording  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, no...",
+    "summary_pt": "Audacity 4.0.2 open-source audio editor is now available for download with automatic saving during recording, trim, clear selection, and zoom shortcuts, improved playback latency, and more. \n The post  Audacity 4.0.2 Audio Editor Restores Automatic Saving During Recording  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, no...",
+    "link": "https://9to5linux.com/audacity-4-0-2-audio-editor-restores-automatic-saving-during-recording",
+    "date": "Mon, 02 Nov 2026 10:27:24 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "FreeRDP 3.33 Released With WebAssembly Support, Huge Influx Of Activity Due To AI",
+    "title_pt": "FreeRDP 3.33 Released With WebAssembly Support, Huge Influx Of Activity Due To AI",
+    "summary_en": "The FreeRDP 3.33 software released today as the newest version of this open-source Microsoft Remote Desktop Protocol (RDP) implementation...",
+    "summary_pt": "The FreeRDP 3.33 software released today as the newest version of this open-source Microsoft Remote Desktop Protocol (RDP) implementation...",
+    "link": "https://www.phoronix.com/news/FreeRDP-3.33",
+    "date": "Mon, 02 Nov 2026 06:07:14 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "KDE Linux Nearing Its Beta Milestone, Now Ships With NTSYNC By Default",
+    "title_pt": "KDE Linux Nearing Its Beta Milestone, Now Ships With NTSYNC By Default",
+    "summary_en": "KDE developer Nate Graham published his monthly blog post on Sunday to outline the current state of KDE Linux and some of the changes made to this in-house Linux distribution over the course of October. Additionally, KDE Linux is nearing its beta milestone after beinbg in development for over one year as a reference Linux distribution for KDE...",
+    "summary_pt": "KDE developer Nate Graham published his monthly blog post on Sunday to outline the current state of KDE Linux and some of the changes made to this in-house Linux distribution over the course of October. Additionally, KDE Linux is nearing its beta milestone after beinbg in development for over one year as a reference Linux distribution for KDE...",
+    "link": "https://www.phoronix.com/news/KDE-Linux-October-2026",
+    "date": "Mon, 02 Nov 2026 05:39:21 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Raspberry Pi 5 16GB Price Rises To $385 USD",
+    "title_pt": "Raspberry Pi 5 16GB Price Rises To $385 USD",
+    "summary_en": "Raspberry Pi announced their latest round of price hikes as a result of the RAM shortages and increased pricing continuing to affect the industry...",
+    "summary_pt": "Raspberry Pi announced their latest round of price hikes as a result of the RAM shortages and increased pricing continuing to affect the industry...",
+    "link": "https://www.phoronix.com/news/Raspberry-Pi-5-16GB-385",
+    "date": "Mon, 02 Nov 2026 05:27:17 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Steam On Linux Just Under 4% For October 2026",
+    "title_pt": "Steam On Linux Just Under 4% For October 2026",
+    "summary_en": "Valve just published their Steam Survey results for October and point to a small uptick in Linux gaming use on a relative basis...",
+    "summary_pt": "Valve just published their Steam Survey results for October and point to a small uptick in Linux gaming use on a relative basis...",
+    "link": "https://www.phoronix.com/news/Steam-Survey-October-2026",
+    "date": "Sun, 01 Nov 2026 20:47:46 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Linus Torvalds Announces First Linux Kernel 7.4 Release Candidate",
     "title_pt": "Linus Torvalds Announces First Linux Kernel 7.4 Release Candidate",
     "summary_en": "Linus Torvalds announced today the general availability of the first Release Candidate (RC) of the upcoming Linux 7.4 kernel series for public testing and early adopters. \n The post  Linus Torvalds Announces First Linux Kernel 7.4 Release Candidate  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
