@@ -1,6 +1,69 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "aerynOS 2026.11 Is Out with GNOME 51, KDE Plasma 6.8, COSMIC 1.11, and Budgie 10.10",
+    "title_pt": "aerynOS 2026.11 Is Out with GNOME 51, KDE Plasma 6.8, COSMIC 1.11, and Budgie 10.10",
+    "summary_en": "aerynOS 2026.11 has been released today and it's now available for download for this independently-develop distribution featuring some of the latest and greatest GNU/Linux technologies and Open Source software \n The post  aerynOS 2026.11 Is Out with GNOME 51, KDE Plasma 6.8, COSMIC 1.11, and Budgie 10.10  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS...",
+    "summary_pt": "aerynOS 2026.11 has been released today and it's now available for download for this independently-develop distribution featuring some of the latest and greatest GNU/Linux technologies and Open Source software \n The post  aerynOS 2026.11 Is Out with GNOME 51, KDE Plasma 6.8, COSMIC 1.11, and Budgie 10.10  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS...",
+    "link": "https://9to5linux.com/aerynos-2026-11-is-out-with-gnome-51-kde-plasma-6-8-cosmic-1-11-and-budgie-10-10",
+    "date": "Mon, 02 Nov 2026 18:39:08 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] The second part of the 7.4 merge window",
+    "title_pt": "[$] The second part of the 7.4 merge window",
+    "summary_en": "The 7.4 merge window, which\n closed  on November 1,\nincluded a record-breaking 18,591 non-merge changesets.\nThat is almost as many as the entire 7.3 development cycle, which had 18,765, itself a record breaker. Of\nthose, 11,838 landed after  the article covering the\nfirst part of the merge window . Most of those were bug fixes of\nvarious forms; it seems as though bug fixes may be crowding out f...",
+    "summary_pt": "The 7.4 merge window, which\n closed  on November 1,\nincluded a record-breaking 18,591 non-merge changesets.\nThat is almost as many as the entire 7.3 development cycle, which had 18,765, itself a record breaker. Of\nthose, 11,838 landed after  the article covering the\nfirst part of the merge window . Most of those were bug fixes of\nvarious forms; it seems as though bug fixes may be crowding out f...",
+    "link": "https://lwn.net/Articles/1102739/",
+    "date": "Mon, 02 Nov 2026 17:51:48 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Shutting the Door on the XCPE Botnet (Threat Intelligence)",
+    "title_pt": "Shutting the Door on the XCPE Botnet (Threat Intelligence)",
+    "summary_en": "The Google Threat Intelligence blog  describes,\nin great detail , the XCPE botnet, which has just been taken down.\n \n \n\tLast week, Google and industry partners dismantled the XCPE\n\tbackdoor which enrolled more than 1.3 million set-top boxes into a\n\tbotnet. We assess with high confidence that the backdoor and botnet\n\twere intentionally developed, deployed, and operated for financial\n\tgain by Vid...",
+    "summary_pt": "The Google Threat Intelligence blog  describes,\nin great detail , the XCPE botnet, which has just been taken down.\n \n \n\tLast week, Google and industry partners dismantled the XCPE\n\tbackdoor which enrolled more than 1.3 million set-top boxes into a\n\tbotnet. We assess with high confidence that the backdoor and botnet\n\twere intentionally developed, deployed, and operated for financial\n\tgain by Vid...",
+    "link": "https://lwn.net/Articles/1104847/",
+    "date": "Mon, 02 Nov 2026 14:29:37 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] Managing the kernel CVE flood",
+    "title_pt": "[$] Managing the kernel CVE flood",
+    "summary_en": "We recently  looked  at how the\nkernel community is dealing with the firehose of vulnerability reports, but\nsaid little about how users of the kernel are responding.  At the  2026  Linux Plumbers Conference , Amazon employees\nDylan Johnson and Justinien Bouron discussed the problem from the point of\nview of engineers trying to keep AWS running and secure in the face of a\nstorm of CVE disclosure...",
+    "summary_pt": "We recently  looked  at how the\nkernel community is dealing with the firehose of vulnerability reports, but\nsaid little about how users of the kernel are responding.  At the  2026  Linux Plumbers Conference , Amazon employees\nDylan Johnson and Justinien Bouron discussed the problem from the point of\nview of engineers trying to keep AWS running and secure in the face of a\nstorm of CVE disclosure...",
+    "link": "https://lwn.net/Articles/1100894/",
+    "date": "Mon, 02 Nov 2026 14:28:39 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Tor Browser 16.0 released",
+    "title_pt": "Tor Browser 16.0 released",
+    "summary_en": "Version\n16.0  of the  Tor Browser \nhas been released. This is the first stable version based on Firefox ESR\n153. Notable changes in this release include support for Linux on 64-bit Arm,\nredesigned settings, and a \"generic window titles\" feature to help prevent other\napplications from snooping on one's browser activity.  Tor Browser for\nAndroid  has had a number of interface updates to Google's ...",
+    "summary_pt": "Version\n16.0  of the  Tor Browser \nhas been released. This is the first stable version based on Firefox ESR\n153. Notable changes in this release include support for Linux on 64-bit Arm,\nredesigned settings, and a \"generic window titles\" feature to help prevent other\napplications from snooping on one's browser activity.  Tor Browser for\nAndroid  has had a number of interface updates to Google's ...",
+    "link": "https://lwn.net/Articles/1104846/",
+    "date": "Mon, 02 Nov 2026 14:28:23 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Monday",
+    "title_pt": "Security updates for Monday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (firefox, java-17-openjdk, kernel, kernel-rt, mariadb:10.5, podman, python-jwt, python27:2.7, python38:3.8 and python38-devel:3.8, python39:3.9 and python39-devel:3.9, ruby:2.5, ruby:2.7, thunderbird, util-linux, and virt:rhel and virt-devel:rhel),  Debian  (chromium, eog, imagemagick, python-aiohttp, thunderbird, and vim),  Fedora  (asciinema, a...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (firefox, java-17-openjdk, kernel, kernel-rt, mariadb:10.5, podman, python-jwt, python27:2.7, python38:3.8 and python38-devel:3.8, python39:3.9 and python39-devel:3.9, ruby:2.5, ruby:2.7, thunderbird, util-linux, and virt:rhel and virt-devel:rhel),  Debian  (chromium, eog, imagemagick, python-aiohttp, thunderbird, and vim),  Fedora  (asciinema, a...",
+    "link": "https://lwn.net/Articles/1104844/",
+    "date": "Mon, 02 Nov 2026 14:03:45 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Radeon RADV Vulkan Driver Adopts An LLM Policy",
+    "title_pt": "Radeon RADV Vulkan Driver Adopts An LLM Policy",
+    "summary_en": "The Mesa RADV driver that provides Vulkan API support for AMD Radeon GPUs on Linux has adopted its own policy around AI / large language models (LLMs) for code contributions...",
+    "summary_pt": "The Mesa RADV driver that provides Vulkan API support for AMD Radeon GPUs on Linux has adopted its own policy around AI / large language models (LLMs) for code contributions...",
+    "link": "https://www.phoronix.com/news/RADV-Adopts-LLM-Policy",
+    "date": "Mon, 02 Nov 2026 06:16:22 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Audacity 4.0.2 Audio Editor Restores Automatic Saving During Recording",
     "title_pt": "Audacity 4.0.2 Audio Editor Restores Automatic Saving During Recording",
     "summary_en": "Audacity 4.0.2 open-source audio editor is now available for download with automatic saving during recording, trim, clear selection, and zoom shortcuts, improved playback latency, and more. \n The post  Audacity 4.0.2 Audio Editor Restores Automatic Saving During Recording  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, no...",
