@@ -1,5 +1,21 @@
 [
   {
+    "title": "Re: [PATCH v2] docs: translations: pt_BR: translate programming-language.rst",
+    "author": "Jonathan Corbet",
+    "email": "corbet@lwn.net",
+    "updated": "2026-11-02T16:17:45Z",
+    "link": "https://lore.kernel.org/linux-doc/87tslzcimv.fsf@trenco.lwn.net/",
+    "content": "Gabriel Ribeiro <ic.gabrielribeiro@gmail.com> writes:\n\n> Translate the programming language guide and link it from the pt_BR\n> process index.\n>\n> Signed-off-by: Gabriel Ribeiro <ic.gabrielribeiro@gmail.com>\n> ---\n> Changes in v2:\n> - Use translation-specific labels for the page and all citations.\n> - Drop the obsolete Assisted-by trailer.\n>\n>  .../translations/pt_BR/process/index.rst      |  1 +\n>  .../pt_BR/process/programming-language.rst    | 64 +++++++++++++++++++\n>  2 files changed, 65 insertions(+)\n\nApplied, thanks.\n\njon"
+  },
+  {
+    "title": "Re: [PATCH 00/11] docs/translations/pt_BR: process: sync with English and fix errors",
+    "author": "Jonathan Corbet",
+    "email": "corbet@lwn.net",
+    "updated": "2026-11-02T16:11:19Z",
+    "link": "https://lore.kernel.org/linux-doc/8733tjdxi2.fsf@trenco.lwn.net/",
+    "content": "Daniel Pereira <danielmaraboo@gmail.com> writes:\n\n> This series reviews part of the Brazilian Portuguese translation of\n> Documentation/process against the English originals.\n>\n> Patches 2-6 sync coding-assistants.rst, security-bugs.rst,\n> maintainer-netdev.rst, maintainer-soc.rst and changes.rst with changes\n> made to the originals. The other patches fix translation errors against\n> the English text, markup that renders differently from the original,\n> and cross-references that pointed to the English documents even though\n> the targets are translated, adding the pt_BR labels needed for that.\n>\n> The changes are limited to updates and fixes; nothing is rewritten.\n> \"make htmldocs\" builds without new warnings.\n>\n> Daniel Pereira (11):\n>   docs/translations/pt_BR: process: fix 1.Intro.rst and add labels\n>   docs/translations/pt_BR: process: coding-assistants.rst: add bug\n>     procedure\n>   docs/translations/pt_BR: process: security-bugs.rst: sync with English\n>   docs/translations/pt_BR: process: maintainer-netdev.rst: sync with\n>     English\n>   docs/translations/pt_BR: process: maintainer-soc.rst: sync with\n>     English\n>   docs/translations/pt_BR: process: changes.rst: sync with English\n>   docs/translations/pt_BR: process: license-rules.rst: fix lists and\n>     table\n>   docs/translations/pt_BR: process: 2.Process.rst: fix translation\n>     errors\n>   docs/translations/pt_BR: process: fix cross-references and list markup\n>   docs/translations/pt_BR: process: restore links, emphasis and headings\n>   docs/translations/pt_BR: process: fix kernel-docs and enforcement\n>     statement\n\nSeries applied, thanks.\n\njon"
+  },
+  {
     "title": "Re: [PATCH v2 0/2] docs: add a guide for translators",
     "author": "Carlos Bilbao",
     "email": "carlos.bilbao.osdev@gmail.com",
@@ -1582,21 +1598,5 @@
     "updated": "2026-08-03T19:31:26Z",
     "link": "https://lore.kernel.org/linux-doc/87zez3vw4z.fsf@trenco.lwn.net/",
     "content": "Amanda Corrêa <amandacorreasilvax@gmail.com> writes:\n\n> Key changes include:\n> - Translated management-style.rst into and adapted idiomatic expressions\n>   and humor to sound natural in Brazilian Portuguese while maintaining\n>   the original tone.\n>\n> Key changes since v1:\n> - Fix incorrect author email address\n\nHere, too, I have had to remove this information from the changelog.\nDaniel, can you please educate your contributors on the proper way to\nconvey this information?\n\n> Signed-off-by: Amanda Corrêa <amandacorreasilvax@gmail.com>\n> ---\n>  Documentation/translations/pt_BR/index.rst    |   1 +\n>  .../pt_BR/process/management-style.rst        | 265 ++++++++++++++++++\n>  2 files changed, 266 insertions(+)\n>  create mode 100644 Documentation/translations/pt_BR/process/management-style.rst\n\nApplied, thanks.\n\njon"
-  },
-  {
-    "title": "Re: [PATCH v4] docs: pt_BR: process: Translate programming-language",
-    "author": "Jonathan Corbet",
-    "email": "corbet@lwn.net",
-    "updated": "2026-08-03T19:24:23Z",
-    "link": "https://lore.kernel.org/linux-doc/874ihbxb15.fsf@trenco.lwn.net/",
-    "content": "This is not working.\n\n\nAbel Philippe <le590616@gmail.com> writes:\n\n> Translate the programming language documentation into Brazilian Portuguese.\n>\n> Changes in v2:\n> - addition of SPDX-License-Identifier: GPL-2.0\n> - addition of the missing half of the file\n>\n> Changes in v3:\n> - change \"linguagem de progamação\" to \"linguagem de programação\"\n> - removing duplicate \"``rustc`` [rustc]_\" from programming_language.rst\n>\n> Changes in v4:\n> - remove zero-width characters\n\nThis kind of stuff does not belong in the changelog!  Please put it\nafter the \"---\" line so that the maintainer does not have to edit it\nout. \n\n> Signed-off-by: Abel Philippe <le590616@gmail.com>\n> ---\n>  pt_BR/index.rst                        |  2 +-\n>  pt_BR/process/programming-language.rst | 58 ++++++++++++++++++++++++++\n>  2 files changed, 59 insertions(+), 1 deletion(-)\n>  create mode 100644 pt_BR/process/programming-language.rst\n>\n> diff --git a/pt_BR/index.rst b/pt_BR/index.rst\n> index 5b8b60cf930f..de99839db0b4 100644\n> --- a/pt_BR/index.rst\n> +++ b/pt_BR/index.rst\n\nHow, exactly, is this supposed to apply to a normal kernel tree?\nPlease, review documentation/process/submitting-patches.rst before\nresubmitting this work for 7.4.\n\njon"
-  },
-  {
-    "title": "Re: [PATCH v4] docs: pt_BR: process: Translate programming-language",
-    "author": "Daniel Pereira",
-    "email": "danielmaraboo@gmail.com",
-    "updated": "2026-08-03T19:02:48Z",
-    "link": "https://lore.kernel.org/linux-doc/CAMAsx6cCKNetvajbm=qr+PCMmKThLBJ1wFwn9uwXXYOWyb2ZgQ@mail.gmail.com/",
-    "content": "Em seg., 3 de ago. de 2026 às 15:59, Abel Philippe\n<le590616@gmail.com> escreveu:\n>\n> Translate the programming language documentation into Brazilian Portuguese.\n>\n> Changes in v2:\n> - addition of SPDX-License-Identifier: GPL-2.0\n> - addition of the missing half of the file\n>\n> Changes in v3:\n> - change \"linguagem de progamação\" to \"linguagem de programação\"\n> - removing duplicate \"``rustc`` [rustc]_\" from programming_language.rst\n>\n> Changes in v4:\n> - remove zero-width characters\n>\n> Signed-off-by: Abel Philippe <le590616@gmail.com>\n\n\nHi Jon,\n\nJust to clarify, there were no grammatical changes in the patch\nbetween v3 and v4; the only update was the removal of the zero-width\ncharacters. My Acked-by stands.\n\nacked-by: <danielmaraboo@gmail.com>\n\nBest regards,\n\nDaniel Pereira"
   }
 ]
