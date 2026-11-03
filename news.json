@@ -1,6 +1,51 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "KDE Plasma 6.7.6 Desktop Environment Is Now Available with More Improvements",
+    "title_pt": "KDE Plasma 6.7.6 Desktop Environment Is Now Available with More Improvements",
+    "summary_en": "KDE Plasma 6.7.6 is now available as the seventh maintenance release in the KDE Plasma 6.7 desktop environment series with various improvements and bug fixes. \n The post  KDE Plasma 6.7.6 Desktop Environment Is Now Available with More Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "KDE Plasma 6.7.6 is now available as the seventh maintenance release in the KDE Plasma 6.7 desktop environment series with various improvements and bug fixes. \n The post  KDE Plasma 6.7.6 Desktop Environment Is Now Available with More Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/kde-plasma-6-7-6-desktop-environment-is-now-available-with-more-improvements",
+    "date": "Tue, 03 Nov 2026 17:26:24 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Fedora Asahi Remix 45 Released for Apple Silicon Macs with KDE Plasma 6.8",
+    "title_pt": "Fedora Asahi Remix 45 Released for Apple Silicon Macs with KDE Plasma 6.8",
+    "summary_en": "Fedora Asahi Remix 45 distribution is now available for Apple Silicon Macs based on Fedora Linux 45 and featuring the KDE Plasma 6.8 desktop environment. \n The post  Fedora Asahi Remix 45 Released for Apple Silicon Macs with KDE Plasma 6.8  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Fedora Asahi Remix 45 distribution is now available for Apple Silicon Macs based on Fedora Linux 45 and featuring the KDE Plasma 6.8 desktop environment. \n The post  Fedora Asahi Remix 45 Released for Apple Silicon Macs with KDE Plasma 6.8  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/fedora-asahi-remix-45-released-for-apple-silicon-macs-with-kde-plasma-6-8",
+    "date": "Tue, 03 Nov 2026 17:20:46 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "OpenSUSE Leap 16.1",
+    "title_pt": "OpenSUSE Leap 16.1",
+    "summary_en": "The openSUSE project has  announced  the release of openSUSE Leap 16.1. The release is notable for allowing both traditional installations and immutable images with transactional updates. While immutable images had previously been available for Leap Micro, they are now available across all platforms that Leap supports, including servers, desktops, and virtual machines.\n \n \n\"Leap's image gives t...",
+    "summary_pt": "The openSUSE project has  announced  the release of openSUSE Leap 16.1. The release is notable for allowing both traditional installations and immutable images with transactional updates. While immutable images had previously been available for Leap Micro, they are now available across all platforms that Leap supports, including servers, desktops, and virtual machines.\n \n \n\"Leap's image gives t...",
+    "link": "https://lwn.net/Articles/1105131/",
+    "date": "Tue, 03 Nov 2026 17:09:48 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "GIMP 3.2.8 Released With Many Refinements, Numerous Security Fixes Due To AI Reports",
+    "title_pt": "GIMP 3.2.8 Released With Many Refinements, Numerous Security Fixes Due To AI Reports",
+    "summary_en": "GIMP 3.2.8 is out today as the newest stable release of this open-source image editing application that's most popular on the Linux desktop...",
+    "summary_pt": "GIMP 3.2.8 is out today as the newest stable release of this open-source image editing application that's most popular on the Linux desktop...",
+    "link": "https://www.phoronix.com/news/GIMP-3.2.8-Released",
+    "date": "Tue, 03 Nov 2026 17:21:50 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "NetBSD 11.1 Released With Security Fixes & Other Improvements",
+    "title_pt": "NetBSD 11.1 Released With Security Fixes & Other Improvements",
+    "summary_en": "Following the release of NetBSD 11.0 in August, NetBSD 11.1 is out today with a collection of security fixes and other improvements...",
+    "summary_pt": "Following the release of NetBSD 11.0 in August, NetBSD 11.1 is out today with a collection of security fixes and other improvements...",
+    "link": "https://www.phoronix.com/news/NetBSD-11.1-Released",
+    "date": "Tue, 03 Nov 2026 17:09:52 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "LibreOffice 26.2.7 Is Out as the Last Update in the LibreOffice 26.2 Series",
     "title_pt": "LibreOffice 26.2.7 Is Out as the Last Update in the LibreOffice 26.2 Series",
     "summary_en": "LibreOffice 26.2.7 is now available for download as the seventh and last maintenance update to the LibreOffice 26.2 office suite series with 20 bug fixes. \n The post  LibreOffice 26.2.7 Is Out as the Last Update in the LibreOffice 26.2 Series  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
