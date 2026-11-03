@@ -1,6 +1,33 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "GIMP 3.2.8 Image Editor Restores Support for Offset as a Non-Destructive Filter",
+    "title_pt": "GIMP 3.2.8 Image Editor Restores Support for Offset as a Non-Destructive Filter",
+    "summary_en": "GIMP 3.2.8 open-source image editor is now available for download with Offset as a non-destructive filter, DPI information when copying an image to clipboard, and other changes. \n The post  GIMP 3.2.8 Image Editor Restores Support for Offset as a Non-Destructive Filter  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not s...",
+    "summary_pt": "GIMP 3.2.8 open-source image editor is now available for download with Offset as a non-destructive filter, DPI information when copying an image to clipboard, and other changes. \n The post  GIMP 3.2.8 Image Editor Restores Support for Offset as a Non-Destructive Filter  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not s...",
+    "link": "https://9to5linux.com/gimp-3-2-8-image-editor-restores-support-for-offset-as-a-non-destructive-filter",
+    "date": "Mon, 02 Nov 2026 23:03:38 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Intel Brings RPL-M/RPL-P SoundWire To Upstream Linux For Raptor Lake Powered Automobiles",
+    "title_pt": "Intel Brings RPL-M/RPL-P SoundWire To Upstream Linux For Raptor Lake Powered Automobiles",
+    "summary_en": "Intel today posted a set of patches for bringing SoundWire support in the upstream Intel AVS driver for Raptor Lake. While Intel SoundWire activities are not new, I was curious to see them focusing on Raptor Lake improvements in 2026 for what will then go into a 2027 Linux kernel version...",
+    "summary_pt": "Intel today posted a set of patches for bringing SoundWire support in the upstream Intel AVS driver for Raptor Lake. While Intel SoundWire activities are not new, I was curious to see them focusing on Raptor Lake improvements in 2026 for what will then go into a 2027 Linux kernel version...",
+    "link": "https://www.phoronix.com/news/Intel-SoundWire-Raptor-Lake",
+    "date": "Mon, 02 Nov 2026 20:22:44 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AerynOS 2026.11 Released With New Installer Option, Other Improvements",
+    "title_pt": "AerynOS 2026.11 Released With New Installer Option, Other Improvements",
+    "summary_en": "AerynOS 2026.11 was released today along with a lengthy blog post highlighting the recent development work on this original Linux distribution...",
+    "summary_pt": "AerynOS 2026.11 was released today along with a lengthy blog post highlighting the recent development work on this original Linux distribution...",
+    "link": "https://www.phoronix.com/news/AerynOS-2026.11",
+    "date": "Mon, 02 Nov 2026 19:40:38 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "aerynOS 2026.11 Is Out with GNOME 51, KDE Plasma 6.8, COSMIC 1.11, and Budgie 10.10",
     "title_pt": "aerynOS 2026.11 Is Out with GNOME 51, KDE Plasma 6.8, COSMIC 1.11, and Budgie 10.10",
     "summary_en": "aerynOS 2026.11 has been released today and it's now available for download for this independently-develop distribution featuring some of the latest and greatest GNU/Linux technologies and Open Source software \n The post  aerynOS 2026.11 Is Out with GNOME 51, KDE Plasma 6.8, COSMIC 1.11, and Budgie 10.10  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS...",
