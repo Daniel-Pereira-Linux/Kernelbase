@@ -1,5 +1,14 @@
 [
   {
+    "source": "Phoronix",
+    "title_en": "Domicile Desktop Brings Web Technologies To Building Wayland Desktops",
+    "title_pt": "Domicile Desktop Brings Web Technologies To Building Wayland Desktops",
+    "summary_en": "Domicile is a new Wayland compositor that leverages Chromium for allowing custom Linux desktops to be built using HTML, CSS, and JavaScript/TypeScript...",
+    "summary_pt": "Domicile is a new Wayland compositor that leverages Chromium for allowing custom Linux desktops to be built using HTML, CSS, and JavaScript/TypeScript...",
+    "link": "https://www.phoronix.com/news/Domicile-Desktop-Wayland",
+    "date": "Tue, 03 Nov 2026 20:32:53 -0500"
+  },
+  {
     "source": "9to5Linux",
     "title_en": "KDE Plasma 6.7.6 Desktop Environment Is Now Available with More Improvements",
     "title_pt": "KDE Plasma 6.7.6 Desktop Environment Is Now Available with More Improvements",
