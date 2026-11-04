@@ -1,5 +1,131 @@
 [
   {
+    "source": "9to5Linux",
+    "title_en": "NVIDIA 620 Linux Graphics Driver Released with Wayland Improvements",
+    "title_pt": "NVIDIA 620 Linux Graphics Driver Released with Wayland Improvements",
+    "summary_en": "NVIDIA 620.70.06 graphics driver is now available for download with OpenGL visual indicator support for all Vulkan backends, as well as various bug fixes. \n The post  NVIDIA 620 Linux Graphics Driver Released with Wayland Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "NVIDIA 620.70.06 graphics driver is now available for download with OpenGL visual indicator support for all Vulkan backends, as well as various bug fixes. \n The post  NVIDIA 620 Linux Graphics Driver Released with Wayland Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/nvidia-620-linux-graphics-driver-released-with-wayland-improvements",
+    "date": "Wed, 04 Nov 2026 15:28:37 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] Plasma X11 session removal surprises some Fedora users",
+    "title_pt": "[$] Plasma X11 session removal surprises some Fedora users",
+    "summary_en": "The KDE Project announced, in 2025, that  Plasma 6.7  would\nbe the last version of the desktop environment that would support X11\nsessions. Those who keep up with KDE's announcements no doubt expected it when\n Plasma 6.8 \ndropped X11 support as promised. What seems to have come as a surprise, at\nleast to a number of  Fedora KDE Plasma\nDesktop  users, is that the Fedora 44 release—which shipped ...",
+    "summary_pt": "The KDE Project announced, in 2025, that  Plasma 6.7  would\nbe the last version of the desktop environment that would support X11\nsessions. Those who keep up with KDE's announcements no doubt expected it when\n Plasma 6.8 \ndropped X11 support as promised. What seems to have come as a surprise, at\nleast to a number of  Fedora KDE Plasma\nDesktop  users, is that the Fedora 44 release—which shipped ...",
+    "link": "https://lwn.net/Articles/1105130/",
+    "date": "Wed, 04 Nov 2026 16:33:11 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Bazzite 45 released",
+    "title_pt": "Bazzite 45 released",
+    "summary_en": "Version\n45  of  Bazzite , the image-based gaming distribution based on\nFedora Linux, has been released. Notable changes in this release include a\nrebase to Fedora 45, updated  Open Gaming Collective  (OGC)\nkernels, support for Logitech TrueWheel devices, and more. \n LWN  covered  Bazzite in\nDecember 2025.",
+    "summary_pt": "Version\n45  of  Bazzite , the image-based gaming distribution based on\nFedora Linux, has been released. Notable changes in this release include a\nrebase to Fedora 45, updated  Open Gaming Collective  (OGC)\nkernels, support for Logitech TrueWheel devices, and more. \n LWN  covered  Bazzite in\nDecember 2025.",
+    "link": "https://lwn.net/Articles/1105395/",
+    "date": "Wed, 04 Nov 2026 15:54:44 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] Portable Python scripts with dependencies",
+    "title_pt": "[$] Portable Python scripts with dependencies",
+    "summary_en": "A basic Python script is portable: it can be copied between machines with little concern about compatibility.\nA script that depends on third-party packages requires quite a bit more\ncare and consideration, however.\nIn 2023,  PEP\n723  (\"Inline script metadata\") introduced a standard for declaring a Python script's\ndependencies inside the script itself.\nSeveral third-party tools can now automatic...",
+    "summary_pt": "A basic Python script is portable: it can be copied between machines with little concern about compatibility.\nA script that depends on third-party packages requires quite a bit more\ncare and consideration, however.\nIn 2023,  PEP\n723  (\"Inline script metadata\") introduced a standard for declaring a Python script's\ndependencies inside the script itself.\nSeveral third-party tools can now automatic...",
+    "link": "https://lwn.net/Articles/1104646/",
+    "date": "Wed, 04 Nov 2026 14:45:02 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Wednesday",
+    "title_pt": "Security updates for Wednesday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (cockpit, dpdk, fence-agents, firefox, freerdp, gimp, opentelemetry-collector, python-dns, qemu-kvm, and raptor2),  Debian  (apt and squid),  Fedora  (ags, apptainer, chromium, fractal, mingw-harfbuzz, mingw-qt5-qtwebkit, mingw-qt6-qt5compat, python-mistune, python3-docs, python3.14, python3.9, rubygem-gist, rust-app-store-connect, rust-qemu-rdp,...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (cockpit, dpdk, fence-agents, firefox, freerdp, gimp, opentelemetry-collector, python-dns, qemu-kvm, and raptor2),  Debian  (apt and squid),  Fedora  (ags, apptainer, chromium, fractal, mingw-harfbuzz, mingw-qt5-qtwebkit, mingw-qt6-qt5compat, python-mistune, python3-docs, python3.14, python3.9, rubygem-gist, rust-app-store-connect, rust-qemu-rdp,...",
+    "link": "https://lwn.net/Articles/1105378/",
+    "date": "Wed, 04 Nov 2026 14:13:24 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.4 Showing Few Performance Gains With Initial Benchmarks On AMD Ryzen Threadripper",
+    "title_pt": "Linux 7.4 Showing Few Performance Gains With Initial Benchmarks On AMD Ryzen Threadripper",
+    "summary_en": "In the first round of benchmarking the in-development Linux 7.4 kernel there are some performance improvements -- and some small regressions -- worth noting over the current Linux 7.3 stable kernel. This first round of Linux 7.4 kernel benchmarking was on a System76 Thelio Major workstation with AMD Ryzen Threadripper 9980X.",
+    "summary_pt": "In the first round of benchmarking the in-development Linux 7.4 kernel there are some performance improvements -- and some small regressions -- worth noting over the current Linux 7.3 stable kernel. This first round of Linux 7.4 kernel benchmarking was on a System76 Thelio Major workstation with AMD Ryzen Threadripper 9980X.",
+    "link": "https://www.phoronix.com/review/linux-74-threadripper",
+    "date": "Wed, 04 Nov 2026 11:00:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "NVIDIA 620.70.06 Linux Driver Released With Wayland Fixes & Performance Work",
+    "title_pt": "NVIDIA 620.70.06 Linux Driver Released With Wayland Fixes & Performance Work",
+    "summary_en": "Out today is the first NVIDIA Linux driver release in the R620 release branch. This NVIDIA 620.70.06 Linux driver release isn't too feature heavy but comes with some bug fixes, improved performance of explicit sync on Wayland, and some other refinements...",
+    "summary_pt": "Out today is the first NVIDIA Linux driver release in the R620 release branch. This NVIDIA 620.70.06 Linux driver release isn't too feature heavy but comes with some bug fixes, improved performance of explicit sync on Wayland, and some other refinements...",
+    "link": "https://www.phoronix.com/news/NVIDIA-620.70.06-Linux-Driver",
+    "date": "Wed, 04 Nov 2026 09:29:06 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Debian's APT Affected By Man-In-The-Middle Attack For Arbitrary Code Execution As Root",
+    "title_pt": "Debian's APT Affected By Man-In-The-Middle Attack For Arbitrary Code Execution As Root",
+    "summary_en": "A new vulnerability was disclosed today affecting Debian's APT package manager where a man-in-the-middle attacker could carry out arbitrary code execution as root...",
+    "summary_pt": "A new vulnerability was disclosed today affecting Debian's APT package manager where a man-in-the-middle attacker could carry out arbitrary code execution as root...",
+    "link": "https://www.phoronix.com/news/Debian-APT-MITM-RCE",
+    "date": "Wed, 04 Nov 2026 08:10:19 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.3 Will More Than Likely Be This Year's LTS Kernel",
+    "title_pt": "Linux 7.3 Will More Than Likely Be This Year's LTS Kernel",
+    "summary_en": "While the Linux 7.4 kernel will be released in the 2026 calendar year in the last week or two of December if the schedule holds, it turns out Linux 7.3 is likely to be this year's Long Term Support kernel version...",
+    "summary_pt": "While the Linux 7.4 kernel will be released in the 2026 calendar year in the last week or two of December if the schedule holds, it turns out Linux 7.3 is likely to be this year's Long Term Support kernel version...",
+    "link": "https://www.phoronix.com/news/Linux-7.3-Likely-LTS",
+    "date": "Wed, 04 Nov 2026 07:55:08 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "systemd With Its Initial Support For Rust",
+    "title_pt": "systemd With Its Initial Support For Rust",
+    "summary_en": "Systemd recently merged support for Rust programs. This initial systemd Rust support is limited to leaf components / individual binaries while eventually they hope to be able to support Rust within root components of systemd. More details on this initiative were shared this week...",
+    "summary_pt": "Systemd recently merged support for Rust programs. This initial systemd Rust support is limited to leaf components / individual binaries while eventually they hope to be able to support Rust within root components of systemd. More details on this initiative were shared this week...",
+    "link": "https://www.phoronix.com/news/systemd-Loves-Rust",
+    "date": "Wed, 04 Nov 2026 07:44:36 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Synaptics Appears To Use Legal Threats To Block Open-Source DisplayLink Driver",
+    "title_pt": "Synaptics Appears To Use Legal Threats To Block Open-Source DisplayLink Driver",
+    "summary_en": "From earlier in the year you may recall a new experimental open-source Linux driver for modern DisplayLink hardware. That \"Vino\" driver for DisplayLink driver was a clean-room reverse-engineered DisplayLink driver that was developed in part by AI and written in Rust. Unfortunately, that open-source driver has disappeared following legal threats by Synaptics...",
+    "summary_pt": "From earlier in the year you may recall a new experimental open-source Linux driver for modern DisplayLink hardware. That \"Vino\" driver for DisplayLink driver was a clean-room reverse-engineered DisplayLink driver that was developed in part by AI and written in Rust. Unfortunately, that open-source driver has disappeared following legal threats by Synaptics...",
+    "link": "https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver",
+    "date": "Wed, 04 Nov 2026 06:03:08 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "\"AMD Loves Omarchy\" Linux With More Collaboration Coming",
+    "title_pt": "\"AMD Loves Omarchy\" Linux With More Collaboration Coming",
+    "summary_en": "In addition to organizations like Alibaba, SpaceXSI, DigitalOcean, Meta SuperIntelligence Labs, and others contributing millions of dollars toward the development of the Omarchy Linux distribution, it turns out AMD also has a thing for this Linux distribution built around the Hyprland compositor...",
+    "summary_pt": "In addition to organizations like Alibaba, SpaceXSI, DigitalOcean, Meta SuperIntelligence Labs, and others contributing millions of dollars toward the development of the Omarchy Linux distribution, it turns out AMD also has a thing for this Linux distribution built around the Hyprland compositor...",
+    "link": "https://www.phoronix.com/news/AMD-Loves-Omarchy",
+    "date": "Wed, 04 Nov 2026 05:50:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Experimental Project Gets Intel XeSS On XMX Working With Valve's Steam Play (Proton)",
+    "title_pt": "Experimental Project Gets Intel XeSS On XMX Working With Valve's Steam Play (Proton)",
+    "summary_en": "Last month I wrote about Intel working on adding proper XeSS support to Steam Play (Proton). While those efforts haven't yet been completed for benefiting Linux gamers running Intel Arc Graphics, in the meantime an independent open-source developer has managed to get XMX-accelerated XeSS working under Proton...",
+    "summary_pt": "Last month I wrote about Intel working on adding proper XeSS support to Steam Play (Proton). While those efforts haven't yet been completed for benefiting Linux gamers running Intel Arc Graphics, in the meantime an independent open-source developer has managed to get XMX-accelerated XeSS working under Proton...",
+    "link": "https://www.phoronix.com/news/Intel-XeSS-On-XMX-Proton",
+    "date": "Wed, 04 Nov 2026 05:35:45 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD Releases ZenDNN 6.1 With New Kernels & Optimizations",
+    "title_pt": "AMD Releases ZenDNN 6.1 With New Kernels & Optimizations",
+    "summary_en": "Last month Intel and AMD jointly announced they would be collaborating on software optimizations with PyTorch/oneDNN. That already led to the UXL Foundation's release of oneDNN 3.14 with initial AMD Zen optimizations. It looks though like for now at least AMD will also continue to concurrently push new work into their ZenDNN library and not exclusively tied to oneDNN. Out today is ZenDNN 6.1...",
+    "summary_pt": "Last month Intel and AMD jointly announced they would be collaborating on software optimizations with PyTorch/oneDNN. That already led to the UXL Foundation's release of oneDNN 3.14 with initial AMD Zen optimizations. It looks though like for now at least AMD will also continue to concurrently push new work into their ZenDNN library and not exclusively tied to oneDNN. Out today is ZenDNN 6.1...",
+    "link": "https://www.phoronix.com/news/AMD-ZenDNN-6.1",
+    "date": "Wed, 04 Nov 2026 05:19:15 -0500"
+  },
+  {
     "source": "Phoronix",
     "title_en": "Domicile Desktop Brings Web Technologies To Building Wayland Desktops",
     "title_pt": "Domicile Desktop Brings Web Technologies To Building Wayland Desktops",
