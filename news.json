@@ -1,6 +1,132 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "KDE Gear 26.08.3 Released as the Last Update in the KDE Gear 26.08 Series",
+    "title_pt": "KDE Gear 26.08.3 Released as the Last Update in the KDE Gear 26.08 Series",
+    "summary_en": "KDE Gear 26.08.3 open-source software suite is now available as the last update in the KDE Gear 26.08 series with various bug fixes for your favorite KDE applications. \n The post  KDE Gear 26.08.3 Released as the Last Update in the KDE Gear 26.08 Series  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "KDE Gear 26.08.3 open-source software suite is now available as the last update in the KDE Gear 26.08 series with various bug fixes for your favorite KDE applications. \n The post  KDE Gear 26.08.3 Released as the Last Update in the KDE Gear 26.08 Series  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/kde-gear-26-08-3-released-as-the-last-update-in-the-kde-gear-26-08-series",
+    "date": "Thu, 05 Nov 2026 13:29:11 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] User namespaces + file capabilities = trouble",
+    "title_pt": "[$] User namespaces + file capabilities = trouble",
+    "summary_en": "User namespaces  are a key part of the\nkernel's toolkit for assembling containers; processes within a user\nnamespace can appear to have full root access to the system while gaining\nno extra privileges in the wider system.  At least, that is the intent.  In\npractice, keeping privilege contained within a user namespace has often\nturned out to be difficult.  As an example, consider  this\nsmall pat...",
+    "summary_pt": "User namespaces  are a key part of the\nkernel's toolkit for assembling containers; processes within a user\nnamespace can appear to have full root access to the system while gaining\nno extra privileges in the wider system.  At least, that is the intent.  In\npractice, keeping privilege contained within a user namespace has often\nturned out to be difficult.  As an example, consider  this\nsmall pat...",
+    "link": "https://lwn.net/Articles/1103429/",
+    "date": "Thu, 05 Nov 2026 14:33:59 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Thursday",
+    "title_pt": "Security updates for Thursday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (dpdk, httpd:2.4, kernel, kernel-rt, mysql:8.0, php:7.4, php:8.0, qt5, ruby:2.7, ruby:3.0, tesseract, webkit2gtk3, and xorg-x11-server-Xwayland),  Debian  (imagemagick, puppet-agent, symfony, trapperkeeper-authorization-clojure, and xen),  Fedora  (3proxy, bind, bind-dyndb-ldap, curl, dhcpcd, erlang-jose, forgejo, freetype, laszip, libical, libmo...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (dpdk, httpd:2.4, kernel, kernel-rt, mysql:8.0, php:7.4, php:8.0, qt5, ruby:2.7, ruby:3.0, tesseract, webkit2gtk3, and xorg-x11-server-Xwayland),  Debian  (imagemagick, puppet-agent, symfony, trapperkeeper-authorization-clojure, and xen),  Fedora  (3proxy, bind, bind-dyndb-ldap, curl, dhcpcd, erlang-jose, forgejo, freetype, laszip, libical, libmo...",
+    "link": "https://lwn.net/Articles/1105639/",
+    "date": "Thu, 05 Nov 2026 14:11:50 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Critical security vulnerability affects OpenSSH on Alpine Linux systems",
+    "title_pt": "Critical security vulnerability affects OpenSSH on Alpine Linux systems",
+    "summary_en": "Version 10.6p2  of\nOpenSSH has been released with a workaround for a critical vulnerability that\naffects Linux systems that use  musl libc \nwith PAM disabled, such as  Alpine\nLinux . OpenSSH developer Damien Miller  said : \n \n If you operate a Linux system that uses musl libc without PAM (Alpine Linux\nis one example) then stop reading and set  PasswordAuthentication=no  or disable\nSSH for these...",
+    "summary_pt": "Version 10.6p2  of\nOpenSSH has been released with a workaround for a critical vulnerability that\naffects Linux systems that use  musl libc \nwith PAM disabled, such as  Alpine\nLinux . OpenSSH developer Damien Miller  said : \n \n If you operate a Linux system that uses musl libc without PAM (Alpine Linux\nis one example) then stop reading and set  PasswordAuthentication=no  or disable\nSSH for these...",
+    "link": "https://lwn.net/Articles/1105464/",
+    "date": "Thu, 05 Nov 2026 11:39:10 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux's RAID6 Check Tool Sees 3x Performance Via Batching",
+    "title_pt": "Linux's RAID6 Check Tool Sees 3x Performance Via Batching",
+    "summary_en": "For those that use Linux's raid6check command for checking/repairing an MD RAID6 software RAID array's device for errors, newly-merged code is showing up to a 3x performance improvement...",
+    "summary_pt": "For those that use Linux's raid6check command for checking/repairing an MD RAID6 software RAID array's device for errors, newly-merged code is showing up to a 3x performance improvement...",
+    "link": "https://www.phoronix.com/news/Linux-3x-Faster-raid6check",
+    "date": "Thu, 05 Nov 2026 12:09:10 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Servo Browser Engine Continues Broadening Web Compatibility, New Features",
+    "title_pt": "Servo Browser Engine Continues Broadening Web Compatibility, New Features",
+    "summary_en": "The Servo open-source browser engine project is finally out with their status report highlighting the improvements made back in September. There is expanded web compatibility, new HTML and JavaScript features, WebGL2 improvements, and continued work on expanding the embed capabilities of this engine...",
+    "summary_pt": "The Servo open-source browser engine project is finally out with their status report highlighting the improvements made back in September. There is expanded web compatibility, new HTML and JavaScript features, WebGL2 improvements, and continued work on expanding the embed capabilities of this engine...",
+    "link": "https://www.phoronix.com/news/Servo-0.7-Changes",
+    "date": "Thu, 05 Nov 2026 10:21:29 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Zlib 1.4 Released With More Than One Dozen Security Fixes",
+    "title_pt": "Zlib 1.4 Released With More Than One Dozen Security Fixes",
+    "summary_en": "Zlib 1.4 is now available for this widely-used compression library. In these AI times, Zlib 1.4 ships with more than a dozen security fixes...",
+    "summary_pt": "Zlib 1.4 is now available for this widely-used compression library. In these AI times, Zlib 1.4 ships with more than a dozen security fixes...",
+    "link": "https://www.phoronix.com/news/Zlib-1.4-Released",
+    "date": "Thu, 05 Nov 2026 09:11:33 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux Kernel Patches Posted For Review In Enabling Apple AirDrop Support",
+    "title_pt": "Linux Kernel Patches Posted For Review In Enabling Apple AirDrop Support",
+    "summary_en": "A set of Linux kernel patches have been posted for review with a hope of reaching the mainline kernel to provide Apple AirDrop support for Macs equipped with the T2 chip...",
+    "summary_pt": "A set of Linux kernel patches have been posted for review with a hope of reaching the mainline kernel to provide Apple AirDrop support for Macs equipped with the T2 chip...",
+    "link": "https://www.phoronix.com/news/Linux-Kernel-Apple-AirDrop-Code",
+    "date": "Thu, 05 Nov 2026 08:30:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Mir 2.31 Released With Expanded Wayland Protocol Support",
+    "title_pt": "Mir 2.31 Released With Expanded Wayland Protocol Support",
+    "summary_en": "Mir 2.31 is now available as the latest feature release for this Canonical/Ubuntu solution for providing C++ libraries to build Wayland-based shells...",
+    "summary_pt": "Mir 2.31 is now available as the latest feature release for this Canonical/Ubuntu solution for providing C++ libraries to build Wayland-based shells...",
+    "link": "https://www.phoronix.com/news/Mir-2.31-Released",
+    "date": "Thu, 05 Nov 2026 07:51:35 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux'x New Core MM Tree Ready With Numerous Fixes For \"Nasty Long-Standing Bugs\"",
+    "title_pt": "Linux'x New Core MM Tree Ready With Numerous Fixes For \"Nasty Long-Standing Bugs\"",
+    "summary_en": "New to the Linux 7.4 kernel cycle is the Core MM tree as the route for herding some of the core memory management Linux kernel patches to the mainline kernel rather than it all going through Andrew Morton's \"MM\" tree.  As the second pull request from this new kernel tree, a number of fixes were sent out today to address \"nasty long-standing bugs\" within the kernel...",
+    "summary_pt": "New to the Linux 7.4 kernel cycle is the Core MM tree as the route for herding some of the core memory management Linux kernel patches to the mainline kernel rather than it all going through Andrew Morton's \"MM\" tree.  As the second pull request from this new kernel tree, a number of fixes were sent out today to address \"nasty long-standing bugs\" within the kernel...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-Core-MM-Nasty-Fixes",
+    "date": "Thu, 05 Nov 2026 06:05:02 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Mesa Merges A Common Vulkan Layer For Working Around Cross-Driver Game Bugs",
+    "title_pt": "Mesa Merges A Common Vulkan Layer For Working Around Cross-Driver Game Bugs",
+    "summary_en": "Merged to Mesa 27.0-devel is a new common Vulkan layer within Mesa's Vulkan Runtime for being able to carry common game/engine/app workarounds that affect multiple drivers...",
+    "summary_pt": "Merged to Mesa 27.0-devel is a new common Vulkan layer within Mesa's Vulkan Runtime for being able to carry common game/engine/app workarounds that affect multiple drivers...",
+    "link": "https://www.phoronix.com/news/Mesa-Common-Layer-Game-Bugs",
+    "date": "Thu, 05 Nov 2026 05:47:28 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD-Backed Lemonade Local AI Server Ships Redesigned Desktop App & Web UI",
+    "title_pt": "AMD-Backed Lemonade Local AI Server Ships Redesigned Desktop App & Web UI",
+    "summary_en": "The AMD-backed Lemonade local AI server shipped its version 2026.45.3 update on Wednesday that introduces a completely redesigned desktop app and web UI...",
+    "summary_pt": "The AMD-backed Lemonade local AI server shipped its version 2026.45.3 update on Wednesday that introduces a completely redesigned desktop app and web UI...",
+    "link": "https://www.phoronix.com/news/Lemonade-2026.45.3",
+    "date": "Thu, 05 Nov 2026 05:34:45 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Omarchy 4.5 Released With Apple Silicon Support, More Desktop Customizations",
+    "title_pt": "Omarchy 4.5 Released With Apple Silicon Support, More Desktop Customizations",
+    "summary_en": "Omarchy 4.5 is out today as a big feature update to this Arch Linux based operating system...",
+    "summary_pt": "Omarchy 4.5 is out today as a big feature update to this Arch Linux based operating system...",
+    "link": "https://www.phoronix.com/news/Omarchy-4.5-Released",
+    "date": "Thu, 05 Nov 2026 05:23:50 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "OpenAI Finds 948 Local Privilege Escalation Bugs In The Linux Kernel",
+    "title_pt": "OpenAI Finds 948 Local Privilege Escalation Bugs In The Linux Kernel",
+    "summary_en": "OpenAI published a blog post outlining their work on autonomous vulnerability discovery. To showcase their AI potential, they found 948 valid local privilege escalation vulnerabilities within the Linux kernel...",
+    "summary_pt": "OpenAI published a blog post outlining their work on autonomous vulnerability discovery. To showcase their AI potential, they found 948 valid local privilege escalation vulnerabilities within the Linux kernel...",
+    "link": "https://www.phoronix.com/news/OpenAI-948-Linux-LPE-Bugs",
+    "date": "Thu, 05 Nov 2026 05:00:58 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Shelly 3.2 Brings Multi-Package Downgrades, Flatpak and AppImage Improvements",
     "title_pt": "Shelly 3.2 Brings Multi-Package Downgrades, Flatpak and AppImage Improvements",
     "summary_en": "Shelly 3.2 graphical package manager for Arch Linux distributions is now available for download with multi-package downgrades, improved Flatpak and AppImage support, and a long list of bug fixes. \n The post  Shelly 3.2 Brings Multi-Package Downgrades, Flatpak and AppImage Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended fo...",
