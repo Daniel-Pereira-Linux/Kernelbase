@@ -1,6 +1,33 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "OpenVPN 2.7.9 Released with Linux and GUI Improvements, Bug Fixes",
+    "title_pt": "OpenVPN 2.7.9 Released with Linux and GUI Improvements, Bug Fixes",
+    "summary_en": "OpenVPN 2.7.9 is now available for download as the ninth maintenance update to the OpenVPN 2.7 series with a couple of user-visible changes and bug fixes. \n The post  OpenVPN 2.7.9 Released with Linux and GUI Improvements, Bug Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "OpenVPN 2.7.9 is now available for download as the ninth maintenance update to the OpenVPN 2.7 series with a couple of user-visible changes and bug fixes. \n The post  OpenVPN 2.7.9 Released with Linux and GUI Improvements, Bug Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/openvpn-2-7-9-released-with-linux-and-gui-improvements-bug-fixes",
+    "date": "Thu, 05 Nov 2026 19:36:29 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMDGPU Driver Seeing HDMI 2.2 FRL Fixes For Linux 7.4",
+    "title_pt": "AMDGPU Driver Seeing HDMI 2.2 FRL Fixes For Linux 7.4",
+    "summary_en": "With Linux 7.4 the AMDGPU driver enables HDMI 2.1 FRL functionality by default for driving higher refresh rate and higher resolution displays. That default enabling comes as HDMI FreeSync/VRR and ALLM features are also in place for Linux 7.4. Now coming by way of fixes for Linux 7.4 is also improving the Fixed Rate Link support with the newer HDMI 2.2 specification...",
+    "summary_pt": "With Linux 7.4 the AMDGPU driver enables HDMI 2.1 FRL functionality by default for driving higher refresh rate and higher resolution displays. That default enabling comes as HDMI FreeSync/VRR and ALLM features are also in place for Linux 7.4. Now coming by way of fixes for Linux 7.4 is also improving the Fixed Rate Link support with the newer HDMI 2.2 specification...",
+    "link": "https://www.phoronix.com/news/AMDGPU-HDMI-2.2-FRL-Fixes",
+    "date": "Thu, 05 Nov 2026 17:07:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.4's Build Time Performance From Optimizations But Also Larger Codebase",
+    "title_pt": "Linux 7.4's Build Time Performance From Optimizations But Also Larger Codebase",
+    "summary_en": "With Linux 7.4 the patches to speed-up the kernel build process began to land. This is the work that's yielded extremely fast incremental builds and noop builds. The patch series in full is also allowing kernel build times approaching just ten seconds with enough CPU cores. In today's article is a look at the Linux 7.3 vs. 7.4-rc1 build time performance on the Framework Laptop 13 Pro powered by...",
+    "summary_pt": "With Linux 7.4 the patches to speed-up the kernel build process began to land. This is the work that's yielded extremely fast incremental builds and noop builds. The patch series in full is also allowing kernel build times approaching just ten seconds with enough CPU cores. In today's article is a look at the Linux 7.3 vs. 7.4-rc1 build time performance on the Framework Laptop 13 Pro powered by...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-rc1-Build-Times",
+    "date": "Thu, 05 Nov 2026 16:44:05 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "KDE Gear 26.08.3 Released as the Last Update in the KDE Gear 26.08 Series",
     "title_pt": "KDE Gear 26.08.3 Released as the Last Update in the KDE Gear 26.08 Series",
     "summary_en": "KDE Gear 26.08.3 open-source software suite is now available as the last update in the KDE Gear 26.08 series with various bug fixes for your favorite KDE applications. \n The post  KDE Gear 26.08.3 Released as the Last Update in the KDE Gear 26.08 Series  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
