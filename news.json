@@ -1,6 +1,69 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Shelly 3.2 Brings Multi-Package Downgrades, Flatpak and AppImage Improvements",
+    "title_pt": "Shelly 3.2 Brings Multi-Package Downgrades, Flatpak and AppImage Improvements",
+    "summary_en": "Shelly 3.2 graphical package manager for Arch Linux distributions is now available for download with multi-package downgrades, improved Flatpak and AppImage support, and a long list of bug fixes. \n The post  Shelly 3.2 Brings Multi-Package Downgrades, Flatpak and AppImage Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended fo...",
+    "summary_pt": "Shelly 3.2 graphical package manager for Arch Linux distributions is now available for download with multi-package downgrades, improved Flatpak and AppImage support, and a long list of bug fixes. \n The post  Shelly 3.2 Brings Multi-Package Downgrades, Flatpak and AppImage Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended fo...",
+    "link": "https://9to5linux.com/shelly-3-2-brings-multi-package-downgrades-flatpak-and-appimage-improvements",
+    "date": "Thu, 05 Nov 2026 03:31:08 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "MPV 0.42 Video Player Released with AMD Frame Rate Conversion Filter",
+    "title_pt": "MPV 0.42 Video Player Released with AMD Frame Rate Conversion Filter",
+    "summary_en": "MPV 0.42 open-source media player is now available for download with Wayland session management, Wayland color management, improved HDR colorspace signalling on DRM, and more. \n The post  MPV 0.42 Video Player Released with AMD Frame Rate Conversion Filter  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "MPV 0.42 open-source media player is now available for download with Wayland session management, Wayland color management, improved HDR colorspace signalling on DRM, and more. \n The post  MPV 0.42 Video Player Released with AMD Frame Rate Conversion Filter  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/mpv-0-42-video-player-released-with-amd-frame-rate-conversion-filter",
+    "date": "Thu, 05 Nov 2026 01:46:23 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Systemd-Free Artix Linux 2026.11 Is Out with Wayland-Only KDE Plasma Desktop",
+    "title_pt": "Systemd-Free Artix Linux 2026.11 Is Out with Wayland-Only KDE Plasma Desktop",
+    "summary_en": "Artix Linux 2026.11 distribution is now available for download with Linux kernel 7.2, Wayland-only KDE Plasma desktop environment, user services for OpenRC and dinit, and more. \n The post  Systemd-Free Artix Linux 2026.11 Is Out with Wayland-Only KDE Plasma Desktop  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrap...",
+    "summary_pt": "Artix Linux 2026.11 distribution is now available for download with Linux kernel 7.2, Wayland-only KDE Plasma desktop environment, user services for OpenRC and dinit, and more. \n The post  Systemd-Free Artix Linux 2026.11 Is Out with Wayland-Only KDE Plasma Desktop  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrap...",
+    "link": "https://9to5linux.com/systemd-free-artix-linux-2026-11-is-out-with-wayland-only-kde-plasma-desktop",
+    "date": "Thu, 05 Nov 2026 01:09:20 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "LXQt 2.5 Desktop Environment Released, Drops Its Last LXDE Dependency",
+    "title_pt": "LXQt 2.5 Desktop Environment Released, Drops Its Last LXDE Dependency",
+    "summary_en": "LXQt 2.5 desktop environment is now available with new features and improvements for PCManFM-Qt, QTerminal, and LXQt Panel, as well as various other changes. \n The post  LXQt 2.5 Desktop Environment Released, Drops Its Last LXDE Dependency  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "LXQt 2.5 desktop environment is now available with new features and improvements for PCManFM-Qt, QTerminal, and LXQt Panel, as well as various other changes. \n The post  LXQt 2.5 Desktop Environment Released, Drops Its Last LXDE Dependency  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/lxqt-2-5-desktop-environment-released-drops-its-last-lxde-dependency",
+    "date": "Thu, 05 Nov 2026 00:37:26 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] LWN.net Weekly Edition for November 5, 2026",
+    "title_pt": "[$] LWN.net Weekly Edition for November 5, 2026",
+    "summary_en": "Inside this week's LWN.net Weekly Edition:\n         \n \n   Front : Kernel cells; Debian LLM reviews; glibc system-call wrappers; Binder in Rust; Kernel CVE flood; Fedora KDE and X11 removal; 7.4 merge window part two; Portable Python.\n               Briefs : MTCP RCE; Bash security; XCPE botnet; Bazzite 45; Fedora 45; openSUSE Leap 16.1; Tor Browser 16.0; Quotes; ...\n               Announcements...",
+    "summary_pt": "Inside this week's LWN.net Weekly Edition:\n         \n \n   Front : Kernel cells; Debian LLM reviews; glibc system-call wrappers; Binder in Rust; Kernel CVE flood; Fedora KDE and X11 removal; 7.4 merge window part two; Portable Python.\n               Briefs : MTCP RCE; Bash security; XCPE botnet; Bazzite 45; Fedora 45; openSUSE Leap 16.1; Tor Browser 16.0; Quotes; ...\n               Announcements...",
+    "link": "https://lwn.net/Articles/1103480/",
+    "date": "Thu, 05 Nov 2026 00:42:51 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "MPV 0.42 Media Player Brings Wayland Improvements, Improved HDR",
+    "title_pt": "MPV 0.42 Media Player Brings Wayland Improvements, Improved HDR",
+    "summary_en": "MPV as the open-source, cross-platform media player originally based on MPlayer/mplayer2 is finally out with a new release...",
+    "summary_pt": "MPV as the open-source, cross-platform media player originally based on MPlayer/mplayer2 is finally out with a new release...",
+    "link": "https://www.phoronix.com/news/MPV-0.42-Released",
+    "date": "Wed, 04 Nov 2026 20:44:08 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "LXQt 2.5 Released With Enhanced QTerminal, Removing The Final LXDE Dependency",
+    "title_pt": "LXQt 2.5 Released With Enhanced QTerminal, Removing The Final LXDE Dependency",
+    "summary_en": "LXQt 2.5 released today as the newest feature update to this lightweight, Qt6-based desktop environment...",
+    "summary_pt": "LXQt 2.5 released today as the newest feature update to this lightweight, Qt6-based desktop environment...",
+    "link": "https://www.phoronix.com/news/LXQt-2.5-Released",
+    "date": "Wed, 04 Nov 2026 20:21:30 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Cinnamon 6.8 Desktop Environment Released with Hibernation Support",
     "title_pt": "Cinnamon 6.8 Desktop Environment Released with Hibernation Support",
     "summary_en": "Cinnamon 6.8 desktop environment is now available with hibernation support, modern one-to-one trackpad gestures, and many other enhancements. \n The post  Cinnamon 6.8 Desktop Environment Released with Hibernation Support  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
