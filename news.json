@@ -1,5 +1,59 @@
 [
   {
+    "source": "LWN",
+    "title_en": "Videos from XDC 2026 are available",
+    "title_pt": "Videos from XDC 2026 are available",
+    "summary_en": "Videos from the  2026 X.Org Developers Conference  (XDC) are now  available on YouTube .  XDC was held in Toronto, Ontario, Canada September 28-30.",
+    "summary_pt": "Videos from the  2026 X.Org Developers Conference  (XDC) are now  available on YouTube .  XDC was held in Toronto, Ontario, Canada September 28-30.",
+    "link": "https://lwn.net/Articles/1105913/",
+    "date": "Fri, 06 Nov 2026 20:25:22 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] Locking down hibernation for the winter",
+    "title_pt": "[$] Locking down hibernation for the winter",
+    "summary_en": "When a computer hibernates, the kernel writes the contents of memory to disk and\nthen shuts the system down. Resuming from hibernation involves reading that data\nback into memory, and then having the kernel pick up where it left off.\nUnfortunately, the kernel does not have\nany way to know that the data it is reading back has not been tampered with,\nwhich is why  lockdown , an optional kernel\nfe...",
+    "summary_pt": "When a computer hibernates, the kernel writes the contents of memory to disk and\nthen shuts the system down. Resuming from hibernation involves reading that data\nback into memory, and then having the kernel pick up where it left off.\nUnfortunately, the kernel does not have\nany way to know that the data it is reading back has not been tampered with,\nwhich is why  lockdown , an optional kernel\nfe...",
+    "link": "https://lwn.net/Articles/1103190/",
+    "date": "Fri, 06 Nov 2026 18:51:28 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Seven stable kernels with fixes for three Xen vulnerabilities",
+    "title_pt": "Seven stable kernels with fixes for three Xen vulnerabilities",
+    "summary_en": "Hot on the heels of the  previous\ntwo stable kernels , Greg Kroah-Hartman has announced the release of the  7.3.3 ,  6.18.62 ,\n 6.12.116 ,  6.6.162 ,  6.1.192 ,\n 5.15.225 , and  5.10.274  stable kernels. Each one only contains\nfixes for three use-after-free vulnerabilities announced today by the Xen\nsecurity team. \n Two of the vulnerabilities could allow an attacker to cause a denial of service...",
+    "summary_pt": "Hot on the heels of the  previous\ntwo stable kernels , Greg Kroah-Hartman has announced the release of the  7.3.3 ,  6.18.62 ,\n 6.12.116 ,  6.6.162 ,  6.1.192 ,\n 5.15.225 , and  5.10.274  stable kernels. Each one only contains\nfixes for three use-after-free vulnerabilities announced today by the Xen\nsecurity team. \n Two of the vulnerabilities could allow an attacker to cause a denial of service...",
+    "link": "https://lwn.net/Articles/1105902/",
+    "date": "Fri, 06 Nov 2026 18:48:34 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Two stable kernels for Friday",
+    "title_pt": "Two stable kernels for Friday",
+    "summary_en": "Greg Kroah-Hartman has released the  7.3.2 \nand  6.18.61  stable kernels. Each contains quite\na few changes throughout the tree; users are advised to upgrade.",
+    "summary_pt": "Greg Kroah-Hartman has released the  7.3.2 \nand  6.18.61  stable kernels. Each contains quite\na few changes throughout the tree; users are advised to upgrade.",
+    "link": "https://lwn.net/Articles/1105899/",
+    "date": "Fri, 06 Nov 2026 18:09:16 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "ReactOS Lands Initial USB3 Driver Support",
+    "title_pt": "ReactOS Lands Initial USB3 Driver Support",
+    "summary_en": "After years of work, ReactOS as the \"open-source Windows\" operating system striving for Windows program and driver compatibility now has an initial USB 3.0 driver stack in place...",
+    "summary_pt": "After years of work, ReactOS as the \"open-source Windows\" operating system striving for Windows program and driver compatibility now has an initial USB 3.0 driver stack in place...",
+    "link": "https://www.phoronix.com/news/ReactOS-Initial-USB-3.0",
+    "date": "Fri, 06 Nov 2026 16:49:46 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "A RISC-V Based TEE With AMD Zen 6 CPUs",
+    "title_pt": "A RISC-V Based TEE With AMD Zen 6 CPUs",
+    "summary_en": "An interesting technical detail I noticed today from the latest AMD Linux activity is that Zen 6 processors apparently are featuring a RISC-V based Trusted Execution Environment (TEE) where in the past it was an ARM-based core...",
+    "summary_pt": "An interesting technical detail I noticed today from the latest AMD Linux activity is that Zen 6 processors apparently are featuring a RISC-V based Trusted Execution Environment (TEE) where in the past it was an ARM-based core...",
+    "link": "https://www.phoronix.com/news/AMD-Zen-6-TEE-RISC-V-Based",
+    "date": "Fri, 06 Nov 2026 14:30:49 -0500"
+  },
+  {
     "source": "9to5Linux",
     "title_en": "GStreamer 1.28.9 Multimedia Framework Adds Support for mpph264enc Encoder",
     "title_pt": "GStreamer 1.28.9 Multimedia Framework Adds Support for mpph264enc Encoder",
