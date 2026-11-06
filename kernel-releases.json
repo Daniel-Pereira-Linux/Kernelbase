@@ -20,21 +20,21 @@
     },
     {
       "moniker": "stable",
-      "version": "7.3.2",
+      "version": "7.3.3",
       "iseol": false,
       "released": {
-        "timestamp": 1793985142,
+        "timestamp": 1793989159,
         "isodate": "2026-11-06"
       },
-      "source": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.3.2.tar.xz",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.3.2.tar.sign",
+      "source": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.3.3.tar.xz",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.3.3.tar.sign",
       "patch": {
-        "full": "https://cdn.kernel.org/pub/linux/kernel/v7.x/patch-7.3.2.xz",
-        "incremental": "https://cdn.kernel.org/pub/linux/kernel/v7.x/incr/patch-7.3.1-2.xz"
+        "full": "https://cdn.kernel.org/pub/linux/kernel/v7.x/patch-7.3.3.xz",
+        "incremental": "https://cdn.kernel.org/pub/linux/kernel/v7.x/incr/patch-7.3.2-3.xz"
       },
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.3.2",
-      "gitweb": "https://git.kernel.org/stable/h/v7.3.2",
-      "diffview": "https://git.kernel.org/stable/ds/v7.3.2/v7.3.1"
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.3.3",
+      "gitweb": "https://git.kernel.org/stable/h/v7.3.3",
+      "diffview": "https://git.kernel.org/stable/ds/v7.3.3/v7.3.2"
     },
     {
       "moniker": "stable",
@@ -182,6 +182,6 @@
     }
   ],
   "latest_stable": {
-    "version": "7.3.2"
+    "version": "7.3.3"
   }
 }
