@@ -1,0 +1,16 @@
+/* Simulados da KernelBase (simulados.html) */
+.sim-top{padding:clamp(2.5rem,6vw,4.5rem) 0 1rem}
+.sim-top h1{font-size:clamp(2.3rem,1rem + 4vw,4rem)}
+.sim-top p{margin-top:1rem;max-width:38rem;color:#DDE1FF}
+
+.sim-board{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem;align-items:start}
+.sim-col{--tag:var(--cyan);position:relative;display:flex;flex-direction:column;gap:.9rem;padding:1.4rem;border-radius:16px;background:linear-gradient(180deg,var(--panel),var(--deep));border:1px solid var(--rule)}
+.sim-col::before{content:"";position:absolute;left:1.4rem;right:1.4rem;top:0;height:3px;border-radius:0 0 3px 3px;background:var(--tag)}
+.sim-col-head{display:flex;flex-direction:column;gap:.35rem}
+.sim-code{align-self:flex-start;font-family:var(--display);font-weight:700;font-size:.74rem;letter-spacing:.05em;text-transform:uppercase;color:var(--night);background:var(--tag);padding:.28rem .6rem;border-radius:5px}
+.sim-col h2{font-family:var(--display);font-weight:700;font-size:1.35rem;line-height:1.2;letter-spacing:-.01em;margin:0}
+.sim-col-head p{font-family:var(--mono);font-size:.8rem;color:var(--muted)}
+.sim-empty{border:1px dashed var(--rule);border-radius:12px;padding:1.4rem 1rem;text-align:center;color:var(--muted);font-size:.95rem}
+
+@media (max-width:900px){.sim-board{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:620px){.sim-board{grid-template-columns:1fr}}

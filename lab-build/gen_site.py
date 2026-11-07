@@ -429,6 +429,7 @@ PAGE = r"""<!DOCTYPE html>
     <nav class="nav" aria-label="Principal">
       <a href="#inicio">Torne-se especialista</a>
       <a href="noticias.html">Notícias</a>
+      <a href="simulados.html">Simulados</a>
       <a href="#laboratorio">Laboratório</a>
       <a href="#instrutor">Instrutor</a>
       <a href="kernel.html#docs">Docs do Kernel</a>
@@ -566,6 +567,7 @@ PAGE = r"""<!DOCTYPE html>
       <nav aria-label="Rodapé">
         <a href="#inicio">Torne-se especialista</a>
         <a href="noticias.html">Notícias</a>
+        <a href="simulados.html">Simulados</a>
         <a href="#laboratorio">Laboratório</a>
         <a href="kernel.html#docs">Documentação do Kernel</a>
         <a href="kernel.html#patches">Patches</a>
