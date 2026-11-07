@@ -1,5 +1,14 @@
 [
   {
+    "source": "Phoronix",
+    "title_en": "FreeBSD 15.2 Beta 1 Allows Experimental Cross-Building Of Base Packages On Linux/macOS",
+    "title_pt": "FreeBSD 15.2 Beta 1 Allows Experimental Cross-Building Of Base Packages On Linux/macOS",
+    "summary_en": "FreeBSD 15.2 Beta 1 is out today as the release dance kicks off in working toward the next installment of FreeBSD 15...",
+    "summary_pt": "FreeBSD 15.2 Beta 1 is out today as the release dance kicks off in working toward the next installment of FreeBSD 15...",
+    "link": "https://www.phoronix.com/news/FreeBSD-15.2-Beta-1",
+    "date": "Fri, 06 Nov 2026 19:04:20 -0500"
+  },
+  {
     "source": "LWN",
     "title_en": "Videos from XDC 2026 are available",
     "title_pt": "Videos from XDC 2026 are available",
