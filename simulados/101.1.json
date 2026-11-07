@@ -1,0 +1,339 @@
+{
+  "id": "101.1",
+  "topico": "101",
+  "titulo": "Identificar e editar configurações de hardware",
+  "peso": 2,
+  "fonte": "Certificação LPI-1, 6ª edição: 101.1",
+  "questoes": [
+    {
+      "p": "Segundo o texto, qual é a principal finalidade de um sistema operacional?",
+      "o": [
+        "Ser uma camada de abstração entre as funções de nível baixo de uma máquina e as funções de nível alto",
+        "Substituir o firmware da placa-mãe depois que a máquina é ligada",
+        "Fornecer os drivers escritos pelos fabricantes de cada componente",
+        "Executar diretamente as instruções gravadas nos componentes eletrônicos, sem intermediários"
+      ],
+      "a": 0,
+      "e": "A principal finalidade de um sistema operacional é ser uma camada de abstração entre as funções de nível baixo (instruções pré-definidas nos componentes eletrônicos) e as funções de nível alto, que são a interface usada pelos aplicativos. Essa abordagem evita que cada aplicativo lide diretamente com os detalhes do hardware e permite modelos mais sofisticados, como o ambiente multitarefa."
+    },
+    {
+      "p": "A partir da década de 1980, por que a indústria estabeleceu padrões de configuração e comunicação eletrônica?",
+      "o": [
+        "Para evitar que o sistema operacional ficasse atrelado a componentes específicos",
+        "Para que cada fabricante pudesse criar o próprio sistema operacional",
+        "Para impedir que as configurações de hardware fossem ajustadas",
+        "Para substituir o BIOS pelo UEFI"
+      ],
+      "a": 0,
+      "e": "Com hardware cada vez mais complexo, foram estabelecidos padrões de configuração e comunicação eletrônica para evitar que o sistema operacional ficasse atrelado a componentes específicos. Essas configurações podem ser ajustadas conforme a finalidade da máquina."
+    },
+    {
+      "p": "O que significa a sigla BIOS e a que ela se refere?",
+      "o": [
+        "Basic Input/Output System: o firmware com as rotinas básicas de configuração encontrado nas placas-mãe da arquitetura x86",
+        "Boot Input/Output Setup: o carregador de boot gravado no primeiro disco",
+        "Basic Integrated Operating System: um sistema operacional mínimo gravado na memória",
+        "Binary Input/Output Service: o módulo do kernel que controla os dispositivos de entrada e saída"
+      ],
+      "a": 0,
+      "e": "BIOS é Basic Input/Output System (Sistema Básico de Entrada/Saída), o nome do firmware com as rotinas básicas de configuração das placas-mãe x86. Até meados dos anos 2000, era esse o utilitário de configuração."
+    },
+    {
+      "p": "A partir do final da primeira década dos anos 2000, os computadores da plataforma x86 passaram a usar qual sistema no lugar do BIOS?",
+      "o": [
+        "UEFI",
+        "udev",
+        "SysFS",
+        "Hotplug"
+      ],
+      "a": 0,
+      "e": "Os computadores x86 passaram a usar o UEFI, que incorpora recursos mais sofisticados de identificação, configuração, testes e atualização de firmware. Mesmo assim, ainda é comum chamar esse utilitário de BIOS, pois os dois cumprem propósitos praticamente iguais."
+    },
+    {
+      "p": "Como se invoca o utilitário de configuração (o “BIOS”)?",
+      "o": [
+        "Pressionando uma tecla específica assim que o computador é ligado, geralmente Del, F2 ou F12, conforme o fabricante",
+        "Executando o comando modprobe bios depois que o sistema carrega",
+        "Editando o arquivo /etc/modprobe.conf",
+        "Lendo o arquivo /proc/cpuinfo"
+      ],
+      "a": 0,
+      "e": "O utilitário é invocado ao pressionar uma tecla específica assim que o computador é ligado. A tecla varia conforme o fabricante, mas costuma ser Del ou uma tecla de função, como F2 ou F12. Geralmente a tecla é exibida em uma mensagem na tela."
+    },
+    {
+      "p": "Qual destas ações o texto cita como possível por meio do utilitário de configuração (BIOS)?",
+      "o": [
+        "Configurar endereços I/O, IRQ e DMA",
+        "Descarregar módulos do kernel",
+        "Criar regras do udev em /etc/udev/rules.d/",
+        "Listar os módulos carregados e suas dependências"
+      ],
+      "a": 0,
+      "e": "Pelo utilitário é possível liberar e bloquear periféricos integrados, ativar proteção básica contra erros e configurar endereços I/O, IRQ e DMA. Dificilmente será necessário alterar essas configurações nas máquinas atuais."
+    },
+    {
+      "p": "Segundo o texto, por que pode ser interessante desativar alguns recursos do processador no utilitário de configuração?",
+      "o": [
+        "Para economizar energia ou até ganhar segurança, pois podem existir falhas de hardware que podem ser exploradas em ataques",
+        "Para que a memória trabalhe na velocidade definida por padrão",
+        "Para que o sistema operacional carregue o módulo nouveau",
+        "Para que o udev crie os arquivos em /dev"
+      ],
+      "a": 0,
+      "e": "Alguns processadores oferecem recursos que podem ser desnecessários e podem ser desativados, proporcionando economia de energia ou até maior segurança, pois podem existir falhas de hardware que podem ser exploradas em ataques. (No mesmo trecho: alguns tipos de memória podem trabalhar numa velocidade maior que a padrão, informada pelo fabricante.)"
+    },
+    {
+      "p": "Com vários dispositivos de armazenamento instalados, o que é importante definir no BIOS?",
+      "o": [
+        "Qual deles contém o carregador de boot correto, colocando-o em primeiro na ordem de verificação de boot",
+        "Qual deles será montado em /sys",
+        "Qual deles receberá o prefixo nvme",
+        "Qual módulo do kernel cada um vai usar"
+      ],
+      "a": 0,
+      "e": "É importante definir qual dispositivo contém o carregador de boot correto e deve ser o primeiro na ordem de verificação de boot. O sistema operacional pode não ser carregado se o dispositivo incorreto estiver à frente nessa ordem."
+    },
+    {
+      "p": "Quais são as duas maneiras básicas de identificar recursos de hardware num sistema Linux?",
+      "o": [
+        "Usar comandos específicos ou ler arquivos dentro de sistemas de arquivos especiais",
+        "Abrir o BIOS ou abrir o UEFI",
+        "Editar /etc/modprobe.conf ou editar /etc/udev/rules.d/",
+        "Usar o modprobe ou o modinfo"
+      ],
+      "a": 0,
+      "e": "Existem duas maneiras básicas de identificar recursos de hardware no Linux: utilizando comandos específicos ou lendo arquivos dentro de sistemas de arquivos especiais."
+    },
+    {
+      "p": "O que o comando lspci mostra?",
+      "o": [
+        "Todos os componentes conectados ao barramento PCI, como controladoras de disco, placas externas, controladoras USB e placas integradas",
+        "Somente os dispositivos USB conectados à máquina",
+        "Todos os módulos do kernel carregados na memória",
+        "As requisições de interrupção (IRQ) nos processadores"
+      ],
+      "a": 0,
+      "e": "lspci mostra todos os componentes conectados ao barramento PCI, como controladoras de disco, placas externas, controladoras USB, placas integradas etc. Já o lsusb mostra os dispositivos USB conectados à máquina."
+    },
+    {
+      "p": "Um dispositivo aparece na saída do lspci ou do lsusb. O que isso garante?",
+      "o": [
+        "Apenas que a presença dele foi identificada pelo sistema; para funcionar, ainda é preciso um componente de software, chamado módulo, que o controle",
+        "Que ele está funcional e pronto para uso",
+        "Que o driver dele foi fornecido pelo fabricante",
+        "Que ele já tem uma regra própria em /etc/udev/rules.d/"
+      ],
+      "a": 0,
+      "e": "Os comandos mostram os dispositivos cuja presença foi identificada pelo sistema. Isso não quer dizer que o dispositivo esteja funcional: para cada componente de hardware é necessário um componente de software que o controle, chamado módulo, que na maioria dos casos já está presente no sistema."
+    },
+    {
+      "p": "Sobre módulos e drivers no Linux, qual afirmação está de acordo com o texto?",
+      "o": [
+        "Os módulos também são chamados de drivers; diferente do Windows, nem sempre os drivers para Linux são fornecidos pelos fabricantes, e poucos dispositivos não funcionam, como alguns Winmodems",
+        "Todos os drivers para Linux são escritos e fornecidos pelos fabricantes dos dispositivos",
+        "Todo componente que funciona no Windows tem garantidamente um módulo funcional no Linux",
+        "No Linux, os módulos não têm relação com os drivers dos dispositivos"
+      ],
+      "a": 0,
+      "e": "Os módulos do Linux também são chamados de drivers. Diferente do Windows, nem sempre os drivers para Linux são fornecidos pelos fabricantes; muitas vezes são escritos pelos desenvolvedores do Linux. Por isso alguns componentes que funcionam no Windows podem não ter módulo funcional, mas são poucos os casos, como alguns dos já ultrapassados Winmodems."
+    },
+    {
+      "p": "Qual comando mostra mais detalhes do dispositivo PCI de endereço 04:02.0?",
+      "o": [
+        "lspci -s 04:02.0 -v",
+        "lsusb -s 04:02.0 -v",
+        "lsmod -s 04:02.0",
+        "modinfo 04:02.0"
+      ],
+      "a": 0,
+      "e": "Fornecendo o endereço do dispositivo (os números no início da linha) com a opção -s e detalhando a listagem com -v: lspci -s 04:02.0 -v."
+    },
+    {
+      "p": "Na saída detalhada do lspci, qual linha indica o módulo usado pelo dispositivo (por exemplo, rt61pci)?",
+      "o": [
+        "kernel driver in use",
+        "Subsystem",
+        "Capabilities",
+        "Flags"
+      ],
+      "a": 0,
+      "e": "O módulo é identificado na linha kernel driver in use (no exemplo, rt61pci). A linha Subsystem mostra a marca do dispositivo (Linksys WMP54G v4.1) e ajuda a identificá-lo. Com essas informações, pode-se assumir que o dispositivo foi identificado, um módulo correspondente foi carregado e o dispositivo está pronto para uso."
+    },
+    {
+      "p": "Na saída de lspci -s 01:00.0 -k aparecem as linhas “kernel driver in use: nvidia” e “kernel modules: nouveau, nvidia_drm, nvidia”. O que a segunda linha informa?",
+      "o": [
+        "Os módulos compatíveis com o dispositivo",
+        "Os módulos que estão bloqueados",
+        "Os módulos que dependem do nvidia",
+        "Os módulos que devem ser descarregados"
+      ],
+      "a": 0,
+      "e": "A opção -k do lspci é outra maneira de ver qual módulo do kernel está associado. No exemplo, o módulo em uso é o nvidia (linha kernel driver in use) e os módulos compatíveis aparecem na linha kernel modules: nouveau, nvidia_drm, nvidia."
+    },
+    {
+      "p": "Qual comando exibe detalhes somente do dispositivo USB de ID 1781:0c9f?",
+      "o": [
+        "lsusb -v -d 1781:0c9f",
+        "lsusb -t 1781:0c9f",
+        "lspci -k 1781:0c9f",
+        "lsusb -s 1781:0c9f"
+      ],
+      "a": 0,
+      "e": "O lsusb mostra os canais USB disponíveis e os dispositivos conectados. A opção -v exibe mais detalhes, e um dispositivo específico é escolhido informando o ID com a opção -d: lsusb -v -d 1781:0c9f."
+    },
+    {
+      "p": "Com qual opção o comando lsusb exibe os dispositivos USB em uma árvore hierárquica?",
+      "o": [
+        "-t",
+        "-k",
+        "-d",
+        "-r"
+      ],
+      "a": 0,
+      "e": "Com a opção -t, o comando lsusb exibe os dispositivos USB em uma árvore hierárquica, mostrando porta, classe, driver e velocidade de cada um."
+    },
+    {
+      "p": "Na saída de lsusb -t, uma linha termina em “Driver=,” sem nome de módulo. O que isso indica, segundo o texto?",
+      "o": [
+        "Que nenhum módulo do kernel está associado ao dispositivo; a comunicação pode ser feita diretamente pela aplicação",
+        "Que o dispositivo está com defeito e precisa ser trocado",
+        "Que o módulo foi bloqueado em /etc/modprobe.d/blacklist.conf",
+        "Que o dispositivo usa o módulo btusb"
+      ],
+      "a": 0,
+      "e": "É possível que nem todo dispositivo tenha um módulo do kernel associado: a comunicação com certos dispositivos pode ser feita diretamente pela aplicação, sem um módulo intermediando. Quando existe módulo associado, o nome dele aparece no final da linha do dispositivo."
+    },
+    {
+      "p": "Para descobrir qual dispositivo está usando o módulo btusb, o que se informa ao comando lsusb com a opção -s?",
+      "o": [
+        "Os números de Bus e Dev do dispositivo, como em lsusb -s 01:20",
+        "O nome do módulo, como em lsusb -s btusb",
+        "O ID do fabricante, como em lsusb -s 1131",
+        "O endereço PCI, como em lsusb -s 04:02.0"
+      ],
+      "a": 0,
+      "e": "Para verificar qual dispositivo está usando o módulo btusb, informam-se os números de Bus e Dev ao lsusb com a opção -s: lsusb -s 01:20 mostrou o KY-BT100 Bluetooth Adapter."
+    },
+    {
+      "p": "A saída do lsmod é dividida em três colunas: Module, Size e Used by. O que mostra a coluna Used by?",
+      "o": [
+        "Os módulos dependentes, ou seja, os que necessitam do módulo da primeira coluna",
+        "A memória ocupada pelo módulo, em bytes",
+        "O nome do arquivo do módulo",
+        "Quantos usuários estão usando o dispositivo"
+      ],
+      "a": 0,
+      "e": "lsmod lista todos os módulos carregados. Module é o nome do módulo; Size é a memória ocupada pelo módulo, em bytes; Used by mostra os módulos dependentes, ou seja, os que necessitam daquele da primeira coluna. Diversos módulos do sistema de som do Linux, o Alsa, são interdependentes."
+    },
+    {
+      "p": "O que faz o comando modprobe -r snd-hda-intel?",
+      "o": [
+        "Descarrega o módulo snd-hda-intel e os módulos diretamente relacionados a ele, desde que não estejam sendo usados por outros recursos",
+        "Carrega o módulo snd-hda-intel e todas as suas dependências",
+        "Bloqueia permanentemente o módulo snd-hda-intel",
+        "Mostra a licença e os parâmetros do módulo snd-hda-intel"
+      ],
+      "a": 0,
+      "e": "O modprobe pode ser usado tanto para carregar quanto para descarregar módulos do kernel. Para descarregar um módulo e os módulos diretamente relacionados, desde que não estejam sendo usados por outros recursos, usa-se modprobe -r. Isso pode ser conveniente em diagnósticos de problemas."
+    },
+    {
+      "p": "Usando como argumento apenas o nome do módulo, qual comando mostra a descrição, o arquivo, o autor, a licença, a identificação, as dependências e os parâmetros desse módulo?",
+      "o": [
+        "modinfo",
+        "lsmod",
+        "modprobe -r",
+        "lspci -k"
+      ],
+      "a": 0,
+      "e": "Usando como argumento apenas o nome do módulo, o modinfo mostra a descrição, o arquivo, o autor, a licença, a identificação, as dependências e os parâmetros do módulo. Os parâmetros servem para alterar o comportamento do módulo quando necessário."
+    },
+    {
+      "p": "Onde as opções de um módulo podem ser aplicadas de modo permanente?",
+      "o": [
+        "No arquivo /etc/modprobe.conf ou em arquivos terminados em .conf no diretório /etc/modprobe.d/",
+        "No diretório /proc/modules",
+        "No diretório /etc/udev/rules.d/",
+        "No utilitário de configuração (BIOS/UEFI)"
+      ],
+      "a": 0,
+      "e": "As opções para cada módulo podem ser aplicadas de modo permanente usando o arquivo de configuração /etc/modprobe.conf ou arquivos individuais terminados em .conf no diretório /etc/modprobe.d/."
+    },
+    {
+      "p": "Por que se inclui a linha “blacklist nouveau” no arquivo /etc/modprobe.d/blacklist.conf?",
+      "o": [
+        "Para impedir que o módulo nouveau seja carregado, o que é necessário quando o módulo proprietário é instalado e se quer evitar que o nouveau interfira no módulo nvidia",
+        "Para carregar o nouveau antes do módulo nvidia",
+        "Para remover o nouveau do disco",
+        "Para que o nouveau só seja carregado quando a placa for conectada (hotplug)"
+      ],
+      "a": 0,
+      "e": "Se um módulo causa problemas de compatibilidade, /etc/modprobe.d/blacklist.conf pode bloquear o carregamento dele. A linha blacklist nouveau é necessária quando o módulo proprietário é instalado e se quer evitar que o módulo padrão nouveau interfira no módulo nvidia."
+    },
+    {
+      "p": "Qual é a diferença entre os diretórios /proc e /sys apontada pelo texto?",
+      "o": [
+        "O /sys tem a função específica de armazenar informações de dispositivos, enquanto o /proc agrega também muitas informações de processos",
+        "O /proc guarda apenas informações de dispositivos de armazenamento, e o /sys guarda as regras do udev",
+        "O /sys guarda as informações dos processos ativos, e o /proc guarda só os módulos bloqueados",
+        "Não há diferença: um é atalho para o outro"
+      ],
+      "a": 0,
+      "e": "lspci, lsusb e lsmod facilitam a leitura de informações guardadas em arquivos especiais em /proc e /sys. O /proc contém informações dos processos ativos e de recursos de hardware. Os arquivos em /sys têm função semelhante, mas o /sys tem a função específica de armazenar informações de dispositivos, enquanto o /proc agrega também muitas informações de processos."
+    },
+    {
+      "p": "Qual arquivo traz informações sobre as requisições de interrupção (IRQ) nos processadores?",
+      "o": [
+        "/proc/interrupts",
+        "/proc/dma",
+        "/proc/ioports",
+        "/proc/cpuinfo"
+      ],
+      "a": 0,
+      "e": "/proc/interrupts: requisições de interrupção (IRQ) nos processadores. Os outros arquivos citados: /proc/cpuinfo traz o(s) processador(es) encontrado(s) pelo sistema; /proc/dma, os canais de acesso direto à memória; /proc/ioports, os endereços de memória usados pelos dispositivos."
+    },
+    {
+      "p": "Sobre o hotplug, qual afirmação está de acordo com o texto?",
+      "o": [
+        "É a detecção e configuração de dispositivos durante a execução do sistema, como os USB; foi incorporado ao Linux a partir do kernel 2.6, e qualquer barramento (PCI, USB etc.) pode disparar eventos hotplug",
+        "É a detecção de dispositivos feita apenas pelo BIOS antes de o sistema carregar",
+        "Só funciona para dispositivos USB e foi incorporado no kernel 2.4",
+        "É o arquivo que guarda as regras de nomes dos dispositivos em /dev"
+      ],
+      "a": 0,
+      "e": "Hotplug é o termo para a detecção e configuração de dispositivos durante a execução do sistema, como no caso dos USB. O recurso foi incorporado ao Linux a partir do kernel 2.6; desde então, qualquer barramento (PCI, USB etc.) pode disparar eventos hotplug quando um dispositivo é conectado ou desconectado."
+    },
+    {
+      "p": "Sobre o udev nos sistemas atuais, qual afirmação está correta segundo o texto?",
+      "o": [
+        "Ele identifica e configura tanto os dispositivos presentes desde o ligamento (coldplug) quanto os conectados com a máquina em funcionamento (hotplug), guardando as informações no SysFS, montado em /sys, e usando regras de /etc/udev/rules.d/",
+        "Ele só trata dispositivos presentes desde o ligamento da máquina (coldplug)",
+        "Ele guarda as informações dos dispositivos em /proc/interrupts e usa regras de /etc/modprobe.d/",
+        "As regras dele precisam ser escritas pelo administrador, pois não acompanham a distribuição"
+      ],
+      "a": 0,
+      "e": "Os dispositivos removíveis são tratados pelo udev, que, combinado ao hotplug do kernel, cria os arquivos em /dev dinamicamente a partir de regras predeterminadas. O udev identifica e configura dispositivos coldplug e hotplug; as informações de identificação ficam no SysFS, cujo ponto de montagem é /sys. As regras ficam em /etc/udev/rules.d/ e, como a maioria já acompanha a distribuição, dificilmente é preciso alterá-las."
+    },
+    {
+      "p": "Os dispositivos de armazenamento são chamados de dispositivos de bloco e ficam representados em /dev. Pelo esquema tradicional descrito no texto, como é identificado um drive de CD/DVD conectado ao segundo canal IDE?",
+      "o": [
+        "/dev/hdc",
+        "/dev/hda",
+        "/dev/fd0",
+        "/dev/sdb"
+      ],
+      "a": 0,
+      "e": "Dispositivos de armazenamento são chamados dispositivos de bloco porque os dados são lidos e escritos em blocos de diferentes tamanhos e alinhamentos. Um disco IDE no primeiro canal é /dev/hda (partições /dev/hda1, /dev/hda2...). Um CD/DVD no segundo canal IDE é /dev/hdc. Um disquete tradicional é /dev/fd0, /dev/fd1 etc., pelas iniciais de floppy disk."
+    },
+    {
+      "p": "Seguindo a nomenclatura descrita no texto, qual caminho representa a segunda partição do primeiro dispositivo NVMe?",
+      "o": [
+        "/dev/nvme0n1p2",
+        "/dev/sda2",
+        "/dev/mmcblk0p2",
+        "/dev/nvme1n0p2"
+      ],
+      "a": 0,
+      "e": "Segundo o livro, a partir do kernel 2.4 a maioria dos dispositivos (IDE, SSD, drives USB) recebe o prefixo sd: /dev/sda1, /dev/sda2 para o primeiro dispositivo, /dev/sdb1 para o segundo. As exceções são os cartões SD (/dev/mmcblk0p1, /dev/mmcblk0p2...) e os dispositivos NVMe (SSDs no barramento PCI Express), que recebem o prefixo nvme, como em /dev/nvme0n1p1 e /dev/nvme0n1p2."
+    }
+  ]
+}
