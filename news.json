@@ -1,5 +1,86 @@
 [
   {
+    "source": "9to5Linux",
+    "title_en": "System76 Teases COSMIC Theme Constellations for Its COSMIC Desktop",
+    "title_pt": "System76 Teases COSMIC Theme Constellations for Its COSMIC Desktop",
+    "summary_en": "System76 teases COSMIC Theme Constellations for their Rust-based COSMIC desktop environment bundled with wallpaper, colors, icons, and fonts. \n The post  System76 Teases COSMIC Theme Constellations for Its COSMIC Desktop  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "System76 teases COSMIC Theme Constellations for their Rust-based COSMIC desktop environment bundled with wallpaper, colors, icons, and fonts. \n The post  System76 Teases COSMIC Theme Constellations for Its COSMIC Desktop  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/system76-teases-cosmic-theme-constellations-for-its-cosmic-desktop",
+    "date": "Sat, 07 Nov 2026 06:03:53 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Asahi Linux 7.3 progress report",
+    "title_pt": "Asahi Linux 7.3 progress report",
+    "summary_en": "The Asahi Linux developers have put out  a new report \non their progress toward a Linux distribution for Apple devices.\n \n \n\tSome time ago, we were made aware of multiple attempts to exploit\n\tour permissive licensing to hijack our work, with a direct view to\n\treplacing the project and aggressively monetising Linux on Apple\n\tSilicon. In some extreme cases, in-development feature code was\n\tbeing ...",
+    "summary_pt": "The Asahi Linux developers have put out  a new report \non their progress toward a Linux distribution for Apple devices.\n \n \n\tSome time ago, we were made aware of multiple attempts to exploit\n\tour permissive licensing to hijack our work, with a direct view to\n\treplacing the project and aggressively monetising Linux on Apple\n\tSilicon. In some extreme cases, in-development feature code was\n\tbeing ...",
+    "link": "https://lwn.net/Articles/1105936/",
+    "date": "Sat, 07 Nov 2026 09:49:38 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Amutable Foundations: A Technical Overview",
+    "title_pt": "Amutable Foundations: A Technical Overview",
+    "summary_en": "Lennart Poettering, Michael Vogt, and Joaquim Rocha have put together  a\ndetailed overview  of what the Amutable Operating System (AOS) and\nassociated infrastructure will look like.\n \n \n\tThe image-based OS approach enables us to enforce some very strict\n\tbut powerful security properties, which elevate the security\n\tposture of the system substantially above traditional Linux\n\tsystems. Specifical...",
+    "summary_pt": "Lennart Poettering, Michael Vogt, and Joaquim Rocha have put together  a\ndetailed overview  of what the Amutable Operating System (AOS) and\nassociated infrastructure will look like.\n \n \n\tThe image-based OS approach enables us to enforce some very strict\n\tbut powerful security properties, which elevate the security\n\tposture of the system substantially above traditional Linux\n\tsystems. Specifical...",
+    "link": "https://lwn.net/Articles/1105934/",
+    "date": "Sat, 07 Nov 2026 09:32:56 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "HyprBSD Provides Wayland-Based Desktop Built Atop FreeBSD, Complete With Steam Gaming",
+    "title_pt": "HyprBSD Provides Wayland-Based Desktop Built Atop FreeBSD, Complete With Steam Gaming",
+    "summary_en": "While FreeBSD has been working to improve its desktop and laptop experience, that work isn't yet shipping in released form for the OS installer and other ongoing efforts. Now there's a new desktop FreeBSD distribution on the scene with HyprBSD providing a Wayland-based desktop experience and with the Linux binary compatibility layer even an easy route to gaming with Steam...",
+    "summary_pt": "While FreeBSD has been working to improve its desktop and laptop experience, that work isn't yet shipping in released form for the OS installer and other ongoing efforts. Now there's a new desktop FreeBSD distribution on the scene with HyprBSD providing a Wayland-based desktop experience and with the Linux binary compatibility layer even an easy route to gaming with Steam...",
+    "link": "https://www.phoronix.com/news/HyprBSD",
+    "date": "Sat, 07 Nov 2026 07:45:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Kmorph Aims To Provide Rebootless Linux Kernel Crash Recovery",
+    "title_pt": "Kmorph Aims To Provide Rebootless Linux Kernel Crash Recovery",
+    "summary_en": "Kmorph aims to provide reboot-less kernel crash recovery for Linux systems and can yield as little as ~2 second downtime for recovering the Nginx web server or other important services in the case of a kernel crash...",
+    "summary_pt": "Kmorph aims to provide reboot-less kernel crash recovery for Linux systems and can yield as little as ~2 second downtime for recovering the Nginx web server or other important services in the case of a kernel crash...",
+    "link": "https://www.phoronix.com/news/Kmorph-Linux-Crash-Recovery",
+    "date": "Sat, 07 Nov 2026 07:05:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "KDE Plasma 6.9 Will Stop Leaking Memory When Right Clicking Files/Folders On Desktop",
+    "title_pt": "KDE Plasma 6.9 Will Stop Leaking Memory When Right Clicking Files/Folders On Desktop",
+    "summary_en": "With Plasma 6.8 stable approaching one month old, KDE developers continue ramping up work toward Plasma 6.9. Here is some of the interesting work they've been up to so far in November...",
+    "summary_pt": "With Plasma 6.8 stable approaching one month old, KDE developers continue ramping up work toward Plasma 6.9. Here is some of the interesting work they've been up to so far in November...",
+    "link": "https://www.phoronix.com/news/KDE-Plasma-6.9-Leak-Desktop",
+    "date": "Sat, 07 Nov 2026 06:34:48 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Vulkan 1.4.368 Released With New Extensions From Valve & NVIDIA",
+    "title_pt": "Vulkan 1.4.368 Released With New Extensions From Valve & NVIDIA",
+    "summary_en": "Vulkan 1.4.368 is out as the newest weekly spec update for this high performance graphics and compute API...",
+    "summary_pt": "Vulkan 1.4.368 is out as the newest weekly spec update for this high performance graphics and compute API...",
+    "link": "https://www.phoronix.com/news/Vulkan-1.4.368",
+    "date": "Sat, 07 Nov 2026 05:53:10 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Microsoft's Azure Linux 3.0.2022 Ships With More Than 470 Security Fixes",
+    "title_pt": "Microsoft's Azure Linux 3.0.2022 Ships With More Than 470 Security Fixes",
+    "summary_en": "Microsoft released Azure Linux 3.0.2022 on Friday night as the newest version of their in-house Linux distribution. Given the rampant AI/LLM-fueled bug reporting and security research, Azure Linux 3.0.2022 ends up incorporating more than 470 security fixes for different CVEs across the many open-source projects making up Azure Linux...",
+    "summary_pt": "Microsoft released Azure Linux 3.0.2022 on Friday night as the newest version of their in-house Linux distribution. Given the rampant AI/LLM-fueled bug reporting and security research, Azure Linux 3.0.2022 ends up incorporating more than 470 security fixes for different CVEs across the many open-source projects making up Azure Linux...",
+    "link": "https://www.phoronix.com/news/Azure-Linux-3.0.2022",
+    "date": "Sat, 07 Nov 2026 05:37:42 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Asahi Linux Makes Progress On Gaming, More Apple Silicon Upstreaming",
+    "title_pt": "Asahi Linux Makes Progress On Gaming, More Apple Silicon Upstreaming",
+    "summary_en": "Given the recent Linux 7.3 upstream kernel release, the Asahi Linux project published a new status report to outline recent code they have upstreamed to the mainline kernel as well as other efforts taking shape in their downstream codebase...",
+    "summary_pt": "Given the recent Linux 7.3 upstream kernel release, the Asahi Linux project published a new status report to outline recent code they have upstreamed to the mainline kernel as well as other efforts taking shape in their downstream codebase...",
+    "link": "https://www.phoronix.com/news/Asahi-Linux-7.3-Report",
+    "date": "Sat, 07 Nov 2026 05:21:03 -0500"
+  },
+  {
     "source": "Phoronix",
     "title_en": "FreeBSD 15.2 Beta 1 Allows Experimental Cross-Building Of Base Packages On Linux/macOS",
     "title_pt": "FreeBSD 15.2 Beta 1 Allows Experimental Cross-Building Of Base Packages On Linux/macOS",
