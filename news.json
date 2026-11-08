@@ -1,6 +1,15 @@
 [
   {
     "source": "Phoronix",
+    "title_en": "OpenIndiana 2026.10 Released With Updated Tools & Compilers, New Apps",
+    "title_pt": "OpenIndiana 2026.10 Released With Updated Tools & Compilers, New Apps",
+    "summary_en": "OpenIndiana Hipster 2026.10 is out today as the newest six-month update to this operating system based on Illumos and with the lineage tracing back to the fruitful Sun OpenSolaris days...",
+    "summary_pt": "OpenIndiana Hipster 2026.10 is out today as the newest six-month update to this operating system based on Illumos and with the lineage tracing back to the fruitful Sun OpenSolaris days...",
+    "link": "https://www.phoronix.com/news/OpenIndiana-2026.10",
+    "date": "Sat, 07 Nov 2026 17:50:46 -0500"
+  },
+  {
+    "source": "Phoronix",
     "title_en": "Automake 1.20 Brings New Features, Desires To Re-Establish GNU As Leading Build System",
     "title_pt": "Automake 1.20 Brings New Features, Desires To Re-Establish GNU As Leading Build System",
     "summary_en": "Out today is GNU Automake 1.20 with the new --enable-jobserver option and opting for GPLv3+ licensing...",
