@@ -1,5 +1,59 @@
 [
   {
+    "source": "9to5Linux",
+    "title_en": "9to5Linux Weekly Roundup: November 8th, 2026",
+    "title_pt": "9to5Linux Weekly Roundup: November 8th, 2026",
+    "summary_en": "9to5Linux Weekly Roundup for November 8th, 2026, brings news about Fedora Linux 45, Cinnamon 6.8, openSUSE Leap 16.1, LXQt 2.5, Fedora Asahi Remix 45, Budgie 10.10.4, aerynOS 2026.11, Audacity 4.0.2, Artix Linux 2026.11, MPV 0.42, Calibre 9.18, GIMP 3.2.8, NVIDIA 620, KDE Gear 26.08.3, Shelly 3.2, OpenVPN 2.7.9, GStreamer 1.28.9, and more. \n The post  9to5Linux Weekly Roundup: November 8th, 202...",
+    "summary_pt": "9to5Linux Weekly Roundup for November 8th, 2026, brings news about Fedora Linux 45, Cinnamon 6.8, openSUSE Leap 16.1, LXQt 2.5, Fedora Asahi Remix 45, Budgie 10.10.4, aerynOS 2026.11, Audacity 4.0.2, Artix Linux 2026.11, MPV 0.42, Calibre 9.18, GIMP 3.2.8, NVIDIA 620, KDE Gear 26.08.3, Shelly 3.2, OpenVPN 2.7.9, GStreamer 1.28.9, and more. \n The post  9to5Linux Weekly Roundup: November 8th, 202...",
+    "link": "https://9to5linux.com/9to5linux-weekly-roundup-november-8th-2026",
+    "date": "Sun, 08 Nov 2026 15:18:56 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.5 To Provide More AMD Ryzen AI NPU AIE4 Enablement",
+    "title_pt": "Linux 7.5 To Provide More AMD Ryzen AI NPU AIE4 Enablement",
+    "summary_en": "Even before the Linux v7.4 merge window was over, there were already two pull requests of drm-misc-next material targeting for what will be Linux 7.5.  This week already saw the third drm-misc-next pull request of more feature patches targeting this next kernel version...",
+    "summary_pt": "Even before the Linux v7.4 merge window was over, there were already two pull requests of drm-misc-next material targeting for what will be Linux 7.5.  This week already saw the third drm-misc-next pull request of more feature patches targeting this next kernel version...",
+    "link": "https://www.phoronix.com/news/Linux-7.5-RK3568-AMD-AIE4",
+    "date": "Sun, 08 Nov 2026 07:22:24 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD PerfOpt Performance Boosting Code Tweaked For Linux 7.4-rc2",
+    "title_pt": "AMD PerfOpt Performance Boosting Code Tweaked For Linux 7.4-rc2",
+    "summary_en": "Of the many exciting changes in Linux 7.4, one of the exciting out-of-the-box performance improvements is the new \"PerfOpt\" functionality for AMD SoCs with integrated Radeon graphics. AMD PerfOpt can deliver some nice iGPU performance improvements especially for AI/LLM workloads. With today's Linux 7.4-rc2 kernel release there are a few tweaks to the PerfOpt code in the IOMMU area...",
+    "summary_pt": "Of the many exciting changes in Linux 7.4, one of the exciting out-of-the-box performance improvements is the new \"PerfOpt\" functionality for AMD SoCs with integrated Radeon graphics. AMD PerfOpt can deliver some nice iGPU performance improvements especially for AI/LLM workloads. With today's Linux 7.4-rc2 kernel release there are a few tweaks to the PerfOpt code in the IOMMU area...",
+    "link": "https://www.phoronix.com/news/AMD-PerfOpt-Tweaks-Linux-7.4",
+    "date": "Sun, 08 Nov 2026 06:37:07 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Yunsilicon Working To Upstream Their High Performance Linux Network Driver",
+    "title_pt": "Yunsilicon Working To Upstream Their High Performance Linux Network Driver",
+    "summary_en": "Yunsilicon is a Chinese semiconductor startup founded in 2021 that is working on producing high performance networking adapters and DPUs. Over the past month has been their first foray into posting patches to the Linux kernel mailing list and working to get their networking hardware supported by the mainline Linux kernel...",
+    "summary_pt": "Yunsilicon is a Chinese semiconductor startup founded in 2021 that is working on producing high performance networking adapters and DPUs. Over the past month has been their first foray into posting patches to the Linux kernel mailing list and working to get their networking hardware supported by the mainline Linux kernel...",
+    "link": "https://www.phoronix.com/news/Yunsilicon-Linux-Network-Driver",
+    "date": "Sun, 08 Nov 2026 06:27:33 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "GCC 17 Feature Development Ends Next Week",
+    "title_pt": "GCC 17 Feature Development Ends Next Week",
+    "summary_en": "How time flies with the GCC 17 feature development set to end next week and transitioning over to a bug fixing focus...",
+    "summary_pt": "How time flies with the GCC 17 feature development set to end next week and transitioning over to a bug fixing focus...",
+    "link": "https://www.phoronix.com/news/GCC-17-Ends-Stage-1-Next-Week",
+    "date": "Sun, 08 Nov 2026 06:12:21 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux Fixes Faulty Mitigation Selection For BHI Vulnerability",
+    "title_pt": "Linux Fixes Faulty Mitigation Selection For BHI Vulnerability",
+    "summary_en": "This week's batch of x86 fixes have been sent out ahead of the Linux 7.4-rc2 kernel releasing later today...",
+    "summary_pt": "This week's batch of x86 fixes have been sent out ahead of the Linux 7.4-rc2 kernel releasing later today...",
+    "link": "https://www.phoronix.com/news/Linux-Fix-BHI-Mitigation-Build",
+    "date": "Sun, 08 Nov 2026 06:03:38 -0500"
+  },
+  {
     "source": "Phoronix",
     "title_en": "OpenIndiana 2026.10 Released With Updated Tools & Compilers, New Apps",
     "title_pt": "OpenIndiana 2026.10 Released With Updated Tools & Compilers, New Apps",
