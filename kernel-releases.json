@@ -2,21 +2,21 @@
   "releases": [
     {
       "moniker": "mainline",
-      "version": "7.4-rc1",
+      "version": "7.4-rc2",
       "iseol": false,
       "released": {
-        "timestamp": 1793568391,
-        "isodate": "2026-11-01"
+        "timestamp": 1794183740,
+        "isodate": "2026-11-09"
       },
-      "source": "https://git.kernel.org/torvalds/t/linux-7.4-rc1.tar.gz",
+      "source": "https://git.kernel.org/torvalds/t/linux-7.4-rc2.tar.gz",
       "pgp": null,
       "patch": {
-        "full": "https://git.kernel.org/torvalds/p/v7.4-rc1/v7.3",
-        "incremental": null
+        "full": "https://git.kernel.org/torvalds/p/v7.4-rc2/v7.3",
+        "incremental": "https://git.kernel.org/torvalds/p/v7.4-rc2/v7.4-rc1"
       },
       "changelog": null,
-      "gitweb": "https://git.kernel.org/torvalds/h/v7.4-rc1",
-      "diffview": "https://git.kernel.org/torvalds/ds/v7.4-rc1/v7.3"
+      "gitweb": "https://git.kernel.org/torvalds/h/v7.4-rc2",
+      "diffview": "https://git.kernel.org/torvalds/ds/v7.4-rc2/v7.4-rc1"
     },
     {
       "moniker": "stable",
