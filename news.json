@@ -1,5 +1,104 @@
 [
   {
+    "source": "LWN",
+    "title_en": "[$] Git considers voting to determine its LLM policy",
+    "title_pt": "[$] Git considers voting to determine its LLM policy",
+    "summary_en": "One of the dominant themes of 2026 has been the debate within development\nprojects about the terms under which LLM-written contributions should be\naccepted — if, indeed, they should be accepted at all.  The  Git project  has not been immune to this\ntrend; the topic was  discussed \nat the recent Git Contributor's Summit.  In this case, the path to a\nresolution may be somewhat circuitous; the pro...",
+    "summary_pt": "One of the dominant themes of 2026 has been the debate within development\nprojects about the terms under which LLM-written contributions should be\naccepted — if, indeed, they should be accepted at all.  The  Git project  has not been immune to this\ntrend; the topic was  discussed \nat the recent Git Contributor's Summit.  In this case, the path to a\nresolution may be somewhat circuitous; the pro...",
+    "link": "https://lwn.net/Articles/1104195/",
+    "date": "Mon, 09 Nov 2026 15:05:07 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Kernel prepatch 7.4-rc2",
+    "title_pt": "Kernel prepatch 7.4-rc2",
+    "summary_en": "Linus Torvalds has released the  7.4-rc2\nprepatch  and it will come as no surprise that it is a large one (\" a\nbig -rc2 to go with the largest ever -rc1 \").  Much of the size was made\nup of some automated Coccinelle updates that were spread out all over the\ntree; once those are factored out, the rest looks fairly normal:\n\n \nWhen masking that noise out from the diffstat, the shape of it changes\n...",
+    "summary_pt": "Linus Torvalds has released the  7.4-rc2\nprepatch  and it will come as no surprise that it is a large one (\" a\nbig -rc2 to go with the largest ever -rc1 \").  Much of the size was made\nup of some automated Coccinelle updates that were spread out all over the\ntree; once those are factored out, the rest looks fairly normal:\n\n \nWhen masking that noise out from the diffstat, the shape of it changes\n...",
+    "link": "https://lwn.net/Articles/1106300/",
+    "date": "Mon, 09 Nov 2026 14:55:38 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "OpenIndiana 2026.10 released",
+    "title_pt": "OpenIndiana 2026.10 released",
+    "summary_en": "Version\n2026.10  of the  OpenIndiana  operating\nsystem has been released. OpenIndiana is based on  Illumos , which in turn was\nbased on  OpenSolaris \nafter Oracle discontinued it. \n Notable changes in this release include UEFI framebuffer support for the live\nimage, updates to many applications and development tools, as well as the\ninclusion of new applications such as TeX Live 2026, the Foliat...",
+    "summary_pt": "Version\n2026.10  of the  OpenIndiana  operating\nsystem has been released. OpenIndiana is based on  Illumos , which in turn was\nbased on  OpenSolaris \nafter Oracle discontinued it. \n Notable changes in this release include UEFI framebuffer support for the live\nimage, updates to many applications and development tools, as well as the\ninclusion of new applications such as TeX Live 2026, the Foliat...",
+    "link": "https://lwn.net/Articles/1106285/",
+    "date": "Mon, 09 Nov 2026 14:09:57 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Monday",
+    "title_pt": "Security updates for Monday",
+    "summary_en": "Security updates have been issued by  Debian  (cjose, kernel, libreoffice, rsync, ruby3.3, telegram-desktop, vim, and zlib),  Fedora  (bind, composer, copyparty, dnf5, elixir, fasterxml-oss-parent, gnome-remote-desktop, goose, jackson-annotations, jackson-bom, jackson-core, jackson-databind, jackson-jaxrs-providers, jackson-modules-base, jackson-parent, java-21-openjdk, java-21-openjdk-portable...",
+    "summary_pt": "Security updates have been issued by  Debian  (cjose, kernel, libreoffice, rsync, ruby3.3, telegram-desktop, vim, and zlib),  Fedora  (bind, composer, copyparty, dnf5, elixir, fasterxml-oss-parent, gnome-remote-desktop, goose, jackson-annotations, jackson-bom, jackson-core, jackson-databind, jackson-jaxrs-providers, jackson-modules-base, jackson-parent, java-21-openjdk, java-21-openjdk-portable...",
+    "link": "https://lwn.net/Articles/1106282/",
+    "date": "Mon, 09 Nov 2026 14:02:31 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMDGPU Linux Driver Patches Posted For Enabling GFX13 Graphics IP - RDNA5",
+    "title_pt": "AMDGPU Linux Driver Patches Posted For Enabling GFX13 Graphics IP - RDNA5",
+    "summary_en": "Since the beginning of the year there have been AMDGPU LLVM back-end patches for GFX13 as AMD's next-generation graphics IP. This is most likely for RDNA 5 graphics. Now out today are the GFX13 patches finally surfacing for the AMDGPU Linux kernel graphics driver...",
+    "summary_pt": "Since the beginning of the year there have been AMDGPU LLVM back-end patches for GFX13 as AMD's next-generation graphics IP. This is most likely for RDNA 5 graphics. Now out today are the GFX13 patches finally surfacing for the AMDGPU Linux kernel graphics driver...",
+    "link": "https://www.phoronix.com/news/AMDGPU-Patches-GFX13",
+    "date": "Mon, 09 Nov 2026 14:11:37 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Darling Now Embraces AI For Running macOS Binaries On Linux",
+    "title_pt": "Darling Now Embraces AI For Running macOS Binaries On Linux",
+    "summary_en": "Darling is the software project more than a decade in development that is designed to run macOS binaries on Linux. This macOS compatibility layer for Linux is now gaining more brisk developments as it turns to AI/LLMs to assist in this creation...",
+    "summary_pt": "Darling is the software project more than a decade in development that is designed to run macOS binaries on Linux. This macOS compatibility layer for Linux is now gaining more brisk developments as it turns to AI/LLMs to assist in this creation...",
+    "link": "https://www.phoronix.com/news/Darling-Using-AI-macOS-Linux",
+    "date": "Mon, 09 Nov 2026 08:02:13 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "ChaCha AVX-512 Optimization For Linux 7.5 Yields Up To 99% Improvement On AMD Zen 5",
+    "title_pt": "ChaCha AVX-512 Optimization For Linux 7.5 Yields Up To 99% Improvement On AMD Zen 5",
+    "summary_en": "The Linux kernel's ChaCha symmetric stream cipher code has long had an AVX-512 optimized code path but it was catering to the early generations of Intel CPUs with AVX-512 (Skylake) that suffered from down-clocking under use. But now slated for arrival with Linux 7.5 is tuning the code to perform better on today's AVX-512 Intel and AMD processors that don't suffer from this limitation. In turn t...",
+    "summary_pt": "The Linux kernel's ChaCha symmetric stream cipher code has long had an AVX-512 optimized code path but it was catering to the early generations of Intel CPUs with AVX-512 (Skylake) that suffered from down-clocking under use. But now slated for arrival with Linux 7.5 is tuning the code to perform better on today's AVX-512 Intel and AMD processors that don't suffer from this limitation. In turn t...",
+    "link": "https://www.phoronix.com/news/ChaCha-AVX-512-Linux-7.5",
+    "date": "Mon, 09 Nov 2026 07:35:12 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux Seeing Driver Work For MSI Mystic Light On Latest Ryzen Motherboards",
+    "title_pt": "Linux Seeing Driver Work For MSI Mystic Light On Latest Ryzen Motherboards",
+    "summary_en": "MSI's latest Ryzen motherboards with AMD 800 series chipsets feature a new capability marked as Mystic Light for RGB lighting controls of the motherboard as well as compatible graphics cards and cases. MSI Mystic Light control software is only offered for Microsoft Windows but thanks to an open-source developer with the help of Claude Code, a Mystic Light open-source driver is being worked on f...",
+    "summary_pt": "MSI's latest Ryzen motherboards with AMD 800 series chipsets feature a new capability marked as Mystic Light for RGB lighting controls of the motherboard as well as compatible graphics cards and cases. MSI Mystic Light control software is only offered for Microsoft Windows but thanks to an open-source developer with the help of Claude Code, a Mystic Light open-source driver is being worked on f...",
+    "link": "https://www.phoronix.com/news/MSI-Mystic-Light-Linux",
+    "date": "Mon, 09 Nov 2026 06:20:49 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.5 To Convey To User-Space Multi-Grain Timestamp Usage On Files",
+    "title_pt": "Linux 7.5 To Convey To User-Space Multi-Grain Timestamp Usage On Files",
+    "summary_en": "Merged for Linux 6.13 back in 2024 was multigrain timestamp support for being able to switch between coarse and fine-grained change/modification time reporting on a per-file basis. This is useful if caring about accuracy more than the once-per-jiffy timestamps on files and was originally devised as a way of addressing NFS caching issues. A limitation of multigrain timestamps though has been the...",
+    "summary_pt": "Merged for Linux 6.13 back in 2024 was multigrain timestamp support for being able to switch between coarse and fine-grained change/modification time reporting on a per-file basis. This is useful if caring about accuracy more than the once-per-jiffy timestamps on files and was originally devised as a way of addressing NFS caching issues. A limitation of multigrain timestamps though has been the...",
+    "link": "https://www.phoronix.com/news/Linux-7.5-Statx-MG-TImestamp",
+    "date": "Mon, 09 Nov 2026 06:08:22 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "New Linux Patches Bring-Up The Samsung Galaxy XR Headset, Qualcomm Halliday SoC",
+    "title_pt": "New Linux Patches Bring-Up The Samsung Galaxy XR Headset, Qualcomm Halliday SoC",
+    "summary_en": "Samsung's Galaxy XR headset runs on Android XR by default with its own downstream kernel patches. A user leveraging AI with multiple LLMs has now drafted an initial set of patches getting the Galaxy XR headset working on the mainline kernel along with bringing up the Qualcomm Snapdragon XR2+ Gen 2 \"Halliday\" SoC that powers this VR/XR headset...",
+    "summary_pt": "Samsung's Galaxy XR headset runs on Android XR by default with its own downstream kernel patches. A user leveraging AI with multiple LLMs has now drafted an initial set of patches getting the Galaxy XR headset working on the mainline kernel along with bringing up the Qualcomm Snapdragon XR2+ Gen 2 \"Halliday\" SoC that powers this VR/XR headset...",
+    "link": "https://www.phoronix.com/news/Linux-Samsung-Galaxy-XR",
+    "date": "Mon, 09 Nov 2026 05:46:20 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Intel ANV Lands Bitrate Control For AV1 Encoding",
+    "title_pt": "Intel ANV Lands Bitrate Control For AV1 Encoding",
+    "summary_en": "Hyunjun Ko of Igalia continues working on enhancing the Vulkan Video support in the Mesa ANV driver for better open-source video acceleration support...",
+    "summary_pt": "Hyunjun Ko of Igalia continues working on enhancing the Vulkan Video support in the Mesa ANV driver for better open-source video acceleration support...",
+    "link": "https://www.phoronix.com/news/Intel-ANV-AV1-Bitrate-Control",
+    "date": "Mon, 09 Nov 2026 05:30:24 -0500"
+  },
+  {
     "source": "9to5Linux",
     "title_en": "Slax Linux Is Back with a Revamped Desktop, New Tools, and More",
     "title_pt": "Slax Linux Is Back with a Revamped Desktop, New Tools, and More",
