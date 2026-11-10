@@ -1,6 +1,87 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "KDE Plasma 6.8.3 Released with More Improvements for Multi-Monitor Setups",
+    "title_pt": "KDE Plasma 6.8.3 Released with More Improvements for Multi-Monitor Setups",
+    "summary_en": "KDE Plasma 6.8.3 is now available as the third maintenance update to the latest KDE Plasma 6.8 desktop environment series with more bug fixes and improvements. \n The post  KDE Plasma 6.8.3 Released with More Improvements for Multi-Monitor Setups  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "KDE Plasma 6.8.3 is now available as the third maintenance update to the latest KDE Plasma 6.8 desktop environment series with more bug fixes and improvements. \n The post  KDE Plasma 6.8.3 Released with More Improvements for Multi-Monitor Setups  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/kde-plasma-6-8-3-released-with-more-improvements-for-multi-monitor-setups",
+    "date": "Tue, 10 Nov 2026 09:28:29 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Tuesday",
+    "title_pt": "Security updates for Tuesday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (curl, dpdk, glibc, kernel, nodejs-nodemon, nodejs22, nodejs24, nodejs:18, nodejs:22, patch, qt5, qt5-qtdeclarative, ruby, ruby4.0, ruby:3.3, ruby:4.0, squid:4, tomcat, util-linux, and webkit2gtk3),  Debian  (symfony and tomcat10),  Fedora  (bind, dnf5, kernel, kernel-headers, libmodulemd, maturin, perl-CGI, perl-Net-IDN-Encode, perl-Starlet, pyt...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (curl, dpdk, glibc, kernel, nodejs-nodemon, nodejs22, nodejs24, nodejs:18, nodejs:22, patch, qt5, qt5-qtdeclarative, ruby, ruby4.0, ruby:3.3, ruby:4.0, squid:4, tomcat, util-linux, and webkit2gtk3),  Debian  (symfony and tomcat10),  Fedora  (bind, dnf5, kernel, kernel-headers, libmodulemd, maturin, perl-CGI, perl-Net-IDN-Encode, perl-Starlet, pyt...",
+    "link": "https://lwn.net/Articles/1106522/",
+    "date": "Tue, 10 Nov 2026 14:03:54 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Eight More Security Issues Made Public For The X.Org Server / XWayland",
+    "title_pt": "Eight More Security Issues Made Public For The X.Org Server / XWayland",
+    "summary_en": "With the assistance of AI/LLMs, eight more security vulnerabilities were made public today for the X.Org Server. These issues also end up affecting the XWayland code too...",
+    "summary_pt": "With the assistance of AI/LLMs, eight more security vulnerabilities were made public today for the X.Org Server. These issues also end up affecting the XWayland code too...",
+    "link": "https://www.phoronix.com/news/Eight-More-XOrg-Server-Issues",
+    "date": "Tue, 10 Nov 2026 08:55:33 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Longtime Linux Developer Steps Down From Some Roles Due To Patch Flood Caused By AI",
+    "title_pt": "Longtime Linux Developer Steps Down From Some Roles Due To Patch Flood Caused By AI",
+    "summary_en": "Linux memory management expert Lorenzo Stoakes at Arm who has been contributing to the kernel since 2014 is stepping away from some reviewership roles within the Linux kernel due to all of the noise from the flood of kernel patches resulting fro AI/LLMs...",
+    "summary_pt": "Linux memory management expert Lorenzo Stoakes at Arm who has been contributing to the kernel since 2014 is stepping away from some reviewership roles within the Linux kernel due to all of the noise from the flood of kernel patches resulting fro AI/LLMs...",
+    "link": "https://www.phoronix.com/news/Lorenzo-Stoakes-AI-Flood",
+    "date": "Tue, 10 Nov 2026 07:54:35 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "x86 Ecosystem Advisory Group Posts ACE v2 & AVX10.3 Specs, GCC Patches Ready",
+    "title_pt": "x86 Ecosystem Advisory Group Posts ACE v2 & AVX10.3 Specs, GCC Patches Ready",
+    "summary_en": "While there aren't any processors released yet with AI Compute Extensions (ACE) or AVX10.2 quite yet, the x86 Ecosystem Advisory Group led by AMD and Intel have now posted their ACE v2 and AVX10.3 specifications...",
+    "summary_pt": "While there aren't any processors released yet with AI Compute Extensions (ACE) or AVX10.2 quite yet, the x86 Ecosystem Advisory Group led by AMD and Intel have now posted their ACE v2 and AVX10.3 specifications...",
+    "link": "https://www.phoronix.com/news/ACE-v2-AVX10.3-Posted",
+    "date": "Tue, 10 Nov 2026 06:01:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "openSUSE Tumbleweed Transitioning To Agama Installer",
+    "title_pt": "openSUSE Tumbleweed Transitioning To Agama Installer",
+    "summary_en": "With openSUSE Leap making use of the modern Agama installer developed by SUSE engineers, the rolling-release openSUSE Tumbleweed is now preparing to make the same transitioning in replacing the YaST Installer...",
+    "summary_pt": "With openSUSE Leap making use of the modern Agama installer developed by SUSE engineers, the rolling-release openSUSE Tumbleweed is now preparing to make the same transitioning in replacing the YaST Installer...",
+    "link": "https://www.phoronix.com/news/openSUSE-Tumbleweed-Goes-Agama",
+    "date": "Tue, 10 Nov 2026 05:53:06 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "RPM v6 Format Approved For Fedora 46, ThinLTO Flag Rejected",
+    "title_pt": "RPM v6 Format Approved For Fedora 46, ThinLTO Flag Rejected",
+    "summary_en": "With Fedora 45 having shipped last week, developers are turning more of their attention to Fedora 46 that will debut by the end of next April...",
+    "summary_pt": "With Fedora 45 having shipped last week, developers are turning more of their attention to Fedora 46 that will debut by the end of next April...",
+    "link": "https://www.phoronix.com/news/Fedora-46-Approves-RPM-v6",
+    "date": "Tue, 10 Nov 2026 05:37:05 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "KDE Plasma 6.8.3 Released With Dozens Of Fixes",
+    "title_pt": "KDE Plasma 6.8.3 Released With Dozens Of Fixes",
+    "summary_en": "KDE Plasma 6.8.3 is out today as the newest bug-fix release for last month's major Plasma 6.8 debut...",
+    "summary_pt": "KDE Plasma 6.8.3 is out today as the newest bug-fix release for last month's major Plasma 6.8 debut...",
+    "link": "https://www.phoronix.com/news/KDE-Plasma-6.8.3",
+    "date": "Tue, 10 Nov 2026 05:27:35 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "exfatprogs 1.4.4 Brings Speed-Up For Making New exFAT Filesystems",
+    "title_pt": "exfatprogs 1.4.4 Brings Speed-Up For Making New exFAT Filesystems",
+    "summary_en": "The exfatprogs 1.4.4 release was issued today for these user-space open-source programs for managing exFAT file-systems on Linux...",
+    "summary_pt": "The exfatprogs 1.4.4 release was issued today for these user-space open-source programs for managing exFAT file-systems on Linux...",
+    "link": "https://www.phoronix.com/news/exfatprogs-1.4.4",
+    "date": "Tue, 10 Nov 2026 05:18:02 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Mesa 26.3 Open-Source Graphics Stack Officially Released, Here’s What’s New",
     "title_pt": "Mesa 26.3 Open-Source Graphics Stack Officially Released, Here’s What’s New",
     "summary_en": "Mesa 26.3 open-source graphics stack is now available for download with new features and improvements across all supported drivers. Here’s what’s new! \n The post  Mesa 26.3 Open-Source Graphics Stack Officially Released, Here’s What’s New  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
