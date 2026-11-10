@@ -1,6 +1,123 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Mozilla Thunderbird 160 Email Client Released with Various Improvements",
+    "title_pt": "Mozilla Thunderbird 160 Email Client Released with Various Improvements",
+    "summary_en": "Mozilla Thunderbird 160 open-source email client is now available for download with support for selecting all filters in the Message Filters dialog and other changes. \n The post  Mozilla Thunderbird 160 Email Client Released with Various Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Mozilla Thunderbird 160 open-source email client is now available for download with support for selecting all filters in the Message Filters dialog and other changes. \n The post  Mozilla Thunderbird 160 Email Client Released with Various Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/mozilla-thunderbird-160-email-client-released-with-various-improvements",
+    "date": "Tue, 10 Nov 2026 18:42:35 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "XOrg Server 21.1.26 and Xwayland 24.1.15 Are Out to Patch More Security Issues",
+    "title_pt": "XOrg Server 21.1.26 and Xwayland 24.1.15 Are Out to Patch More Security Issues",
+    "summary_en": "XOrg Server 21.1.26 and Xwayland 24.1.15 have been released today to address several security vulnerabilities that could lead to crashes or corrupt memory. \n The post  XOrg Server 21.1.26 and Xwayland 24.1.15 Are Out to Patch More Security Issues  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "XOrg Server 21.1.26 and Xwayland 24.1.15 have been released today to address several security vulnerabilities that could lead to crashes or corrupt memory. \n The post  XOrg Server 21.1.26 and Xwayland 24.1.15 Are Out to Patch More Security Issues  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/xorg-server-21-1-26-and-xwayland-24-1-15-are-out-to-patch-more-security-issues",
+    "date": "Tue, 10 Nov 2026 18:25:51 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Blender 5.3 Is Out with the Vulkan Backend by Default on Linux",
+    "title_pt": "Blender 5.3 Is Out with the Vulkan Backend by Default on Linux",
+    "summary_en": "Blender 5.3 open-source 3D graphics software is now available for download with the Vulkan backend by default on Linux, support for panoramic cameras, and many other changes. \n The post  Blender 5.3 Is Out with the Vulkan Backend by Default on Linux  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Blender 5.3 open-source 3D graphics software is now available for download with the Vulkan backend by default on Linux, support for panoramic cameras, and many other changes. \n The post  Blender 5.3 Is Out with the Vulkan Backend by Default on Linux  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/blender-5-3-is-out-with-the-vulkan-backend-by-default-on-linux",
+    "date": "Tue, 10 Nov 2026 17:44:14 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Three new stable kernels for Tuesday",
+    "title_pt": "Three new stable kernels for Tuesday",
+    "summary_en": "Greg Kroah-Hartman has released the  7.3.4 ,\n 6.18.63 , and  6.12.117  stable kernels. The 7.3.4 kernel has more\nthan 1,250 patches, 6.18.63 contains more than 860, and 6.12.117 includes more\nthan 1,530 patches. Users of these kernels are, of course, encouraged to upgrade.",
+    "summary_pt": "Greg Kroah-Hartman has released the  7.3.4 ,\n 6.18.63 , and  6.12.117  stable kernels. The 7.3.4 kernel has more\nthan 1,250 patches, 6.18.63 contains more than 860, and 6.12.117 includes more\nthan 1,530 patches. Users of these kernels are, of course, encouraged to upgrade.",
+    "link": "https://lwn.net/Articles/1106569/",
+    "date": "Tue, 10 Nov 2026 19:06:06 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] Synaptics patent claims stop work on DisplayLink drivers",
+    "title_pt": "[$] Synaptics patent claims stop work on DisplayLink drivers",
+    "summary_en": "Mike Lothian owns a docking station (or dock) that uses a  DisplayLink  chipset\nthat had, at least in his opinion, subpar performance on Linux. He\ndecided to try improving the Linux driver, with LLM assistance, but ran into one\nproblem that he could not solve—so he asked for help, hoping that\nSynaptics's developers would lend a hand. (DisplayLink was  acquired by\nSynaptics  in 2022.) Rather tha...",
+    "summary_pt": "Mike Lothian owns a docking station (or dock) that uses a  DisplayLink  chipset\nthat had, at least in his opinion, subpar performance on Linux. He\ndecided to try improving the Linux driver, with LLM assistance, but ran into one\nproblem that he could not solve—so he asked for help, hoping that\nSynaptics's developers would lend a hand. (DisplayLink was  acquired by\nSynaptics  in 2022.) Rather tha...",
+    "link": "https://lwn.net/Articles/1102549/",
+    "date": "Tue, 10 Nov 2026 15:38:10 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Firefox 160 released",
+    "title_pt": "Firefox 160 released",
+    "summary_en": "Version\n160  of the Firefox web browser has been released. Notable features in this\nrelease include the ability to block sites from asking to handle\n\" mailto: \" links, ability to play Matroska files with FLAC, MP3, or PCM\naudio, playback speed controls in the  picture-in-picture \nvideo player, and a new  Mini\nWindow feature  that is in early development.",
+    "summary_pt": "Version\n160  of the Firefox web browser has been released. Notable features in this\nrelease include the ability to block sites from asking to handle\n\" mailto: \" links, ability to play Matroska files with FLAC, MP3, or PCM\naudio, playback speed controls in the  picture-in-picture \nvideo player, and a new  Mini\nWindow feature  that is in early development.",
+    "link": "https://lwn.net/Articles/1106542/",
+    "date": "Tue, 10 Nov 2026 15:37:42 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD EPYC 9996 Benchmarks Show Unparalleled Performance With 256 Zen 6C Cores",
+    "title_pt": "AMD EPYC 9996 Benchmarks Show Unparalleled Performance With 256 Zen 6C Cores",
+    "summary_en": "Back in July AMD announced the EPYC 9006 \"Venice\" series at their Advancing AI event. Today they are announcing EPYC 9006 series Socket SP7 processor availability and with systems beginning to ship today from their OEM/ODM partners. With that we are also now allowed to begin sharing AMD EPYC 9006 performance benchmark figures. Back in July I expected EPYC 9006 to be a \"grand slam\" for performan...",
+    "summary_pt": "Back in July AMD announced the EPYC 9006 \"Venice\" series at their Advancing AI event. Today they are announcing EPYC 9006 series Socket SP7 processor availability and with systems beginning to ship today from their OEM/ODM partners. With that we are also now allowed to begin sharing AMD EPYC 9006 performance benchmark figures. Back in July I expected EPYC 9006 to be a \"grand slam\" for performan...",
+    "link": "https://www.phoronix.com/review/amd-epyc-9996",
+    "date": "Tue, 10 Nov 2026 12:00:04 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD EPYC 9686F Linux Benchmarks: 96 Zen 6 Cores At Up To 5.3GHz",
+    "title_pt": "AMD EPYC 9686F Linux Benchmarks: 96 Zen 6 Cores At Up To 5.3GHz",
+    "summary_en": "In addition to the AMD EPYC 9996 256-core CPU benchmarks out today in that dual socket configuration for a combined 512 cores / 1024 threads flagship Zen 6C server configuration, also tested recently at Phoronix was the EPYC 9686F part. The AMD EPYC 9686F is their new high-frequency Zen 6 part that features 96 cores / 192 threads at a boost clock of 5.3GHz! When the AMD EPYC 9686F they original...",
+    "summary_pt": "In addition to the AMD EPYC 9996 256-core CPU benchmarks out today in that dual socket configuration for a combined 512 cores / 1024 threads flagship Zen 6C server configuration, also tested recently at Phoronix was the EPYC 9686F part. The AMD EPYC 9686F is their new high-frequency Zen 6 part that features 96 cores / 192 threads at a boost clock of 5.3GHz! When the AMD EPYC 9686F they original...",
+    "link": "https://www.phoronix.com/review/amd-epyc-9686f",
+    "date": "Tue, 10 Nov 2026 12:00:03 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD Talks Up Their MEXT Software Amid RAM Crisis - Linux Support But Not Open-Source",
+    "title_pt": "AMD Talks Up Their MEXT Software Amid RAM Crisis - Linux Support But Not Open-Source",
+    "summary_en": "This summer AMD acquired the company MEXT for their AI-powered predictive memory technology to make flash memory such as NVMe SSDs behave more like DRAM. AMD MEXT with EPYC servers allows for flash memory as DRAM tiering and uses a predictive AI engine for handling the tiering in an effective way. There is a Linux driver but this is one of the few offerings in the AMD space that isn't open-sour...",
+    "summary_pt": "This summer AMD acquired the company MEXT for their AI-powered predictive memory technology to make flash memory such as NVMe SSDs behave more like DRAM. AMD MEXT with EPYC servers allows for flash memory as DRAM tiering and uses a predictive AI engine for handling the tiering in an effective way. There is a Linux driver but this is one of the few offerings in the AMD space that isn't open-sour...",
+    "link": "https://www.phoronix.com/news/AMD-MEXT",
+    "date": "Tue, 10 Nov 2026 12:00:02 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD Confirms ACE With 7th Gen EPYC \"Florence\" While 8th Gen EPYC Is \"Ravenna\"",
+    "title_pt": "AMD Confirms ACE With 7th Gen EPYC \"Florence\" While 8th Gen EPYC Is \"Ravenna\"",
+    "summary_en": "During the AMD briefings for 6th Gen EPYC SP7 availability, they did already tease next-gen EPYC processors...",
+    "summary_pt": "During the AMD briefings for 6th Gen EPYC SP7 availability, they did already tease next-gen EPYC processors...",
+    "link": "https://www.phoronix.com/news/AMD-EPYC-Zen-7-Zen-8",
+    "date": "Tue, 10 Nov 2026 12:00:01 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD EPYC Embedded 9006 Series SP7 Announced",
+    "title_pt": "AMD EPYC Embedded 9006 Series SP7 Announced",
+    "summary_en": "In addition to today's announcement of AMD EPYC 9006 SP7 availability, complete with reviews of the AMD EPYC 9996 256-core flagship and EPYC 9686F 96-core 5.3GHz part, AMD also announced the EPYC Embedded 9006 Series SP7 processors...",
+    "summary_pt": "In addition to today's announcement of AMD EPYC 9006 SP7 availability, complete with reviews of the AMD EPYC 9996 256-core flagship and EPYC 9686F 96-core 5.3GHz part, AMD also announced the EPYC Embedded 9006 Series SP7 processors...",
+    "link": "https://www.phoronix.com/news/AMD-EPYC-Embedded-9006-Series",
+    "date": "Tue, 10 Nov 2026 12:00:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Blender 5.3 Released With NVIDIA DLSS 4.5 Ray Reconstruction, Vulkan Default",
+    "title_pt": "Blender 5.3 Released With NVIDIA DLSS 4.5 Ray Reconstruction, Vulkan Default",
+    "summary_en": "Blender 5.3 is out today as the newest stable release for this leading open-source 3D modeling software...",
+    "summary_pt": "Blender 5.3 is out today as the newest stable release for this leading open-source 3D modeling software...",
+    "link": "https://www.phoronix.com/news/Blender-5.3-Released",
+    "date": "Tue, 10 Nov 2026 11:34:56 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "KORA Announced As Linux Desktop OS \"For The Age of Intelligence\"",
+    "title_pt": "KORA Announced As Linux Desktop OS \"For The Age of Intelligence\"",
+    "summary_en": "Backed by Samsung, Square Enix, and others, KORA Systems announced KORA OS today as a Linux distribution built for the age of \"intelligent PCs\"...",
+    "summary_pt": "Backed by Samsung, Square Enix, and others, KORA Systems announced KORA OS today as a Linux distribution built for the age of \"intelligent PCs\"...",
+    "link": "https://www.phoronix.com/news/KORA-OS",
+    "date": "Tue, 10 Nov 2026 10:53:43 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "KDE Plasma 6.8.3 Released with More Improvements for Multi-Monitor Setups",
     "title_pt": "KDE Plasma 6.8.3 Released with More Improvements for Multi-Monitor Setups",
     "summary_en": "KDE Plasma 6.8.3 is now available as the third maintenance update to the latest KDE Plasma 6.8 desktop environment series with more bug fixes and improvements. \n The post  KDE Plasma 6.8.3 Released with More Improvements for Multi-Monitor Setups  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
