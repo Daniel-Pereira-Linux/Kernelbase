@@ -1,5 +1,86 @@
 [
   {
+    "source": "LWN",
+    "title_en": "[$] Additional hardening for the glibc dynamic linker",
+    "title_pt": "[$] Additional hardening for the glibc dynamic linker",
+    "summary_en": "The\n \nNode.js project  recently had a\n \nsecurity vulnerability  that\naffected its\n \nBrotli  decoder. The bug\n \nwas a buffer overflow ,\nbut the particular way that official Node.js binaries are built for Linux meant that one of the\nmain protections against turning a buffer overflow into remote code execution,\n \naddress space layout randomization  (ASLR) could not be turned on. If ASLR had been\ne...",
+    "summary_pt": "The\n \nNode.js project  recently had a\n \nsecurity vulnerability  that\naffected its\n \nBrotli  decoder. The bug\n \nwas a buffer overflow ,\nbut the particular way that official Node.js binaries are built for Linux meant that one of the\nmain protections against turning a buffer overflow into remote code execution,\n \naddress space layout randomization  (ASLR) could not be turned on. If ASLR had been\ne...",
+    "link": "https://lwn.net/Articles/1105134/",
+    "date": "Wed, 11 Nov 2026 14:35:29 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Wednesday",
+    "title_pt": "Security updates for Wednesday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (edk2),  Debian  (openexr, rsyslog, and srt),  Fedora  (alertmanager, dotnet11.0, gdal, mstflint, nextcloud, python-crate-ingredients, rust-ingredients, rust-pore, rust-pulldown-cmark, rust-rbw, rust-sequoia-sq, rust-siguldry-fedora-autopen, tigervnc, unbound, and zchunk),  Gentoo  (Brotli, git, and libde265),  Mageia  (mopidy, python-dulwich, ru...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (edk2),  Debian  (openexr, rsyslog, and srt),  Fedora  (alertmanager, dotnet11.0, gdal, mstflint, nextcloud, python-crate-ingredients, rust-ingredients, rust-pore, rust-pulldown-cmark, rust-rbw, rust-sequoia-sq, rust-siguldry-fedora-autopen, tigervnc, unbound, and zchunk),  Gentoo  (Brotli, git, and libde265),  Mageia  (mopidy, python-dulwich, ru...",
+    "link": "https://lwn.net/Articles/1106876/",
+    "date": "Wed, 11 Nov 2026 14:15:31 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD EPYC 9006 Venice vs. NVIDIA Vera Benchmarks For HPC Performance",
+    "title_pt": "AMD EPYC 9006 Venice vs. NVIDIA Vera Benchmarks For HPC Performance",
+    "summary_en": "Yesterday in the AMD EPYC 9006 \"Venice\" SP7 launch testing were reviews of the AMD EPYC 9996 256-core processor as well as the EPYC 9686F 96-core high frequency part. There were hundreds of benchmarks looking at the gen-on-gen performance from EPYC Turin to EPYC Venice as well as against the Intel Xeon 6 Granite Rapids competition. For those wondering about how AMD EPYC Venice is competing with...",
+    "summary_pt": "Yesterday in the AMD EPYC 9006 \"Venice\" SP7 launch testing were reviews of the AMD EPYC 9996 256-core processor as well as the EPYC 9686F 96-core high frequency part. There were hundreds of benchmarks looking at the gen-on-gen performance from EPYC Turin to EPYC Venice as well as against the Intel Xeon 6 Granite Rapids competition. For those wondering about how AMD EPYC Venice is competing with...",
+    "link": "https://www.phoronix.com/review/amd-venice-nvidia-vera",
+    "date": "Wed, 11 Nov 2026 10:44:41 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Initial AMD RDNA5/GFX13 Code Sent Out For Mesa RADV & RadeonSI Drivers",
+    "title_pt": "Initial AMD RDNA5/GFX13 Code Sent Out For Mesa RADV & RadeonSI Drivers",
+    "summary_en": "After AMD posted GFX13 patches for the AMDGPU Linux driver earlier in the week, today they opened the Mesa merge request for introducing the very primitive GFX13 support for the RADV Vulkan and RadeonSI Gallium3D/OpenGL drivers...",
+    "summary_pt": "After AMD posted GFX13 patches for the AMDGPU Linux driver earlier in the week, today they opened the Mesa merge request for introducing the very primitive GFX13 support for the RADV Vulkan and RadeonSI Gallium3D/OpenGL drivers...",
+    "link": "https://www.phoronix.com/news/AMD-GFX13-Initial-Mesa",
+    "date": "Wed, 11 Nov 2026 07:18:36 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "FreeBSD Working To Establish An AI Policy After Polling Developers",
+    "title_pt": "FreeBSD Working To Establish An AI Policy After Polling Developers",
+    "summary_en": "The FreeBSD Project published its Q3'2026 status report on Tuesday that outlines a number of development initiatives to ongoing work around an AI policy for this BSD operating system...",
+    "summary_pt": "The FreeBSD Project published its Q3'2026 status report on Tuesday that outlines a number of development initiatives to ongoing work around an AI policy for this BSD operating system...",
+    "link": "https://www.phoronix.com/news/FreeBSD-Q3-2026-Report",
+    "date": "Wed, 11 Nov 2026 06:30:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "ATI/AMD R300 To R500 GPUs See New 2026 OpenGL Linux Driver Optimizations",
+    "title_pt": "ATI/AMD R300 To R500 GPUs See New 2026 OpenGL Linux Driver Optimizations",
+    "summary_en": "Over 24 years old, the ATI (AMD) Radeon R300 graphics processors are still seeing improvements in the open-source Linux driver space. Merged to Mesa 27.0-devel this week were a number of shader compiler optimizations for the R300g driver that benefits not only the original R300 series graphics cards but also the R400 and R500 (Radeon X1000 series) too...",
+    "summary_pt": "Over 24 years old, the ATI (AMD) Radeon R300 graphics processors are still seeing improvements in the open-source Linux driver space. Merged to Mesa 27.0-devel this week were a number of shader compiler optimizations for the R300g driver that benefits not only the original R300 series graphics cards but also the R400 and R500 (Radeon X1000 series) too...",
+    "link": "https://www.phoronix.com/news/AMD-R300g-Better-Shaders-2026",
+    "date": "Wed, 11 Nov 2026 06:01:52 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD AOCC 6.0 Brings Zen 6 Optimizations, New \"aof\" Fortran Compiler, aoc / aoc++ Branding",
+    "title_pt": "AMD AOCC 6.0 Brings Zen 6 Optimizations, New \"aof\" Fortran Compiler, aoc / aoc++ Branding",
+    "summary_en": "With yesterday's launch availability of the AMD EPYC 9006 \"Venice\" SP7 processors headlined by the incredibly fast EPYC 9996 and EPYC 9686F processors, AMD also launched AOCC 6.0 as the newest version of their in-house LLVM/Clang-based compiler stack...",
+    "summary_pt": "With yesterday's launch availability of the AMD EPYC 9006 \"Venice\" SP7 processors headlined by the incredibly fast EPYC 9996 and EPYC 9686F processors, AMD also launched AOCC 6.0 as the newest version of their in-house LLVM/Clang-based compiler stack...",
+    "link": "https://www.phoronix.com/news/AMD-AOCC-6.0-Released",
+    "date": "Wed, 11 Nov 2026 05:54:19 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Intel Releases New CPU Microcode To Fix A Variety Of Functional Issues",
+    "title_pt": "Intel Releases New CPU Microcode To Fix A Variety Of Functional Issues",
+    "summary_en": "Intel on Tuesday released the microcode-20261110 package that ships updated CPU microcode binaries for recent Intel Core (Ultra) and Xeon processors. The updated CPU microcode is for Core Gen 13 \"Raptor Lake\" and newer while on the Xeon server side is for Sapphire Rapids and newer. This is also the first time Clearwater Forest has seen microcode updates...",
+    "summary_pt": "Intel on Tuesday released the microcode-20261110 package that ships updated CPU microcode binaries for recent Intel Core (Ultra) and Xeon processors. The updated CPU microcode is for Core Gen 13 \"Raptor Lake\" and newer while on the Xeon server side is for Sapphire Rapids and newer. This is also the first time Clearwater Forest has seen microcode updates...",
+    "link": "https://www.phoronix.com/news/Intel-CPU-Microcode-20261110",
+    "date": "Wed, 11 Nov 2026 05:41:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Haiku OS Now Has A UFS Driver, Two & Three Finger Tap Gestures",
+    "title_pt": "Haiku OS Now Has A UFS Driver, Two & Three Finger Tap Gestures",
+    "summary_en": "The BeOS-inspired Haiku open-source operating system project has seen new work on drivers and other improvements during the course of October...",
+    "summary_pt": "The BeOS-inspired Haiku open-source operating system project has seen new work on drivers and other improvements during the course of October...",
+    "link": "https://www.phoronix.com/news/Haiku-OS-October-2026",
+    "date": "Wed, 11 Nov 2026 05:26:00 -0500"
+  },
+  {
     "source": "9to5Linux",
     "title_en": "Linux’s exFAT Progs 1.4.4 Adds Optional I/O Statistics Collection for Profiling",
     "title_pt": "Linux’s exFAT Progs 1.4.4 Adds Optional I/O Statistics Collection for Profiling",
