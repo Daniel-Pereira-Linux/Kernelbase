@@ -1,6 +1,24 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Linux’s exFAT Progs 1.4.4 Adds Optional I/O Statistics Collection for Profiling",
+    "title_pt": "Linux’s exFAT Progs 1.4.4 Adds Optional I/O Statistics Collection for Profiling",
+    "summary_en": "Exfatprogs 1.4.4 exFAT utils for Linux has been released today with optional I/O statistics collection for profiling read, write, discard, zero-out, and sync operations. \n The post  Linux’s exFAT Progs 1.4.4 Adds Optional I/O Statistics Collection for Profiling  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Exfatprogs 1.4.4 exFAT utils for Linux has been released today with optional I/O statistics collection for profiling read, write, discard, zero-out, and sync operations. \n The post  Linux’s exFAT Progs 1.4.4 Adds Optional I/O Statistics Collection for Profiling  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/linuxs-exfat-progs-1-4-4-adds-optional-i-o-statistics-collection-for-profiling",
+    "date": "Wed, 11 Nov 2026 02:12:25 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Ubuntu 26.10 Begins Rolling Out upki Support For Certificate Revocation",
+    "title_pt": "Ubuntu 26.10 Begins Rolling Out upki Support For Certificate Revocation",
+    "summary_en": "With Ubuntu 26.10 that shipped in October there is a little talked about feature with upki revocation support beginning to roll out. Due to the late change, upki for certificate revocation was only enabled for Ubuntu 26.10's curl package but with more plans ahead...",
+    "summary_pt": "With Ubuntu 26.10 that shipped in October there is a little talked about feature with upki revocation support beginning to roll out. Due to the late change, upki for certificate revocation was only enabled for Ubuntu 26.10's curl package but with more plans ahead...",
+    "link": "https://www.phoronix.com/news/Ubuntu-26.10-Does-upki",
+    "date": "Tue, 10 Nov 2026 20:43:13 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Mozilla Thunderbird 160 Email Client Released with Various Improvements",
     "title_pt": "Mozilla Thunderbird 160 Email Client Released with Various Improvements",
     "summary_en": "Mozilla Thunderbird 160 open-source email client is now available for download with support for selecting all filters in the Message Filters dialog and other changes. \n The post  Mozilla Thunderbird 160 Email Client Released with Various Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
