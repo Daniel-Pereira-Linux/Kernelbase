@@ -1,6 +1,150 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Libreboot 26.11 Open-Source BIOS/UEFI Firmware Brings Various Improvements",
+    "title_pt": "Libreboot 26.11 Open-Source BIOS/UEFI Firmware Brings Various Improvements",
+    "summary_en": "Libreboot 26.11 open-source BIOS/UEFI firmware is now available for download with TPM 2.0 by default for more devices, new naming scheme for ROMs, and other changes. \n The post  Libreboot 26.11 Open-Source BIOS/UEFI Firmware Brings Various Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Libreboot 26.11 open-source BIOS/UEFI firmware is now available for download with TPM 2.0 by default for more devices, new naming scheme for ROMs, and other changes. \n The post  Libreboot 26.11 Open-Source BIOS/UEFI Firmware Brings Various Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/libreboot-26-11-open-source-bios-uefi-firmware-brings-various-improvements",
+    "date": "Thu, 12 Nov 2026 19:12:18 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "LibreOffice 26.8.3 Open-Source Office Suite Released with More Than 40 Bug Fixes",
+    "title_pt": "LibreOffice 26.8.3 Open-Source Office Suite Released with More Than 40 Bug Fixes",
+    "summary_en": "LibreOffice 26.8.3 open-source is now available for download as the third point release to the LibreOffice 26.2 office suite series with over 40 bug fixes. \n The post  LibreOffice 26.8.3 Open-Source Office Suite Released with More Than 40 Bug Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "LibreOffice 26.8.3 open-source is now available for download as the third point release to the LibreOffice 26.2 office suite series with over 40 bug fixes. \n The post  LibreOffice 26.8.3 Open-Source Office Suite Released with More Than 40 Bug Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/libreoffice-26-8-3-open-source-office-suite-released-with-more-than-40-bug-fixes",
+    "date": "Thu, 12 Nov 2026 13:11:07 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Rust 1.100.0 released",
+    "title_pt": "Rust 1.100.0 released",
+    "summary_en": "Version\n1.100.0  of the Rust language has been released. Notable changes include the\nstabilization of the  never type ,\ncore parts of the  Allocator  API, reporting of unused dependencies in\nCargo, and more.",
+    "summary_pt": "Version\n1.100.0  of the Rust language has been released. Notable changes include the\nstabilization of the  never type ,\ncore parts of the  Allocator  API, reporting of unused dependencies in\nCargo, and more.",
+    "link": "https://lwn.net/Articles/1107187/",
+    "date": "Thu, 12 Nov 2026 19:09:19 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Glasswing overwhelms maintainers with underwhelming findings (VulnCheck)",
+    "title_pt": "Glasswing overwhelms maintainers with underwhelming findings (VulnCheck)",
+    "summary_en": "Patrick Garrity of VulnCheck has written a  blog\npost  that looks at vulnerabilities found by Anthropic's  Project Glasswing  since it\nlaunched on April 7, and finds it wanting: \n \n Of the 37,966 findings Anthropic reports, only 7,349 (19.4%) have been made\npublic. Just 217 of those have been marked fixed. The more glaring number is\nthat 4.4% (1,654) of the project's findings have already been ...",
+    "summary_pt": "Patrick Garrity of VulnCheck has written a  blog\npost  that looks at vulnerabilities found by Anthropic's  Project Glasswing  since it\nlaunched on April 7, and finds it wanting: \n \n Of the 37,966 findings Anthropic reports, only 7,349 (19.4%) have been made\npublic. Just 217 of those have been marked fixed. The more glaring number is\nthat 4.4% (1,654) of the project's findings have already been ...",
+    "link": "https://lwn.net/Articles/1107173/",
+    "date": "Thu, 12 Nov 2026 16:26:09 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Introducing Polo: a Wayland MATE compositor",
+    "title_pt": "Introducing Polo: a Wayland MATE compositor",
+    "summary_en": "Kerem Söke has  announced \nthe  1.0\nrelease  of  Polo , a\nWayland compositor for the  MATE Desktop\nEnvironment : \n \n The idea is to keep MATE behaving as closely as possible to how it does on\nX11, rather than changing the desktop to fit a different compositor. [...] \n Window management, metacity, workspaces, tiling, XWayland, clipboard and\nclipman support, multiple monitors, display scaling, ho...",
+    "summary_pt": "Kerem Söke has  announced \nthe  1.0\nrelease  of  Polo , a\nWayland compositor for the  MATE Desktop\nEnvironment : \n \n The idea is to keep MATE behaving as closely as possible to how it does on\nX11, rather than changing the desktop to fit a different compositor. [...] \n Window management, metacity, workspaces, tiling, XWayland, clipboard and\nclipman support, multiple monitors, display scaling, ho...",
+    "link": "https://lwn.net/Articles/1107152/",
+    "date": "Thu, 12 Nov 2026 14:32:49 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] C++26 contract confusion",
+    "title_pt": "[$] C++26 contract confusion",
+    "summary_en": "The\n \nInternational Organization for Standardization  (ISO) has blessed seven C++\nlanguage revisions since 1998.\nThe language is mostly developed by ISO's\n \nWorking Group 21 , which\nconsiders proposed additions and amendments, integrates them into a document,\nand then presents that document to the main ISO body to be voted on as a\nstandard. On October 23, for the first time ever, ISO declined t...",
+    "summary_pt": "The\n \nInternational Organization for Standardization  (ISO) has blessed seven C++\nlanguage revisions since 1998.\nThe language is mostly developed by ISO's\n \nWorking Group 21 , which\nconsiders proposed additions and amendments, integrates them into a document,\nand then presents that document to the main ISO body to be voted on as a\nstandard. On October 23, for the first time ever, ISO declined t...",
+    "link": "https://lwn.net/Articles/1105400/",
+    "date": "Thu, 12 Nov 2026 14:29:04 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Stenberg: 30 years of Internet transfers with curl",
+    "title_pt": "Stenberg: 30 years of Internet transfers with curl",
+    "summary_en": "Daniel Stenberg  reflects \non the 30th anniversary of the curl project.\n \n \n\tlibcurl runs in an estimated thirty billion installations today. It\n\tis a rough estimate since the majority of all libcurl users never\n\ttell us they use it, but we need to find it mentioned in their\n\tcredit screens, open source license windows or their manuals. A\n\tsuper popular app might use libcurl today and not tomor...",
+    "summary_pt": "Daniel Stenberg  reflects \non the 30th anniversary of the curl project.\n \n \n\tlibcurl runs in an estimated thirty billion installations today. It\n\tis a rough estimate since the majority of all libcurl users never\n\ttell us they use it, but we need to find it mentioned in their\n\tcredit screens, open source license windows or their manuals. A\n\tsuper popular app might use libcurl today and not tomor...",
+    "link": "https://lwn.net/Articles/1107151/",
+    "date": "Thu, 12 Nov 2026 14:24:47 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Thursday",
+    "title_pt": "Security updates for Thursday",
+    "summary_en": "Security updates have been issued by  Debian  (aodh, apache2, dnspython, firefox-esr, mutt, octavia, spip, thunderbird, and watcher),  Fedora  (epiphany, firefox, freerdp, java-25-openjdk, java-latest-openjdk, libsoup3, perl-HTTP-Parser-XS, perl-libnet, php-getid3, pipx, python-crate-ingredients, python-pillow, python-robotframework, python3.9, rsync, rubygem-nokogiri, tpm2-tss, udns, and xorg-...",
+    "summary_pt": "Security updates have been issued by  Debian  (aodh, apache2, dnspython, firefox-esr, mutt, octavia, spip, thunderbird, and watcher),  Fedora  (epiphany, firefox, freerdp, java-25-openjdk, java-latest-openjdk, libsoup3, perl-HTTP-Parser-XS, perl-libnet, php-getid3, pipx, python-crate-ingredients, python-pillow, python-robotframework, python3.9, rsync, rubygem-nokogiri, tpm2-tss, udns, and xorg-...",
+    "link": "https://lwn.net/Articles/1107146/",
+    "date": "Thu, 12 Nov 2026 14:13:00 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Rust 1.100 Released With The \"Never\" Type Finally Stable",
+    "title_pt": "Rust 1.100 Released With The \"Never\" Type Finally Stable",
+    "summary_en": "Rust 1.100 is out today as the newest version of this popular programming language...",
+    "summary_pt": "Rust 1.100 is out today as the newest version of this popular programming language...",
+    "link": "https://www.phoronix.com/news/Rust-1.100-Released",
+    "date": "Thu, 12 Nov 2026 13:51:12 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD Zen 6 SMT Proves Very Advantageous Even For 256 Core EPYC 9996",
+    "title_pt": "AMD Zen 6 SMT Proves Very Advantageous Even For 256 Core EPYC 9996",
+    "summary_en": "With the now-shipping AMD EPYC 9006 \"Venice\" SP7 server processors sporting up to 256 Zen 6(C) cores per socket, or 512 cores in a 2P configuration, you may be wondering if Simultaneous Multithreading (SMT) is still worthwhile on these increasingly high core count processors. Long story short, SMT on AMD Zen 6 is still definitely worthwhile from a performance and power perspective. I was curiou...",
+    "summary_pt": "With the now-shipping AMD EPYC 9006 \"Venice\" SP7 server processors sporting up to 256 Zen 6(C) cores per socket, or 512 cores in a 2P configuration, you may be wondering if Simultaneous Multithreading (SMT) is still worthwhile on these increasingly high core count processors. Long story short, SMT on AMD Zen 6 is still definitely worthwhile from a performance and power perspective. I was curiou...",
+    "link": "https://www.phoronix.com/review/amd-epyc-zen6-smt",
+    "date": "Thu, 12 Nov 2026 11:40:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "PostgreSQL Sees New Releases For 52 Security Vulnerabilities, 140+ Bug Fixes",
+    "title_pt": "PostgreSQL Sees New Releases For 52 Security Vulnerabilities, 140+ Bug Fixes",
+    "summary_en": "PostgreSQL 18.7, 17.12, 16.16, 15.20, 14.25, and 19 RC2 all released today due to 52 new security issues being disclosed...",
+    "summary_pt": "PostgreSQL 18.7, 17.12, 16.16, 15.20, 14.25, and 19 RC2 all released today due to 52 new security issues being disclosed...",
+    "link": "https://www.phoronix.com/news/PostgreSQL-52-CVEs",
+    "date": "Thu, 12 Nov 2026 10:56:44 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Khronos To Explore New High Level API For Remote Offloading",
+    "title_pt": "Khronos To Explore New High Level API For Remote Offloading",
+    "summary_en": "The Khronos Group, the industry consortium responsible for OpenGL, OpenCL, Vulkan, and other industry standard APIs has formed an exploratory group to evaluate the possibility of a high-level remote offloading API...",
+    "summary_pt": "The Khronos Group, the industry consortium responsible for OpenGL, OpenCL, Vulkan, and other industry standard APIs has formed an exploratory group to evaluate the possibility of a high-level remote offloading API...",
+    "link": "https://www.phoronix.com/news/Khronos-Remote-Offloading-API",
+    "date": "Thu, 12 Nov 2026 10:17:31 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "ReactOS Gets Working Floppy Disk Support, VMware 3D Acceleration & SMP Progress",
+    "title_pt": "ReactOS Gets Working Floppy Disk Support, VMware 3D Acceleration & SMP Progress",
+    "summary_en": "ReactOS as the open-source operating system project working on Microsoft Windows driver and application compatibility had a pretty successful 2026. Following two hackfests, a lot of new features have landed recently for ReactOS and some others are nearing the finish line...",
+    "summary_pt": "ReactOS as the open-source operating system project working on Microsoft Windows driver and application compatibility had a pretty successful 2026. Following two hackfests, a lot of new features have landed recently for ReactOS and some others are nearing the finish line...",
+    "link": "https://www.phoronix.com/news/ReactOS-Floppy-Disk-2026",
+    "date": "Thu, 12 Nov 2026 09:41:16 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "NVIDIA NvRoot & ForgePtr Vulnerabilities Published For Linux Driver, 25 More Coming",
+    "title_pt": "NVIDIA NvRoot & ForgePtr Vulnerabilities Published For Linux Driver, 25 More Coming",
+    "summary_en": "In addition to Jensen Huang resigning, coincidentally the embargo just expired on the first two of 25 more NVIDIA graphics driver security vulnerabilities coming. ForgePtr and NvRoot are particularly volatile for those renting GPU slices in the cloud...",
+    "summary_pt": "In addition to Jensen Huang resigning, coincidentally the embargo just expired on the first two of 25 more NVIDIA graphics driver security vulnerabilities coming. ForgePtr and NvRoot are particularly volatile for those renting GPU slices in the cloud...",
+    "link": "https://www.phoronix.com/news/NVIDIA-NvRoot-ForgePtr",
+    "date": "Thu, 12 Nov 2026 09:17:33 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "NVIDIA CEO Jensen Huang Resigns",
+    "title_pt": "NVIDIA CEO Jensen Huang Resigns",
+    "summary_en": "Following reports of two extramarital affairs, one with an alleged Chinese spy and the other with a VP that is a direct report to him, Jensen Huang is no longer CEO of NVIDIA...",
+    "summary_pt": "Following reports of two extramarital affairs, one with an alleged Chinese spy and the other with a VP that is a direct report to him, Jensen Huang is no longer CEO of NVIDIA...",
+    "link": "https://www.phoronix.com/news/NVIDIA-Jensen-Huang-Resigns",
+    "date": "Thu, 12 Nov 2026 08:58:39 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.5 To Improve Support For Old ASUS Transformer Hybrid Laptops/Tablets",
+    "title_pt": "Linux 7.5 To Improve Support For Old ASUS Transformer Hybrid Laptops/Tablets",
+    "summary_en": "For those that happen to have ASUS Transformer devices as the roughly decade old convertible/hybrid 2-in-1 laptop/tablet computers, the Linux 7.5 kernel in 2027 is improving support for these aging systems powered by either NVIDIA Tegra or Intel Atom SoCs...",
+    "summary_pt": "For those that happen to have ASUS Transformer devices as the roughly decade old convertible/hybrid 2-in-1 laptop/tablet computers, the Linux 7.5 kernel in 2027 is improving support for these aging systems powered by either NVIDIA Tegra or Intel Atom SoCs...",
+    "link": "https://www.phoronix.com/news/Linux-7.5-ASUS-Transformer",
+    "date": "Thu, 12 Nov 2026 06:26:17 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "New Steam Client Update Introduces Linux 64-Bit Support, Steam Achievement Sets",
     "title_pt": "New Steam Client Update Introduces Linux 64-Bit Support, Steam Achievement Sets",
     "summary_en": "Valve released a new stable Steam Client update today with a 64-bit build for Linux systems, Steam Achievement Sets, support for GameInput v4, and more. \n The post  New Steam Client Update Introduces Linux 64-Bit Support, Steam Achievement Sets  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
