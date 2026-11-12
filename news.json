@@ -1,6 +1,42 @@
 [
   {
     "source": "LWN",
+    "title_en": "[$] LWN.net Weekly Edition for November 12, 2026",
+    "title_pt": "[$] LWN.net Weekly Edition for November 12, 2026",
+    "summary_en": "Inside this week's LWN.net Weekly Edition:\n         \n \n   Front : Synaptics patent claims; Git LLM polilcy; Hibernation and lockdown; User namespaces; glibc tunables.\n               Briefs : *sshole; Amutable foundations; Asahi Linux 7.3; OpenIndiana 2026.10; Firefox 160; Quotes; ... \n               Announcements : Newsletters, conferences, security updates, patches, and more.",
+    "summary_pt": "Inside this week's LWN.net Weekly Edition:\n         \n \n   Front : Synaptics patent claims; Git LLM polilcy; Hibernation and lockdown; User namespaces; glibc tunables.\n               Briefs : *sshole; Amutable foundations; Asahi Linux 7.3; OpenIndiana 2026.10; Firefox 160; Quotes; ... \n               Announcements : Newsletters, conferences, security updates, patches, and more.",
+    "link": "https://lwn.net/Articles/1105460/",
+    "date": "Thu, 12 Nov 2026 00:23:48 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Zellij 0.46 released",
+    "title_pt": "Zellij 0.46 released",
+    "summary_en": "Version\n0.46  of the  Zellij  terminal workspace has\nbeen released. \n \n This release includes a major addition in Zellij: Zellij is now also a\ndesktop terminal. To run it:  zellij terminal . It works on linux, mac and\nwindows. \n Nothing changes for the normal multiplexer - Zellij can still run inside\nanother terminal. Both sessions are the same and can be shared. \n \n Additional features in this...",
+    "summary_pt": "Version\n0.46  of the  Zellij  terminal workspace has\nbeen released. \n \n This release includes a major addition in Zellij: Zellij is now also a\ndesktop terminal. To run it:  zellij terminal . It works on linux, mac and\nwindows. \n Nothing changes for the normal multiplexer - Zellij can still run inside\nanother terminal. Both sessions are the same and can be shared. \n \n Additional features in this...",
+    "link": "https://lwn.net/Articles/1106903/",
+    "date": "Wed, 11 Nov 2026 17:26:48 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "In Memoriam: Tim Peters 1952–2026",
+    "title_pt": "In Memoriam: Tim Peters 1952–2026",
+    "summary_en": "Guido van Rossum  conveys\nthe sad (and somewhat delayed) news  of the passing of Tim Peters.\n \n \n\tIt's hard to overestimate Tim's influence on Python. He's probably\n\tbest known for writing the Zen of Python ( PEP 20 ), but to me he\n\twas a mentor and language co-designer long before that.\n \n\tTim found Python not long after its initial release. His first deed\n\twas to convince me that Python shoul...",
+    "summary_pt": "Guido van Rossum  conveys\nthe sad (and somewhat delayed) news  of the passing of Tim Peters.\n \n \n\tIt's hard to overestimate Tim's influence on Python. He's probably\n\tbest known for writing the Zen of Python ( PEP 20 ), but to me he\n\twas a mentor and language co-designer long before that.\n \n\tTim found Python not long after its initial release. His first deed\n\twas to convince me that Python shoul...",
+    "link": "https://lwn.net/Articles/1106901/",
+    "date": "Wed, 11 Nov 2026 17:12:51 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Intel Continues Enabling The GPU D-Series \"Crescent Island\" Driver Support For Linux 7.5",
+    "title_pt": "Intel Continues Enabling The GPU D-Series \"Crescent Island\" Driver Support For Linux 7.5",
+    "summary_en": "Intel's intriguing Crescent Island Xe3P-based AI accelerator hardware now known as the Intel GPU D Series continues seeing a lot of Linux kernel driver activity. The upcoming Linux 7.5 kernel is continuing to build out the support for this upcoming hardware...",
+    "summary_pt": "Intel's intriguing Crescent Island Xe3P-based AI accelerator hardware now known as the Intel GPU D Series continues seeing a lot of Linux kernel driver activity. The upcoming Linux 7.5 kernel is continuing to build out the support for this upcoming hardware...",
+    "link": "https://www.phoronix.com/news/More-Intel-D-Series-Linux-7.5",
+    "date": "Wed, 11 Nov 2026 16:04:00 -0500"
+  },
+  {
+    "source": "LWN",
     "title_en": "[$] Additional hardening for the glibc dynamic linker",
     "title_pt": "[$] Additional hardening for the glibc dynamic linker",
     "summary_en": "The\n \nNode.js project  recently had a\n \nsecurity vulnerability  that\naffected its\n \nBrotli  decoder. The bug\n \nwas a buffer overflow ,\nbut the particular way that official Node.js binaries are built for Linux meant that one of the\nmain protections against turning a buffer overflow into remote code execution,\n \naddress space layout randomization  (ASLR) could not be turned on. If ASLR had been\ne...",
