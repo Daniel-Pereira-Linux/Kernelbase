@@ -1,5 +1,59 @@
 [
   {
+    "source": "9to5Linux",
+    "title_en": "New Steam Client Update Introduces Linux 64-Bit Support, Steam Achievement Sets",
+    "title_pt": "New Steam Client Update Introduces Linux 64-Bit Support, Steam Achievement Sets",
+    "summary_en": "Valve released a new stable Steam Client update today with a 64-bit build for Linux systems, Steam Achievement Sets, support for GameInput v4, and more. \n The post  New Steam Client Update Introduces Linux 64-Bit Support, Steam Achievement Sets  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Valve released a new stable Steam Client update today with a 64-bit build for Linux systems, Steam Achievement Sets, support for GameInput v4, and more. \n The post  New Steam Client Update Introduces Linux 64-Bit Support, Steam Achievement Sets  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/new-steam-client-update-introduces-linux-64-bit-support-steam-achievement-sets",
+    "date": "Thu, 12 Nov 2026 02:16:46 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Ardour 9.10 Open-Source DAW Is Out with Live Gain Envelope Waveform Updates",
+    "title_pt": "Ardour 9.10 Open-Source DAW Is Out with Live Gain Envelope Waveform Updates",
+    "summary_en": "Ardour 9.10 open-source digital audio workstation (DAW) software is now available for download with optional support for audio waveforms that reflect the region’s gain envelope. \n The post  Ardour 9.10 Open-Source DAW Is Out with Live Gain Envelope Waveform Updates  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrap...",
+    "summary_pt": "Ardour 9.10 open-source digital audio workstation (DAW) software is now available for download with optional support for audio waveforms that reflect the region’s gain envelope. \n The post  Ardour 9.10 Open-Source DAW Is Out with Live Gain Envelope Waveform Updates  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrap...",
+    "link": "https://9to5linux.com/ardour-9-10-open-source-daw-is-out-with-live-gain-envelope-waveform-updates",
+    "date": "Thu, 12 Nov 2026 01:34:21 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Red Hat Enterprise Linux 10.3 Released with Sealed Images for Image Mode",
+    "title_pt": "Red Hat Enterprise Linux 10.3 Released with Sealed Images for Image Mode",
+    "summary_en": "Red Hat Enterprise Linux 10.3 operating system is now available with sealed images for image mode, a model of proactive resilience, and updated components. \n The post  Red Hat Enterprise Linux 10.3 Released with Sealed Images for Image Mode  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Red Hat Enterprise Linux 10.3 operating system is now available with sealed images for image mode, a model of proactive resilience, and updated components. \n The post  Red Hat Enterprise Linux 10.3 Released with Sealed Images for Image Mode  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/red-hat-enterprise-linux-10-3-released-with-sealed-images-for-image-mode",
+    "date": "Thu, 12 Nov 2026 01:11:52 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Intel Xe Driver Preparing SR-IOV Provisioning For vGPU Profiles",
+    "title_pt": "Intel Xe Driver Preparing SR-IOV Provisioning For vGPU Profiles",
+    "summary_en": "With the upcoming Linux 7.5 kernel cycle the Intel Xe graphics driver is preparing SR-IOV provisioning for vGPU profiles...",
+    "summary_pt": "With the upcoming Linux 7.5 kernel cycle the Intel Xe graphics driver is preparing SR-IOV provisioning for vGPU profiles...",
+    "link": "https://www.phoronix.com/news/Linux-7.5-Intel-Xe-vGPU-Profile",
+    "date": "Thu, 12 Nov 2026 06:11:11 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Polo Debuts As New Wayland Compositor For MATE Desktop",
+    "title_pt": "Polo Debuts As New Wayland Compositor For MATE Desktop",
+    "summary_en": "For those fond of the GNOME 2 forked MATE desktop but wanting to take it into the native Wayland world, Polo 1.0 released today as a new compositor option for modern desktop computing with MATE...",
+    "summary_pt": "For those fond of the GNOME 2 forked MATE desktop but wanting to take it into the native Wayland world, Polo 1.0 released today as a new compositor option for modern desktop computing with MATE...",
+    "link": "https://www.phoronix.com/news/Polo-Wayland-Compositor-MATE",
+    "date": "Thu, 12 Nov 2026 05:56:16 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.5 To Enable Temperature / Voltage / Power Monitoring For AMD Pensando NICs",
+    "title_pt": "Linux 7.5 To Enable Temperature / Voltage / Power Monitoring For AMD Pensando NICs",
+    "summary_en": "The Linux kernel already has network drivers for the AMD Pensando networking hardware while coming for Linux 7.5 is an Ionic HWMON driver to support hardware monitoring with temperature, voltage, and power monitoring for this high-end networking gear...",
+    "summary_pt": "The Linux kernel already has network drivers for the AMD Pensando networking hardware while coming for Linux 7.5 is an Ionic HWMON driver to support hardware monitoring with temperature, voltage, and power monitoring for this high-end networking gear...",
+    "link": "https://www.phoronix.com/news/AMD-Pensando-HWMON",
+    "date": "Thu, 12 Nov 2026 05:41:45 -0500"
+  },
+  {
     "source": "LWN",
     "title_en": "[$] LWN.net Weekly Edition for November 12, 2026",
     "title_pt": "[$] LWN.net Weekly Edition for November 12, 2026",
