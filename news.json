@@ -1,6 +1,15 @@
 [
   {
     "source": "Phoronix",
+    "title_en": "Dasharo ACPI Fan Control Linux Driver Posted For Adjusting Fan Curves",
+    "title_pt": "Dasharo ACPI Fan Control Linux Driver Posted For Adjusting Fan Curves",
+    "summary_en": "The 3mdeb consulting firm that has ported their Coreboot-based open-source firmware stack to the likes of an AMD Ryzen AM5 motherboard from MSI and a Gigabyte EPYC server motherboard, among others, has posted a new Linux kernel driver for supporting fan controls with Dasharo firmware...",
+    "summary_pt": "The 3mdeb consulting firm that has ported their Coreboot-based open-source firmware stack to the likes of an AMD Ryzen AM5 motherboard from MSI and a Gigabyte EPYC server motherboard, among others, has posted a new Linux kernel driver for supporting fan controls with Dasharo firmware...",
+    "link": "https://www.phoronix.com/news/Dasharo-ACPI-Fan-Control-Driver",
+    "date": "Fri, 13 Nov 2026 05:51:34 -0500"
+  },
+  {
+    "source": "Phoronix",
     "title_en": "OpenAI Codex Helps Uncover & Fix A Nearly 20 Year Old Radeon Linux Driver Bug",
     "title_pt": "OpenAI Codex Helps Uncover & Fix A Nearly 20 Year Old Radeon Linux Driver Bug",
     "summary_en": "Sent out today was the latest batch of AMD kernel graphics/compute driver patches destined for the Linux 7.5 merge window opening up at year's end/ Besides a lot of fixes and continued work around new IP enablement for upcoming GPUs, there is even a fix for old ATI/AMD Radeon R600 era hardware after help from OpenAI's Codex...",
