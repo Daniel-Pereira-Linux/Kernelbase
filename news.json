@@ -1,5 +1,14 @@
 [
   {
+    "source": "Phoronix",
+    "title_en": "OpenAI Codex Helps Uncover & Fix A Nearly 20 Year Old Radeon Linux Driver Bug",
+    "title_pt": "OpenAI Codex Helps Uncover & Fix A Nearly 20 Year Old Radeon Linux Driver Bug",
+    "summary_en": "Sent out today was the latest batch of AMD kernel graphics/compute driver patches destined for the Linux 7.5 merge window opening up at year's end/ Besides a lot of fixes and continued work around new IP enablement for upcoming GPUs, there is even a fix for old ATI/AMD Radeon R600 era hardware after help from OpenAI's Codex...",
+    "summary_pt": "Sent out today was the latest batch of AMD kernel graphics/compute driver patches destined for the Linux 7.5 merge window opening up at year's end/ Besides a lot of fixes and continued work around new IP enablement for upcoming GPUs, there is even a fix for old ATI/AMD Radeon R600 era hardware after help from OpenAI's Codex...",
+    "link": "https://www.phoronix.com/news/Codex-R600-UVD-FIx-Linux-7.5",
+    "date": "Thu, 12 Nov 2026 20:41:27 -0500"
+  },
+  {
     "source": "9to5Linux",
     "title_en": "Libreboot 26.11 Open-Source BIOS/UEFI Firmware Brings Various Improvements",
     "title_pt": "Libreboot 26.11 Open-Source BIOS/UEFI Firmware Brings Various Improvements",
