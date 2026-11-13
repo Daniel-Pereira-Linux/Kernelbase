@@ -1,5 +1,122 @@
 [
   {
+    "source": "9to5Linux",
+    "title_en": "KDE Frameworks 6.32 Is Out Now to Fix 15-Year-Old Data Integrity Bug",
+    "title_pt": "KDE Frameworks 6.32 Is Out Now to Fix 15-Year-Old Data Integrity Bug",
+    "summary_en": "KDE Frameworks 6.32 open-source software suite is out now to fix a major data integrity bug and make transfers faster over network shares. \n The post  KDE Frameworks 6.32 Is Out Now to Fix 15-Year-Old Data Integrity Bug  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "KDE Frameworks 6.32 open-source software suite is out now to fix a major data integrity bug and make transfers faster over network shares. \n The post  KDE Frameworks 6.32 Is Out Now to Fix 15-Year-Old Data Integrity Bug  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/kde-frameworks-6-32-is-out-now-to-fix-15-year-old-data-integrity-bug",
+    "date": "Fri, 13 Nov 2026 16:32:13 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] 25 years of Buildroot",
+    "title_pt": "[$] 25 years of Buildroot",
+    "summary_en": "Buildroot  maintainer Peter Korsgaard\ngave a  presentation  about the long history of the build tool for embedded\nLinux systems at the 2026  Embedded\nLinux Conference Europe .  In it, he covered more than just the past 25\nyears, looking at the current status of the project as well as what to\nexpect in Buildroot's future. It was an interesting view inside this long-running project that\nhas been ...",
+    "summary_pt": "Buildroot  maintainer Peter Korsgaard\ngave a  presentation  about the long history of the build tool for embedded\nLinux systems at the 2026  Embedded\nLinux Conference Europe .  In it, he covered more than just the past 25\nyears, looking at the current status of the project as well as what to\nexpect in Buildroot's future. It was an interesting view inside this long-running project that\nhas been ...",
+    "link": "https://lwn.net/Articles/1103395/",
+    "date": "Fri, 13 Nov 2026 16:35:03 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Announcing XRAID: declustered parity RAID for zoned XFS",
+    "title_pt": "Announcing XRAID: declustered parity RAID for zoned XFS",
+    "summary_en": "Christoph Hellwig has  announced  the\ninitial public release of XRAID—declustered parity RAID that is integrated\ninto XFS. \n \n The two primary aims of XRAID are to support parity RAID on zoned devices\nlike SMR hard drives, and to provide a fast RAID implementation without\ninherent data integrity problems.  XRAID, just like zoned XFS also works\non conventional hard drives and SSDs.  Optimizing f...",
+    "summary_pt": "Christoph Hellwig has  announced  the\ninitial public release of XRAID—declustered parity RAID that is integrated\ninto XFS. \n \n The two primary aims of XRAID are to support parity RAID on zoned devices\nlike SMR hard drives, and to provide a fast RAID implementation without\ninherent data integrity problems.  XRAID, just like zoned XFS also works\non conventional hard drives and SSDs.  Optimizing f...",
+    "link": "https://lwn.net/Articles/1107473/",
+    "date": "Fri, 13 Nov 2026 14:39:47 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Friday",
+    "title_pt": "Security updates for Friday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (.NET 10.0, .NET 8.0, .NET 9.0, firefox, gcc, grafana, grafana-pcp, gstreamer1, gstreamer1-plugins-base, java-1.8.0-openjdk, kernel, kernel-rt, libimobiledevice, mingw-libpng, nginx:1.24, nodejs:22, nodejs:24, perl-CGI, perl-DBI, qt5-qtbase, tigervnc, vim, and xorg-x11-server),  Debian  (apache2, c-ares, linux-6.12, node-shell-quote, nova, parted...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (.NET 10.0, .NET 8.0, .NET 9.0, firefox, gcc, grafana, grafana-pcp, gstreamer1, gstreamer1-plugins-base, java-1.8.0-openjdk, kernel, kernel-rt, libimobiledevice, mingw-libpng, nginx:1.24, nodejs:22, nodejs:24, perl-CGI, perl-DBI, qt5-qtbase, tigervnc, vim, and xorg-x11-server),  Debian  (apache2, c-ares, linux-6.12, node-shell-quote, nova, parted...",
+    "link": "https://lwn.net/Articles/1107472/",
+    "date": "Fri, 13 Nov 2026 14:25:42 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD openSIL Achieves Its Production Goal With 6th Gen EPYC \"Venice\"",
+    "title_pt": "AMD openSIL Achieves Its Production Goal With 6th Gen EPYC \"Venice\"",
+    "summary_en": "Since 2023 I and many open-source advocates have been very eager for AMD's openSIL project for delivering open-source CPU silicon initialization as a replacement to the traditional AGESA code. With Zen 5 there was proof-of-concept support that we have enjoyed with Coreboot on an MSI Ryzen motherboard and a Gigabyte EPYC server motherboard thanks to the Coreboot-based Dasharo ports by 3mdeb. The...",
+    "summary_pt": "Since 2023 I and many open-source advocates have been very eager for AMD's openSIL project for delivering open-source CPU silicon initialization as a replacement to the traditional AGESA code. With Zen 5 there was proof-of-concept support that we have enjoyed with Coreboot on an MSI Ryzen motherboard and a Gigabyte EPYC server motherboard thanks to the Coreboot-based Dasharo ports by 3mdeb. The...",
+    "link": "https://www.phoronix.com/news/AMD-openSIL-Venice-Goal",
+    "date": "Fri, 13 Nov 2026 13:20:29 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "KDE Frameworks 6.32 Released With That Fix For USB File Transfer Notifications",
+    "title_pt": "KDE Frameworks 6.32 Released With That Fix For USB File Transfer Notifications",
+    "summary_en": "KDE Frameworks 6.32 shipped today as the newest monthly update to this set of KDE components. Notable this month is a fix for the previously-reported 15 year old bug around inaccurate notifications for USB file transfers...",
+    "summary_pt": "KDE Frameworks 6.32 shipped today as the newest monthly update to this set of KDE components. Notable this month is a fix for the previously-reported 15 year old bug around inaccurate notifications for USB file transfers...",
+    "link": "https://www.phoronix.com/news/KDE-Frameworks-6.32",
+    "date": "Fri, 13 Nov 2026 12:02:33 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD Leverages AI + HRX Loom In Experiment For Quickly Porting 50 LLMs To Client GPUs",
+    "title_pt": "AMD Leverages AI + HRX Loom In Experiment For Quickly Porting 50 LLMs To Client GPUs",
+    "summary_en": "Following the recent release of HRX Loom v0.1 and leveraging an AI agent workflow, a team at AMD experimented with bringing 50 trending Hugging Face models over to AMD client GPUs. They accomplished this feat in just around three days, thanks to their HRX software work paired with the power of Ryzen AI Max \"Strix Halo\" hardware...",
+    "summary_pt": "Following the recent release of HRX Loom v0.1 and leveraging an AI agent workflow, a team at AMD experimented with bringing 50 trending Hugging Face models over to AMD client GPUs. They accomplished this feat in just around three days, thanks to their HRX software work paired with the power of Ryzen AI Max \"Strix Halo\" hardware...",
+    "link": "https://www.phoronix.com/news/AMD-HRX-Loom-Experiment",
+    "date": "Fri, 13 Nov 2026 10:53:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.5 To Include New hwpoison-panic Tool For Intentionally Crashing Your System",
+    "title_pt": "Linux 7.5 To Include New hwpoison-panic Tool For Intentionally Crashing Your System",
+    "summary_en": "A new tool expected to be merged to the Linux 7.5 source tree provides a new exercise for the kernel and in the process bringing down the system...",
+    "summary_pt": "A new tool expected to be merged to the Linux 7.5 source tree provides a new exercise for the kernel and in the process bringing down the system...",
+    "link": "https://www.phoronix.com/news/Linux-7.5-hwpoison-panic",
+    "date": "Fri, 13 Nov 2026 10:26:14 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD AOCL 6.0 Introduces New RNG Library, Initial Zen 6 CPU Optimizations",
+    "title_pt": "AMD AOCL 6.0 Introduces New RNG Library, Initial Zen 6 CPU Optimizations",
+    "summary_en": "In addition to AOCC 6.0 releasing this week as their updated C/C++ compiler along with the new \"AOF\" Fortran compiler, AMD also released AOCL 6.0 as the AMD Optimizing CPU Libraries...",
+    "summary_pt": "In addition to AOCC 6.0 releasing this week as their updated C/C++ compiler along with the new \"AOF\" Fortran compiler, AMD also released AOCL 6.0 as the AMD Optimizing CPU Libraries...",
+    "link": "https://www.phoronix.com/news/AMD-AOCL-6.0",
+    "date": "Fri, 13 Nov 2026 09:43:17 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "XRAID Publicly Released As New RAID Implementation For XFS",
+    "title_pt": "XRAID Publicly Released As New RAID Implementation For XFS",
+    "summary_en": "Longtime Linux developer Christoph Hellwig today announced the initial public release of XRAID. XRAID is a declustered parity RAID implementation integrated into the XFS file-system. XRAID is focused on RAID for zoned XFS deployments...",
+    "summary_pt": "Longtime Linux developer Christoph Hellwig today announced the initial public release of XRAID. XRAID is a declustered parity RAID implementation integrated into the XFS file-system. XRAID is focused on RAID for zoned XFS deployments...",
+    "link": "https://www.phoronix.com/news/XRAID-XFS-RAID",
+    "date": "Fri, 13 Nov 2026 08:22:22 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.5 To Upstream Driver For New Glanda GPU",
+    "title_pt": "Linux 7.5 To Upstream Driver For New Glanda GPU",
+    "summary_en": "Sent out today was the drm-misc-next pull request for the week of new material to queue in DRM-Next until the Linux 7.5 merge window gets underway in late December. Most notable this week is the introduction of the new GlandaGPU driver...",
+    "summary_pt": "Sent out today was the drm-misc-next pull request for the week of new material to queue in DRM-Next until the Linux 7.5 merge window gets underway in late December. Most notable this week is the introduction of the new GlandaGPU driver...",
+    "link": "https://www.phoronix.com/news/Linux-7.5-GlandaGPU-Driver",
+    "date": "Fri, 13 Nov 2026 07:55:37 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Intel Posts Initial GCC Compiler Code For Razor Lake & Coral Rapids",
+    "title_pt": "Intel Posts Initial GCC Compiler Code For Razor Lake & Coral Rapids",
+    "summary_en": "One of the consistent wonderful praise I have for Intel over the past 22+ years of covering the Linux hardware scene has been their upstreaming of new CPU targets into the open-source compilers like GCC well ahead of product launches. Particularly with GCC on an annual feature release cycle and not being quickly picked up by new Linux distribution releases, Intel upstreaming their new CPU targe...",
+    "summary_pt": "One of the consistent wonderful praise I have for Intel over the past 22+ years of covering the Linux hardware scene has been their upstreaming of new CPU targets into the open-source compilers like GCC well ahead of product launches. Particularly with GCC on an annual feature release cycle and not being quickly picked up by new Linux distribution releases, Intel upstreaming their new CPU targe...",
+    "link": "https://www.phoronix.com/news/Intel-GCC-Coral-Rapids-Razor",
+    "date": "Fri, 13 Nov 2026 06:29:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "NVIDIA Highlights Their Open-Source vGPU Upstreaming Work Built Atop Nova",
+    "title_pt": "NVIDIA Highlights Their Open-Source vGPU Upstreaming Work Built Atop Nova",
+    "summary_en": "The Rust-based NVIDIA Linux kernel driver \"Nova\" is set to take on an important role in the official NVIDIA Linux driver stack of the future. This mainline kernel driver continues seeing a flurry of activity to bring it into a usable state and eventually parity and beyond compared to the existing out-of-tree NVIDIA Linux driver code or the incomplete and largely reverse engineered Nouveau kerne...",
+    "summary_pt": "The Rust-based NVIDIA Linux kernel driver \"Nova\" is set to take on an important role in the official NVIDIA Linux driver stack of the future. This mainline kernel driver continues seeing a flurry of activity to bring it into a usable state and eventually parity and beyond compared to the existing out-of-tree NVIDIA Linux driver code or the incomplete and largely reverse engineered Nouveau kerne...",
+    "link": "https://www.phoronix.com/news/NVIDIA-Upstream-vGPU-Nova",
+    "date": "Fri, 13 Nov 2026 06:09:59 -0500"
+  },
+  {
     "source": "Phoronix",
     "title_en": "Dasharo ACPI Fan Control Linux Driver Posted For Adjusting Fan Curves",
     "title_pt": "Dasharo ACPI Fan Control Linux Driver Posted For Adjusting Fan Curves",
