@@ -1,5 +1,14 @@
 [
   {
+    "source": "Phoronix",
+    "title_en": "Cloudflare Open Sources Kitesurf: Their Web Browser For AI Agents",
+    "title_pt": "Cloudflare Open Sources Kitesurf: Their Web Browser For AI Agents",
+    "summary_en": "Earlier this year Cloudflare announced Kitesurf as a stateless web browser for AI agents. After building out its features, they have now made good on their word to open-source it...",
+    "summary_pt": "Earlier this year Cloudflare announced Kitesurf as a stateless web browser for AI agents. After building out its features, they have now made good on their word to open-source it...",
+    "link": "https://www.phoronix.com/news/Cloudflare-Kitesurf-Open-Source",
+    "date": "Fri, 13 Nov 2026 16:07:09 -0500"
+  },
+  {
     "source": "9to5Linux",
     "title_en": "KDE Frameworks 6.32 Is Out Now to Fix 15-Year-Old Data Integrity Bug",
     "title_pt": "KDE Frameworks 6.32 Is Out Now to Fix 15-Year-Old Data Integrity Bug",
