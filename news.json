@@ -1,6 +1,42 @@
 [
   {
     "source": "Phoronix",
+    "title_en": "AMD Posts Linux Patches For Capacity Aware Scheduling On Hybrid CPUs",
+    "title_pt": "AMD Posts Linux Patches For Capacity Aware Scheduling On Hybrid CPUs",
+    "summary_en": "On Saturday a new set of Linux kernel driver patches were posted by AMD for enabling Capacity Aware Scheduling on AMD heterogeneous/hybrid processors...",
+    "summary_pt": "On Saturday a new set of Linux kernel driver patches were posted by AMD for enabling Capacity Aware Scheduling on AMD heterogeneous/hybrid processors...",
+    "link": "https://www.phoronix.com/news/AMD-Hybrid-Capacity-Aware-Sched",
+    "date": "Sun, 15 Nov 2026 09:20:01 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "IBM Talks Up Their New Ability For Handling ARM64 Guest VMs on s390 Hardware",
+    "title_pt": "IBM Talks Up Their New Ability For Handling ARM64 Guest VMs on s390 Hardware",
+    "summary_en": "One of the biggest surprises this year was IBM collaborating with Arm for \"dual architecture\" hardware.  In addition to the IBM s390 hardware side, this \"dual architecture\" support for running ARM64 instructions on s390 also requires Linux KVM virtualization support with patches we've seen the past number of months and initial code merged for Linux 7.4...",
+    "summary_pt": "One of the biggest surprises this year was IBM collaborating with Arm for \"dual architecture\" hardware.  In addition to the IBM s390 hardware side, this \"dual architecture\" support for running ARM64 instructions on s390 also requires Linux KVM virtualization support with patches we've seen the past number of months and initial code merged for Linux 7.4...",
+    "link": "https://www.phoronix.com/news/IBM-VMs-ARM64-On-s390",
+    "date": "Sun, 15 Nov 2026 06:42:22 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD ARG \"AMD Root Guest\" Linux Patches Coming In 2027",
+    "title_pt": "AMD ARG \"AMD Root Guest\" Linux Patches Coming In 2027",
+    "summary_en": "A new feature of EPYC 9006 \"Venice\" server processors that isn't yet brought up in the public Linux software support is AMD Root Guest (ARG). The initial patches are expected in Q1'2027 for further enhancing the AMD SEV-SNP confidential computing experience...",
+    "summary_pt": "A new feature of EPYC 9006 \"Venice\" server processors that isn't yet brought up in the public Linux software support is AMD Root Guest (ARG). The initial patches are expected in Q1'2027 for further enhancing the AMD SEV-SNP confidential computing experience...",
+    "link": "https://www.phoronix.com/news/AMD-Root-Guest-ARG-Linux",
+    "date": "Sun, 15 Nov 2026 06:24:06 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "ASUS Ascent QN10 Mini PC Powered By Snapdragon X2 Elite Seeing Linux Support",
+    "title_pt": "ASUS Ascent QN10 Mini PC Powered By Snapdragon X2 Elite Seeing Linux Support",
+    "summary_en": "In addition to a number of laptops powered by Qualcomm's Snapdragon X2 beginning to see Linux support, there's now a X2 Elite powered mini PC seeing Linux patches too...",
+    "summary_pt": "In addition to a number of laptops powered by Qualcomm's Snapdragon X2 beginning to see Linux support, there's now a X2 Elite powered mini PC seeing Linux patches too...",
+    "link": "https://www.phoronix.com/news/ASUS-Ascent-QN10-Linux",
+    "date": "Sun, 15 Nov 2026 06:01:55 -0500"
+  },
+  {
+    "source": "Phoronix",
     "title_en": "Redox OS Gets Golang Working, GIMP Ported & Simplified AI Policy",
     "title_pt": "Redox OS Gets Golang Working, GIMP Ported & Simplified AI Policy",
     "summary_en": "The Rust-based Redox OS open-source operating system is now out with its October development summary that highlights recent software ports, progress on NUMA, and other enhancements made to this from-scratch platform...",
