@@ -1,5 +1,23 @@
 [
   {
+    "source": "9to5Linux",
+    "title_en": "9to5Linux Weekly Roundup: November 15th, 2026",
+    "title_pt": "9to5Linux Weekly Roundup: November 15th, 2026",
+    "summary_en": "9to5Linux Weekly Roundup for November 15th, 2026, brings news about Mesa 26.3, Blender 5.3, Firefox 160, Thunderbird 160, KDE Plasma 6.8.3, Slax Linux 2026.11, Red Hat Enterprise Linux 10.3, Ardour 9.10, LibreOffice 26.8.3, Libreboot 26.11, KDE Frameworks 6.32, Shelly 3.3, Ubuntu 27.04 daily builds, exFAT Progs 1.4.4, and more. \n The post  9to5Linux Weekly Roundup: November 15th, 2026  appeared...",
+    "summary_pt": "9to5Linux Weekly Roundup for November 15th, 2026, brings news about Mesa 26.3, Blender 5.3, Firefox 160, Thunderbird 160, KDE Plasma 6.8.3, Slax Linux 2026.11, Red Hat Enterprise Linux 10.3, Ardour 9.10, LibreOffice 26.8.3, Libreboot 26.11, KDE Frameworks 6.32, Shelly 3.3, Ubuntu 27.04 daily builds, exFAT Progs 1.4.4, and more. \n The post  9to5Linux Weekly Roundup: November 15th, 2026  appeared...",
+    "link": "https://9to5linux.com/9to5linux-weekly-roundup-november-15th-2026",
+    "date": "Mon, 16 Nov 2026 03:55:46 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.4-rc3 Released: \"The Usual Noise All Over\"",
+    "title_pt": "Linux 7.4-rc3 Released: \"The Usual Noise All Over\"",
+    "summary_en": "The third weekly release candidate of Linux 7.4 is now available for testing...",
+    "summary_pt": "The third weekly release candidate of Linux 7.4 is now available for testing...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-rc3-Released",
+    "date": "Sun, 15 Nov 2026 17:55:19 -0500"
+  },
+  {
     "source": "Phoronix",
     "title_en": "AMD Posts Linux Patches For Capacity Aware Scheduling On Hybrid CPUs",
     "title_pt": "AMD Posts Linux Patches For Capacity Aware Scheduling On Hybrid CPUs",
