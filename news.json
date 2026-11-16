@@ -1,6 +1,141 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "AlmaLinux OS 10.3 Released as Free Alternative to Red Hat Enterprise Linux 10.3",
+    "title_pt": "AlmaLinux OS 10.3 Released as Free Alternative to Red Hat Enterprise Linux 10.3",
+    "summary_en": "AlmaLinux OS 10.3 distribution is now available for download as a free alternative to the Red Hat Enterprise Linux 10.3 operating system. \n The post  AlmaLinux OS 10.3 Released as Free Alternative to Red Hat Enterprise Linux 10.3  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "AlmaLinux OS 10.3 distribution is now available for download as a free alternative to the Red Hat Enterprise Linux 10.3 operating system. \n The post  AlmaLinux OS 10.3 Released as Free Alternative to Red Hat Enterprise Linux 10.3  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/almalinux-os-10-3-released-as-free-alternative-to-red-hat-enterprise-linux-10-3",
+    "date": "Mon, 16 Nov 2026 16:29:37 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Fwupd 2.1.10 Linux Firmware Updater Adds Support for Synaptics 96F1 Touchpads",
+    "title_pt": "Fwupd 2.1.10 Linux Firmware Updater Adds Support for Synaptics 96F1 Touchpads",
+    "summary_en": "Fwupd 2.1.10 Linux firmware updater is now available for download with support for Synaptics 96F1 touchpads, as well as various improvements and bug fixes. \n The post  Fwupd 2.1.10 Linux Firmware Updater Adds Support for Synaptics 96F1 Touchpads  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Fwupd 2.1.10 Linux firmware updater is now available for download with support for Synaptics 96F1 touchpads, as well as various improvements and bug fixes. \n The post  Fwupd 2.1.10 Linux Firmware Updater Adds Support for Synaptics 96F1 Touchpads  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/fwupd-2-1-10-linux-firmware-updater-adds-support-for-synaptics-96f1-touchpads",
+    "date": "Mon, 16 Nov 2026 10:11:30 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] A new generation of futexes",
+    "title_pt": "[$] A new generation of futexes",
+    "summary_en": "Futexes \nare a kernel subsystem that provides support for fast mutexes\nin user space.  While futexes can indeed be fast, they are not fast enough\nfor a number of users.  Partly as a result of that, the implementation of\nfutexes has grown in complexity over the years, with two basic variants\non offer.  The desire for faster futexes remains, though, and that inspires\nnew patches, including  this ...",
+    "summary_pt": "Futexes \nare a kernel subsystem that provides support for fast mutexes\nin user space.  While futexes can indeed be fast, they are not fast enough\nfor a number of users.  Partly as a result of that, the implementation of\nfutexes has grown in complexity over the years, with two basic variants\non offer.  The desire for faster futexes remains, though, and that inspires\nnew patches, including  this ...",
+    "link": "https://lwn.net/Articles/1102988/",
+    "date": "Mon, 16 Nov 2026 15:06:04 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Manjaro Project e.V. non-profit organization created",
+    "title_pt": "Manjaro Project e.V. non-profit organization created",
+    "summary_en": "Frank Vandermeiren has  announced \nthe creation of the Manjaro Project e.V., a nonprofit organization in Germany\nthat is independent of the Manjaro GmbH & Co KG company. This is following a  governance struggle  that took place\nearlier this year between a number of  Manjaro\nLinux  contributors and Philip Müller, project lead and CEO of the Manjaro\ncompany. \n \n At the moment, we are still workin...",
+    "summary_pt": "Frank Vandermeiren has  announced \nthe creation of the Manjaro Project e.V., a nonprofit organization in Germany\nthat is independent of the Manjaro GmbH & Co KG company. This is following a  governance struggle  that took place\nearlier this year between a number of  Manjaro\nLinux  contributors and Philip Müller, project lead and CEO of the Manjaro\ncompany. \n \n At the moment, we are still workin...",
+    "link": "https://lwn.net/Articles/1107814/",
+    "date": "Mon, 16 Nov 2026 14:52:12 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Monday",
+    "title_pt": "Security updates for Monday",
+    "summary_en": "Security updates have been issued by  Debian  (freedombox, kernel, libspreadsheet-xlsx-perl, network-manager-iodine, pdns-recursor, postgresql-15, radsecproxy, and sogo),  Fedora  (afflib, asahi-installer, below, cloc, dhcpcd, dnf5, epiphany, firefox, glib-networking, hugo, mingw-python3, mtools, mysql8.4, mysql9.7, proftpd, python-cramjam, python-fastar, python-h5io, python-PyMuPDF, python-uv-...",
+    "summary_pt": "Security updates have been issued by  Debian  (freedombox, kernel, libspreadsheet-xlsx-perl, network-manager-iodine, pdns-recursor, postgresql-15, radsecproxy, and sogo),  Fedora  (afflib, asahi-installer, below, cloc, dhcpcd, dnf5, epiphany, firefox, glib-networking, hugo, mingw-python3, mtools, mysql8.4, mysql9.7, proftpd, python-cramjam, python-fastar, python-h5io, python-PyMuPDF, python-uv-...",
+    "link": "https://lwn.net/Articles/1107811/",
+    "date": "Mon, 16 Nov 2026 14:17:41 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Kernel prepatch 7.4-rc3",
+    "title_pt": "Kernel prepatch 7.4-rc3",
+    "summary_en": "The  7.4-rc3  kernel prepatch is out for\ntesting.  Linus declared: \" It looks fairly normal, with drivers\n(networking and gpu) leading the charge. There's lots and lots of changes,\nbut most of the actual patches are tiny. \"",
+    "summary_pt": "The  7.4-rc3  kernel prepatch is out for\ntesting.  Linus declared: \" It looks fairly normal, with drivers\n(networking and gpu) leading the charge. There's lots and lots of changes,\nbut most of the actual patches are tiny. \"",
+    "link": "https://lwn.net/Articles/1107606/",
+    "date": "Mon, 16 Nov 2026 09:07:45 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "MRDIMM 8800 MT/s vs. 12800 MT/s Memory Performance With AMD EPYC Venice",
+    "title_pt": "MRDIMM 8800 MT/s vs. 12800 MT/s Memory Performance With AMD EPYC Venice",
+    "summary_en": "With last week's AMD EPYC 9006 SP7 availability and the AMD EPYC 9686F and EPYC 9996 processor reviews, one of the most frequent questions/comments was around the impact that the new MRDIMM-12800 memory had on these Zen 6 server processors compared to prior gen and the Intel/NVIDIA server competition. Given that curiosity over the MRDIMM-12800 impact, here are the EPYC 9686F 2P benchmarks when ...",
+    "summary_pt": "With last week's AMD EPYC 9006 SP7 availability and the AMD EPYC 9686F and EPYC 9996 processor reviews, one of the most frequent questions/comments was around the impact that the new MRDIMM-12800 memory had on these Zen 6 server processors compared to prior gen and the Intel/NVIDIA server competition. Given that curiosity over the MRDIMM-12800 impact, here are the EPYC 9686F 2P benchmarks when ...",
+    "link": "https://www.phoronix.com/review/mrdimm-8800-12800-amd-epyc",
+    "date": "Mon, 16 Nov 2026 10:10:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Intel Talks Up GPU D270 Performance & Open-Source Software Support",
+    "title_pt": "Intel Talks Up GPU D270 Performance & Open-Source Software Support",
+    "summary_en": "For Supercomputing 2026 week, Intel published a blog post talking up their Intel GPU D Series \"Crescent Island\" hardware based on Xe3P...",
+    "summary_pt": "For Supercomputing 2026 week, Intel published a blog post talking up their Intel GPU D Series \"Crescent Island\" hardware based on Xe3P...",
+    "link": "https://www.phoronix.com/news/Intel-GPU-270-Open-Performance",
+    "date": "Mon, 16 Nov 2026 10:00:40 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Rust Nightly To Begin Enabling Parallel Frontend By Default",
+    "title_pt": "Rust Nightly To Begin Enabling Parallel Frontend By Default",
+    "summary_en": "While Rust's back-end has long been using multiple threads for compiling code, the Rust front-end has been executing sequentially by default. Finally, Rust Nightly is in the process of beginning to enable its parallel front-end by default to allow for more testing ahead of its eventual stabilization...",
+    "summary_pt": "While Rust's back-end has long been using multiple threads for compiling code, the Rust front-end has been executing sequentially by default. Finally, Rust Nightly is in the process of beginning to enable its parallel front-end by default to allow for more testing ahead of its eventual stabilization...",
+    "link": "https://www.phoronix.com/news/Rust-Nightly-Parallel-Frontend",
+    "date": "Mon, 16 Nov 2026 09:39:24 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "GNU's Gawk 5.4.2 Released With Big Performance Improvement",
+    "title_pt": "GNU's Gawk 5.4.2 Released With Big Performance Improvement",
+    "summary_en": "Gawk as the GNU's implementation of the AWK programming language is out with a new release for this tool commonly used for extracting data and pattern matching / data manipulation...",
+    "summary_pt": "Gawk as the GNU's implementation of the AWK programming language is out with a new release for this tool commonly used for extracting data and pattern matching / data manipulation...",
+    "link": "https://www.phoronix.com/news/GNU-Gawk-5.4.2",
+    "date": "Mon, 16 Nov 2026 08:41:16 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "LLVM's Old AMD R600 Compiler Backend Slated For Removal",
+    "title_pt": "LLVM's Old AMD R600 Compiler Backend Slated For Removal",
+    "summary_en": "The old ATI/AMD Radeon R600 back-end within the LLVM compiler codebase will likely be removed given it's become a legacy burden and doesn't have any current use by the modern Mesa driver stack...",
+    "summary_pt": "The old ATI/AMD Radeon R600 back-end within the LLVM compiler codebase will likely be removed given it's become a legacy burden and doesn't have any current use by the modern Mesa driver stack...",
+    "link": "https://www.phoronix.com/news/LLVM-R600-Backend-To-Retire",
+    "date": "Mon, 16 Nov 2026 08:04:01 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "GCC 17 Might Land Native AArch64 Darwin/macOS Support",
+    "title_pt": "GCC 17 Might Land Native AArch64 Darwin/macOS Support",
+    "summary_en": "After being in development since the GCC 10 days (2020) and already patched in the GCC compiler builds for Homebrew and MacPorts, the upstream GCC 17 compiler might finally land native AArch64 Darwin support for benefiting macOS with Apple Silicon...",
+    "summary_pt": "After being in development since the GCC 10 days (2020) and already patched in the GCC compiler builds for Homebrew and MacPorts, the upstream GCC 17 compiler might finally land native AArch64 Darwin support for benefiting macOS with Apple Silicon...",
+    "link": "https://www.phoronix.com/news/GCC-Native-AArch64-Darwin-Patch",
+    "date": "Mon, 16 Nov 2026 06:25:16 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Modern NTFS Driver Gaining O_TMPFILE Support With Linux 7.5",
+    "title_pt": "Modern NTFS Driver Gaining O_TMPFILE Support With Linux 7.5",
+    "summary_en": "The modern NTFS Linux driver that was introduced with the \"NTFS Resurrection\" back in Linux 7.2 continues seeing new features enabled and other improvements made to this open-source NTFS read/write kernel driver. For the upcoming Linux 7.5 kernel cycle, O_TMPFILE support is being queued for temporary file handling...",
+    "summary_pt": "The modern NTFS Linux driver that was introduced with the \"NTFS Resurrection\" back in Linux 7.2 continues seeing new features enabled and other improvements made to this open-source NTFS read/write kernel driver. For the upcoming Linux 7.5 kernel cycle, O_TMPFILE support is being queued for temporary file handling...",
+    "link": "https://www.phoronix.com/news/Linux-7.5-NTFS-TMPFILE",
+    "date": "Mon, 16 Nov 2026 06:13:08 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Purism Aiming To Deliver New Librem 5 Smartphone With RISC-V SoC",
+    "title_pt": "Purism Aiming To Deliver New Librem 5 Smartphone With RISC-V SoC",
+    "summary_en": "After the variety of delays and other challenges that Purism had with their Librem 5 smartphone, surprisingly, they are trying again now with the Librem 5 v2 smartphone being announced...",
+    "summary_pt": "After the variety of delays and other challenges that Purism had with their Librem 5 smartphone, surprisingly, they are trying again now with the Librem 5 v2 smartphone being announced...",
+    "link": "https://www.phoronix.com/news/Librem-5-v2-Announced",
+    "date": "Mon, 16 Nov 2026 06:06:05 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Fwupd 2.1.10 Brings Fixes, New Synaptics Touchpad Supported",
+    "title_pt": "Fwupd 2.1.10 Brings Fixes, New Synaptics Touchpad Supported",
+    "summary_en": "Lead Fwupd/LVFS developer Richard Hughes of Red Hat kicked off the new week by releasing Fwupd 2.1.10 as the newest stable release for performing firmware updates on Linux...",
+    "summary_pt": "Lead Fwupd/LVFS developer Richard Hughes of Red Hat kicked off the new week by releasing Fwupd 2.1.10 as the newest stable release for performing firmware updates on Linux...",
+    "link": "https://www.phoronix.com/news/Fwupd-2.1.10-Released",
+    "date": "Mon, 16 Nov 2026 05:34:54 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "9to5Linux Weekly Roundup: November 15th, 2026",
     "title_pt": "9to5Linux Weekly Roundup: November 15th, 2026",
     "summary_en": "9to5Linux Weekly Roundup for November 15th, 2026, brings news about Mesa 26.3, Blender 5.3, Firefox 160, Thunderbird 160, KDE Plasma 6.8.3, Slax Linux 2026.11, Red Hat Enterprise Linux 10.3, Ardour 9.10, LibreOffice 26.8.3, Libreboot 26.11, KDE Frameworks 6.32, Shelly 3.3, Ubuntu 27.04 daily builds, exFAT Progs 1.4.4, and more. \n The post  9to5Linux Weekly Roundup: November 15th, 2026  appeared...",
