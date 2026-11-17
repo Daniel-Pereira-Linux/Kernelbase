@@ -1,6 +1,42 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Rocky Linux 10.3 Released with More Post-Quantum Cryptography Improvements",
+    "title_pt": "Rocky Linux 10.3 Released with More Post-Quantum Cryptography Improvements",
+    "summary_en": "Rocky Linux 10.3 has been released as a free alternative to Red Hat Enterprise Linux 10.3 with more post-quantum cryptography improvements and updated components. \n The post  Rocky Linux 10.3 Released with More Post-Quantum Cryptography Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Rocky Linux 10.3 has been released as a free alternative to Red Hat Enterprise Linux 10.3 with more post-quantum cryptography improvements and updated components. \n The post  Rocky Linux 10.3 Released with More Post-Quantum Cryptography Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/rocky-linux-10-3-released-with-more-post-quantum-cryptography-improvements",
+    "date": "Mon, 16 Nov 2026 22:22:03 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Shotcut 26.11 Open-Source Video Editor Adds Camcorder Viewfinder Animation",
+    "title_pt": "Shotcut 26.11 Open-Source Video Editor Adds Camcorder Viewfinder Animation",
+    "summary_en": "Shotcut 26.11 open-source video editor is now available for download with a camcorder viewfinder animation, support for Premiere and Resolve video proxy file conventions, and more. \n The post  Shotcut 26.11 Open-Source Video Editor Adds Camcorder Viewfinder Animation  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scr...",
+    "summary_pt": "Shotcut 26.11 open-source video editor is now available for download with a camcorder viewfinder animation, support for Premiere and Resolve video proxy file conventions, and more. \n The post  Shotcut 26.11 Open-Source Video Editor Adds Camcorder Viewfinder Animation  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scr...",
+    "link": "https://9to5linux.com/shotcut-26-11-open-source-video-editor-adds-camcorder-viewfinder-animation",
+    "date": "Mon, 16 Nov 2026 21:09:36 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD ROCm HRX's Loom 0.2 Expands C++ Support, Improved Targeting",
+    "title_pt": "AMD ROCm HRX's Loom 0.2 Expands C++ Support, Improved Targeting",
+    "summary_en": "AMD ROCm's HRX Loom as the compiler, runtime, and serving infrastructure for supporting AI agent workflows is out today with a new version...",
+    "summary_pt": "AMD ROCm's HRX Loom as the compiler, runtime, and serving infrastructure for supporting AI agent workflows is out today with a new version...",
+    "link": "https://www.phoronix.com/news/HRX-Loom-0.2",
+    "date": "Mon, 16 Nov 2026 20:37:15 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AlmaLinux 10.3 Released With ModSecurity Restored, Various Updates",
+    "title_pt": "AlmaLinux 10.3 Released With ModSecurity Restored, Various Updates",
+    "summary_en": "Following the recent Red Hat Enterprise Linux 10.3 release, AlmaLinux 10.3 is now available in production along with AlmaLinux 9.9...",
+    "summary_pt": "Following the recent Red Hat Enterprise Linux 10.3 release, AlmaLinux 10.3 is now available in production along with AlmaLinux 9.9...",
+    "link": "https://www.phoronix.com/news/AlmaLinux-10.3-Released",
+    "date": "Mon, 16 Nov 2026 17:35:41 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "AlmaLinux OS 10.3 Released as Free Alternative to Red Hat Enterprise Linux 10.3",
     "title_pt": "AlmaLinux OS 10.3 Released as Free Alternative to Red Hat Enterprise Linux 10.3",
     "summary_en": "AlmaLinux OS 10.3 distribution is now available for download as a free alternative to the Red Hat Enterprise Linux 10.3 operating system. \n The post  AlmaLinux OS 10.3 Released as Free Alternative to Red Hat Enterprise Linux 10.3  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
