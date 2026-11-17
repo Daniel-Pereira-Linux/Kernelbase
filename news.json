@@ -1,6 +1,96 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "AV Linux 25.3 Multimedia Production Distro Released with Xfce by Default",
+    "title_pt": "AV Linux 25.3 Multimedia Production Distro Released with Xfce by Default",
+    "summary_en": "AV Linux 25.3 distribution designed for music and video production is now available for download based on MX Linux 25.3 and featuring Xfce by default. \n The post  AV Linux 25.3 Multimedia Production Distro Released with Xfce by Default  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "AV Linux 25.3 distribution designed for music and video production is now available for download based on MX Linux 25.3 and featuring Xfce by default. \n The post  AV Linux 25.3 Multimedia Production Distro Released with Xfce by Default  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/av-linux-25-3-multimedia-production-distro-released-with-xfce-by-default",
+    "date": "Tue, 17 Nov 2026 06:46:13 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] Zellij manages terminal workspaces with style",
+    "title_pt": "[$] Zellij manages terminal workspaces with style",
+    "summary_en": "Zellij  is a relatively new entrant in the\n terminal-multiplexer \ncategory. Like  GNU\nScreen  and  tmux  it gives\nusers the ability to manage a workspace inside a terminal with split panes,\nprovides session management, and so forth; but Zellij also includes a web server for\nbrowser access to a terminal session, is extensible via a plugin API, and is likely\nmore beginner-friendly than its predec...",
+    "summary_pt": "Zellij  is a relatively new entrant in the\n terminal-multiplexer \ncategory. Like  GNU\nScreen  and  tmux  it gives\nusers the ability to manage a workspace inside a terminal with split panes,\nprovides session management, and so forth; but Zellij also includes a web server for\nbrowser access to a terminal session, is extensible via a plugin API, and is likely\nmore beginner-friendly than its predec...",
+    "link": "https://lwn.net/Articles/1106913/",
+    "date": "Tue, 17 Nov 2026 15:27:38 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Three stable kernels for Tuesday",
+    "title_pt": "Three stable kernels for Tuesday",
+    "summary_en": "Greg Kroah-Hartman has announced the  7.3.5 ,\n 6.18.64 , and  6.12.118  stable kernels. Each contains quite a few\nimportant fixes.",
+    "summary_pt": "Greg Kroah-Hartman has announced the  7.3.5 ,\n 6.18.64 , and  6.12.118  stable kernels. Each contains quite a few\nimportant fixes.",
+    "link": "https://lwn.net/Articles/1108142/",
+    "date": "Tue, 17 Nov 2026 14:25:10 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Tuesday",
+    "title_pt": "Security updates for Tuesday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (.NET 10.0, .NET 11.0, .NET 8.0, .NET 9.0, bind, bind9.18, buildah, c-ares, cjose, cockpit, cockpit-files, cockpit-machines, cockpit-podman, containernetworking-plugins, crun, delve, dhcp, dogtag-pki, dovecot, dpdk, edk2, emacs, environment-modules, expat, fetchmail, firefox, flatpak, flatpak-builder, freerdp, gcc, gcc-toolset-15-gcc, gcc-toolset...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (.NET 10.0, .NET 11.0, .NET 8.0, .NET 9.0, bind, bind9.18, buildah, c-ares, cjose, cockpit, cockpit-files, cockpit-machines, cockpit-podman, containernetworking-plugins, crun, delve, dhcp, dogtag-pki, dovecot, dpdk, edk2, emacs, environment-modules, expat, fetchmail, firefox, flatpak, flatpak-builder, freerdp, gcc, gcc-toolset-15-gcc, gcc-toolset...",
+    "link": "https://lwn.net/Articles/1108140/",
+    "date": "Tue, 17 Nov 2026 14:15:33 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "New AMDGPU Linux Patches From Valve Aim To Reduce Stuttering With Steam Play Games",
+    "title_pt": "New AMDGPU Linux Patches From Valve Aim To Reduce Stuttering With Steam Play Games",
+    "summary_en": "Natalie Vock of Valve's Linux graphics driver team sent out a new version of AMDGPU kernel driver patches today that aim to provide \"significant reductions in stuttering\" for some newer Windows games running on Linux by way of Steam Play (Proton)...",
+    "summary_pt": "Natalie Vock of Valve's Linux graphics driver team sent out a new version of AMDGPU kernel driver patches today that aim to provide \"significant reductions in stuttering\" for some newer Windows games running on Linux by way of Steam Play (Proton)...",
+    "link": "https://www.phoronix.com/news/AMDGPU-Sparse-Gaming-Valve",
+    "date": "Tue, 17 Nov 2026 09:05:20 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Btrfs Seeks To Deal With AI & \"Newbies Without Common Senses\" Doing More Harm Than Good",
+    "title_pt": "Btrfs Seeks To Deal With AI & \"Newbies Without Common Senses\" Doing More Harm Than Good",
+    "summary_en": "The Btrfs file-system could soon see new patch guidelines in Linux Git as the developers try to deal with the fallout from AI/LLMs and \"newbies without common senses are doing more harm than help.\"..",
+    "summary_pt": "The Btrfs file-system could soon see new patch guidelines in Linux Git as the developers try to deal with the fallout from AI/LLMs and \"newbies without common senses are doing more harm than help.\"..",
+    "link": "https://www.phoronix.com/news/Btrfs-LLM-Newbies-Guidelines",
+    "date": "Tue, 17 Nov 2026 07:55:56 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD Gets Its Firmware Ready For Upcoming RDNA 4m iGPUs On Linux",
+    "title_pt": "AMD Gets Its Firmware Ready For Upcoming RDNA 4m iGPUs On Linux",
+    "summary_en": "AMD overnight merged the latest changes of the open-source graphics driver puzzle for the upcoming RDNA 4m \"GFX17x\" iGPUs on Linux. The firmware is ready for enabling the next-gen AMD iGPUs on Linux...",
+    "summary_pt": "AMD overnight merged the latest changes of the open-source graphics driver puzzle for the upcoming RDNA 4m \"GFX17x\" iGPUs on Linux. The firmware is ready for enabling the next-gen AMD iGPUs on Linux...",
+    "link": "https://www.phoronix.com/news/AMD-RDNA-4m-Firmware",
+    "date": "Tue, 17 Nov 2026 06:34:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "NVIDIA Engineer Works On New User-Space Linux Control For Preferred CPU Cores",
+    "title_pt": "NVIDIA Engineer Works On New User-Space Linux Control For Preferred CPU Cores",
+    "summary_en": "A request for comments patch series from a NVIDIA engineer would allow Linux to expose a new sysfs control so user-space can express preferred CPU cores.  This could be tied into user-space solutions like Thermald for preferring certain CPU cores over the others based on the CPU core temperatures or other external factors...",
+    "summary_pt": "A request for comments patch series from a NVIDIA engineer would allow Linux to expose a new sysfs control so user-space can express preferred CPU cores.  This could be tied into user-space solutions like Thermald for preferring certain CPU cores over the others based on the CPU core temperatures or other external factors...",
+    "link": "https://www.phoronix.com/news/NVIDIA-Linux-Prefer-CPU-Cores",
+    "date": "Tue, 17 Nov 2026 06:16:30 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Xfce 4.22 Working Toward Early 2027 Release",
+    "title_pt": "Xfce 4.22 Working Toward Early 2027 Release",
+    "summary_en": "Next month marks two years since the Xfce 4.20 release. Its successor, Xfce 4.22, looks like it will be out in early 2027...",
+    "summary_pt": "Next month marks two years since the Xfce 4.20 release. Its successor, Xfce 4.22, looks like it will be out in early 2027...",
+    "link": "https://www.phoronix.com/news/Xfce-4.22-Roadmap",
+    "date": "Tue, 17 Nov 2026 05:50:41 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "REAPER Digital Audio Workstation Sees Native Wayland Port",
+    "title_pt": "REAPER Digital Audio Workstation Sees Native Wayland Port",
+    "summary_en": "The REAPER digital audio workstation software, which was ported to Linux over the past decade and targeting X11, now has pending code for a native Wayland experience...",
+    "summary_pt": "The REAPER digital audio workstation software, which was ported to Linux over the past decade and targeting X11, now has pending code for a native Wayland experience...",
+    "link": "https://www.phoronix.com/news/REAPER-DAW-Wayland",
+    "date": "Tue, 17 Nov 2026 05:42:54 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Rocky Linux 10.3 Released with More Post-Quantum Cryptography Improvements",
     "title_pt": "Rocky Linux 10.3 Released with More Post-Quantum Cryptography Improvements",
     "summary_en": "Rocky Linux 10.3 has been released as a free alternative to Red Hat Enterprise Linux 10.3 with more post-quantum cryptography improvements and updated components. \n The post  Rocky Linux 10.3 Released with More Post-Quantum Cryptography Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
