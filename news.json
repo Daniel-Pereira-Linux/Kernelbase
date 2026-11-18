@@ -1,6 +1,96 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Debian-Based Peppermint OS Updated ISO Now Available with XLibre",
+    "title_pt": "Debian-Based Peppermint OS Updated ISO Now Available with XLibre",
+    "summary_en": "Debian-based Peppermint OS updated ISO images are now available for download with the latest Debian 13 \"Trixie\" updates and XLibre as default display server. \n The post  Debian-Based Peppermint OS Updated ISO Now Available with XLibre  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Debian-based Peppermint OS updated ISO images are now available for download with the latest Debian 13 \"Trixie\" updates and XLibre as default display server. \n The post  Debian-Based Peppermint OS Updated ISO Now Available with XLibre  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/debian-based-peppermint-os-updated-iso-now-available-with-xlibre",
+    "date": "Wed, 18 Nov 2026 19:02:15 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "ClamAV 1.5.5 Open-Source Antivirus Engine Released with Security and Bug Fixes",
+    "title_pt": "ClamAV 1.5.5 Open-Source Antivirus Engine Released with Security and Bug Fixes",
+    "summary_en": "ClamAV 1.5.5 open-source antivirus engine is now available for download as a patch release in the ClamAV 1.5 series that fixes several security issues and bugs. \n The post  ClamAV 1.5.5 Open-Source Antivirus Engine Released with Security and Bug Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "ClamAV 1.5.5 open-source antivirus engine is now available for download as a patch release in the ClamAV 1.5 series that fixes several security issues and bugs. \n The post  ClamAV 1.5.5 Open-Source Antivirus Engine Released with Security and Bug Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/clamav-1-5-5-open-source-antivirus-engine-released-with-security-and-bug-fixes",
+    "date": "Wed, 18 Nov 2026 17:30:02 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "System76’s Thelio Prime AMD Linux PC Is Here with Pop!_OS 26.04 LTS",
+    "title_pt": "System76’s Thelio Prime AMD Linux PC Is Here with Pop!_OS 26.04 LTS",
+    "summary_en": "System76 unveils Thelio Prime as a Linux-powered mini PC running the Pop!_OS 26.04 LTS distribution with the COSMIC desktop environment. \n The post  System76’s Thelio Prime AMD Linux PC Is Here with Pop!_OS 26.04 LTS  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "System76 unveils Thelio Prime as a Linux-powered mini PC running the Pop!_OS 26.04 LTS distribution with the COSMIC desktop environment. \n The post  System76’s Thelio Prime AMD Linux PC Is Here with Pop!_OS 26.04 LTS  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/system76s-thelio-prime-amd-linux-pc-is-here-with-pop_os-26-04-lts",
+    "date": "Wed, 18 Nov 2026 15:40:06 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Arch Linux-Inspired Devario OS Sees First Stable Release",
+    "title_pt": "Arch Linux-Inspired Devario OS Sees First Stable Release",
+    "summary_en": "Devario OS Linux distribution sees its first stable release featuring the Aqueous dynamic tiling Wayland compositor, Pearl shell, and Shelly package manager. \n The post  Arch Linux-Inspired Devario OS Sees First Stable Release  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Devario OS Linux distribution sees its first stable release featuring the Aqueous dynamic tiling Wayland compositor, Pearl shell, and Shelly package manager. \n The post  Arch Linux-Inspired Devario OS Sees First Stable Release  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/arch-linux-based-devario-os-sees-first-stable-release",
+    "date": "Wed, 18 Nov 2026 13:05:49 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "NGINX2Root: Remote Code Execution vulnerabilities in nginx",
+    "title_pt": "NGINX2Root: Remote Code Execution vulnerabilities in nginx",
+    "summary_en": "Xint is  reporting  that\nit has discovered a collection of  five\ncritical vulnerabilities  in the  NGINX  web\nserver. The worst flaw, it says, would  allow\nan unauthenticated attacker to execute commands on an affected nginx server with\nHTTP/2 enabled . The company also reports a local-privilege escalation (LPE)  kernel\nvulnerability , which was introduced in the 4.15 kernel, in the  Stream Con...",
+    "summary_pt": "Xint is  reporting  that\nit has discovered a collection of  five\ncritical vulnerabilities  in the  NGINX  web\nserver. The worst flaw, it says, would  allow\nan unauthenticated attacker to execute commands on an affected nginx server with\nHTTP/2 enabled . The company also reports a local-privilege escalation (LPE)  kernel\nvulnerability , which was introduced in the 4.15 kernel, in the  Stream Con...",
+    "link": "https://lwn.net/Articles/1108362/",
+    "date": "Wed, 18 Nov 2026 16:13:34 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] Julia 1.13 brings REPL improvements and more",
+    "title_pt": "[$] Julia 1.13 brings REPL improvements and more",
+    "summary_en": "Version 1.13 of  Julia  was  released \non September 10, 2026. Julia is a general-purpose language especially well\nsuited to high-performance numerical computing. Its expressiveness, speed, and  composability  have made it increasingly popular with scientists and mathematicians.\nWe last looked at Julia  one year ago , in a\nreview of the 1.12 release. The newest version features an enhanced\nread-...",
+    "summary_pt": "Version 1.13 of  Julia  was  released \non September 10, 2026. Julia is a general-purpose language especially well\nsuited to high-performance numerical computing. Its expressiveness, speed, and  composability  have made it increasingly popular with scientists and mathematicians.\nWe last looked at Julia  one year ago , in a\nreview of the 1.12 release. The newest version features an enhanced\nread-...",
+    "link": "https://lwn.net/Articles/1108153/",
+    "date": "Wed, 18 Nov 2026 15:56:18 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Wednesday",
+    "title_pt": "Security updates for Wednesday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (.NET 11.0, .NET 8.0, .NET 9.0, bind, buildah, cockpit, containernetworking-plugins, delve, firefox, freerdp, gcc, gcc-toolset-15-gcc, gcc-toolset-16-gcc, go-fdo-client, go-fdo-server, gstreamer1-plugins-base, kernel, oci-seccomp-bpf-hook, podman, sssd, webkit2gtk3, and yggdrasil),  Debian  (ghostscript, librest, openexr, and roundcube),  Fedora ...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (.NET 11.0, .NET 8.0, .NET 9.0, bind, buildah, cockpit, containernetworking-plugins, delve, firefox, freerdp, gcc, gcc-toolset-15-gcc, gcc-toolset-16-gcc, go-fdo-client, go-fdo-server, gstreamer1-plugins-base, kernel, oci-seccomp-bpf-hook, podman, sssd, webkit2gtk3, and yggdrasil),  Debian  (ghostscript, librest, openexr, and roundcube),  Fedora ...",
+    "link": "https://lwn.net/Articles/1108354/",
+    "date": "Wed, 18 Nov 2026 14:17:35 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "NVIDIA 620.73.04 Linux Driver Released With Bug FIxes",
+    "title_pt": "NVIDIA 620.73.04 Linux Driver Released With Bug FIxes",
+    "summary_en": "Following the release of the NVIDIA 620.70.06 Linux driver from two weeks ago as their first public version in the R620 branch, the NVIDIA 620.73.04 is now the newest driver in that latest series...",
+    "summary_pt": "Following the release of the NVIDIA 620.70.06 Linux driver from two weeks ago as their first public version in the R620 branch, the NVIDIA 620.73.04 is now the newest driver in that latest series...",
+    "link": "https://www.phoronix.com/news/NVIDIA-620.73.04-Linux",
+    "date": "Wed, 18 Nov 2026 12:10:40 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Wine Merges Remote OpenGL Swapchain Image Presentation, CEF Now Works With Wayland",
+    "title_pt": "Wine Merges Remote OpenGL Swapchain Image Presentation, CEF Now Works With Wayland",
+    "summary_en": "Merged for Wine 11.23 releasing next week is a big improvement and one that also improves the native Wayland driver support for Wine...",
+    "summary_pt": "Merged for Wine 11.23 releasing next week is a big improvement and one that also improves the native Wayland driver support for Wine...",
+    "link": "https://www.phoronix.com/news/Wine-OpenGL-Cross-Proc-Render",
+    "date": "Wed, 18 Nov 2026 08:11:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Multikernel Linux Comes To ARM64, mklinux 7.0-mk5 Released",
+    "title_pt": "Multikernel Linux Comes To ARM64, mklinux 7.0-mk5 Released",
+    "summary_en": "The out-of-tree Multikernel Linux patches for allowing multiple independent kernel instances to run on the same physical machine is out with a new version...",
+    "summary_pt": "The out-of-tree Multikernel Linux patches for allowing multiple independent kernel instances to run on the same physical machine is out with a new version...",
+    "link": "https://www.phoronix.com/news/Multi-Kernel-mklinux-7.0-mk5",
+    "date": "Wed, 18 Nov 2026 08:02:12 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "First Look at CachyOS Package Installer 2.0: Modern UI, AUR, Flatpak, AppImage Support",
     "title_pt": "First Look at CachyOS Package Installer 2.0: Modern UI, AUR, Flatpak, AppImage Support",
     "summary_en": "A first look at CachyOS Package Installer 2.0 featuring a revamped and modern UI, as well as AUR, Flatpak, and AppImage support. \n The post  First Look at CachyOS Package Installer 2.0: Modern UI, AUR, Flatpak, AppImage Support  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
