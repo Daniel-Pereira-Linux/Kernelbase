@@ -1,5 +1,41 @@
 [
   {
+    "source": "LWN",
+    "title_en": "Redict deprecated in favor of Valkey",
+    "title_pt": "Redict deprecated in favor of Valkey",
+    "summary_en": "Drew DeVault has\n announced  that\n Redict , a fork of  Redis  that was created in response to\n Redis's 2024 license change , has been deprecated. He recommends switching to  Valkey , the permissively licensed Redis fork supported by the Linux Foundation. The two projects are mutually compatible, so switching should be as simple as changing which package is installed and renaming the configurati...",
+    "summary_pt": "Drew DeVault has\n announced  that\n Redict , a fork of  Redis  that was created in response to\n Redis's 2024 license change , has been deprecated. He recommends switching to  Valkey , the permissively licensed Redis fork supported by the Linux Foundation. The two projects are mutually compatible, so switching should be as simple as changing which package is installed and renaming the configurati...",
+    "link": "https://lwn.net/Articles/1108155/",
+    "date": "Tue, 17 Nov 2026 16:20:44 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Java4Shell Vulnerability For OpenJDK Java That Can Lead To Remote Code Execution",
+    "title_pt": "Java4Shell Vulnerability For OpenJDK Java That Can Lead To Remote Code Execution",
+    "summary_en": "Java4Shell was publicly disclosed this afternoon as the latest high profile security vulnerability in the age of AI and LLMs...",
+    "summary_pt": "Java4Shell was publicly disclosed this afternoon as the latest high profile security vulnerability in the age of AI and LLMs...",
+    "link": "https://www.phoronix.com/news/Java4Shell-Vulnerability",
+    "date": "Tue, 17 Nov 2026 16:35:01 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "FreeBSD Desktop Install Option Pushed Back To Next Year With FreeBSD 15.3",
+    "title_pt": "FreeBSD Desktop Install Option Pushed Back To Next Year With FreeBSD 15.3",
+    "summary_en": "FreeBSD 15.0 had been aiming for a nice (KDE-based) desktop install option in its installer that was then delayed to FreeBSD 15.1 and then pushed back to FreeBSD 15.2. FreeBSD 15.2 is due for release in December but there's no last minute miracle and it looks like the desktop install option will now target FreeBSD 15.3 in mid-2027...",
+    "summary_pt": "FreeBSD 15.0 had been aiming for a nice (KDE-based) desktop install option in its installer that was then delayed to FreeBSD 15.1 and then pushed back to FreeBSD 15.2. FreeBSD 15.2 is due for release in December but there's no last minute miracle and it looks like the desktop install option will now target FreeBSD 15.3 in mid-2027...",
+    "link": "https://www.phoronix.com/news/FreeBSD-Desktop-Install-15.3",
+    "date": "Tue, 17 Nov 2026 12:40:51 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Framework Wireless Touchpad Keyboard To Sell For $99 USD, Begins Shipping In Q1",
+    "title_pt": "Framework Wireless Touchpad Keyboard To Sell For $99 USD, Begins Shipping In Q1",
+    "summary_en": "Earlier this year Framework Computer announced the Framework Wireless Touchpad Keyboard as a new product. Today the device is open for pre-order but will not begin shipping until Q1'2027...",
+    "summary_pt": "Earlier this year Framework Computer announced the Framework Wireless Touchpad Keyboard as a new product. Today the device is open for pre-order but will not begin shipping until Q1'2027...",
+    "link": "https://www.phoronix.com/news/Framework-Wireless-Keyboard",
+    "date": "Tue, 17 Nov 2026 11:40:51 -0500"
+  },
+  {
     "source": "9to5Linux",
     "title_en": "AV Linux 25.3 Multimedia Production Distro Released with Xfce by Default",
     "title_pt": "AV Linux 25.3 Multimedia Production Distro Released with Xfce by Default",
