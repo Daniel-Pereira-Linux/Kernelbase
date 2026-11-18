@@ -1,5 +1,59 @@
 [
   {
+    "source": "9to5Linux",
+    "title_en": "First Look at CachyOS Package Installer 2.0: Modern UI, AUR, Flatpak, AppImage Support",
+    "title_pt": "First Look at CachyOS Package Installer 2.0: Modern UI, AUR, Flatpak, AppImage Support",
+    "summary_en": "A first look at CachyOS Package Installer 2.0 featuring a revamped and modern UI, as well as AUR, Flatpak, and AppImage support. \n The post  First Look at CachyOS Package Installer 2.0: Modern UI, AUR, Flatpak, AppImage Support  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "A first look at CachyOS Package Installer 2.0 featuring a revamped and modern UI, as well as AUR, Flatpak, and AppImage support. \n The post  First Look at CachyOS Package Installer 2.0: Modern UI, AUR, Flatpak, AppImage Support  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/first-look-at-cachyos-package-installer-2-0-modern-ui-aur-flatpak-appimage-support",
+    "date": "Wed, 18 Nov 2026 07:59:56 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AI-Powered Sashiko Introduces Experimental Patch Series Design Assessment",
+    "title_pt": "AI-Powered Sashiko Introduces Experimental Patch Series Design Assessment",
+    "summary_en": "When it comes to leveraging AI for Linux kernel development, one of the most widely-used solutions at the moment is Sashiko that has evolved nicely over the past year for agentic AI code review. This AI-driven screening of generated code posted to the Linux kernel mailing list constantly identifies bugs and other code defects in a quick and straight-forward manner. With being developed and main...",
+    "summary_pt": "When it comes to leveraging AI for Linux kernel development, one of the most widely-used solutions at the moment is Sashiko that has evolved nicely over the past year for agentic AI code review. This AI-driven screening of generated code posted to the Linux kernel mailing list constantly identifies bugs and other code defects in a quick and straight-forward manner. With being developed and main...",
+    "link": "https://www.phoronix.com/news/Sashiko-0.9.4-Released",
+    "date": "Wed, 18 Nov 2026 06:13:06 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "3mdeb Updates The Open-Source Firmware For Aging AMD Jaguar Powered PC Engines APU2",
+    "title_pt": "3mdeb Updates The Open-Source Firmware For Aging AMD Jaguar Powered PC Engines APU2",
+    "summary_en": "The PC Engines APU2 single board computer debuted all the way back in 2015 with the AMD Jaguar-powered GX-412TC quad-core SoC and 2~4GB of DDR3 memory. While PC Engines discontinued the APU2 SBC several years ago, these boards have been quite popular for networking/firewall applications and other similar low-power, networking-oriented setups. If you still happen to be using PC Engines APU2 hard...",
+    "summary_pt": "The PC Engines APU2 single board computer debuted all the way back in 2015 with the AMD Jaguar-powered GX-412TC quad-core SoC and 2~4GB of DDR3 memory. While PC Engines discontinued the APU2 SBC several years ago, these boards have been quite popular for networking/firewall applications and other similar low-power, networking-oriented setups. If you still happen to be using PC Engines APU2 hard...",
+    "link": "https://www.phoronix.com/news/3mdeb-2026-Firmware-APU2",
+    "date": "Wed, 18 Nov 2026 06:00:02 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Qualcomm Ath12k Linux Driver Preparing For New WiFi 8 Hardware",
+    "title_pt": "Qualcomm Ath12k Linux Driver Preparing For New WiFi 8 Hardware",
+    "summary_en": "Last week Qualcomm engineers published an initial draft of their new Ath12k WiFi driver and already a second version of this driver debuted today for addressing some issues raised by the early Sashiko-based AI review...",
+    "summary_pt": "Last week Qualcomm engineers published an initial draft of their new Ath12k WiFi driver and already a second version of this driver debuted today for addressing some issues raised by the early Sashiko-based AI review...",
+    "link": "https://www.phoronix.com/news/Qualcomm-Ath12k-Linux-WiFi-8",
+    "date": "Wed, 18 Nov 2026 05:40:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "SDL Ready For Linux's New Nintendo Switch 2 Controller Driver",
+    "title_pt": "SDL Ready For Linux's New Nintendo Switch 2 Controller Driver",
+    "summary_en": "Introduced in Linux 7.4 is a new driver for the Nintendo Switch 2 controllers that was developed by Valve. The widely-used SDL library used by games for software/hardware abstractions now has added mappings for this driver to ensure the Switch 2 controllers will jive nicely for Linux gaming...",
+    "summary_pt": "Introduced in Linux 7.4 is a new driver for the Nintendo Switch 2 controllers that was developed by Valve. The widely-used SDL library used by games for software/hardware abstractions now has added mappings for this driver to ensure the Switch 2 controllers will jive nicely for Linux gaming...",
+    "link": "https://www.phoronix.com/news/SDL-Nintendo-Switch-2-Linux",
+    "date": "Wed, 18 Nov 2026 05:22:22 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "RBRD: RAM-Backed Linux Block Driver Written In Rust For Better Safety But Slower Performance",
+    "title_pt": "RBRD: RAM-Backed Linux Block Driver Written In Rust For Better Safety But Slower Performance",
+    "summary_en": "Linux kernel patches were posted tonight for introducing RBRD, the RAM-backed block driver written in the Rust programming language...",
+    "summary_pt": "Linux kernel patches were posted tonight for introducing RBRD, the RAM-backed block driver written in the Rust programming language...",
+    "link": "https://www.phoronix.com/news/RBRD-Rust-Linux-RAM-Driver",
+    "date": "Tue, 17 Nov 2026 21:04:05 -0500"
+  },
+  {
     "source": "LWN",
     "title_en": "Redict deprecated in favor of Valkey",
     "title_pt": "Redict deprecated in favor of Valkey",
