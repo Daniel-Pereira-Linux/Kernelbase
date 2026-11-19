@@ -1,6 +1,132 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "PHP 8.6 Released with Partial Function Application, Polling API, and More",
+    "title_pt": "PHP 8.6 Released with Partial Function Application, Polling API, and More",
+    "summary_en": "PHP 8.6 open-source scripting language is out now with Partial Function Application, a new Duration class, a Polling API, and other changes. \n The post  PHP 8.6 Released with Partial Function Application, Polling API, and More  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "PHP 8.6 open-source scripting language is out now with Partial Function Application, a new Duration class, a Polling API, and other changes. \n The post  PHP 8.6 Released with Partial Function Application, Polling API, and More  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/php-8-6-released-with-partial-function-application-polling-api-and-more",
+    "date": "Thu, 19 Nov 2026 15:04:11 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "TUXEDO Computers Unveil AMD-Only InfinityBook Pro 15 Gen11 Linux Laptop",
+    "title_pt": "TUXEDO Computers Unveil AMD-Only InfinityBook Pro 15 Gen11 Linux Laptop",
+    "summary_en": "Linux hardware vendor TUXEDO Computers unveiled today the AMD-only InfinityBook Pro 15 Gen11 premium business Linux ultrabook. \n The post  TUXEDO Computers Unveil AMD-Only InfinityBook Pro 15 Gen11 Linux Laptop  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Linux hardware vendor TUXEDO Computers unveiled today the AMD-only InfinityBook Pro 15 Gen11 premium business Linux ultrabook. \n The post  TUXEDO Computers Unveil AMD-Only InfinityBook Pro 15 Gen11 Linux Laptop  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/tuxedo-computers-unveil-amd-only-infinitybook-pro-15-gen11-linux-laptop",
+    "date": "Thu, 19 Nov 2026 14:08:23 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "[$] Added indirection allows for larger BPF programs",
+    "title_pt": "[$] Added indirection allows for larger BPF programs",
+    "summary_en": "The BPF verifier has historically worked by tracing every possible path of\nexecution through a program, checking, at each instruction, that various safety\nproperties hold. This works, but it can result in an exponential increase in the\nnumber of states that need checking in programs with complicated control-flow.\nAlexei Starovoitov, one of the kernel's core BPF maintainers, has shared\n \na patch...",
+    "summary_pt": "The BPF verifier has historically worked by tracing every possible path of\nexecution through a program, checking, at each instruction, that various safety\nproperties hold. This works, but it can result in an exponential increase in the\nnumber of states that need checking in programs with complicated control-flow.\nAlexei Starovoitov, one of the kernel's core BPF maintainers, has shared\n \na patch...",
+    "link": "https://lwn.net/Articles/1106537/",
+    "date": "Thu, 19 Nov 2026 17:32:42 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "PostgreSQL 19 released",
+    "title_pt": "PostgreSQL 19 released",
+    "summary_en": "The PostgreSQL Global Development Group has  announced \nthe release of PostgreSQL 19. Notable features in this release include the\nintroduction of the  REPACK (CONCURRENTLY)  command to optimize tables\nwithout disruption to ongoing operations, better control over plan stability and\nquery performance with the new  pg_plan_advice  extension, and a number\nof performance improvements. \n In Septembe...",
+    "summary_pt": "The PostgreSQL Global Development Group has  announced \nthe release of PostgreSQL 19. Notable features in this release include the\nintroduction of the  REPACK (CONCURRENTLY)  command to optimize tables\nwithout disruption to ongoing operations, better control over plan stability and\nquery performance with the new  pg_plan_advice  extension, and a number\nof performance improvements. \n In Septembe...",
+    "link": "https://lwn.net/Articles/1108561/",
+    "date": "Thu, 19 Nov 2026 16:39:16 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "PHP 8.6.0 released",
+    "title_pt": "PHP 8.6.0 released",
+    "summary_en": "Version 8.6.0  of\nPHP has been released. Notable changes in this release include a polling API, a\nnew  clamp()  function, a  SortDirection  enum, and a\n \\Time\\Duration  class. See \" What's new in 8.6 \"\nfor more on new features, and the  changelog  for a full list\nof changes.",
+    "summary_pt": "Version 8.6.0  of\nPHP has been released. Notable changes in this release include a polling API, a\nnew  clamp()  function, a  SortDirection  enum, and a\n \\Time\\Duration  class. See \" What's new in 8.6 \"\nfor more on new features, and the  changelog  for a full list\nof changes.",
+    "link": "https://lwn.net/Articles/1108555/",
+    "date": "Thu, 19 Nov 2026 14:43:09 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Four PHP security releases including fixes for critical vulnerabilities",
+    "title_pt": "Four PHP security releases including fixes for critical vulnerabilities",
+    "summary_en": "The PHP Project has announced the release of PHP  8.5.13 ,  8.4.28 ,  8.3.37 , and  8.2.36 . Each contains a\nnumber of security and bug fixes, including several fixes for critical\nvulnerabilities that could allow remote-code execution. According to the\nproject's  pre-release\nannouncement  on November 18, all of the vulnerabilities of critical\nseverity \" require either non-default configuration ...",
+    "summary_pt": "The PHP Project has announced the release of PHP  8.5.13 ,  8.4.28 ,  8.3.37 , and  8.2.36 . Each contains a\nnumber of security and bug fixes, including several fixes for critical\nvulnerabilities that could allow remote-code execution. According to the\nproject's  pre-release\nannouncement  on November 18, all of the vulnerabilities of critical\nseverity \" require either non-default configuration ...",
+    "link": "https://lwn.net/Articles/1108552/",
+    "date": "Thu, 19 Nov 2026 14:29:04 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Thursday",
+    "title_pt": "Security updates for Thursday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (cockpit, cockpit-files, cockpit-machines, gimp, glib-networking, krb5, libpcap, nginx, nodejs26, perl-CGI, php8.4, skopeo, tigervnc, and xorg-x11-server),  Debian  (haproxy, libreoffice, libvisio, needrestart, openjdk-21, and openjdk-25),  Fedora  (asterisk, erlang, ffmpeg, ignition, libosmocore, luksmeta, msedit, openapv, passwordsafe, rabbitmq...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (cockpit, cockpit-files, cockpit-machines, gimp, glib-networking, krb5, libpcap, nginx, nodejs26, perl-CGI, php8.4, skopeo, tigervnc, and xorg-x11-server),  Debian  (haproxy, libreoffice, libvisio, needrestart, openjdk-21, and openjdk-25),  Fedora  (asterisk, erlang, ffmpeg, ignition, libosmocore, luksmeta, msedit, openapv, passwordsafe, rabbitmq...",
+    "link": "https://lwn.net/Articles/1108551/",
+    "date": "Thu, 19 Nov 2026 14:05:42 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Windows 11 vs. Ubuntu 26.10 Linux Performance On AMD Ryzen AI Max+",
+    "title_pt": "Windows 11 vs. Ubuntu 26.10 Linux Performance On AMD Ryzen AI Max+",
+    "summary_en": "With recently having received a review sample of the GMKtec EVO-X2 mini PC powered by the AMD Ryzen AI Max+ 395 \"Strix Halo\" SoC and pre-loaded with Microsoft Windows 11 Pro, I took the opportunity to see how the AMD Ryzen AI Max+ performance is comparing between Windows 11 and Ubuntu 26.10 Linux on a range of workloads from gaming to AI and creator applications.",
+    "summary_pt": "With recently having received a review sample of the GMKtec EVO-X2 mini PC powered by the AMD Ryzen AI Max+ 395 \"Strix Halo\" SoC and pre-loaded with Microsoft Windows 11 Pro, I took the opportunity to see how the AMD Ryzen AI Max+ performance is comparing between Windows 11 and Ubuntu 26.10 Linux on a range of workloads from gaming to AI and creator applications.",
+    "link": "https://www.phoronix.com/review/windows-ubuntu2610-strix-halo",
+    "date": "Thu, 19 Nov 2026 11:00:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "PostgreSQL 19 Released With More Performance Improvements",
+    "title_pt": "PostgreSQL 19 Released With More Performance Improvements",
+    "summary_en": "After running weeks behind schedule due to PostgreSQL developers being overwhelmed by AI/LLM-led bug reports and security issues, PostgreSQL 19.0 managed to finally ship today...",
+    "summary_pt": "After running weeks behind schedule due to PostgreSQL developers being overwhelmed by AI/LLM-led bug reports and security issues, PostgreSQL 19.0 managed to finally ship today...",
+    "link": "https://www.phoronix.com/news/PostgreSQL-19-Released",
+    "date": "Thu, 19 Nov 2026 10:57:57 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "PHP 8.6 Released With Partial Function Application, Other New Features",
+    "title_pt": "PHP 8.6 Released With Partial Function Application, Other New Features",
+    "summary_en": "Following today's PHP 8.2.36, PHP 8.3.37, PHP 8.4.28, and PHP 8.5.13 security releases to address multiple security issues, PHP 8.6.0 made its official debut today...",
+    "summary_pt": "Following today's PHP 8.2.36, PHP 8.3.37, PHP 8.4.28, and PHP 8.5.13 security releases to address multiple security issues, PHP 8.6.0 made its official debut today...",
+    "link": "https://www.phoronix.com/news/PHP-8.6-Released",
+    "date": "Thu, 19 Nov 2026 10:16:52 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Unsloth Desktop Now Supports Using The AMD Ryzen AI NPU - Including On Linux",
+    "title_pt": "Unsloth Desktop Now Supports Using The AMD Ryzen AI NPU - Including On Linux",
+    "summary_en": "AMD and Unsloth announced today that local NPU inference is now available for Unsloth Desktop, starting with the AMD Ryzen AI NPUs of XDNA 2 and later...",
+    "summary_pt": "AMD and Unsloth announced today that local NPU inference is now available for Unsloth Desktop, starting with the AMD Ryzen AI NPUs of XDNA 2 and later...",
+    "link": "https://www.phoronix.com/news/Unsloth-Desktop-Ryzen-AI-NPU",
+    "date": "Thu, 19 Nov 2026 09:25:27 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Debian's APT Removing Some Features Due To Advancements In AI Security Discoveries",
+    "title_pt": "Debian's APT Removing Some Features Due To Advancements In AI Security Discoveries",
+    "summary_en": "Stemming from the recent Debian APT man-in-the-middle attack from a vulnerability in APT's downloading code and ongoing advancements in AI/LLMs around security research, APT is now resorting to disabling and removing some older, complex features that may make the program more vulnerable to finding exploits moving forward...",
+    "summary_pt": "Stemming from the recent Debian APT man-in-the-middle attack from a vulnerability in APT's downloading code and ongoing advancements in AI/LLMs around security research, APT is now resorting to disabling and removing some older, complex features that may make the program more vulnerable to finding exploits moving forward...",
+    "link": "https://www.phoronix.com/news/Debian-APT-Removing-Features",
+    "date": "Thu, 19 Nov 2026 09:15:04 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "TUXEDO InfinityBook Pro 15 Gen11 AMD Pairs Ryzen AI 9 HX 470 With Up To 128GB Of RAM",
+    "title_pt": "TUXEDO InfinityBook Pro 15 Gen11 AMD Pairs Ryzen AI 9 HX 470 With Up To 128GB Of RAM",
+    "summary_en": "Bavarian Linux PC vendor TUXEDO Computers today announced the InfinityBook Pro 15 Gen11 AMD laptop that pairs the current generation Ryzen AI 9 HX 470 CPU with up to 128GB of RAM and marketed as a premium-class business notebook...",
+    "summary_pt": "Bavarian Linux PC vendor TUXEDO Computers today announced the InfinityBook Pro 15 Gen11 AMD laptop that pairs the current generation Ryzen AI 9 HX 470 CPU with up to 128GB of RAM and marketed as a premium-class business notebook...",
+    "link": "https://www.phoronix.com/news/InfinityBook-Pro-15-Gen11",
+    "date": "Thu, 19 Nov 2026 08:49:27 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "LiberNT: An AI-Fueled Fork Of ReactOS Focused On Windows 11 Compatibility",
+    "title_pt": "LiberNT: An AI-Fueled Fork Of ReactOS Focused On Windows 11 Compatibility",
+    "summary_en": "While the ReactOS project has been enjoying nice conventional progress this year from initial USB 3.0 driver support to improved DirectX support, there is now a new project called LiberNT that is forked from the ReactOS codebase and leveraging AI to quickly iterate on it with a goal of Windows 11 compatibility...",
+    "summary_pt": "While the ReactOS project has been enjoying nice conventional progress this year from initial USB 3.0 driver support to improved DirectX support, there is now a new project called LiberNT that is forked from the ReactOS codebase and leveraging AI to quickly iterate on it with a goal of Windows 11 compatibility...",
+    "link": "https://www.phoronix.com/news/LiberNT",
+    "date": "Thu, 19 Nov 2026 07:56:46 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "BackBox Linux 10 Released with Linux 7.0, Xfce 4.20, and Ubuntu 26.04 LTS Base",
     "title_pt": "BackBox Linux 10 Released with Linux 7.0, Xfce 4.20, and Ubuntu 26.04 LTS Base",
     "summary_en": "BackBox Linux 10 distribution for penetration testing and security assessment is now available for download based on Ubuntu 26.04 LTS and featuring the Xfce 4.20 desktop environment. \n The post  BackBox Linux 10 Released with Linux 7.0, Xfce 4.20, and Ubuntu 26.04 LTS Base  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, n...",
