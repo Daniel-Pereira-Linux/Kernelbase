@@ -1,5 +1,32 @@
 [
   {
+    "source": "LWN",
+    "title_en": "[$] LWN.net Weekly Edition for November 19, 2026",
+    "title_pt": "[$] LWN.net Weekly Edition for November 19, 2026",
+    "summary_en": "Inside this week's LWN.net Weekly Edition:\n         \n \n   Front : C++26 standard; Buildroot; Faster futexes; Zellij; Julia language.\n               Briefs : Glasswing; NGINX RCE; XRAID; Manjaro nonprofit; 30 years of curl; MATE; Redict deprecated; Rust 1.100; Quotes; ...\n               Announcements : Newsletters, conferences, security updates, patches, and more.",
+    "summary_pt": "Inside this week's LWN.net Weekly Edition:\n         \n \n   Front : C++26 standard; Buildroot; Faster futexes; Zellij; Julia language.\n               Briefs : Glasswing; NGINX RCE; XRAID; Manjaro nonprofit; 30 years of curl; MATE; Redict deprecated; Rust 1.100; Quotes; ...\n               Announcements : Newsletters, conferences, security updates, patches, and more.",
+    "link": "https://lwn.net/Articles/1107147/",
+    "date": "Thu, 19 Nov 2026 01:05:03 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD ROCm 10.2 Released With Latest Optimizations, Expanded Ryzen Laptop Support",
+    "title_pt": "AMD ROCm 10.2 Released With Latest Optimizations, Expanded Ryzen Laptop Support",
+    "summary_en": "AMD ROCm 10.2 is out today as the newest six-week feature release to this open-source AMD Radeon/Instinct GPU compute stack...",
+    "summary_pt": "AMD ROCm 10.2 is out today as the newest six-week feature release to this open-source AMD Radeon/Instinct GPU compute stack...",
+    "link": "https://www.phoronix.com/news/AMD-ROCm-10.2",
+    "date": "Wed, 18 Nov 2026 21:06:39 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Dell XPS 14 DA14260 Powered By Intel Panther Lake Delivers Nice Linux Experience",
+    "title_pt": "Dell XPS 14 DA14260 Powered By Intel Panther Lake Delivers Nice Linux Experience",
+    "summary_en": "For those looking for a new laptop with Linux pre-loaded and have been eyeing the Intel Core Ultra Series 3 \"Panther Lake\" for its nice Xe3 Arc B390 graphics and overall power efficiency, Dell recently certified their XPS 14 (DA14260) laptop for Ubuntu 26.04 LTS Linux use. This latest Dell XPS 14 is well built and provides a nice and performant out-of-the-box Linux experience.",
+    "summary_pt": "For those looking for a new laptop with Linux pre-loaded and have been eyeing the Intel Core Ultra Series 3 \"Panther Lake\" for its nice Xe3 Arc B390 graphics and overall power efficiency, Dell recently certified their XPS 14 (DA14260) laptop for Ubuntu 26.04 LTS Linux use. This latest Dell XPS 14 is well built and provides a nice and performant out-of-the-box Linux experience.",
+    "link": "https://www.phoronix.com/review/dell-xps-14-panther-lake",
+    "date": "Wed, 18 Nov 2026 16:37:15 -0500"
+  },
+  {
     "source": "9to5Linux",
     "title_en": "Debian-Based Peppermint OS Updated ISO Now Available with XLibre",
     "title_pt": "Debian-Based Peppermint OS Updated ISO Now Available with XLibre",
