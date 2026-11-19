@@ -1,5 +1,68 @@
 [
   {
+    "source": "9to5Linux",
+    "title_en": "BackBox Linux 10 Released with Linux 7.0, Xfce 4.20, and Ubuntu 26.04 LTS Base",
+    "title_pt": "BackBox Linux 10 Released with Linux 7.0, Xfce 4.20, and Ubuntu 26.04 LTS Base",
+    "summary_en": "BackBox Linux 10 distribution for penetration testing and security assessment is now available for download based on Ubuntu 26.04 LTS and featuring the Xfce 4.20 desktop environment. \n The post  BackBox Linux 10 Released with Linux 7.0, Xfce 4.20, and Ubuntu 26.04 LTS Base  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, n...",
+    "summary_pt": "BackBox Linux 10 distribution for penetration testing and security assessment is now available for download based on Ubuntu 26.04 LTS and featuring the Xfce 4.20 desktop environment. \n The post  BackBox Linux 10 Released with Linux 7.0, Xfce 4.20, and Ubuntu 26.04 LTS Base  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, n...",
+    "link": "https://9to5linux.com/backbox-linux-10-released-with-linux-7-0-xfce-4-20-and-ubuntu-26-04-lts-base",
+    "date": "Thu, 19 Nov 2026 10:26:00 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Mesa 26.3.1 Linux Graphics Stack Brings Fixes for RADV, ANV, and Nouveau",
+    "title_pt": "Mesa 26.3.1 Linux Graphics Stack Brings Fixes for RADV, ANV, and Nouveau",
+    "summary_en": "Mesa 26.3.1 is now available as the first bugfix update to the latest Mesa 26.3 stable series, bringing various improvements to the RADV, Freedreno, ANV, RadeonSI, Zink, PVR, and PanVK drivers. \n The post  Mesa 26.3.1 Linux Graphics Stack Brings Fixes for RADV, ANV, and Nouveau  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for reade...",
+    "summary_pt": "Mesa 26.3.1 is now available as the first bugfix update to the latest Mesa 26.3 stable series, bringing various improvements to the RADV, Freedreno, ANV, RadeonSI, Zink, PVR, and PanVK drivers. \n The post  Mesa 26.3.1 Linux Graphics Stack Brings Fixes for RADV, ANV, and Nouveau  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for reade...",
+    "link": "https://9to5linux.com/mesa-26-3-1-linux-graphics-stack-brings-fixes-for-radv-anv-and-nouveau",
+    "date": "Thu, 19 Nov 2026 07:36:53 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Wireshark 4.6.10 Network Protocol Analyzer Released with Various Bug Fixes",
+    "title_pt": "Wireshark 4.6.10 Network Protocol Analyzer Released with Various Bug Fixes",
+    "summary_en": "Wireshark 4.6.10 open-source network protocol analyzer is now available for download with fixes for crashes, memory leaks, infinite loops, and large loops in dissectors and file parsers. \n The post  Wireshark 4.6.10 Network Protocol Analyzer Released with Various Bug Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, n...",
+    "summary_pt": "Wireshark 4.6.10 open-source network protocol analyzer is now available for download with fixes for crashes, memory leaks, infinite loops, and large loops in dissectors and file parsers. \n The post  Wireshark 4.6.10 Network Protocol Analyzer Released with Various Bug Fixes  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, n...",
+    "link": "https://9to5linux.com/wireshark-4-6-10-network-protocol-analyzer-released-with-various-bug-fixes",
+    "date": "Thu, 19 Nov 2026 06:13:59 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "More ASUS & ASRock Motherboards Seeing Sensor Monitoring Support With Linux 7.5",
+    "title_pt": "More ASUS & ASRock Motherboards Seeing Sensor Monitoring Support With Linux 7.5",
+    "summary_en": "A number of patches were recently queued into the Linux hardware monitoring subsystem's \"hwmon-next\" Git branch of expanded ASUS and ASRock motherboard support for the upcoming Linux 7.5 kernel...",
+    "summary_pt": "A number of patches were recently queued into the Linux hardware monitoring subsystem's \"hwmon-next\" Git branch of expanded ASUS and ASRock motherboard support for the upcoming Linux 7.5 kernel...",
+    "link": "https://www.phoronix.com/news/Linux-75-More-ASUS-ASRock-HWMON",
+    "date": "Thu, 19 Nov 2026 06:14:23 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD AI Engine \"AIE\" Driver Posted For Mainline Linux Kernel Review",
+    "title_pt": "AMD AI Engine \"AIE\" Driver Posted For Mainline Linux Kernel Review",
+    "summary_en": "Separate from the existing AMDXDNA accelerator driver in the Linux kernel for Ryzen AI NPUs, on Wednesday AMD posted patches for the new AMD AI Engine \"AIE\" accelerator driver...",
+    "summary_pt": "Separate from the existing AMDXDNA accelerator driver in the Linux kernel for Ryzen AI NPUs, on Wednesday AMD posted patches for the new AMD AI Engine \"AIE\" accelerator driver...",
+    "link": "https://www.phoronix.com/news/AMD-AI-Engine-Linux-Driver",
+    "date": "Thu, 19 Nov 2026 06:00:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Valkey 9.2 Delivers More Performance, Zstd Compression & Lower Memory Overhead",
+    "title_pt": "Valkey 9.2 Delivers More Performance, Zstd Compression & Lower Memory Overhead",
+    "summary_en": "Valkey 9.2 is out today as the latest feature update to this leading fork of the Redis in-memory, key-value database...",
+    "summary_pt": "Valkey 9.2 is out today as the latest feature update to this leading fork of the Redis in-memory, key-value database...",
+    "link": "https://www.phoronix.com/news/Valkey-9.2",
+    "date": "Thu, 19 Nov 2026 05:41:47 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Mesa 26.3.1 Ships Fixes For Intel Jay Compiler & RADV Driver",
+    "title_pt": "Mesa 26.3.1 Ships Fixes For Intel Jay Compiler & RADV Driver",
+    "summary_en": "Following the recent Mesa 26.3 release, Mesa 26.3.1 is now available as the first point release for those that prefer waiting until the x.1 milestone before upgrading to the new quarterly feature series...",
+    "summary_pt": "Following the recent Mesa 26.3 release, Mesa 26.3.1 is now available as the first point release for those that prefer waiting until the x.1 milestone before upgrading to the new quarterly feature series...",
+    "link": "https://www.phoronix.com/news/Mesa-26.3.1-Released",
+    "date": "Thu, 19 Nov 2026 05:32:08 -0500"
+  },
+  {
     "source": "LWN",
     "title_en": "[$] LWN.net Weekly Edition for November 19, 2026",
     "title_pt": "[$] LWN.net Weekly Edition for November 19, 2026",
