@@ -1,5 +1,86 @@
 [
   {
+    "source": "LWN",
+    "title_en": "[$] Bringing the Agama installer to openSUSE Tumbleweed",
+    "title_pt": "[$] Bringing the Agama installer to openSUSE Tumbleweed",
+    "summary_en": "The  openSUSE Project  has been working on\nthe  Agama installer  for four\nyears; it was the default installer for  openSUSE Leap 16.0  when\nit was released in 2025, and has been adopted by other openSUSE flavors as\nwell. Now the project is gearing up to go all-in on Agama for  Tumbleweed , the rolling-release\nedition that is meant to be where updates and new features land first. Even so,\nthe co...",
+    "summary_pt": "The  openSUSE Project  has been working on\nthe  Agama installer  for four\nyears; it was the default installer for  openSUSE Leap 16.0  when\nit was released in 2025, and has been adopted by other openSUSE flavors as\nwell. Now the project is gearing up to go all-in on Agama for  Tumbleweed , the rolling-release\nedition that is meant to be where updates and new features land first. Even so,\nthe co...",
+    "link": "https://lwn.net/Articles/1107830/",
+    "date": "Fri, 20 Nov 2026 14:49:13 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Beyls: Wrapping up LLVM's relicensing effort",
+    "title_pt": "Beyls: Wrapping up LLVM's relicensing effort",
+    "summary_en": "Kristof Beyls has  published\na summary  to the LLVM discussion forum to announce that the project is\ndeclaring success and bringing its  relicensing\neffort  to a close after eight years. \n \n We've been asking past contributors to relicense their work since 2018. New\ncontributions have come in under Apache-2.0 WITH LLVM-exception since January\n19, 2019. Code contributed before that date was unde...",
+    "summary_pt": "Kristof Beyls has  published\na summary  to the LLVM discussion forum to announce that the project is\ndeclaring success and bringing its  relicensing\neffort  to a close after eight years. \n \n We've been asking past contributors to relicense their work since 2018. New\ncontributions have come in under Apache-2.0 WITH LLVM-exception since January\n19, 2019. Code contributed before that date was unde...",
+    "link": "https://lwn.net/Articles/1108818/",
+    "date": "Fri, 20 Nov 2026 14:35:24 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Vim Classic 8.3.1 released",
+    "title_pt": "Vim Classic 8.3.1 released",
+    "summary_en": "Version\n8.3.1  of  Vim Classic —a\nlong-term support fork of Vim maintained without LLM assistance—has been\nreleased. \n \nThis release includes applicable Vim patches up to Vim 8.2.3237, including\nnumerous bug fixes, minor features, and compatibility improvements for Vim\nplugins. This release also removes Python 2 support from Vim Classic.\n \n The  full list\nof changes  in this release is availabl...",
+    "summary_pt": "Version\n8.3.1  of  Vim Classic —a\nlong-term support fork of Vim maintained without LLM assistance—has been\nreleased. \n \nThis release includes applicable Vim patches up to Vim 8.2.3237, including\nnumerous bug fixes, minor features, and compatibility improvements for Vim\nplugins. This release also removes Python 2 support from Vim Classic.\n \n The  full list\nof changes  in this release is availabl...",
+    "link": "https://lwn.net/Articles/1108817/",
+    "date": "Fri, 20 Nov 2026 14:17:33 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Friday",
+    "title_pt": "Security updates for Friday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (bind9.18, bubblewrap, fence-agents, freerdp, grafana, grafana-pcp, gstreamer1-plugins-bad-free, jackson-core, jackson-databind, java-17-openjdk, java-21-openjdk, java-25-openjdk, kernel, kernel-rt, mysql8.4, mysql:8.4, qt5-qtbase, qt5-qtdeclarative, raptor2, resteasy, and sos),  Debian  (electrum, nginx, openjdk-17, pam-mysql, php8.2, and php8.4...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (bind9.18, bubblewrap, fence-agents, freerdp, grafana, grafana-pcp, gstreamer1-plugins-bad-free, jackson-core, jackson-databind, java-17-openjdk, java-21-openjdk, java-25-openjdk, kernel, kernel-rt, mysql8.4, mysql:8.4, qt5-qtbase, qt5-qtdeclarative, raptor2, resteasy, and sos),  Debian  (electrum, nginx, openjdk-17, pam-mysql, php8.2, and php8.4...",
+    "link": "https://lwn.net/Articles/1108811/",
+    "date": "Fri, 20 Nov 2026 13:52:40 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Intel Preps Linux 7.5 Change To Better Handle Multiple GPUs With Lots Of VRAM",
+    "title_pt": "Intel Preps Linux 7.5 Change To Better Handle Multiple GPUs With Lots Of VRAM",
+    "summary_en": "A change set to land for the upcoming Linux 7.5 kernel cycle expands the mmap range size for GEM/TTM buffer objects in the kernel graphics drivers from 1TB to now up to 8TB...",
+    "summary_pt": "A change set to land for the upcoming Linux 7.5 kernel cycle expands the mmap range size for GEM/TTM buffer objects in the kernel graphics drivers from 1TB to now up to 8TB...",
+    "link": "https://www.phoronix.com/news/Linux-7.5-DRM-8TB-mmap",
+    "date": "Fri, 20 Nov 2026 14:41:29 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD Contributes Integration For Content-Adaptive / Adaptive Backlight Modulation To GNOME",
+    "title_pt": "AMD Contributes Integration For Content-Adaptive / Adaptive Backlight Modulation To GNOME",
+    "summary_en": "Merged today to GNOME's Mutter compositor is support for the Adaptive Backlight Modulation (ABM) DRM/KMS connector property and a \"content-adaptive\" API. This GNOME desktop improvement was contributed by AMD as part of modern AMD Ryzen AI laptops supporting Adaptive Backlight Modulation...",
+    "summary_pt": "Merged today to GNOME's Mutter compositor is support for the Adaptive Backlight Modulation (ABM) DRM/KMS connector property and a \"content-adaptive\" API. This GNOME desktop improvement was contributed by AMD as part of modern AMD Ryzen AI laptops supporting Adaptive Backlight Modulation...",
+    "link": "https://www.phoronix.com/news/GNOME-AMD-Content-Adaptive",
+    "date": "Fri, 20 Nov 2026 12:52:31 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "System76 Thelio Prime: A Petite But Performant AMD-Powered Linux PC",
+    "title_pt": "System76 Thelio Prime: A Petite But Performant AMD-Powered Linux PC",
+    "summary_en": "After teasing the new System76 Thelio Prime last month, this week officially launched their redesigned Thelio Prime mini desktop PC. This AMD Ryzen 9000 series powered creation is quite small with an internal volume of just 9.78 liters but quite capable with up to the Ryzen 9 9900X being supported, AMD or NVIDIA discrete graphics options, up to 96GB of RAM, and up to 16TB of NVMe storage. I hav...",
+    "summary_pt": "After teasing the new System76 Thelio Prime last month, this week officially launched their redesigned Thelio Prime mini desktop PC. This AMD Ryzen 9000 series powered creation is quite small with an internal volume of just 9.78 liters but quite capable with up to the Ryzen 9 9900X being supported, AMD or NVIDIA discrete graphics options, up to 96GB of RAM, and up to 16TB of NVMe storage. I hav...",
+    "link": "https://www.phoronix.com/review/system76-thelio-prime",
+    "date": "Fri, 20 Nov 2026 11:38:02 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Fedora Incident Response Policy Drafted For Improving Workflow & Security Disclosures",
+    "title_pt": "Fedora Incident Response Policy Drafted For Improving Workflow & Security Disclosures",
+    "summary_en": "The Fedora Security Special Interest Group (SIG) drafted an Incident Response Policy for the Fedora project. This stems from shortcomings in the Fedora project brought to light during the XZ Utils security fiasco in their communications...",
+    "summary_pt": "The Fedora Security Special Interest Group (SIG) drafted an Incident Response Policy for the Fedora project. This stems from shortcomings in the Fedora project brought to light during the XZ Utils security fiasco in their communications...",
+    "link": "https://www.phoronix.com/news/Fedora-Incident-Response-Policy",
+    "date": "Fri, 20 Nov 2026 09:47:51 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMDXDNA Driver Reaches Version 1.0, Ryzen AI NPU10 & NPU11 Coming To Linux 7.5",
+    "title_pt": "AMDXDNA Driver Reaches Version 1.0, Ryzen AI NPU10 & NPU11 Coming To Linux 7.5",
+    "summary_en": "With the upcoming Linux 7.5 kernel, the AMDXDNA accelerator driver for supporting the Ryzen AI NPUs is declaring version 1.0...",
+    "summary_pt": "With the upcoming Linux 7.5 kernel, the AMDXDNA accelerator driver for supporting the Ryzen AI NPUs is declaring version 1.0...",
+    "link": "https://www.phoronix.com/news/AMDXDNA-1.0-Linux-Driver",
+    "date": "Fri, 20 Nov 2026 08:16:40 -0500"
+  },
+  {
     "source": "9to5Linux",
     "title_en": "FFmpeg 9.1 “Gauss” Multimedia Framework Is Out with APV Vulkan Encoder",
     "title_pt": "FFmpeg 9.1 “Gauss” Multimedia Framework Is Out with APV Vulkan Encoder",
