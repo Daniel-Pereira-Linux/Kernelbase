@@ -1,6 +1,60 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "FFmpeg 9.1 “Gauss” Multimedia Framework Is Out with APV Vulkan Encoder",
+    "title_pt": "FFmpeg 9.1 “Gauss” Multimedia Framework Is Out with APV Vulkan Encoder",
+    "summary_en": "FFmpeg 9.1 open-source multimedia framework is now available for download with APV Vulkan encoder, new muxers and demuxers, new filters, and new decoders. \n The post  FFmpeg 9.1 “Gauss” Multimedia Framework Is Out with APV Vulkan Encoder  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "FFmpeg 9.1 open-source multimedia framework is now available for download with APV Vulkan encoder, new muxers and demuxers, new filters, and new decoders. \n The post  FFmpeg 9.1 “Gauss” Multimedia Framework Is Out with APV Vulkan Encoder  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/ffmpeg-9-1-gauss-multimedia-framework-is-out-with-apv-vulkan-encoder",
+    "date": "Fri, 20 Nov 2026 05:01:06 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Rust Coreutils 0.13 Release Delivers More Performance, Better Compatibility",
+    "title_pt": "Rust Coreutils 0.13 Release Delivers More Performance, Better Compatibility",
+    "summary_en": "Rust Coreutils 0.13 released today as the newest feature update to this Rust-based re-implementation of GNU Coreutils that is used by Ubuntu Linux and other platforms...",
+    "summary_pt": "Rust Coreutils 0.13 released today as the newest feature update to this Rust-based re-implementation of GNU Coreutils that is used by Ubuntu Linux and other platforms...",
+    "link": "https://www.phoronix.com/news/Rust-Coreutils-0.13",
+    "date": "Fri, 20 Nov 2026 06:16:03 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Vulkan 1.4.369 Introduces New AMD Extension For Improving Ray-Tracing Performance",
+    "title_pt": "Vulkan 1.4.369 Introduces New AMD Extension For Improving Ray-Tracing Performance",
+    "summary_en": "Vulkan 1.4.369 is out today with a new, currently-experimental Vulkan API extension from AMD to help further enhance ray-tracing performance with modern games...",
+    "summary_pt": "Vulkan 1.4.369 is out today with a new, currently-experimental Vulkan API extension from AMD to help further enhance ray-tracing performance with modern games...",
+    "link": "https://www.phoronix.com/news/Vulkan-AMDX-Ray-Tracing-Struct",
+    "date": "Fri, 20 Nov 2026 06:05:08 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Cloud Hypervisor 55 Released With AArch64 Nested Virtualization, Up To 990 ARM vCPUs",
+    "title_pt": "Cloud Hypervisor 55 Released With AArch64 Nested Virtualization, Up To 990 ARM vCPUs",
+    "summary_en": "Cloud Hypervisor 55.0 was released on Thursday for this security-minded, cloud-focused virtual machine monitor (VMM) written in Rust. While it started off as an Intel open-source project, it's expanded in scope over time and with more organizations contributing. With the new Cloud Hypervisor 55, a number of ARM improvements to note...",
+    "summary_pt": "Cloud Hypervisor 55.0 was released on Thursday for this security-minded, cloud-focused virtual machine monitor (VMM) written in Rust. While it started off as an Intel open-source project, it's expanded in scope over time and with more organizations contributing. With the new Cloud Hypervisor 55, a number of ARM improvements to note...",
+    "link": "https://www.phoronix.com/news/Cloud-Hypervisor-55",
+    "date": "Fri, 20 Nov 2026 05:51:22 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Kwi Sees First Release As KDE's New Terminal Emulator",
+    "title_pt": "Kwi Sees First Release As KDE's New Terminal Emulator",
+    "summary_en": "Over the past number of weeks Kwi has been in development as a new KDE terminal emulator. Kwi is built off the Ghostty library and delivering magnificent performance over the existing Konsole terminal emulator. Today marks the project's first release...",
+    "summary_pt": "Over the past number of weeks Kwi has been in development as a new KDE terminal emulator. Kwi is built off the Ghostty library and delivering magnificent performance over the existing Konsole terminal emulator. Today marks the project's first release...",
+    "link": "https://www.phoronix.com/news/Kwi-Terminal-First-Release",
+    "date": "Fri, 20 Nov 2026 05:41:17 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "FFmpeg 9.1 Released With NVIDIA Optical Flow FRUC, APV Vulkan Encoder",
+    "title_pt": "FFmpeg 9.1 Released With NVIDIA Optical Flow FRUC, APV Vulkan Encoder",
+    "summary_en": "Following the FFmpeg 9.1 release preparations that began last month, FFmpeg 9.1 is now formally released as the newest feature update to this widely-used, cross-platform multimedia library...",
+    "summary_pt": "Following the FFmpeg 9.1 release preparations that began last month, FFmpeg 9.1 is now formally released as the newest feature update to this widely-used, cross-platform multimedia library...",
+    "link": "https://www.phoronix.com/news/FFmpeg-9.1-Released",
+    "date": "Fri, 20 Nov 2026 05:30:05 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Shelly 3.4 GUI Package Manager for Arch Linux Introduces Firmware Updates",
     "title_pt": "Shelly 3.4 GUI Package Manager for Arch Linux Introduces Firmware Updates",
     "summary_en": "Shelly 3.4 graphical package manager for Arch Linux distributions is now available for download with a new Firmware page, Pearl theme improvements, and a fix for split-package AUR builds. \n The post  Shelly 3.4 GUI Package Manager for Arch Linux Introduces Firmware Updates  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, n...",
