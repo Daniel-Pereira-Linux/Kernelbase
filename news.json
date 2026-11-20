@@ -1,6 +1,33 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Shelly 3.4 GUI Package Manager for Arch Linux Introduces Firmware Updates",
+    "title_pt": "Shelly 3.4 GUI Package Manager for Arch Linux Introduces Firmware Updates",
+    "summary_en": "Shelly 3.4 graphical package manager for Arch Linux distributions is now available for download with a new Firmware page, Pearl theme improvements, and a fix for split-package AUR builds. \n The post  Shelly 3.4 GUI Package Manager for Arch Linux Introduces Firmware Updates  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, n...",
+    "summary_pt": "Shelly 3.4 graphical package manager for Arch Linux distributions is now available for download with a new Firmware page, Pearl theme improvements, and a fix for split-package AUR builds. \n The post  Shelly 3.4 GUI Package Manager for Arch Linux Introduces Firmware Updates  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, n...",
+    "link": "https://9to5linux.com/shelly-3-4-gui-package-manager-for-arch-linux-introduces-firmware-updates",
+    "date": "Thu, 19 Nov 2026 21:32:56 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.5 To Optionally Block /proc/kcore Access For Better Security",
+    "title_pt": "Linux 7.5 To Optionally Block /proc/kcore Access For Better Security",
+    "summary_en": "A patch that is queued up ahead of the Linux 7.5 merge window allows for optionally disabling /proc/kcore access at boot time. This can allow for better system security though will remain enabled by default for kernel builds with the typical CONFIG_PROC_KCORE option...",
+    "summary_pt": "A patch that is queued up ahead of the Linux 7.5 merge window allows for optionally disabling /proc/kcore access at boot time. This can allow for better system security though will remain enabled by default for kernel builds with the typical CONFIG_PROC_KCORE option...",
+    "link": "https://www.phoronix.com/news/Linux-7.5-Restrict-proc-kcore",
+    "date": "Thu, 19 Nov 2026 17:03:06 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "LLVM Effectively Completes Its Relicensing After Nearly A Decade Of Work",
+    "title_pt": "LLVM Effectively Completes Its Relicensing After Nearly A Decade Of Work",
+    "summary_en": "Back around 2017 an effort began to work on re-licensing all of the LLVM code under the Apache 2.0 license with exceptions, moving away from their prior 3-clause BSD-like \"LLVM license\". Prior updates on the topic included LLVM Developers Are Still Working On Their Massive Relicensing Effort (2018) and then LLVM Is Still Working On Relicensing, Needs Help Locating Some Past Contributors (2021)....",
+    "summary_pt": "Back around 2017 an effort began to work on re-licensing all of the LLVM code under the Apache 2.0 license with exceptions, moving away from their prior 3-clause BSD-like \"LLVM license\". Prior updates on the topic included LLVM Developers Are Still Working On Their Massive Relicensing Effort (2018) and then LLVM Is Still Working On Relicensing, Needs Help Locating Some Past Contributors (2021)....",
+    "link": "https://www.phoronix.com/news/LLVM-Re-Licensing-Complete",
+    "date": "Thu, 19 Nov 2026 16:02:56 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "PHP 8.6 Released with Partial Function Application, Polling API, and More",
     "title_pt": "PHP 8.6 Released with Partial Function Application, Polling API, and More",
     "summary_en": "PHP 8.6 open-source scripting language is out now with Partial Function Application, a new Duration class, a Polling API, and other changes. \n The post  PHP 8.6 Released with Partial Function Application, Polling API, and More  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
