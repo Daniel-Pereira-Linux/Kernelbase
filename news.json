@@ -1,5 +1,32 @@
 [
   {
+    "source": "Phoronix",
+    "title_en": "Sashiko AI Introducing Linux Performance Specialist Review Stage",
+    "title_pt": "Sashiko AI Introducing Linux Performance Specialist Review Stage",
+    "summary_en": "The Google-developed Sashiko for agentic AI code review initially focused on the Linux kernel continues helping to uncover new bugs and issues as new patches hit the kernel mailing list as well as those manually running this open-source AI software. In addition to recently introducing an experimental patch series design assessment, they are introducing another new skill for helping with perform...",
+    "summary_pt": "The Google-developed Sashiko for agentic AI code review initially focused on the Linux kernel continues helping to uncover new bugs and issues as new patches hit the kernel mailing list as well as those manually running this open-source AI software. In addition to recently introducing an experimental patch series design assessment, they are introducing another new skill for helping with perform...",
+    "link": "https://www.phoronix.com/news/Sashiko-AI-Performance-Review",
+    "date": "Sat, 21 Nov 2026 12:49:14 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Intel Linux NPU Driver 1.39.1 Released With Nova Lake Support",
+    "title_pt": "Intel Linux NPU Driver 1.39.1 Released With Nova Lake Support",
+    "summary_en": "Since last year there have been Linux patches for enabling the Intel Nova Lake NPU with its 6th Gen neural processing unit IP. Those patches were since mainlined with the Intel IVPU accelerator driver. Now the user-space Intel Linux NPU Driver was updated on Thursday with official Nova Lake support...",
+    "summary_pt": "Since last year there have been Linux patches for enabling the Intel Nova Lake NPU with its 6th Gen neural processing unit IP. Those patches were since mainlined with the Intel IVPU accelerator driver. Now the user-space Intel Linux NPU Driver was updated on Thursday with official Nova Lake support...",
+    "link": "https://www.phoronix.com/news/Intel-LInux-NPU-Driver-1.39.1",
+    "date": "Sat, 21 Nov 2026 10:51:35 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Debian 13.8 Released With 150+ Security Updates",
+    "title_pt": "Debian 13.8 Released With 150+ Security Updates",
+    "summary_en": "Debian 13.8 is out today as the newest ISO refresh for Debian 13 \"Trixie\" with 150 security updates noted along with many bug fixes...",
+    "summary_pt": "Debian 13.8 is out today as the newest ISO refresh for Debian 13 \"Trixie\" with 150 security updates noted along with many bug fixes...",
+    "link": "https://www.phoronix.com/news/Debian-13.8-Released",
+    "date": "Sat, 21 Nov 2026 06:20:00 -0500"
+  },
+  {
     "source": "9to5Linux",
     "title_en": "Debian 13.8 “Trixie” Released with 122 Bug Fixes and 150 Security Updates",
     "title_pt": "Debian 13.8 “Trixie” Released with 122 Bug Fixes and 150 Security Updates",
