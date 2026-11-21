@@ -1,5 +1,23 @@
 [
   {
+    "source": "Phoronix",
+    "title_en": "Libreboot Abandons Anti-AI Policy After One Month",
+    "title_pt": "Libreboot Abandons Anti-AI Policy After One Month",
+    "summary_en": "Coreboot downstream Libreboot last month enacted an AI policy to forbid contributions made using AI/LLMs. Surprisingly, already, that anti-AI policy has been dropped with AI-based submissions now being permitted...",
+    "summary_pt": "Coreboot downstream Libreboot last month enacted an AI policy to forbid contributions made using AI/LLMs. Surprisingly, already, that anti-AI policy has been dropped with AI-based submissions now being permitted...",
+    "link": "https://www.phoronix.com/news/Libreboot-Drops-AI-Policy",
+    "date": "Fri, 20 Nov 2026 17:23:41 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "GnuPG's GPGME Affected By Critical Security Bug In Turn Affecting Mail Clients, Flatpak",
+    "title_pt": "GnuPG's GPGME Affected By Critical Security Bug In Turn Affecting Mail Clients, Flatpak",
+    "summary_en": "Werner Koch announced a late Friday afternoon \"critical security bug\" affecting GnuPG's GPGME library - GnuPG Made Easy. Unfortunately this in turn affects GPGME users like most email clients, most XMPP clients, Flatpak, Samba, and other software...",
+    "summary_pt": "Werner Koch announced a late Friday afternoon \"critical security bug\" affecting GnuPG's GPGME library - GnuPG Made Easy. Unfortunately this in turn affects GPGME users like most email clients, most XMPP clients, Flatpak, Samba, and other software...",
+    "link": "https://www.phoronix.com/news/GnuPG-GPGME-Critical",
+    "date": "Fri, 20 Nov 2026 15:46:51 -0500"
+  },
+  {
     "source": "LWN",
     "title_en": "[$] Bringing the Agama installer to openSUSE Tumbleweed",
     "title_pt": "[$] Bringing the Agama installer to openSUSE Tumbleweed",
