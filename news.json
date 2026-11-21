@@ -1,5 +1,50 @@
 [
   {
+    "source": "9to5Linux",
+    "title_en": "Debian 13.8 “Trixie” Released with 122 Bug Fixes and 150 Security Updates",
+    "title_pt": "Debian 13.8 “Trixie” Released with 122 Bug Fixes and 150 Security Updates",
+    "summary_en": "Debian 13.8 is now available for download as the eighth maintenance update to the Debian 13 “Trixie” operating system series with 122 bug fixes and 150 security updates. \n The post  Debian 13.8 “Trixie” Released with 122 Bug Fixes and 150 Security Updates  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Debian 13.8 is now available for download as the eighth maintenance update to the Debian 13 “Trixie” operating system series with 122 bug fixes and 150 security updates. \n The post  Debian 13.8 “Trixie” Released with 122 Bug Fixes and 150 Security Updates  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/debian-13-8-trixie-released-with-122-bug-fixes-and-150-security-updates",
+    "date": "Sat, 21 Nov 2026 10:51:08 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Calibre 9.19 Adds Grammar Checking and Suggestions to the Book Editor",
+    "title_pt": "Calibre 9.19 Adds Grammar Checking and Suggestions to the Book Editor",
+    "summary_en": "Calibre 9.19 open-source e-book manager is now available for download with grammar checking and suggestions for rewriting sentences and other changes. \n The post  Calibre 9.19 Adds Grammar Checking and Suggestions to the Book Editor  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Calibre 9.19 open-source e-book manager is now available for download with grammar checking and suggestions for rewriting sentences and other changes. \n The post  Calibre 9.19 Adds Grammar Checking and Suggestions to the Book Editor  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/calibre-9-19-adds-grammar-checking-and-suggestions-to-the-book-editor",
+    "date": "Sat, 21 Nov 2026 10:35:17 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "KDE Plasma 6.9 Allows Adjusting The Text Cursor Blinking Rate, Other Improvements",
+    "title_pt": "KDE Plasma 6.9 Allows Adjusting The Text Cursor Blinking Rate, Other Improvements",
+    "summary_en": "It has been another busy week in the KDE development space with more feature work and fixes piling up for the upcoming Plasma 6.9 desktop...",
+    "summary_pt": "It has been another busy week in the KDE development space with more feature work and fixes piling up for the upcoming Plasma 6.9 desktop...",
+    "link": "https://www.phoronix.com/news/KDE-Plasma-6.9-Cursor-Blinking",
+    "date": "Sat, 21 Nov 2026 05:51:46 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "FreeDesktop.org Launches Redesigned Website",
+    "title_pt": "FreeDesktop.org Launches Redesigned Website",
+    "summary_en": "FreeDesktop.org has been the hosting hub for the X.Org project, Wayland, and the Mesa projects to other notable open-source Linux desktop projects like PipeWire, GStreamer, and countless other projects. Since it's launch over two decades ago, it has basically looked the same... A bland Wiki. But on Friday a redesign of FreeDesktop.org was launched...",
+    "summary_pt": "FreeDesktop.org has been the hosting hub for the X.Org project, Wayland, and the Mesa projects to other notable open-source Linux desktop projects like PipeWire, GStreamer, and countless other projects. Since it's launch over two decades ago, it has basically looked the same... A bland Wiki. But on Friday a redesign of FreeDesktop.org was launched...",
+    "link": "https://www.phoronix.com/news/FreeDesktop.org-Redesigned-2026",
+    "date": "Sat, 21 Nov 2026 05:38:39 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "FreeBSD 15.2 Beta 3 Released Following 17 Security Advisories",
+    "title_pt": "FreeBSD 15.2 Beta 3 Released Following 17 Security Advisories",
+    "summary_en": "The third weekly beta release of FreeBSD 15.2 is now available for testing. This comes with various bug fixes, updated OpenZFS code, and fixes for 17 FreeBSD security advisories that were made public this week...",
+    "summary_pt": "The third weekly beta release of FreeBSD 15.2 is now available for testing. This comes with various bug fixes, updated OpenZFS code, and fixes for 17 FreeBSD security advisories that were made public this week...",
+    "link": "https://www.phoronix.com/news/FreeBSD-15.2-Beta-3",
+    "date": "Sat, 21 Nov 2026 05:26:22 -0500"
+  },
+  {
     "source": "Phoronix",
     "title_en": "Libreboot Abandons Anti-AI Policy After One Month",
     "title_pt": "Libreboot Abandons Anti-AI Policy After One Month",
