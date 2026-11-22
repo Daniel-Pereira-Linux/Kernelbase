@@ -1,5 +1,32 @@
 [
   {
+    "source": "Phoronix",
+    "title_en": "PSR2 & Panel Replay + Pipe Joiner To Be Supported For Intel On Linux 7.5",
+    "title_pt": "PSR2 & Panel Replay + Pipe Joiner To Be Supported For Intel On Linux 7.5",
+    "summary_en": "Intel's pipe joiner functionality is around allowing multiple internal display pipes to be used for driving a single ultra high resolution or high refresh rate display. This allows overcoming limitations of a single display pipe by using multiple pipes -- with the four-pipe ultra joiner configuration allowing for 8K and 4K@240Hz displays. Until now though the Panel Replay and PSR2 power-savings...",
+    "summary_pt": "Intel's pipe joiner functionality is around allowing multiple internal display pipes to be used for driving a single ultra high resolution or high refresh rate display. This allows overcoming limitations of a single display pipe by using multiple pipes -- with the four-pipe ultra joiner configuration allowing for 8K and 4K@240Hz displays. Until now though the Panel Replay and PSR2 power-savings...",
+    "link": "https://www.phoronix.com/news/Intel-PSR2-Panel-Replay-Joiner",
+    "date": "Sun, 22 Nov 2026 06:14:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "The First Rust WMI Linux Driver Being Developed Is For Clevo Laptops",
+    "title_pt": "The First Rust WMI Linux Driver Being Developed Is For Clevo Laptops",
+    "summary_en": "The first Rust-based driver being developed for making use of the Linux kernel's Rust Windows Management Instrumentation (WMI) interface abstractions is \"clevo-laptop\" and is a new driver for Clevo laptops, including those sold by TUXEDO Computers, Metabox, Sager, XMG, and others...",
+    "summary_pt": "The first Rust-based driver being developed for making use of the Linux kernel's Rust Windows Management Instrumentation (WMI) interface abstractions is \"clevo-laptop\" and is a new driver for Clevo laptops, including those sold by TUXEDO Computers, Metabox, Sager, XMG, and others...",
+    "link": "https://www.phoronix.com/news/Rust-WMI-Driver-Clevo-Laptops",
+    "date": "Sun, 22 Nov 2026 05:56:26 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.4 To Remove NVMe Namespaces In Parallel For Faster Results",
+    "title_pt": "Linux 7.4 To Remove NVMe Namespaces In Parallel For Faster Results",
+    "summary_en": "As part of this week's block subsystem fixes for the Linux 7.4-rc4 kernel release due out on Sunday are many bug fixes plus also a nice NVMe namespaces optimization...",
+    "summary_pt": "As part of this week's block subsystem fixes for the Linux 7.4-rc4 kernel release due out on Sunday are many bug fixes plus also a nice NVMe namespaces optimization...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-NVMe-NS-Parallel",
+    "date": "Sat, 21 Nov 2026 20:24:33 -0500"
+  },
+  {
     "source": "9to5Linux",
     "title_en": "DietPi 10.9 Released with Support for Odroid C5 and Orange Pi Zero 4",
     "title_pt": "DietPi 10.9 Released with Support for Odroid C5 and Orange Pi Zero 4",
