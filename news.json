@@ -1,5 +1,68 @@
 [
   {
+    "source": "9to5Linux",
+    "title_en": "CachyOS November 2026 ISO Release Brings CachyOS Package Installer 2.0",
+    "title_pt": "CachyOS November 2026 ISO Release Brings CachyOS Package Installer 2.0",
+    "summary_en": "The CachyOS ISO snapshot for November 2026 is now available for download with Linux 6.18 LTS and Linux 7.3 kernels, CachyOS Package Installer 2.0, and other changes. \n The post  CachyOS November 2026 ISO Release Brings CachyOS Package Installer 2.0  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "The CachyOS ISO snapshot for November 2026 is now available for download with Linux 6.18 LTS and Linux 7.3 kernels, CachyOS Package Installer 2.0, and other changes. \n The post  CachyOS November 2026 ISO Release Brings CachyOS Package Installer 2.0  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/cachyos-november-2026-iso-release-brings-cachyos-package-installer-2-0",
+    "date": "Sun, 22 Nov 2026 12:52:13 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "9to5Linux Weekly Roundup: November 22nd, 2026",
+    "title_pt": "9to5Linux Weekly Roundup: November 22nd, 2026",
+    "summary_en": "9to5Linux Weekly Roundup for November 22nd, 2026, brings news about AlmaLinux OS 10.3, FFmpeg 9.1, Rocky Linux 10.3, Shotcut 26.11, AV Linux 25.3, Wireshark 4.6.10, Peppermint OS Debian, Calibre 9.19, BackBox Linux 10, Shelly 3.4, Debian 13.8, ClamAV 1.5.5, DietPi 10.9, fwupd 2.1.10, CachyOS Package Installer 2.0, Mesa 26.3.1, PHP 8.6, and more. \n The post  9to5Linux Weekly Roundup: November 22...",
+    "summary_pt": "9to5Linux Weekly Roundup for November 22nd, 2026, brings news about AlmaLinux OS 10.3, FFmpeg 9.1, Rocky Linux 10.3, Shotcut 26.11, AV Linux 25.3, Wireshark 4.6.10, Peppermint OS Debian, Calibre 9.19, BackBox Linux 10, Shelly 3.4, Debian 13.8, ClamAV 1.5.5, DietPi 10.9, fwupd 2.1.10, CachyOS Package Installer 2.0, Mesa 26.3.1, PHP 8.6, and more. \n The post  9to5Linux Weekly Roundup: November 22...",
+    "link": "https://9to5linux.com/9to5linux-weekly-roundup-november-22nd-2026",
+    "date": "Sun, 22 Nov 2026 12:24:52 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD Preps More Graphics Driver Fixes For Linux 7.5, More DCN6 Enablement",
+    "title_pt": "AMD Preps More Graphics Driver Fixes For Linux 7.5, More DCN6 Enablement",
+    "summary_en": "This week AMD sent out their latest batch of AMDGPU kernel graphics driver and AMDKFD kernel compute driver updates of work slated to land with the upcoming Linux 7.5 merge window...",
+    "summary_pt": "This week AMD sent out their latest batch of AMDGPU kernel graphics driver and AMDKFD kernel compute driver updates of work slated to land with the upcoming Linux 7.5 merge window...",
+    "link": "https://www.phoronix.com/news/AMDGPU-More-DCN6-Linux-7.5",
+    "date": "Sun, 22 Nov 2026 12:40:25 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "CachyOS November 2026 Released With EAC Linux v2 Support, New Recovery Tool",
+    "title_pt": "CachyOS November 2026 Released With EAC Linux v2 Support, New Recovery Tool",
+    "summary_en": "The latest ISO refresh for the Arch Linux powered CachyOS distribution is now available...",
+    "summary_pt": "The latest ISO refresh for the Arch Linux powered CachyOS distribution is now available...",
+    "link": "https://www.phoronix.com/news/CachyOS-November-2026",
+    "date": "Sun, 22 Nov 2026 08:15:03 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Intel Coral Rapids & Razor Lake Model IDs Submitted For Linux 7.4-rc4",
+    "title_pt": "Intel Coral Rapids & Razor Lake Model IDs Submitted For Linux 7.4-rc4",
+    "summary_en": "Sent out today as part of the x86 fixes for the week going into Linux 7.4-rc4 are the model IDs for identifying upcoming Coral Rapids server processors and the Razor Lake client processors...",
+    "summary_pt": "Sent out today as part of the x86 fixes for the week going into Linux 7.4-rc4 are the model IDs for identifying upcoming Coral Rapids server processors and the Razor Lake client processors...",
+    "link": "https://www.phoronix.com/news/Coral-Rapids-Razor-Lake-7.4",
+    "date": "Sun, 22 Nov 2026 08:06:26 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "CachyOS Releases Package Installer 2.0 With Convenient AUR / Flatpak / AppImage Support",
+    "title_pt": "CachyOS Releases Package Installer 2.0 With Convenient AUR / Flatpak / AppImage Support",
+    "summary_en": "After teasing the CachyOS Package Installer 2.0 in recent weeks, today the CachyOS developers formally rolled out the CachyOS Package Installer 2.0 update. This provides a fresh UI/UX for managing packages on this Arch Linux based distribution...",
+    "summary_pt": "After teasing the CachyOS Package Installer 2.0 in recent weeks, today the CachyOS developers formally rolled out the CachyOS Package Installer 2.0 update. This provides a fresh UI/UX for managing packages on this Arch Linux based distribution...",
+    "link": "https://www.phoronix.com/news/CachyOS-Package-Installer-2.0",
+    "date": "Sun, 22 Nov 2026 06:55:29 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.5 To Introduce Initial Mainline Support For Ambarella SoCs",
+    "title_pt": "Linux 7.5 To Introduce Initial Mainline Support For Ambarella SoCs",
+    "summary_en": "Following some initial Device Tree and driver preparation patches that were merged for Linux v7.4, the upcoming Linux v7.5 kernel is set to introduce initial support for Ambarella SoCs with the CV75 being the initial SoC target...",
+    "summary_pt": "Following some initial Device Tree and driver preparation patches that were merged for Linux v7.4, the upcoming Linux v7.5 kernel is set to introduce initial support for Ambarella SoCs with the CV75 being the initial SoC target...",
+    "link": "https://www.phoronix.com/news/Linux-7.5-Ambarella-SoCs",
+    "date": "Sun, 22 Nov 2026 06:35:20 -0500"
+  },
+  {
     "source": "Phoronix",
     "title_en": "PSR2 & Panel Replay + Pipe Joiner To Be Supported For Intel On Linux 7.5",
     "title_pt": "PSR2 & Panel Replay + Pipe Joiner To Be Supported For Intel On Linux 7.5",
