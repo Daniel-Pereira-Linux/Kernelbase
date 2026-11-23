@@ -1,6 +1,33 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "KaOS Linux 2026.11 Removes KDE Plasma and Qt 5, Adds Linux 7.2 and Noctalia 5.6",
+    "title_pt": "KaOS Linux 2026.11 Removes KDE Plasma and Qt 5, Adds Linux 7.2 and Noctalia 5.6",
+    "summary_en": "KaOS Linux 2026.11 distribution is now available for download as the third ISO snapshot using Dinit as the default init system instead of systemd. Here’s what’s new! \n The post  KaOS Linux 2026.11 Removes KDE Plasma and Qt 5, Adds Linux 7.2 and Noctalia 5.6  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "KaOS Linux 2026.11 distribution is now available for download as the third ISO snapshot using Dinit as the default init system instead of systemd. Here’s what’s new! \n The post  KaOS Linux 2026.11 Removes KDE Plasma and Qt 5, Adds Linux 7.2 and Noctalia 5.6  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/kaos-linux-2026-11-removes-kde-plasma-and-qt-5-adds-linux-7-2-and-noctalia-5-6",
+    "date": "Sun, 22 Nov 2026 20:04:42 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Kernel prepatch 7.4-rc4",
+    "title_pt": "Kernel prepatch 7.4-rc4",
+    "summary_en": "The  7.4-rc4  kernel is out for testing. Linus\nsaid: \" It's huge. What a surprise. Lots of little fixes all over, with\ndrivers being pretty exactly half of it (gpu and networking showing up\nas usual, but there's usb, iio, nvme, sound.. you name it). \"",
+    "summary_pt": "The  7.4-rc4  kernel is out for testing. Linus\nsaid: \" It's huge. What a surprise. Lots of little fixes all over, with\ndrivers being pretty exactly half of it (gpu and networking showing up\nas usual, but there's usb, iio, nvme, sound.. you name it). \"",
+    "link": "https://lwn.net/Articles/1108900/",
+    "date": "Mon, 23 Nov 2026 00:32:07 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.4-rc4 Released: \"It's Huge. What A Surprise.\"",
+    "title_pt": "Linux 7.4-rc4 Released: \"It's Huge. What A Surprise.\"",
+    "summary_en": "Linux 7.4-rc4 is out today as the newest weekly test candidate for Linux 7.4. Continuing to be fueled by AI/LLM generated bug reports and patches, the Linux 7.4 cycle remains quite active...",
+    "summary_pt": "Linux 7.4-rc4 is out today as the newest weekly test candidate for Linux 7.4. Continuing to be fueled by AI/LLM generated bug reports and patches, the Linux 7.4 cycle remains quite active...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-rc4-Released",
+    "date": "Sun, 22 Nov 2026 18:13:30 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "CachyOS November 2026 ISO Release Brings CachyOS Package Installer 2.0",
     "title_pt": "CachyOS November 2026 ISO Release Brings CachyOS Package Installer 2.0",
     "summary_en": "The CachyOS ISO snapshot for November 2026 is now available for download with Linux 6.18 LTS and Linux 7.3 kernels, CachyOS Package Installer 2.0, and other changes. \n The post  CachyOS November 2026 ISO Release Brings CachyOS Package Installer 2.0  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
