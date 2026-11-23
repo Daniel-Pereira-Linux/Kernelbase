@@ -1,6 +1,42 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "MKVToolNix 104 MKV Manipulation Tool Improves AVC/H.264, FLAC and MP4 Readers",
+    "title_pt": "MKVToolNix 104 MKV Manipulation Tool Improves AVC/H.264, FLAC and MP4 Readers",
+    "summary_en": "MKVToolNix 104 open-source Matroska (MKV) manipulation software is now available for download with various improvements to mkvmerge, the MKVToolNix GUI, and mkvextract. \n The post  MKVToolNix 104 MKV Manipulation Tool Improves AVC/H.264, FLAC and MP4 Readers  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "MKVToolNix 104 open-source Matroska (MKV) manipulation software is now available for download with various improvements to mkvmerge, the MKVToolNix GUI, and mkvextract. \n The post  MKVToolNix 104 MKV Manipulation Tool Improves AVC/H.264, FLAC and MP4 Readers  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/mkvtoolnix-104-mkv-manipulation-tool-improves-avc-h-264-flac-and-mp4-reader",
+    "date": "Mon, 23 Nov 2026 10:05:31 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "VKD3D 2.2 Released With More Improvements For Direct3D 12 On Vulkan",
+    "title_pt": "VKD3D 2.2 Released With More Improvements For Direct3D 12 On Vulkan",
+    "summary_en": "Ahead of the Wine 12.0 release candidates expected to begin in December with the stable Wine 12.0 release then in early 2027, VKD3D 2.2 is now available for this Direct3D 12 on Vulkan API implementation...",
+    "summary_pt": "Ahead of the Wine 12.0 release candidates expected to begin in December with the stable Wine 12.0 release then in early 2027, VKD3D 2.2 is now available for this Direct3D 12 on Vulkan API implementation...",
+    "link": "https://www.phoronix.com/news/VKD3D-2.2-Released",
+    "date": "Mon, 23 Nov 2026 06:36:58 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Mesa 27.0 Merges LLVMpipe AVX-512 Support",
+    "title_pt": "Mesa 27.0 Merges LLVMpipe AVX-512 Support",
+    "summary_en": "As a follow-up to the article last month around David Airlie and AI resurrecting AVX-512 support for Mesa's LLVMpipe software driver, that code is now merged for Mesa 27.0...",
+    "summary_pt": "As a follow-up to the article last month around David Airlie and AI resurrecting AVX-512 support for Mesa's LLVMpipe software driver, that code is now merged for Mesa 27.0...",
+    "link": "https://www.phoronix.com/news/Mesa-27.0-AVX-512-LLVMpipe",
+    "date": "Mon, 23 Nov 2026 06:24:55 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Black Friday / End Of Year Special & The Unfortunate Ad Network Situation This Year",
+    "title_pt": "Black Friday / End Of Year Special & The Unfortunate Ad Network Situation This Year",
+    "summary_en": "If you have enjoyed the more than 3,125+ news articles so far this year and 200+ Linux hardware reviews this calendar year with a lot of interesting content, running this week is the annual Phoronix Premium end-of-year / \"Black Friday\" promotion to help support the site while enjoying ad-free access, multi-page articles on a single page, and other benefits while helping Phoronix continue as it ...",
+    "summary_pt": "If you have enjoyed the more than 3,125+ news articles so far this year and 200+ Linux hardware reviews this calendar year with a lot of interesting content, running this week is the annual Phoronix Premium end-of-year / \"Black Friday\" promotion to help support the site while enjoying ad-free access, multi-page articles on a single page, and other benefits while helping Phoronix continue as it ...",
+    "link": "https://www.phoronix.com/news/Black-Friday-Week-2026",
+    "date": "Sun, 22 Nov 2026 21:45:00 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "KaOS Linux 2026.11 Removes KDE Plasma and Qt 5, Adds Linux 7.2 and Noctalia 5.6",
     "title_pt": "KaOS Linux 2026.11 Removes KDE Plasma and Qt 5, Adds Linux 7.2 and Noctalia 5.6",
     "summary_en": "KaOS Linux 2026.11 distribution is now available for download as the third ISO snapshot using Dinit as the default init system instead of systemd. Here’s what’s new! \n The post  KaOS Linux 2026.11 Removes KDE Plasma and Qt 5, Adds Linux 7.2 and Noctalia 5.6  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
