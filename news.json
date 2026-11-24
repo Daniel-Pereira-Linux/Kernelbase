@@ -1,6 +1,87 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "IPFire 2.29 Core Update 206 Adds LoongArch64 Support, Updated Components",
+    "title_pt": "IPFire 2.29 Core Update 206 Adds LoongArch64 Support, Updated Components",
+    "summary_en": "IPFire 2.29 Core Update 206 hardened Linux firewall distro is now available for download with support for new languages, updated installer, security fixes, and updated components. \n The post  IPFire 2.29 Core Update 206 Adds LoongArch64 Support, Updated Components  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "IPFire 2.29 Core Update 206 hardened Linux firewall distro is now available for download with support for new languages, updated installer, security fixes, and updated components. \n The post  IPFire 2.29 Core Update 206 Adds LoongArch64 Support, Updated Components  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/ipfire-2-29-core-update-206-adds-loongarch64-support-updated-components",
+    "date": "Tue, 24 Nov 2026 11:01:53 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "qBittorrent 5.3.1 BitTorrent Client Is Out with Various Bug Fixes and Improvements",
+    "title_pt": "qBittorrent 5.3.1 BitTorrent Client Is Out with Various Bug Fixes and Improvements",
+    "summary_en": "qBittorrent 5.3.1 open-source BitTorrent client is now available for download addressing a number of bug fixes across the application, Web UI, and Web API. \n The post  qBittorrent 5.3.1 BitTorrent Client Is Out with Various Bug Fixes and Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "qBittorrent 5.3.1 open-source BitTorrent client is now available for download addressing a number of bug fixes across the application, Web UI, and Web API. \n The post  qBittorrent 5.3.1 BitTorrent Client Is Out with Various Bug Fixes and Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/qbittorrent-5-3-1-bittorrent-client-is-out-with-various-bug-fixes-and-improvements",
+    "date": "Tue, 24 Nov 2026 09:06:27 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Proton 11.0-3 Is Out with Support for Hero Plus, 8Bit Fiesta, and Blair Witch VR",
+    "title_pt": "Proton 11.0-3 Is Out with Support for Hero Plus, 8Bit Fiesta, and Blair Witch VR",
+    "summary_en": "Proton 11.0-3 is now available with support for Impulse Response, Cool People Club, Soul Land: Awakening World, and City Car Driving, and many other Windows games. \n The post  Proton 11.0-3 Is Out with Support for Hero Plus, 8Bit Fiesta, and Blair Witch VR  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Proton 11.0-3 is now available with support for Impulse Response, Cool People Club, Soul Land: Awakening World, and City Car Driving, and many other Windows games. \n The post  Proton 11.0-3 Is Out with Support for Hero Plus, 8Bit Fiesta, and Blair Witch VR  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/proton-11-0-3-is-out-with-support-for-hero-plus-8bit-fiesta-and-blair-witch-vr",
+    "date": "Tue, 24 Nov 2026 06:48:23 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Mozilla Thunderbird 161 Adds Unread Count Badges on Supported Linux Taskbars",
+    "title_pt": "Mozilla Thunderbird 161 Adds Unread Count Badges on Supported Linux Taskbars",
+    "summary_en": "Mozilla Thunderbird 161 open-source email client is now available for download with the ability to show unread count badges on supported Linux taskbars. \n The post  Mozilla Thunderbird 161 Adds Unread Count Badges on Supported Linux Taskbars  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Mozilla Thunderbird 161 open-source email client is now available for download with the ability to show unread count badges on supported Linux taskbars. \n The post  Mozilla Thunderbird 161 Adds Unread Count Badges on Supported Linux Taskbars  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/mozilla-thunderbird-161-adds-unread-count-badges-on-supported-linux-taskbars",
+    "date": "Tue, 24 Nov 2026 06:17:52 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "TornadoVM 8.2 Released With ROCm HIP Backend For AMD GPUs",
+    "title_pt": "TornadoVM 8.2 Released With ROCm HIP Backend For AMD GPUs",
+    "summary_en": "TornadoVM is the Java programming framework that allows Java code with OpenJDK 21+ to JIT compile to NVIDIA CUDA, OpenCL C, Apple Metal, and now even AMD ROCm HIP too. TornadoVM 8.2 is out today as the newest feature update for this Java framework for GPU kernel programming...",
+    "summary_pt": "TornadoVM is the Java programming framework that allows Java code with OpenJDK 21+ to JIT compile to NVIDIA CUDA, OpenCL C, Apple Metal, and now even AMD ROCm HIP too. TornadoVM 8.2 is out today as the newest feature update for this Java framework for GPU kernel programming...",
+    "link": "https://www.phoronix.com/news/TornadoVM-8.2",
+    "date": "Tue, 24 Nov 2026 08:24:22 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "HID Patches For Linux 7.4-rc5 Bring AI Fixes Plus New Hardware",
+    "title_pt": "HID Patches For Linux 7.4-rc5 Bring AI Fixes Plus New Hardware",
+    "summary_en": "Merged yesterday to Linux Git ahead of Linux 7.4-rc5 due out next weekend were the latest round of HID subsystem changes. The HID work was larger than desired at this stage of the Linux 7.4 cycle due to the continued flow of AI fixes, patch review being slower in recent weeks, and also the continued churn of new hardware support / workarounds...",
+    "summary_pt": "Merged yesterday to Linux Git ahead of Linux 7.4-rc5 due out next weekend were the latest round of HID subsystem changes. The HID work was larger than desired at this stage of the Linux 7.4 cycle due to the continued flow of AI fixes, patch review being slower in recent weeks, and also the continued churn of new hardware support / workarounds...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-rc5-HID",
+    "date": "Tue, 24 Nov 2026 07:08:19 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "zlib-rs 0.6.9 Released With Performance Improvements",
+    "title_pt": "zlib-rs 0.6.9 Released With Performance Improvements",
+    "summary_en": "The Trifecta Tech Foundation today released zlib-rs 0.6.9 as this implementation of Zlib written in the Rust programming language for what aims to be a safer Zlib...",
+    "summary_pt": "The Trifecta Tech Foundation today released zlib-rs 0.6.9 as this implementation of Zlib written in the Rust programming language for what aims to be a safer Zlib...",
+    "link": "https://www.phoronix.com/news/zlib-rs-0.6.9",
+    "date": "Tue, 24 Nov 2026 06:11:56 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "SUSE Rolling Out \"The First AI-Ready OS Installer\"",
+    "title_pt": "SUSE Rolling Out \"The First AI-Ready OS Installer\"",
+    "summary_en": "AI support by way of Model Context Protocol (MCP) server integration is now reaching Linux distribution installers...",
+    "summary_pt": "AI support by way of Model Context Protocol (MCP) server integration is now reaching Linux distribution installers...",
+    "link": "https://www.phoronix.com/news/SUSE-Agama-Adding-AI-MCP",
+    "date": "Tue, 24 Nov 2026 05:58:14 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Proton 11.0-3 Released For Valve's Steam Play With More Games Now Playable",
+    "title_pt": "Proton 11.0-3 Released For Valve's Steam Play With More Games Now Playable",
+    "summary_en": "Overnight the Proton 11.0-3 downstream of Wine was released for powering Valve's Steam Play in running Windows games on Linux...",
+    "summary_pt": "Overnight the Proton 11.0-3 downstream of Wine was released for powering Valve's Steam Play in running Windows games on Linux...",
+    "link": "https://www.phoronix.com/news/Proton-11.0-3-Released",
+    "date": "Tue, 24 Nov 2026 05:23:41 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Firefox 162 Will Restore Windows to Their Saved Positions on GNOME 51 and Later",
     "title_pt": "Firefox 162 Will Restore Windows to Their Saved Positions on GNOME 51 and Later",
     "summary_en": "Mozilla Firefox 162 open-source web browser is now available for public beta testing with support for restoring windows to their saved positions on GNOME 51 and later. \n The post  Firefox 162 Will Restore Windows to Their Saved Positions on GNOME 51 and Later  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
