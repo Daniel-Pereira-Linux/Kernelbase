@@ -1,6 +1,141 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Firefox 162 Will Restore Windows to Their Saved Positions on GNOME 51 and Later",
+    "title_pt": "Firefox 162 Will Restore Windows to Their Saved Positions on GNOME 51 and Later",
+    "summary_en": "Mozilla Firefox 162 open-source web browser is now available for public beta testing with support for restoring windows to their saved positions on GNOME 51 and later. \n The post  Firefox 162 Will Restore Windows to Their Saved Positions on GNOME 51 and Later  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Mozilla Firefox 162 open-source web browser is now available for public beta testing with support for restoring windows to their saved positions on GNOME 51 and later. \n The post  Firefox 162 Will Restore Windows to Their Saved Positions on GNOME 51 and Later  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/firefox-162-will-restore-windows-to-their-saved-positions-on-gnome-51-and-later",
+    "date": "Mon, 23 Nov 2026 19:57:11 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Qt Creator 21 Open-Source IDE Released with New Profile Mode, Improvements",
+    "title_pt": "Qt Creator 21 Open-Source IDE Released with New Profile Mode, Improvements",
+    "summary_en": "Qt Creator 21 open-source integrated development environment (IDE) is now available for download with a new Profile mode, deeper AI agent integration, and more. \n The post  Qt Creator 21 Open-Source IDE Released with New Profile Mode, Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Qt Creator 21 open-source integrated development environment (IDE) is now available for download with a new Profile mode, deeper AI agent integration, and more. \n The post  Qt Creator 21 Open-Source IDE Released with New Profile Mode, Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/qt-creator-21-open-source-ide-released-with-new-profile-mode-improvements",
+    "date": "Mon, 23 Nov 2026 15:41:41 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Mozilla Firefox 161 Is Now Available for Download, Here’s What’s New",
+    "title_pt": "Mozilla Firefox 161 Is Now Available for Download, Here’s What’s New",
+    "summary_en": "Mozilla Firefox 161 open-source web browser is now available for download with the ability to copy the current tab’s URL with a keyboard shortcut and new themes. \n The post  Mozilla Firefox 161 Is Now Available for Download, Here’s What’s New  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Mozilla Firefox 161 open-source web browser is now available for download with the ability to copy the current tab’s URL with a keyboard shortcut and new themes. \n The post  Mozilla Firefox 161 Is Now Available for Download, Here’s What’s New  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/mozilla-firefox-161-is-now-available-for-download-heres-whats-new",
+    "date": "Mon, 23 Nov 2026 13:40:54 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "CachyOS November 2026 release",
+    "title_pt": "CachyOS November 2026 release",
+    "summary_en": "CachyOS , a performance-focused\ndistribution based on  Arch Linux , has\nannounced its  November 2026 \nrelease. Notable changes in this release include a new recovery environment\n(\"cachyos-recovery\") for rolling back broken systems, Easy Anti-Cheat (EAC) v2\nsupport for games that require EAC to run, version 2.0.0 of the CachyOS Package\nInstaller, and more.",
+    "summary_pt": "CachyOS , a performance-focused\ndistribution based on  Arch Linux , has\nannounced its  November 2026 \nrelease. Notable changes in this release include a new recovery environment\n(\"cachyos-recovery\") for rolling back broken systems, Easy Anti-Cheat (EAC) v2\nsupport for games that require EAC to run, version 2.0.0 of the CachyOS Package\nInstaller, and more.",
+    "link": "https://lwn.net/Articles/1109269/",
+    "date": "Mon, 23 Nov 2026 14:21:41 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Monday",
+    "title_pt": "Security updates for Monday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (buildah, cifs-utils, cockpit-files, cockpit-machines, container-tools:rhel8, curl, expat, fence-agents, flatpak, fltk, gfs2-utils, gimp:2.8, gnome-remote-desktop, grafana, gstreamer1-plugins-bad-free, java-1.8.0-openjdk, kernel, libgsf, libpcap, librabbitmq, libreoffice, mingw-expat, nginx, nginx:1.24, nginx:1.26, openssh, php8.4, php:7.4, php:8...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (buildah, cifs-utils, cockpit-files, cockpit-machines, container-tools:rhel8, curl, expat, fence-agents, flatpak, fltk, gfs2-utils, gimp:2.8, gnome-remote-desktop, grafana, gstreamer1-plugins-bad-free, java-1.8.0-openjdk, kernel, libgsf, libpcap, librabbitmq, libreoffice, mingw-expat, nginx, nginx:1.24, nginx:1.26, openssh, php8.4, php:7.4, php:8...",
+    "link": "https://lwn.net/Articles/1109268/",
+    "date": "Mon, 23 Nov 2026 14:10:48 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Seven stable kernels for Monday",
+    "title_pt": "Seven stable kernels for Monday",
+    "summary_en": "Greg Kroah-Hartman has announced the  7.3.6 ,\n 6.18.65 ,\n 6.12.119 ,\n 6.6.163 ,\n 6.1.193 ,\n 5.15.226 , and\n 5.10.275  stable kernels. Each of these contains\nquite a few patches throughout the tree—6.12.119 has the fewest with more\nthan 1,700 patches, while 6.6.163 has more than 3,300. Users are advised to\nupgrade.",
+    "summary_pt": "Greg Kroah-Hartman has announced the  7.3.6 ,\n 6.18.65 ,\n 6.12.119 ,\n 6.6.163 ,\n 6.1.193 ,\n 5.15.226 , and\n 5.10.275  stable kernels. Each of these contains\nquite a few patches throughout the tree—6.12.119 has the fewest with more\nthan 1,700 patches, while 6.6.163 has more than 3,300. Users are advised to\nupgrade.",
+    "link": "https://lwn.net/Articles/1108909/",
+    "date": "Mon, 23 Nov 2026 13:23:43 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Mesa's NVK NVIDIA Driver Another Step Closer To Vulkan Ray-Tracing",
+    "title_pt": "Mesa's NVK NVIDIA Driver Another Step Closer To Vulkan Ray-Tracing",
+    "summary_en": "Mesa's NVK open-source NVIDIA Vulkan driver is one step closer toward eventually supporting Vulkan ray-tracing...",
+    "summary_pt": "Mesa's NVK open-source NVIDIA Vulkan driver is one step closer toward eventually supporting Vulkan ray-tracing...",
+    "link": "https://www.phoronix.com/news/Mesa-NVK-TTU-Instructions",
+    "date": "Mon, 23 Nov 2026 20:52:24 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Zstd 1.6 Released With Many Fixes, New Performance Optimizations",
+    "title_pt": "Zstd 1.6 Released With Many Fixes, New Performance Optimizations",
+    "summary_en": "It's been a year and a half since the last Zstandard release (v1.5.7) while Zstandard 1.6.0 was tagged a short time ago as the next major step forward for this widely-used, open-source compression algorithm and implementation...",
+    "summary_pt": "It's been a year and a half since the last Zstandard release (v1.5.7) while Zstandard 1.6.0 was tagged a short time ago as the next major step forward for this widely-used, open-source compression algorithm and implementation...",
+    "link": "https://www.phoronix.com/news/Zstandard-Zstd-1.6",
+    "date": "Mon, 23 Nov 2026 18:00:32 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Ladybird Web Browser/Engine Reaches Alpha",
+    "title_pt": "Ladybird Web Browser/Engine Reaches Alpha",
+    "summary_en": "The Ladybird open-source desktop web browser built from scratch with its own independent web engine has now entered its alpha phase...",
+    "summary_pt": "The Ladybird open-source desktop web browser built from scratch with its own independent web engine has now entered its alpha phase...",
+    "link": "https://www.phoronix.com/news/Ladybird-Browser-Alpha",
+    "date": "Mon, 23 Nov 2026 16:00:14 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Mesa 27.0 RadeonSI Gallium3D Disables Radeon Kernel Driver Support By Default",
+    "title_pt": "Mesa 27.0 RadeonSI Gallium3D Disables Radeon Kernel Driver Support By Default",
+    "summary_en": "As part of encouraging AMD Radeon Linux users to switch over to the AMDGPU kernel driver and/or upgrade their kernels, Mesa 27.0 with the RadeonSI Gallium3D driver is disabling its Radeon kernel driver compatibility by default. This affects the early GCN 1.0 and GCN 1.1 graphics processors that had been still using the legacy Radeon kernel driver by default up until about a year ago when it rea...",
+    "summary_pt": "As part of encouraging AMD Radeon Linux users to switch over to the AMDGPU kernel driver and/or upgrade their kernels, Mesa 27.0 with the RadeonSI Gallium3D driver is disabling its Radeon kernel driver compatibility by default. This affects the early GCN 1.0 and GCN 1.1 graphics processors that had been still using the legacy Radeon kernel driver by default up until about a year ago when it rea...",
+    "link": "https://www.phoronix.com/news/RadeonSI-Radeon-Disable-Default",
+    "date": "Mon, 23 Nov 2026 14:11:36 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean In Less Than 10 Years, Up To 133x In AI",
+    "title_pt": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean In Less Than 10 Years, Up To 133x In AI",
+    "summary_en": "This month brought the availability of the new EPYC 9006 \"Venice\" SP7 Zen 6 server processors. We have seen excellent generational gains with the likes of the EPYC 9686F and EPYC 9996 over Zen 5 Turin CPUs as well as sharply outperforming the competition from Intel and NVIDIA. With the first-generation EPYC \"Naples\" processors having launched nearly ten years ago, I was curious to quantify AMD'...",
+    "summary_pt": "This month brought the availability of the new EPYC 9006 \"Venice\" SP7 Zen 6 server processors. We have seen excellent generational gains with the likes of the EPYC 9686F and EPYC 9996 over Zen 5 Turin CPUs as well as sharply outperforming the competition from Intel and NVIDIA. With the first-generation EPYC \"Naples\" processors having launched nearly ten years ago, I was curious to quantify AMD'...",
+    "link": "https://www.phoronix.com/review/amd-epyc-9006-7601",
+    "date": "Mon, 23 Nov 2026 11:35:50 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Jensen Huang Reinstated As NVIDIA CEO & Board Director",
+    "title_pt": "Jensen Huang Reinstated As NVIDIA CEO & Board Director",
+    "summary_en": "Jensen Huang has been reinstated as the NVIDIA CEO and Board Director...",
+    "summary_pt": "Jensen Huang has been reinstated as the NVIDIA CEO and Board Director...",
+    "link": "https://www.phoronix.com/news/Jensen-Back-NVIDIA-CEO",
+    "date": "Mon, 23 Nov 2026 09:20:05 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Firefox 161 Brings Per-Site VPN Toggling, Classic Themes Section",
+    "title_pt": "Firefox 161 Brings Per-Site VPN Toggling, Classic Themes Section",
+    "summary_en": "Mozilla Firefox 161 release binaries are now available for this newest bi-weekly feature release to this open-source web browser...",
+    "summary_pt": "Mozilla Firefox 161 release binaries are now available for this newest bi-weekly feature release to this open-source web browser...",
+    "link": "https://www.phoronix.com/news/Firefox-161",
+    "date": "Mon, 23 Nov 2026 09:11:54 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "XNU Linux Lets macOS Userspace Processes Run On Linux",
+    "title_pt": "XNU Linux Lets macOS Userspace Processes Run On Linux",
+    "summary_en": "XNU Linux is a new opens-source project allowing macOS user-space software to run on Linux by loading the macOS kernel into it. XNU Linux builds off Apple's open-source XNU kernel components of macOS while adapted to serve as a loadable Linux kernel module. Besides this XNU kernel module, this works on an otherwise unmodified ARM64 Linux system...",
+    "summary_pt": "XNU Linux is a new opens-source project allowing macOS user-space software to run on Linux by loading the macOS kernel into it. XNU Linux builds off Apple's open-source XNU kernel components of macOS while adapted to serve as a loadable Linux kernel module. Besides this XNU kernel module, this works on an otherwise unmodified ARM64 Linux system...",
+    "link": "https://www.phoronix.com/news/XNU-Linux",
+    "date": "Mon, 23 Nov 2026 08:14:13 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "LibreOffice 27.2 Alpha 1 Released For Testing",
+    "title_pt": "LibreOffice 27.2 Alpha 1 Released For Testing",
+    "summary_en": "Ahead of the official roll-out in February, LibreOffice 27.2 Alpha 1 is now available for testing this updated open-source office suite...",
+    "summary_pt": "Ahead of the official roll-out in February, LibreOffice 27.2 Alpha 1 is now available for testing this updated open-source office suite...",
+    "link": "https://www.phoronix.com/news/LibreOffice-27.2-Alpha-1",
+    "date": "Mon, 23 Nov 2026 08:04:56 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "MKVToolNix 104 MKV Manipulation Tool Improves AVC/H.264, FLAC and MP4 Readers",
     "title_pt": "MKVToolNix 104 MKV Manipulation Tool Improves AVC/H.264, FLAC and MP4 Readers",
     "summary_en": "MKVToolNix 104 open-source Matroska (MKV) manipulation software is now available for download with various improvements to mkvmerge, the MKVToolNix GUI, and mkvextract. \n The post  MKVToolNix 104 MKV Manipulation Tool Improves AVC/H.264, FLAC and MP4 Readers  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
