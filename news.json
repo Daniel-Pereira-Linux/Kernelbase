@@ -1,6 +1,78 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Peppermint OS Void Launches as a Loaded Edition Based on Void Linux",
+    "title_pt": "Peppermint OS Void Launches as a Loaded Edition Based on Void Linux",
+    "summary_en": "Peppermint OS Void is now available for download as a new Peppermint OS edition based on the Void Linux distribution. \n The post  Peppermint OS Void Launches as a Loaded Edition Based on Void Linux  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Peppermint OS Void is now available for download as a new Peppermint OS edition based on the Void Linux distribution. \n The post  Peppermint OS Void Launches as a Loaded Edition Based on Void Linux  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/peppermint-os-void-launches-as-a-loaded-edition-based-on-void-linux",
+    "date": "Tue, 24 Nov 2026 14:57:14 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Firefox 161.0 released",
+    "title_pt": "Firefox 161.0 released",
+    "summary_en": "Version\n161.0  of the Firefox web browser has been released. Notable changes in this\nrelease include the  ability\nto assign a shortcut  to copy the current tab's URL, addition of a menu item\nfor  Tab Groups ,\nand the  built-in\nVPN can be turned off or on for specific sites . There are also a  number of\nsecurity fixes  in this release.",
+    "summary_pt": "Version\n161.0  of the Firefox web browser has been released. Notable changes in this\nrelease include the  ability\nto assign a shortcut  to copy the current tab's URL, addition of a menu item\nfor  Tab Groups ,\nand the  built-in\nVPN can be turned off or on for specific sites . There are also a  number of\nsecurity fixes  in this release.",
+    "link": "https://lwn.net/Articles/1109478/",
+    "date": "Tue, 24 Nov 2026 16:18:02 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Tuesday",
+    "title_pt": "Security updates for Tuesday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (aspell, curl, fence-agents, flatpak, flatpak-builder, freerdp, git-lfs, golang, grafana, grafana-pcp, gstreamer1-plugins-good, kernel, kernel-rt, libgsf, liblerc, mutter, netpbm, nodejs26, openssh, patch, perl-CGI, php, php:8.2, php:8.3, php:8.4, podman, python-oauthlib, python36:3.6, qt6-qtbase, rsync, ruby, ruby4.0, skopeo, sqlite, virt:rhel a...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (aspell, curl, fence-agents, flatpak, flatpak-builder, freerdp, git-lfs, golang, grafana, grafana-pcp, gstreamer1-plugins-good, kernel, kernel-rt, libgsf, liblerc, mutter, netpbm, nodejs26, openssh, patch, perl-CGI, php, php:8.2, php:8.3, php:8.4, podman, python-oauthlib, python36:3.6, qt6-qtbase, rsync, ruby, ruby4.0, skopeo, sqlite, virt:rhel a...",
+    "link": "https://lwn.net/Articles/1109472/",
+    "date": "Tue, 24 Nov 2026 14:03:12 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linus Torvalds: \"Tell Your AI Companion To Get Its Act Together\"",
+    "title_pt": "Linus Torvalds: \"Tell Your AI Companion To Get Its Act Together\"",
+    "summary_en": "A big EXT4 pull request today intended for the Linux 7.4-rc5 kernel has set off Linus Torvalds. Over 41k lines of new code in this EXT4 pull request going in as \"fixes\".... Much of that being new KUnit test coverage to make it safer to validate AI-generated patches. And then a lot of AI generated patches themselves for the EXT4 file-system...",
+    "summary_pt": "A big EXT4 pull request today intended for the Linux 7.4-rc5 kernel has set off Linus Torvalds. Over 41k lines of new code in this EXT4 pull request going in as \"fixes\".... Much of that being new KUnit test coverage to make it safer to validate AI-generated patches. And then a lot of AI generated patches themselves for the EXT4 file-system...",
+    "link": "https://www.phoronix.com/news/Linus-Torvalds-EXT4-AI-Big",
+    "date": "Tue, 24 Nov 2026 16:01:36 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Pop!_OS 26.04 LTS Released With More COSMIC Apps, Remote Desktop & More",
+    "title_pt": "Pop!_OS 26.04 LTS Released With More COSMIC Apps, Remote Desktop & More",
+    "summary_en": "System76 has a wonderful surprise today with the release of Pop!_OS 26.04 LTS as the newest iteration of their in-house Linux distribution now built atop the Ubuntu 26.04 LTS package base and incorporating their latest enhancements to their COSMIC desktop...",
+    "summary_pt": "System76 has a wonderful surprise today with the release of Pop!_OS 26.04 LTS as the newest iteration of their in-house Linux distribution now built atop the Ubuntu 26.04 LTS package base and incorporating their latest enhancements to their COSMIC desktop...",
+    "link": "https://www.phoronix.com/news/Pop-OS-26.04-Released",
+    "date": "Tue, 24 Nov 2026 16:00:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Ubuntu Outlines Plans For Its AI-Powered New Way To Interact With The Ubuntu Desktop",
+    "title_pt": "Ubuntu Outlines Plans For Its AI-Powered New Way To Interact With The Ubuntu Desktop",
+    "summary_en": "Following Ubuntu 26.10 offering the Myna speech-to-text AI powered functionality in tech preview form and then a Snap appearing recently as a new design mock-up for an AI-powered launcher, Canonical today shared more plans on their AI-embraced Ubuntu desktop...",
+    "summary_pt": "Following Ubuntu 26.10 offering the Myna speech-to-text AI powered functionality in tech preview form and then a Snap appearing recently as a new design mock-up for an AI-powered launcher, Canonical today shared more plans on their AI-embraced Ubuntu desktop...",
+    "link": "https://www.phoronix.com/news/Ubuntu-AI-Desktop-Interact",
+    "date": "Tue, 24 Nov 2026 11:12:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Ubuntu 26.10 Provides Some Performance Gains For Intel Panther Lake On The Dell XPS 14",
+    "title_pt": "Ubuntu 26.10 Provides Some Performance Gains For Intel Panther Lake On The Dell XPS 14",
+    "summary_en": "The new Dell XPS 14 powered by Intel Core Ultra Series 3 (https://www.phoronix.com/review/dell-xps-14-panther-lake) \"Panther Lake\" is now available with Ubuntu 26.04 LTS pre-loaded. For those not concerned about sticking to an officially supported or Long Term Support (LTS) version, upgrading to the new Ubuntu 26.10 can help deliver some additional CPU and iGPU performance gains on Panther Lake.",
+    "summary_pt": "The new Dell XPS 14 powered by Intel Core Ultra Series 3 (https://www.phoronix.com/review/dell-xps-14-panther-lake) \"Panther Lake\" is now available with Ubuntu 26.04 LTS pre-loaded. For those not concerned about sticking to an officially supported or Long Term Support (LTS) version, upgrading to the new Ubuntu 26.10 can help deliver some additional CPU and iGPU performance gains on Panther Lake.",
+    "link": "https://www.phoronix.com/review/ubuntu-2610-dell-xps-14",
+    "date": "Tue, 24 Nov 2026 10:35:30 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Collabora Online Sharply Reduces Server Memory Use With New Optimization",
+    "title_pt": "Collabora Online Sharply Reduces Server Memory Use With New Optimization",
+    "summary_en": "The Collabora Online open-source web browser based office suite derived from LibreOffice is now able to use 50% less memory per document following an optimization to its copy-on-write memory handling...",
+    "summary_pt": "The Collabora Online open-source web browser based office suite derived from LibreOffice is now able to use 50% less memory per document following an optimization to its copy-on-write memory handling...",
+    "link": "https://www.phoronix.com/news/Collabora-Online-Half-Memory",
+    "date": "Tue, 24 Nov 2026 09:50:00 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "IPFire 2.29 Core Update 206 Adds LoongArch64 Support, Updated Components",
     "title_pt": "IPFire 2.29 Core Update 206 Adds LoongArch64 Support, Updated Components",
     "summary_en": "IPFire 2.29 Core Update 206 hardened Linux firewall distro is now available for download with support for new languages, updated installer, security fixes, and updated components. \n The post  IPFire 2.29 Core Update 206 Adds LoongArch64 Support, Updated Components  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
