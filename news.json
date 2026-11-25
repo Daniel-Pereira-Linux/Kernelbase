@@ -1,6 +1,24 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Pop!_OS 26.04 LTS Is Now Available for Download, Based on Ubuntu 26.04 LTS",
+    "title_pt": "Pop!_OS 26.04 LTS Is Now Available for Download, Based on Ubuntu 26.04 LTS",
+    "summary_en": "Pop!_OS 26.04 LTS Linux distribution from System76 is now available for download based on Ubuntu 26.04 LTS and featuring the COSMIC desktop environment. \n The post  Pop!_OS 26.04 LTS Is Now Available for Download, Based on Ubuntu 26.04 LTS  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Pop!_OS 26.04 LTS Linux distribution from System76 is now available for download based on Ubuntu 26.04 LTS and featuring the COSMIC desktop environment. \n The post  Pop!_OS 26.04 LTS Is Now Available for Download, Based on Ubuntu 26.04 LTS  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/pop_os-26-04-lts-is-now-available-for-download-based-on-ubuntu-26-04-lts",
+    "date": "Wed, 25 Nov 2026 01:18:53 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Benchmarking The Performance Benefit Of FRED On AMD Zen 6",
+    "title_pt": "Benchmarking The Performance Benefit Of FRED On AMD Zen 6",
+    "summary_en": "With the new EPYC 9006 SP7 Venice processors now shipping, one of the curious follow-up benchmarks I have been wanting to pursue is around quantifying the performance impact of Flexible Return and Event Delivery \"FRED\". After all, FRED showed very nice gains for Intel Panther Lake for first featuring FRED. Since then the Linux kernel has enabled FRED usage by default with capable CPUs, so all t...",
+    "summary_pt": "With the new EPYC 9006 SP7 Venice processors now shipping, one of the curious follow-up benchmarks I have been wanting to pursue is around quantifying the performance impact of Flexible Return and Event Delivery \"FRED\". After all, FRED showed very nice gains for Intel Panther Lake for first featuring FRED. Since then the Linux kernel has enabled FRED usage by default with capable CPUs, so all t...",
+    "link": "https://www.phoronix.com/news/AMD-Zen-6-FRED-Benefits",
+    "date": "Tue, 24 Nov 2026 20:55:19 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Peppermint OS Void Launches as a Loaded Edition Based on Void Linux",
     "title_pt": "Peppermint OS Void Launches as a Loaded Edition Based on Void Linux",
     "summary_en": "Peppermint OS Void is now available for download as a new Peppermint OS edition based on the Void Linux distribution. \n The post  Peppermint OS Void Launches as a Loaded Edition Based on Void Linux  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
