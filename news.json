@@ -1,6 +1,87 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "DXVK 3.2 Adds Present Timing Support for More Consistent Frame Pacing on Linux",
+    "title_pt": "DXVK 3.2 Adds Present Timing Support for More Consistent Frame Pacing on Linux",
+    "summary_en": "DXVK 3.2 Vulkan-based implementation of D3D9, D3D10, and D3D11 for Linux / Wine is now available for download with new features, improvements, and bug fixes. \n The post  DXVK 3.2 Adds Present Timing Support for More Consistent Frame Pacing on Linux  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "DXVK 3.2 Vulkan-based implementation of D3D9, D3D10, and D3D11 for Linux / Wine is now available for download with new features, improvements, and bug fixes. \n The post  DXVK 3.2 Adds Present Timing Support for More Consistent Frame Pacing on Linux  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/dxvk-3-2-adds-present-timing-support-for-more-consistent-frame-pacing-on-linux",
+    "date": "Thu, 26 Nov 2026 16:16:47 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Clonezilla Live 3.3.5 Disk Imaging Tool Released with Linux 7.3, ZFS Support",
+    "title_pt": "Clonezilla Live 3.3.5 Disk Imaging Tool Released with Linux 7.3, ZFS Support",
+    "summary_en": "Clonezilla Live 3.3.5 disk imaging/cloning tool is now available for download with Linux kernel 7.3, ZFS file system support, MDRAID local disk-to-disk cloning, and more. \n The post  Clonezilla Live 3.3.5 Disk Imaging Tool Released with Linux 7.3, ZFS Support  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Clonezilla Live 3.3.5 disk imaging/cloning tool is now available for download with Linux kernel 7.3, ZFS file system support, MDRAID local disk-to-disk cloning, and more. \n The post  Clonezilla Live 3.3.5 Disk Imaging Tool Released with Linux 7.3, ZFS Support  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/clonezilla-live-3-3-5-disk-imaging-tool-released-with-linux-7-3-zfs-support",
+    "date": "Thu, 26 Nov 2026 13:27:49 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "PipeWire 1.6.12 Brings Video4Linux2, ALSA, GStreamer, and JACK Improvements",
+    "title_pt": "PipeWire 1.6.12 Brings Video4Linux2, ALSA, GStreamer, and JACK Improvements",
+    "summary_en": "PipeWire 1.6.12 audio/video server for Linux is now available for download with improvements to Pulse Server, ALSA plugin, SPA, JACK, and modules. \n The post  PipeWire 1.6.12 Brings Video4Linux2, ALSA, GStreamer, and JACK Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "PipeWire 1.6.12 audio/video server for Linux is now available for download with improvements to Pulse Server, ALSA plugin, SPA, JACK, and modules. \n The post  PipeWire 1.6.12 Brings Video4Linux2, ALSA, GStreamer, and JACK Improvements  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/pipewire-1-6-12-brings-video4linux2-alsa-gstreamer-and-jack-improvements",
+    "date": "Thu, 26 Nov 2026 11:13:44 +0000"
+  },
+  {
+    "source": "LWN",
+    "title_en": "Security updates for Thursday",
+    "title_pt": "Security updates for Thursday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (cifs-utils, cjose, cockpit-machines, containernetworking-plugins, dhcp, edk2, firewalld, fltk, freerdp, gdm, ghostscript, grafana, kernel, librabbitmq, netpbm, nginx:1.24, nginx:1.26, openscap, openssl, php, python-botocore, qt6-qt3d, resource-agents, rsync, ruby, ruby:2.5, ruby:3.3, ruby:4.0, skopeo, spice, thunderbird, and webkit2gtk3),  Debia...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (cifs-utils, cjose, cockpit-machines, containernetworking-plugins, dhcp, edk2, firewalld, fltk, freerdp, gdm, ghostscript, grafana, kernel, librabbitmq, netpbm, nginx:1.24, nginx:1.26, openscap, openssl, php, python-botocore, qt6-qt3d, resource-agents, rsync, ruby, ruby:2.5, ruby:3.3, ruby:4.0, skopeo, spice, thunderbird, and webkit2gtk3),  Debia...",
+    "link": "https://lwn.net/Articles/1109990/",
+    "date": "Thu, 26 Nov 2026 14:06:22 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux 7.4 Delivers Some Performance Gains For Intel Panther Lake's Arc B390 Graphics",
+    "title_pt": "Linux 7.4 Delivers Some Performance Gains For Intel Panther Lake's Arc B390 Graphics",
+    "summary_en": "With the recently reviewed Dell XPS 14 laptop powered by Intel Core Ultra Series 3 \"Panther Lake\", it ships with Ubuntu 26.04 LTS as one of the Dell supported options. If aiming for maximizing the performance out of Panther Lake, upgrading to Ubuntu 26.10 provides some performance boosts. If wanting to take things even further, going with the in-development Linux 7.4 kernel provides some advant...",
+    "summary_pt": "With the recently reviewed Dell XPS 14 laptop powered by Intel Core Ultra Series 3 \"Panther Lake\", it ships with Ubuntu 26.04 LTS as one of the Dell supported options. If aiming for maximizing the performance out of Panther Lake, upgrading to Ubuntu 26.10 provides some performance boosts. If wanting to take things even further, going with the in-development Linux 7.4 kernel provides some advant...",
+    "link": "https://www.phoronix.com/news/Linux-7.4-Arc-B390-Performance",
+    "date": "Thu, 26 Nov 2026 11:40:04 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "DXVK 3.2 Released With Present Timing Support",
+    "title_pt": "DXVK 3.2 Released With Present Timing Support",
+    "summary_en": "DXVK 3.2 is out today as the newest feature release for this Vulkan-based implementation of the Direct3D 8 through Direct3D 11 APIs that is used by Valve's Steam Play (Proton)...",
+    "summary_pt": "DXVK 3.2 is out today as the newest feature release for this Vulkan-based implementation of the Direct3D 8 through Direct3D 11 APIs that is used by Valve's Steam Play (Proton)...",
+    "link": "https://www.phoronix.com/news/DXVK-3.2-Released",
+    "date": "Thu, 26 Nov 2026 11:07:07 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Brush 0.5 Passing 96+% Of Upstream Test Suite For Bash Shell Written In Rust",
+    "title_pt": "Brush 0.5 Passing 96+% Of Upstream Test Suite For Bash Shell Written In Rust",
+    "summary_en": "Brush as the open-source project providing a Bash/POSIX-compatible shell written in Rust is out with its newest feature release. With Brush 0.5 they are passing over 96% of the upstream bash-completion test suite thanks to a variety of improvements made this release cycle. Most Bash scripts should be able to run unchanged under Brush...",
+    "summary_pt": "Brush as the open-source project providing a Bash/POSIX-compatible shell written in Rust is out with its newest feature release. With Brush 0.5 they are passing over 96% of the upstream bash-completion test suite thanks to a variety of improvements made this release cycle. Most Bash scripts should be able to run unchanged under Brush...",
+    "link": "https://www.phoronix.com/news/Brush-0.5-Released",
+    "date": "Thu, 26 Nov 2026 08:21:50 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "F2FS Getting Ready With Its Large Folios Support",
+    "title_pt": "F2FS Getting Ready With Its Large Folios Support",
+    "summary_en": "In recent months there has been a lot of work done by developer Nanzhe Zhao on implementing support for large folios for most readable/writable files with the F2FS file-system in its buffered I/O paths. This can bring some performance benefits and it's looking like the work may be wrapped up in time for the Linux 7.5 kernel...",
+    "summary_pt": "In recent months there has been a lot of work done by developer Nanzhe Zhao on implementing support for large folios for most readable/writable files with the F2FS file-system in its buffered I/O paths. This can bring some performance benefits and it's looking like the work may be wrapped up in time for the Linux 7.5 kernel...",
+    "link": "https://www.phoronix.com/news/F2FS-Large-Folios-Coming",
+    "date": "Thu, 26 Nov 2026 06:37:14 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Intel Xe Driver Gaining PCIe Function Level Reset \"FLR\" With Linux 7.5",
+    "title_pt": "Intel Xe Driver Gaining PCIe Function Level Reset \"FLR\" With Linux 7.5",
+    "summary_en": "Last week's drm-xe-next pull request of new Xe kernel driver material that Intel has ready for Linux 7.5 finally introduces PCIe Function Level Reset (FLR) support for this modern Intel graphics driver...",
+    "summary_pt": "Last week's drm-xe-next pull request of new Xe kernel driver material that Intel has ready for Linux 7.5 finally introduces PCIe Function Level Reset (FLR) support for this modern Intel graphics driver...",
+    "link": "https://www.phoronix.com/news/Intel-Xe-PCIe-FLR-Linux-7.5",
+    "date": "Thu, 26 Nov 2026 05:56:20 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Linux Mint 27 Beta Is Now Available for Download with Cinnamon 6.8",
     "title_pt": "Linux Mint 27 Beta Is Now Available for Download with Cinnamon 6.8",
     "summary_en": "Linux Mint 27 beta is now available for download with the Cinnamon 6.8, Xfce 4.20, and MATE 1.26 desktop environments, and an Ubuntu 26.04 LTS base with Linux kernel 7.0. \n The post  Linux Mint 27 Beta Is Now Available for Download with Cinnamon 6.8  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
