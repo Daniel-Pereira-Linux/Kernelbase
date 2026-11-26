@@ -1,5 +1,41 @@
 [
   {
+    "source": "9to5Linux",
+    "title_en": "Linux Mint 27 Beta Is Now Available for Download with Cinnamon 6.8",
+    "title_pt": "Linux Mint 27 Beta Is Now Available for Download with Cinnamon 6.8",
+    "summary_en": "Linux Mint 27 beta is now available for download with the Cinnamon 6.8, Xfce 4.20, and MATE 1.26 desktop environments, and an Ubuntu 26.04 LTS base with Linux kernel 7.0. \n The post  Linux Mint 27 Beta Is Now Available for Download with Cinnamon 6.8  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Linux Mint 27 beta is now available for download with the Cinnamon 6.8, Xfce 4.20, and MATE 1.26 desktop environments, and an Ubuntu 26.04 LTS base with Linux kernel 7.0. \n The post  Linux Mint 27 Beta Is Now Available for Download with Cinnamon 6.8  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/linux-mint-27-beta-is-now-available-for-download-with-cinnamon-6-8",
+    "date": "Thu, 26 Nov 2026 03:02:27 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "Lutris 0.5.23 Game Manager Adds GOG Cloud Saves, GameJolt and DLsite Support",
+    "title_pt": "Lutris 0.5.23 Game Manager Adds GOG Cloud Saves, GameJolt and DLsite Support",
+    "summary_en": "Lutris 0.5.23 is now available for download with new GOG features, two new game sources, a switch to GE-Proton through umu for installers, and many improvements and bug fixes. \n The post  Lutris 0.5.23 Game Manager Adds GOG Cloud Saves, GameJolt and DLsite Support  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Lutris 0.5.23 is now available for download with new GOG features, two new game sources, a switch to GE-Proton through umu for installers, and many improvements and bug fixes. \n The post  Lutris 0.5.23 Game Manager Adds GOG Cloud Saves, GameJolt and DLsite Support  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/lutris-0-5-23-game-manager-adds-gog-cloud-saves-gamejolt-and-dlsite-support",
+    "date": "Thu, 26 Nov 2026 02:14:27 +0000"
+  },
+  {
+    "source": "Planet Kernel",
+    "title_en": "Pete Zaitcev: Do AI Hallucinate About Electric Sheep",
+    "title_pt": "Pete Zaitcev: Do AI Hallucinate About Electric Sheep",
+    "summary_en": "I saw my first AI hallucination. I was reviewing a long-ish design doc made by AI, which said: \n \n 2. Verify status bit 92jk/Erg}` \n \n That was it. Just one phrase messed up. \n I'm sure it's an inappropriate anthropomorphism, but it looks like when AI cannot remember something off hand (such as the name of a signal or a field in a register), it dumps a complete randomness instead of \"<<TBD>>\" o...",
+    "summary_pt": "I saw my first AI hallucination. I was reviewing a long-ish design doc made by AI, which said: \n \n 2. Verify status bit 92jk/Erg}` \n \n That was it. Just one phrase messed up. \n I'm sure it's an inappropriate anthropomorphism, but it looks like when AI cannot remember something off hand (such as the name of a signal or a field in a register), it dumps a complete randomness instead of \"<<TBD>>\" o...",
+    "link": "https://zaitcev.livejournal.com/270541.html",
+    "date": "Wed, 25 Nov 2026 22:50:08 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "KosmicKrisp Now The Go-To Solution For Vulkan On Macs In Place Of MoltenVK",
+    "title_pt": "KosmicKrisp Now The Go-To Solution For Vulkan On Macs In Place Of MoltenVK",
+    "summary_en": "While MoltenVK began as an initiative to layer the Vulkan API atop Apple's Metal for use on macOS and iOS, the KosmicKrisp effort spearheaded by LunarG is now the go-to solution for Vulkan API support on modern Apple devices...",
+    "summary_pt": "While MoltenVK began as an initiative to layer the Vulkan API atop Apple's Metal for use on macOS and iOS, the KosmicKrisp effort spearheaded by LunarG is now the go-to solution for Vulkan API support on modern Apple devices...",
+    "link": "https://www.phoronix.com/news/Vulkan-Macs-Go-KosmicKrisp",
+    "date": "Wed, 25 Nov 2026 20:39:26 -0500"
+  },
+  {
     "source": "LWN",
     "title_en": "Dave Täht given the Jonathan B. Postel Service Award",
     "title_pt": "Dave Täht given the Jonathan B. Postel Service Award",
