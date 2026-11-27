@@ -1,6 +1,60 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "digiKam 9.2 Photo Manager Adds Support for New Sony and Canon Cameras",
+    "title_pt": "digiKam 9.2 Photo Manager Adds Support for New Sony and Canon Cameras",
+    "summary_en": "digiKam 9.2 open-source professional photo manager is now available for download with support for Sony ARW6 CRAW HQ, Sony ILCE-7M5, and Canon R50 V cameras. \n The post  digiKam 9.2 Photo Manager Adds Support for New Sony and Canon Cameras  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "digiKam 9.2 open-source professional photo manager is now available for download with support for Sony ARW6 CRAW HQ, Sony ILCE-7M5, and Canon R50 V cameras. \n The post  digiKam 9.2 Photo Manager Adds Support for New Sony and Canon Cameras  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/digikam-9-2-photo-manager-adds-support-for-new-sony-and-canon-cameras",
+    "date": "Fri, 27 Nov 2026 11:11:22 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "systemd 263-rc1 Ships Initial Rust Code, Experimental Pseudo TTY Broker & Manifest",
+    "title_pt": "systemd 263-rc1 Ships Initial Rust Code, Experimental Pseudo TTY Broker & Manifest",
+    "summary_en": "Systemd 263-rc1 was just tagged in gearing up for this next major release. Systemd 263 brings initial support for using the Rust programming language for creating new Rust programs. Plus systemd 263 ships with a new pseudo TTY broker service, a manifest tool, a new keyring service and much more...",
+    "summary_pt": "Systemd 263-rc1 was just tagged in gearing up for this next major release. Systemd 263 brings initial support for using the Rust programming language for creating new Rust programs. Plus systemd 263 ships with a new pseudo TTY broker service, a manifest tool, a new keyring service and much more...",
+    "link": "https://www.phoronix.com/news/systemd-263-rc1",
+    "date": "Fri, 27 Nov 2026 06:42:12 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Intel's Vulkan Linux Driver Now Enables Efficient 64-bit Mode \"e64\" By Default",
+    "title_pt": "Intel's Vulkan Linux Driver Now Enables Efficient 64-bit Mode \"e64\" By Default",
+    "summary_en": "Debuting with the upcoming Intel Nova Lake P processors with their Xe3P integrated graphics is a new efficient 64-bit addressing mode \"e64\". This efficient 64-bit addressing mode for the future Intel GPUs provides native 64-bit shader memory addressing as a replacement to the 32-bit offset mode used by Intel GPU shaders up to now. As of the latest Mesa Git code, the Intel ANV Vulkan driver is e...",
+    "summary_pt": "Debuting with the upcoming Intel Nova Lake P processors with their Xe3P integrated graphics is a new efficient 64-bit addressing mode \"e64\". This efficient 64-bit addressing mode for the future Intel GPUs provides native 64-bit shader memory addressing as a replacement to the 32-bit offset mode used by Intel GPU shaders up to now. As of the latest Mesa Git code, the Intel ANV Vulkan driver is e...",
+    "link": "https://www.phoronix.com/news/Intel-Efficient-64-bit-e64-ANV",
+    "date": "Fri, 27 Nov 2026 06:26:10 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "ZenSMU Provides A Rust CLI/TUI & GUI For AMD Ryzen Monitoring/Tweaking",
+    "title_pt": "ZenSMU Provides A Rust CLI/TUI & GUI For AMD Ryzen Monitoring/Tweaking",
+    "summary_en": "In the absence of any official AMD Ryzen Master utility for Linux to extensively monitor your Ryzen processor and overclocking/tweaking the CPU, there are a few unofficial, open-source utilities out there that aim for a similar intent. One of the new ones is ZenSMU that provides both a CLI/TUI interface and a proper Linux desktop GUI...",
+    "summary_pt": "In the absence of any official AMD Ryzen Master utility for Linux to extensively monitor your Ryzen processor and overclocking/tweaking the CPU, there are a few unofficial, open-source utilities out there that aim for a similar intent. One of the new ones is ZenSMU that provides both a CLI/TUI interface and a proper Linux desktop GUI...",
+    "link": "https://www.phoronix.com/news/ZenSMU-Linux-TUI-GUI",
+    "date": "Fri, 27 Nov 2026 06:05:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Intel Compute Runtime 26.44.40734.8 Had OpenCL 3.1 But Reverted, More Performance",
+    "title_pt": "Intel Compute Runtime 26.44.40734.8 Had OpenCL 3.1 But Reverted, More Performance",
+    "summary_en": "Intel on Thursday released their Compute Runtime 26.44.40734.8 release as the latest feature update to this open-source GPU compute stack used on Linux and Windows...",
+    "summary_pt": "Intel on Thursday released their Compute Runtime 26.44.40734.8 release as the latest feature update to this open-source GPU compute stack used on Linux and Windows...",
+    "link": "https://www.phoronix.com/news/Intel-Compute-26.44.40734.8",
+    "date": "Fri, 27 Nov 2026 05:52:29 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Initial AMD RDNA5 Support To Appear In Linux 7.5",
+    "title_pt": "Initial AMD RDNA5 Support To Appear In Linux 7.5",
+    "summary_en": "Earlier this month the initial AMD GFC13 / GC 13 IP patches were posted for that next-generation graphics IP block expected to be for the RDNA5 graphics processors. With coincidental timing, that initial RDNA5 graphics driver enablement work is now on track for landing in the Linux 7.5 kernel...",
+    "summary_pt": "Earlier this month the initial AMD GFC13 / GC 13 IP patches were posted for that next-generation graphics IP block expected to be for the RDNA5 graphics processors. With coincidental timing, that initial RDNA5 graphics driver enablement work is now on track for landing in the Linux 7.5 kernel...",
+    "link": "https://www.phoronix.com/news/AMD-RDNA5-Linux-7.5-Initial",
+    "date": "Thu, 26 Nov 2026 20:55:30 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "Shelly 3.4.2 Package Manager for Arch Linux Distros Adds TUI Mouse Support",
     "title_pt": "Shelly 3.4.2 Package Manager for Arch Linux Distros Adds TUI Mouse Support",
     "summary_en": "Shelly 3.4.2 graphical package manager for Arch Linux distributions is now available for download with mouse navigation in the terminal interface, new window options, and more. \n The post  Shelly 3.4.2 Package Manager for Arch Linux Distros Adds TUI Mouse Support  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
