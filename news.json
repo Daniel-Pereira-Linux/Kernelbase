@@ -1,5 +1,50 @@
 [
   {
+    "source": "LWN",
+    "title_en": "Security updates for Friday",
+    "title_pt": "Security updates for Friday",
+    "summary_en": "Security updates have been issued by  AlmaLinux  (gdm, ghostscript, gnome-remote-desktop, grafana, kernel, kernel-rt, mariadb10.11, and virt:rhel and virt-devel:rhel),  Debian  (exim4, kernel, node-dompurify, and pam),  Fedora  (chromium, cockpit, forgejo, haveged, jupyterlab, kernel, mariadb10.11, mariadb11.8, mkvtoolnix, mosquitto, mozilla-ublock-origin, nodejs24, python-notebook, ruby, ruby-...",
+    "summary_pt": "Security updates have been issued by  AlmaLinux  (gdm, ghostscript, gnome-remote-desktop, grafana, kernel, kernel-rt, mariadb10.11, and virt:rhel and virt-devel:rhel),  Debian  (exim4, kernel, node-dompurify, and pam),  Fedora  (chromium, cockpit, forgejo, haveged, jupyterlab, kernel, mariadb10.11, mariadb11.8, mkvtoolnix, mosquitto, mozilla-ublock-origin, nodejs24, python-notebook, ruby, ruby-...",
+    "link": "https://lwn.net/Articles/1110189/",
+    "date": "Fri, 27 Nov 2026 14:22:47 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "GMKtec EVO-X2 AMD Ryzen AI Max+ Strix Halo Mini PC",
+    "title_pt": "GMKtec EVO-X2 AMD Ryzen AI Max+ Strix Halo Mini PC",
+    "summary_en": "For those in the market for an AMD Ryzen AI Max+ mini PC but not able to procure the likes of the Ryzen AI Halo or Framework Desktop in your region or with elevated pricing, another Strix Halo option that's been available is the GMKtec EVO-X2. I recently received a review sample of the GMKtec EVO-X2 and put it through a variety of benchmarks in seeing how the performance stacks up against the f...",
+    "summary_pt": "For those in the market for an AMD Ryzen AI Max+ mini PC but not able to procure the likes of the Ryzen AI Halo or Framework Desktop in your region or with elevated pricing, another Strix Halo option that's been available is the GMKtec EVO-X2. I recently received a review sample of the GMKtec EVO-X2 and put it through a variety of benchmarks in seeing how the performance stacks up against the f...",
+    "link": "https://www.phoronix.com/review/gmktec-evo-x2",
+    "date": "Fri, 27 Nov 2026 16:33:54 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "New \"Earthqaic\" Gallium3D Driver Merged For Mesa 27.0",
+    "title_pt": "New \"Earthqaic\" Gallium3D Driver Merged For Mesa 27.0",
+    "summary_en": "Merged today to Mesa Git is a brand new Gallium3D driver: Earthqaic...",
+    "summary_pt": "Merged today to Mesa Git is a brand new Gallium3D driver: Earthqaic...",
+    "link": "https://www.phoronix.com/news/Earthqaic-Gallium3D-Mesa-27.0",
+    "date": "Fri, 27 Nov 2026 15:21:00 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux Dropping Last Of The 1980's VersaModular Eurocard \"VME\" vme_user Code Over AI/LLM Noise",
+    "title_pt": "Linux Dropping Last Of The 1980's VersaModular Eurocard \"VME\" vme_user Code Over AI/LLM Noise",
+    "summary_en": "The Linux kernel is removing more old driver code due to AI/LLMs generating more noise over this unused, obsolete code within the source tree. Following various old ISA and PCMCIA code removed, ham radio, ISDN, and other old network code, the latest vintage artifact set to be stripped out of the Linux kernel is around the VersaModular Eurocard \"VME\" bus vme_user driver from the 1980s...",
+    "summary_pt": "The Linux kernel is removing more old driver code due to AI/LLMs generating more noise over this unused, obsolete code within the source tree. Following various old ISA and PCMCIA code removed, ham radio, ISDN, and other old network code, the latest vintage artifact set to be stripped out of the Linux kernel is around the VersaModular Eurocard \"VME\" bus vme_user driver from the 1980s...",
+    "link": "https://www.phoronix.com/news/Linux-Drops-VME-Bus-User",
+    "date": "Fri, 27 Nov 2026 10:50:44 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Linux Mint 27 Beta Released With New Apps, Full Wayland Support",
+    "title_pt": "Linux Mint 27 Beta Released With New Apps, Full Wayland Support",
+    "summary_en": "Ahead of the official release expected around Christmas, the beta of Linux Mint 27 was announced today for testing...",
+    "summary_pt": "Ahead of the official release expected around Christmas, the beta of Linux Mint 27 was announced today for testing...",
+    "link": "https://www.phoronix.com/news/Linux-Mint-27-Beta",
+    "date": "Fri, 27 Nov 2026 10:37:29 -0500"
+  },
+  {
     "source": "9to5Linux",
     "title_en": "digiKam 9.2 Photo Manager Adds Support for New Sony and Canon Cameras",
     "title_pt": "digiKam 9.2 Photo Manager Adds Support for New Sony and Canon Cameras",
