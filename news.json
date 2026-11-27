@@ -1,6 +1,60 @@
 [
   {
     "source": "9to5Linux",
+    "title_en": "Shelly 3.4.2 Package Manager for Arch Linux Distros Adds TUI Mouse Support",
+    "title_pt": "Shelly 3.4.2 Package Manager for Arch Linux Distros Adds TUI Mouse Support",
+    "summary_en": "Shelly 3.4.2 graphical package manager for Arch Linux distributions is now available for download with mouse navigation in the terminal interface, new window options, and more. \n The post  Shelly 3.4.2 Package Manager for Arch Linux Distros Adds TUI Mouse Support  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "summary_pt": "Shelly 3.4.2 graphical package manager for Arch Linux distributions is now available for download with mouse navigation in the terminal interface, new window options, and more. \n The post  Shelly 3.4.2 Package Manager for Arch Linux Distros Adds TUI Mouse Support  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "link": "https://9to5linux.com/shelly-3-4-2-package-manager-for-arch-linux-distros-adds-tui-mouse-support",
+    "date": "Thu, 26 Nov 2026 21:25:18 +0000"
+  },
+  {
+    "source": "9to5Linux",
+    "title_en": "First Ubuntu 27.04 “Tenacious T-Rex” Snapshot Is Now Available for Download",
+    "title_pt": "First Ubuntu 27.04 “Tenacious T-Rex” Snapshot Is Now Available for Download",
+    "summary_en": "The first Ubuntu 27.04 (Tenacious T-Rex) snapshot ISO image is now available for download for early adopters and application developers who want to test drive their apps against the new toolchain. \n The post  First Ubuntu 27.04 “Tenacious T-Rex” Snapshot Is Now Available for Download  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for...",
+    "summary_pt": "The first Ubuntu 27.04 (Tenacious T-Rex) snapshot ISO image is now available for download for early adopters and application developers who want to test drive their apps against the new toolchain. \n The post  First Ubuntu 27.04 “Tenacious T-Rex” Snapshot Is Now Available for Download  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for...",
+    "link": "https://9to5linux.com/first-ubuntu-27-04-tenacious-t-rex-snapshot-is-now-available-for-download",
+    "date": "Thu, 26 Nov 2026 18:34:17 +0000"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Omarchy 4.6-RC1 Released With More Local AI Integration, Its Own File Manager",
+    "title_pt": "Omarchy 4.6-RC1 Released With More Local AI Integration, Its Own File Manager",
+    "summary_en": "The Arch Linux based Omarchy distribution that continues seeing the backing of notable industry players is out with a new release. Omarchy 4.6 continues the project's quest of being a very AI forward Linux distribution and continuing to evolve more from its original Arch Linux and Hyprland customizations...",
+    "summary_pt": "The Arch Linux based Omarchy distribution that continues seeing the backing of notable industry players is out with a new release. Omarchy 4.6 continues the project's quest of being a very AI forward Linux distribution and continuing to evolve more from its original Arch Linux and Hyprland customizations...",
+    "link": "https://www.phoronix.com/news/Omarchy-4.6-Released",
+    "date": "Thu, 26 Nov 2026 20:33:14 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "It Looks Like AI Agent Skills Will Be Submitted For Linux 7.5",
+    "title_pt": "It Looks Like AI Agent Skills Will Be Submitted For Linux 7.5",
+    "summary_en": "For the upcoming Linux 7.5 merge window happening in late December, it appears that AI agent skills will be submitted for adding in-tree documentation for instructing AI agents on different kernel processes...",
+    "summary_pt": "For the upcoming Linux 7.5 merge window happening in late December, it appears that AI agent skills will be submitted for adding in-tree documentation for instructing AI agents on different kernel processes...",
+    "link": "https://www.phoronix.com/news/Linux-AI-Agent-Skills-Ready",
+    "date": "Thu, 26 Nov 2026 15:55:02 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Amid All The AI Generated Patches & Bug Reports, Linux Gains Another Network Maintainer",
+    "title_pt": "Amid All The AI Generated Patches & Bug Reports, Linux Gains Another Network Maintainer",
+    "summary_en": "Linux networking developers have previously said they've been \"completely overwhelmed\" with all the AI/LLM-driven activity from bug reports to patches over the past year. In an increasing number of cases, they end up diverting fixes to the next Linux kernel version due to the seemingly endless activity. All the AI activity around seldom used drivers and other networking areas also led to removi...",
+    "summary_pt": "Linux networking developers have previously said they've been \"completely overwhelmed\" with all the AI/LLM-driven activity from bug reports to patches over the past year. In an increasing number of cases, they end up diverting fixes to the next Linux kernel version due to the seemingly endless activity. All the AI activity around seldom used drivers and other networking areas also led to removi...",
+    "link": "https://www.phoronix.com/news/Linux-Another-Net-Maintainer",
+    "date": "Thu, 26 Nov 2026 15:31:14 -0500"
+  },
+  {
+    "source": "Phoronix",
+    "title_en": "Ubuntu 27.04 Snapshot 1 Released For Testing",
+    "title_pt": "Ubuntu 27.04 Snapshot 1 Released For Testing",
+    "summary_en": "For those with extra time around the US Thanksgiving holiday, the first Tenacious Snapshot 1 was just released today as the first stepping stone toward Ubuntu 27.04...",
+    "summary_pt": "For those with extra time around the US Thanksgiving holiday, the first Tenacious Snapshot 1 was just released today as the first stepping stone toward Ubuntu 27.04...",
+    "link": "https://www.phoronix.com/news/Ubuntu-27.04-Snapshot-1",
+    "date": "Thu, 26 Nov 2026 12:21:13 -0500"
+  },
+  {
+    "source": "9to5Linux",
     "title_en": "DXVK 3.2 Adds Present Timing Support for More Consistent Frame Pacing on Linux",
     "title_pt": "DXVK 3.2 Adds Present Timing Support for More Consistent Frame Pacing on Linux",
     "summary_en": "DXVK 3.2 Vulkan-based implementation of D3D9, D3D10, and D3D11 for Linux / Wine is now available for download with new features, improvements, and bug fixes. \n The post  DXVK 3.2 Adds Present Timing Support for More Consistent Frame Pacing on Linux  appeared first on  9to5Linux  - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
