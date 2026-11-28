@@ -1,5 +1,14 @@
 [
   {
+    "source": "Phoronix",
+    "title_en": "Wine 11.23 Released With Support For ARM64 macOS, AVX In 32-bit Emulation On ARM64",
+    "title_pt": "Wine 11.23 Released With Support For ARM64 macOS, AVX In 32-bit Emulation On ARM64",
+    "summary_en": "We are getting close to the Wine 12.0 release candidate phase but out today is Wine 11.23 as the latest bi-weekly development release continuing to land new features into Wine...",
+    "summary_pt": "We are getting close to the Wine 12.0 release candidate phase but out today is Wine 11.23 as the latest bi-weekly development release continuing to land new features into Wine...",
+    "link": "https://www.phoronix.com/news/Wine-11.23-Released",
+    "date": "Fri, 27 Nov 2026 20:31:43 -0500"
+  },
+  {
     "source": "LWN",
     "title_en": "Security updates for Friday",
     "title_pt": "Security updates for Friday",
